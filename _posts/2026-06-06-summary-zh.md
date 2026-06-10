@@ -5,379 +5,387 @@ date: 2026-06-06
 lang: zh
 ---
 
-> 从 56 条内容中筛选出 16 条重要资讯。
+> From 32 items, 18 important content pieces were selected
 
 ---
 
-1. [杰夫·格林在家庭实验室测试所有 IP KVM](#item-1) ⭐️ 9.0/10
-2. [俄罗斯卫星 Cosmos 2546 被确认为 GNSS 干扰源](#item-2) ⭐️ 9.0/10
-3. [微软开源 pg_durable：PostgreSQL 数据库内持久执行框架](#item-3) ⭐️ 8.0/10
-4. [谷歌发布 Gemma 4 QAT 模型，优化端侧 AI 效率](#item-4) ⭐️ 8.0/10
-5. [分析将 Claude AI 与 rsync 漏洞关联](#item-5) ⭐️ 8.0/10
-6. [批评者认为常规提交方式失焦](#item-6) ⭐️ 8.0/10
-7. [C++纪录片发布，引发社区热议](#item-7) ⭐️ 8.0/10
-8. [Ladybird 浏览器因 AI 代码信任问题停止接受公开拉取请求](#item-8) ⭐️ 8.0/10
-9. [Linux 内核 spawn 模板提案旨在替代 fork+exec](#item-9) ⭐️ 8.0/10
-10. [Bundler 引入冷却机制防范供应链攻击](#item-10) ⭐️ 8.0/10
-11. [TinyTPU：从真实 RTL 编译的脉动阵列实时浏览器可视化](#item-11) ⭐️ 8.0/10
-12. [RedNote 发布开源 2B 参数 TTS 模型，支持零样本语音克隆](#item-12) ⭐️ 8.0/10
-13. [KV 缓存卸载到 RAM 对有限显存场景可能值得](#item-13) ⭐️ 8.0/10
-14. [KVarN KV 缓存量化在 llama.cpp 分支中实现](#item-14) ⭐️ 8.0/10
-15. [美国国防部因 AI 军事用途限制拟终止与 Anthropic 合作](#item-15) ⭐️ 8.0/10
-16. [Anthropic 呼吁全球放缓前沿 AI 开发](#item-16) ⭐️ 8.0/10
+1. [谷歌发布 Gemma 4 QAT 模型，助力端侧 AI 部署](#item-1) ⭐️ 8.0/10
+2. [Claude AI 对 rsync 漏洞影响分析](#item-2) ⭐️ 8.0/10
+3. [家庭实验室 IP KVM 设备实测对比](#item-3) ⭐️ 8.0/10
+4. [印度出生率意外下降震惊全球](#item-4) ⭐️ 8.0/10
+5. [俄罗斯卫星被确认为 GNSS 干扰源](#item-5) ⭐️ 8.0/10
+6. [C++ 纪录片发布，引发社区热议](#item-6) ⭐️ 8.0/10
+7. [Ladybird 浏览器因 AI 代码担忧停止接受公共拉取请求](#item-7) ⭐️ 8.0/10
+8. [宇航员因持续空气泄漏在国际空间站避难](#item-8) ⭐️ 7.0/10
+9. [微软开源 pg_durable，实现数据库内持久化工作流](#item-9) ⭐️ 7.0/10
+10. [英国政府官网将 Stripe 替换为荷兰支付服务商 Adyen](#item-10) ⭐️ 7.0/10
+11. [Conventional Commits 误导焦点，批评文章指出](#item-11) ⭐️ 7.0/10
+12. [Cloudflare CEO 分享三个最糟糕的风投故事](#item-12) ⭐️ 7.0/10
+13. [比亚迪 1000 公里续航豪华电动车火爆上市](#item-13) ⭐️ 7.0/10
+14. [小鹏每年投入 5 亿美元 AI 训练，声称与特斯拉 FSD 持平](#item-14) ⭐️ 7.0/10
+15. [VS Code 1.123.0 发布，带来多项改进](#item-15) ⭐️ 6.0/10
+16. [过滤 Hacker News 上的 AI 帖子](#item-16) ⭐️ 6.0/10
+17. [Lowfat CLI 工具节省 91.8% LLM 令牌](#item-17) ⭐️ 6.0/10
+18. [T1 Energy 收购 KORE Power 瞄准 AI 数据中心储能](#item-18) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [杰夫·格林在家庭实验室测试所有 IP KVM](https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/) ⭐️ 9.0/10
+## [谷歌发布 Gemma 4 QAT 模型，助力端侧 AI 部署](https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/) ⭐️ 8.0/10
 
-杰夫·格林发布了一篇关于家庭实验室中各种 IP KVM 设备的全面对比，基于实际测试，提供了详细的技术见解和实用建议。 这篇文章帮助家庭实验室爱好者和 IT 专业人员选择合适的远程管理硬件，突出了 PiKVM 等开源方案与商用方案之间的权衡。 测试涵盖了 PiKVM V4 Plus、GL.iNet 和 JetKVM 等设备，讨论了硬件修订版以及特定笔记本上 USB 字节错误等问题。
+谷歌发布了采用量化感知训练（QAT）的 Gemma 4 模型，可将模型压缩至 3.2GB，同时在笔记本电脑和移动设备上支持音频和图像输入。 此次发布使得强大的多模态 AI 模型在消费级硬件上本地部署成为可能，减少了对云基础设施的依赖，并在笔记本电脑和手机上实现更快速、更私密的推理。 QAT 模型可通过 Hugging Face 获取，并使用 LiteRT LM 工具在 GPU 后端运行；Unsloth 也发布了声称精度更高的替代量化版本。
 
-hackernews · vquemener · 6月5日 14:30 · [社区讨论](https://news.ycombinator.com/item?id=48413072)
+hackernews · theanonymousone · Jun 5, 16:18 · [社区讨论](https://news.ycombinator.com/item?id=48414653)
 
-**背景**: IP KVM（通过网络传输键盘、视频和鼠标信号）允许用户像在现场一样远程控制计算机。PiKVM 是一个开源项目，将树莓派改造成经济实惠的 IP KVM。这些设备对于管理家庭实验室和数据中心中的无头服务器及远程系统至关重要。
+**背景**: 量化感知训练（QAT）在模型训练过程中模拟低精度算术，使模型适应量化并最小化精度损失。Gemma 4 是 Google DeepMind 的开源多模态模型系列，支持文本、图像和音频输入。该技术使得大模型能够在内存和计算有限的设备上高效运行。
 
 <details><summary>参考链接</summary>
 <ul>
+<li><a href="https://www.ibm.com/think/topics/quantization-aware-training">What is Quantization Aware Training? | IBM</a></li>
+<li><a href="https://deepmind.google/models/gemma/gemma-4/">Gemma 4 — Google DeepMind</a></li>
+<li><a href="https://ai.google.dev/gemma/docs/core/model_card_4">Gemma 4 model card | Google AI for Developers</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区成员对 Gemma 生态系统本周的快速进展印象深刻，包括官方量化和多 token 预测。部分用户指出 Unsloth 的替代量化版本相比未量化的 BF16 模型接近 100%准确率，优于谷歌官方 QAT 版本。也有猜测认为这些模型可能在苹果即将举办的 WWDC 上展示。
+
+**标签**: `#Gemma`, `#quantization`, `#on-device AI`, `#Google`, `#model compression`
+
+---
+
+<a id="item-2"></a>
+## [Claude AI 对 rsync 漏洞影响分析](https://alexispurslane.github.io/rsync-analysis/) ⭐️ 8.0/10
+
+一项详细分析探讨了使用 Anthropic 的 Claude AI 辅助编写 rsync 项目代码是否导致漏洞增加，引发了对 LLM 生成代码质量的讨论。 rsync 是数百万用户使用的关键开源工具，这项分析引发了对基础软件项目中 AI 辅助编程可靠性的担忧，可能影响代码审查和 AI 集成的最佳实践。 分析将漏洞归因于 rsync 发布版本，但可能遗漏未归因的 LLM 提交；一个具体示例显示，Claude 编写的提交天真地将 malloc 替换为 calloc，这在大内存分配时引入了性能回归。
+
+hackernews · logicprog · Jun 5, 12:43 · [社区讨论](https://news.ycombinator.com/item?id=48411635)
+
+**背景**: rsync 是一种广泛使用的命令行工具，用于高效的文件同步和传输，其核心是增量传输算法。Claude 是 Anthropic 开发的大型语言模型，常被用于通过提示生成代码。社区正在激烈讨论 AI 生成的代码是否引入了难以发现的细微漏洞。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Claude_AI">Claude AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rsync">rsync - Wikipedia</a></li>
+<li><a href="https://github.com/rsyncproject/rsync">GitHub - RsyncProject/rsync: An open source utility that ...</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者对分析方法表示怀疑，指出漏洞归因可能存在偏差，且漏洞最多的版本早于 Claude 提交出现。一些人指出了具体的 AI 生成问题代码，而另一些人则警告不要从单一项目的数据中过度推广。
+
+**标签**: `#AI-assisted programming`, `#software quality`, `#rsync`, `#LLM code review`, `#software engineering`
+
+---
+
+<a id="item-3"></a>
+## [家庭实验室 IP KVM 设备实测对比](https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/) ⭐️ 8.0/10
+
+Jeff Geerling 发布了一篇全面的实测对比文章，涵盖了适用于家庭实验室环境的各种 IP KVM 设备。 这篇文章为家庭实验室和 IT 爱好者提供了宝贵的指导，帮助他们在成本、功能和性能之间做出权衡，选择性价比高的远程管理方案。 对比范围包括 PiKVM V4 Plus、JetKVM、GL.iNet 以及低至 50 美元以下的型号，并详细说明了 PoE 供电、HDMI 直通和 USB 兼容性等问题。
+
+hackernews · vquemener · Jun 5, 14:30 · [社区讨论](https://news.ycombinator.com/item?id=48413072)
+
+**背景**: IP KVM（键盘、视频、鼠标通过 IP 网络传输）允许通过网络远程控制计算机的 BIOS 级别，在操作系统不可用时尤为重要。PiKVM 是一个基于树莓派的流行开源项目。KVM over IP 设备广泛应用于数据中心和家庭实验室，用于远程服务器管理。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/">I tested every IP KVM in my Homelab - Jeff Geerling</a></li>
 <li><a href="https://en.wikipedia.org/wiki/IPKVM">IPKVM</a></li>
-<li><a href="https://en.wikipedia.org/wiki/PiKVM">PiKVM</a></li>
 <li><a href="https://pikvm.org/">KVM over IP - PiKVM</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论称赞 PiKVM V4 Plus 的可靠性和功能，一些用户报告 GL.iNet 设备存在问题。还有人提到 Intel vPro AMT 作为内置替代方案，并对杰夫严谨的测试方法表示赞赏。
+**社区讨论**: 评论者分享了在工业环境中使用 PiKVM V4 Plus 的经验、JetKVM 的硬件修订版本，以及 Intel vPro AMT 作为替代方案。用户还讨论了阻止 KVM 访问互联网并改用 Tailscale 等安全实践。
 
-**标签**: `#IPKVM`, `#homelab`, `#remote management`, `#hardware`, `#PiKVM`
-
----
-
-<a id="item-2"></a>
-## [俄罗斯卫星 Cosmos 2546 被确认为 GNSS 干扰源](https://arxiv.org/abs/2606.03673) ⭐️ 9.0/10
-
-研究人员确认俄罗斯卫星 Cosmos 2546（NORAD ID 45608）是欧洲大面积 GNSS 干扰的源头，并将其与俄罗斯“统一空间系统”预警星座联系起来。 这一发现为自 2019 年以来影响欧洲航空、海事及民用用户的持续 GNSS 信号降级提供了具体归属，具有重大的地缘政治和操作影响。 该卫星运行在倾角 63.2°、高度介于 1403 公里至 38952 公里的中地球轨道上，分析结合了信号特征、卫星跟踪和轨道数据，实现了高置信度的识别。
-
-hackernews · mimorigasaka · 6月5日 08:32 · [社区讨论](https://news.ycombinator.com/item?id=48409664)
-
-**背景**: GNSS 干扰是指在 GNSS 频率上或附近故意发射无线电信号，压制微弱的卫星传输，使接收器无法定位。俄罗斯“统一空间系统”（EKS）是一个预警卫星星座，于 2020 年 5 月发射的 Cosmos 2546 是其中一员。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GNSS_jamming">GNSS jamming - Wikipedia</a></li>
-<li><a href="https://www.n2yo.com/satellite/?s=45608">COSMOS 2546 Satellite details 2020-031A NORAD 45608 - N2YO.com</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者提到了实际影响，有人报告在罗马尼亚和波兰海域附近每天受到干扰。另一人推测俄罗斯电子战可能干扰了乌克兰海上无人机，导致其在康斯坦察附近失控。还有人质疑实现大面积干扰所需的功率，估计在千瓦级别。
-
-**标签**: `#GNSS`, `#interference`, `#Russia`, `#satellite`, `#aerospace`
-
----
-
-<a id="item-3"></a>
-## [微软开源 pg_durable：PostgreSQL 数据库内持久执行框架](https://github.com/microsoft/pg_durable) ⭐️ 8.0/10
-
-微软开源了 pg_durable，这是一个 PostgreSQL 扩展，可在数据库内部实现工作流的持久执行，支持基于 SQL 的步骤在故障后检查点和恢复。 这将强大的工作流编排能力引入 PostgreSQL，无需外部依赖，降低了运维复杂性并改善了事件驱动和 AI 管道的数据局部性。它通过利用 Postgres 的事务性保证，挑战了 Temporal 等专用编排系统。 pg_durable 将工作流定义为 PostgreSQL 原子执行和检查点的 SQL 步骤图。它专为行级、文档级或批级的持久执行而设计，但明确建议不要将其用于跨越 Postgres 外部许多异构系统的工作流。
-
-hackernews · coffeemug · 6月5日 15:59 · [社区讨论](https://news.ycombinator.com/item?id=48414367)
-
-**背景**: 持久执行是一种编程范式，通过自动持久化状态并在失败时重试，使代码能够抵御崩溃和基础设施故障。传统方法依赖外部编排器如 Temporal 或 AWS Step Functions，而 pg_durable 将此逻辑直接嵌入 PostgreSQL，简化了已经使用 Postgres 的应用程序的堆栈。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/microsoft/pg_durable">GitHub - microsoft/pg_durable: PostgreSQL in-database durable execution · GitHub</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48414367">pg_durable: Microsoft open sources in-database durable execution | Hacker News</a></li>
-<li><a href="https://www.restate.dev/what-is-durable-execution">What is Durable Execution? A Definitive Guide | Restate</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: Hacker News 社区对基于 Postgres 的工作流生态系统的增长（例如 DBOS、pgQue）感到兴奋，一些工程师更喜欢将队列逻辑放在代码和 Git 中以进行版本控制。其他人质疑 pg_durable 与 Temporal 相比如何，指出其在异构系统上的局限性。此外，关于在 Azure PostgreSQL 等托管服务上采用新扩展也存在实际担忧。
-
-**标签**: `#postgresql`, `#durable execution`, `#microsoft`, `#workflow orchestration`, `#open source`
+**标签**: `#IP KVM`, `#homelab`, `#remote management`, `#hardware review`, `#PiKVM`
 
 ---
 
 <a id="item-4"></a>
-## [谷歌发布 Gemma 4 QAT 模型，优化端侧 AI 效率](https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/) ⭐️ 8.0/10
+## [印度出生率意外下降震惊全球](https://www.economist.com/leaders/2026/06/04/indias-surprise-baby-bust-is-a-warning-to-the-world) ⭐️ 8.0/10
 
-谷歌发布了 Gemma 4 QAT 模型，这些模型通过量化感知训练（QAT）进行优化，可在移动设备和笔记本电脑上实现高效推理。 这使得大型语言模型能够在边缘设备上高效运行，减少对云服务器的依赖，提升隐私保护和可访问性。 这些模型支持多模态输入（文本、图像、音频），并提供 3.2GB 版本以供本地运行。社区分析显示，Unsloth 的量化变体在某些指标上可能优于谷歌的官方 QAT 版本。
+印度的总和生育率出乎意料地降至更替水平以下，与其他工业化国家的下降趋势相似。这一转变挑战了此前关于印度人口红利的假设。 这可能导致劳动力短缺、人口老龄化以及经济压力，可能抑制印度的发展轨迹，并成为其他发展中国家的警示。 这一下降归因于城市化、教育以及社会规范的改变，目前生育率约为每名妇女 1.6 个孩子。其速度之快超出了人口学家的预测。
 
-hackernews · theanonymousone · 6月5日 16:18 · [社区讨论](https://news.ycombinator.com/item?id=48414653)
+hackernews · hakonbogen · Jun 5, 14:44 · [社区讨论](https://news.ycombinator.com/item?id=48413254)
 
-**背景**: 量化感知训练（QAT）在训练过程中模拟量化效果，相比训练后量化（PTQ）能获得更好的精度。Gemma 4 是 Google DeepMind 推出的开源模型系列，专注于推理和智能体工作流。此次发布包括针对移动和笔记本电脑部署专门优化的 QAT 变体。
+**背景**: 人口转型理论认为，随着国家发展，出生率因女性教育水平提高、城市化以及避孕措施的普及等因素而下降。印度庞大的人口本应带来人口红利，但生育率的快速下降表明经济激励和文化变迁是强大的力量。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://deepmind.google/models/gemma/gemma-4/">Gemma 4 — Google DeepMind</a></li>
-<li><a href="https://pytorch.org/blog/quantization-aware-training/">Quantization - Aware Training for Large Language Models with...</a></li>
+**社区讨论**: 评论者对原因展开辩论，一些人指出工业化和娱乐替代品，另一些人则质疑在人工智能时代人口增长的必要性。有人认为下降是不可避免且不一定消极的，但社会需要适应。
 
-</ul>
-</details>
-
-**社区讨论**: 用户展示了在 Mac 上本地运行该模型，下载大小为 3.2GB。有人指出 Unsloth 的量化版本精度接近 BF16 原始模型的 100%，且优于谷歌官方 QAT 版本。还有人称赞 Gemma 生态系统的快速进展，并猜测可能与苹果有合作关系。
-
-**标签**: `#gemma-4`, `#quantization`, `#on-device-ai`, `#model-compression`, `#efficient-inference`
+**标签**: `#demographics`, `#economics`, `#India`, `#population`, `#global trends`
 
 ---
 
 <a id="item-5"></a>
-## [分析将 Claude AI 与 rsync 漏洞关联](https://alexispurslane.github.io/rsync-analysis/) ⭐️ 8.0/10
+## [俄罗斯卫星被确认为 GNSS 干扰源](https://arxiv.org/abs/2606.03673) ⭐️ 8.0/10
 
-一篇博客文章分析了 Claude 的 AI 生成代码是否在 rsync 中引入了漏洞，特别是一个提交无条件地将 malloc 替换为 calloc，可能导致性能下降和安全问题。 这很重要，因为 rsync 是一个广泛使用的关键工具，如果 AI 生成的代码引入细微漏洞，可能会影响无数系统。该事件也凸显了将 AI 辅助集成到成熟稳定项目中的挑战。 有问题的提交强制所有分配使用 calloc，这可能会更慢，并对大分配导致内存不足问题。该分析方法存在争议，一些评论者指出它可能错误地将漏洞归咎于 AI。
+一篇新论文通过多种技术分析，确认俄罗斯的 Cosmos 2546 卫星是自 2019 年以来影响全欧洲的大范围 GNSS 干扰源。 这一归因揭示了特定的国家支持的 GNSS 干扰能力，凸显了卫星导航的脆弱性，并加剧了电子战方面的担忧。 Cosmos 2546（NORAD ID 45608）属于俄罗斯的 EKS（Tundra）早期预警星座，论文强烈暗示整个系统导致了瞬时的 GNSS 信号降级。
 
-hackernews · logicprog · 6月5日 12:43 · [社区讨论](https://news.ycombinator.com/item?id=48411635)
+hackernews · mimorigasaka · Jun 5, 08:32 · [社区讨论](https://news.ycombinator.com/item?id=48409664)
 
-**背景**: rsync 是一个广泛用于备份和镜像的文件同步工具。像 Claude 这样的大语言模型可以生成看起来正确但包含细微缺陷的代码。这场争论反映了关于 AI 生成代码在关键基础设施中质量的更广泛紧张关系。
+**背景**: GNSS（全球导航卫星系统）信号（如 GPS）在地面非常微弱，容易受到干扰。俄罗斯的 Cosmos 2546 是一颗于 2020 年 5 月发射的导弹预警卫星，属于取代 Oko 系列的新一代 EKS 星座。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://lwn.net/Articles/1005302/">A look at the recent rsync vulnerability - lwn.net</a></li>
-<li><a href="https://www.anthropic.com/engineering/april-23-postmortem">An update on recent Claude Code quality reports \ Anthropic</a></li>
-<li><a href="https://forums.linuxmint.com/viewtopic.php?t=469846">Controversy over rsync becoming unstable due to ai generated ...</a></li>
+<li><a href="https://www.n2yo.com/satellite/?s=45608">COSMOS 2546 Satellite details 2020-031A NORAD 45608</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论显示了不同的反应。一些人质疑归因方法，而另一些人则引用了 rsync 作者的反驳。一位辩护者指出，他们发现 AI 工具改进了自己的工作流程，但承认自己的输出中出现了更多漏洞。
+**社区讨论**: 用户报告了在乌克兰和波兰附近每天遇到干扰的一手经验，将干扰与实际操作联系起来。还有人讨论了这种大范围干扰所需的功率，指出需要千瓦级别的功率。
 
-**标签**: `#AI-assisted coding`, `#software bugs`, `#rsync`, `#code quality`, `#LLM impact`
+**标签**: `#GNSS`, `#jamming`, `#satellite`, `#Russia`, `#security`
 
 ---
 
 <a id="item-6"></a>
-## [批评者认为常规提交方式失焦](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/) ⭐️ 8.0/10
+## [C++ 纪录片发布，引发社区热议](https://herbsutter.com/2026/06/04/c-the-documentary-released-today/) ⭐️ 8.0/10
 
-Sumner Evans 在一篇博文中指出，常规提交规范过于强调格式，反而忽略了提交信息的实质内容，引发了开发者的广泛讨论。 这场争论凸显了软件开发实践中的标准化与实用性之间的张力，影响到自动化变更日志生成和语义化版本管理等工具。 常规提交规范要求使用 'feat'、'fix'、'refactor' 等前缀，但批评者认为这些分类常常含糊不清，反而偏离了对变更背景的描述。
+Herb Sutter 于 2026 年 6 月 4 日宣布发布一部关于 C++ 历史和演变的纪录片，该片在社交新闻网站上迅速获得高参与度。 作为最具影响力的编程语言之一，C++ 的纪录片为数百万开发者提供了宝贵见解，并突显了围绕该语言复杂性和安全性的持续辩论。 纪录片邀请了包括 Andrei Alexandrescu 在内的知名人士，一位评论者指出其时长适合在编译过程中观看。该片引发了从赞扬到呼吁取代 C++ 的多种观点。
 
-hackernews · jsve · 6月5日 15:39 · [社区讨论](https://news.ycombinator.com/item?id=48414027)
+hackernews · ingve · Jun 5, 04:37 · [社区讨论](https://news.ycombinator.com/item?id=48408016)
 
-**背景**: 常规提交规范是一种轻量级的提交信息约定，提供了一套简单的规则来创建清晰的提交历史，支持自动生成变更日志和语义化版本管理。它在开源项目中广泛采用，但其僵化性也招致了批评。
+**背景**: C++ 是一种系统编程语言，从 C 发展而来，增加了面向对象和泛型编程特性。它被广泛用于性能关键型软件，但也因其复杂性和内存安全问题而受到批评。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Conventional_Commits_Specification">Conventional Commits Specification</a></li>
-<li><a href="https://www.conventionalcommits.org/">Conventional Commits</a></li>
+**社区讨论**: 社区反应褒贬不一：一些观众称赞纪录片并欢迎 Andrei Alexandrescu 的参与，而另一些人则附和 Ken Thompson 对 C++ 的批评，称其为“垃圾堆”，并呼吁在 LLM 时代出于安全考虑淘汰 C++。
 
-</ul>
-</details>
-
-**社区讨论**: 评论呈现不同意见：一些人支持标准化以保持一致性，另一些人则偏好 Linux 内核风格，或批评如 'chore' 的使用以及缺少问题编号等问题。关键点在于不同项目需要不同的实践。
-
-**标签**: `#conventional commits`, `#commit messages`, `#software engineering`, `#best practices`, `#developer experience`
+**标签**: `#C++`, `#documentary`, `#programming languages`, `#software history`
 
 ---
 
 <a id="item-7"></a>
-## [C++纪录片发布，引发社区热议](https://herbsutter.com/2026/06/04/c-the-documentary-released-today/) ⭐️ 8.0/10
+## [Ladybird 浏览器因 AI 代码担忧停止接受公共拉取请求](https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything) ⭐️ 8.0/10
 
-一部名为《C++：纪录片》的关于 C++编程语言的纪录片于 2026 年 6 月 4 日由 Herb Sutter 发布，采访了包括 Andrei Alexandrescu 在内的关键人物。 这部纪录片全面回顾了 C++的演进、成就与争议，反映了开发者社区对该语言未来的深度参与和意见分歧。 纪录片涵盖了 C++从带类的 C 到现代标准的历史，突出了其强大与复杂性，以及关于安全性和一致性的批评。
+Ladybird 浏览器宣布不再接受公开的拉取请求，理由是 AI 生成代码使得将投入精力视为善意的代理指标不再成立。这一政策转变强调了责任归属：贡献者必须对引入的变更负责。 这一政策变化突显了随着 AI 生成代码日益普及，开源领域出现的紧张关系，可能影响其他项目管理贡献的方式。它强调了在大型语言模型时代，需要明确的代码溯源和问责机制。 Ladybird 现在只接受来自可信贡献者的更改，这些贡献者能够对代码直接负责。此举旨在确保所有进入浏览器的代码都经过能够承担后果的人员审查，而非依赖匿名或 AI 生成的补丁。
 
-hackernews · ingve · 6月5日 04:37 · [社区讨论](https://news.ycombinator.com/item?id=48408016)
+rss · Simon Willison · Jun 5, 11:10
 
-**背景**: C++是一种系统编程语言，已广泛使用四十余年，以其性能和灵活性著称，但也因学习曲线陡峭和安全挑战而闻名。该语言通过多个标准不断演进，围绕其复杂性和对更安全替代方案的需求一直存在争论。
-
-**社区讨论**: 社区反应不一：部分人赞扬纪录片和 C++的优雅，而另一些人则认同 Ken Thompson 对其复杂性的批评，认为 C++应被内存安全语言取代，尤其是在现代安全威胁下。
-
-**标签**: `#C++`, `#documentary`, `#programming`, `#language`, `#community`
-
----
-
-<a id="item-8"></a>
-## [Ladybird 浏览器因 AI 代码信任问题停止接受公开拉取请求](https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything) ⭐️ 8.0/10
-
-Ladybird 浏览器宣布不再接受公开的拉取请求，认为 AI 生成的代码使得无法信任贡献的出处和责任归属。 这标志着开源开发中的一项重大政策转变，应对了 AI 生成代码在维护代码出处和问责方面日益增长的挑战。可能影响其他开源项目如何处理 AI 辅助贡献。 这一决定意味着所有代码现在必须来自可信的、具名的贡献者，他们对变更负责。Andreas Kling 表示，假定大量努力代表善意的假设已不再成立。
-
-rss · Simon Willison · 6月5日 11:10
-
-**背景**: Ladybird 是一个由非营利组织 Ladybird 浏览器倡议开发的开源浏览器。它最初是 SerenityOS 的一部分，现已独立，旨在注重隐私和独立性。代码出处是指追踪代码的来源，对安全和问责至关重要。随着 AI 代码生成的兴起，验证作者身份变得更加困难。
+**背景**: Ladybird 是一个开源网络浏览器，由 Ladybird 浏览器倡议（一家非营利组织）开发，最初源自 SerenityOS。它强调独立性和隐私性，计划于 2026 年发布 alpha 版本。大型语言模型（LLM）的兴起使得生成看似合理的代码变得容易，但这些代码可能缺乏适当的归属或责任，从而挑战了基于努力和信任的传统开源贡献模式。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Ladybird_browser">Ladybird browser</a></li>
-<li><a href="https://www.gitclear.com/help/technical/code_provenance">What is "code provenance" and why does it matter? - GitClear</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ladybird_(web_browser)">Ladybird (web browser) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#ladybird`, `#open-source`, `#ai-ethics`, `#software-governance`, `#code-provenance`
+**标签**: `#ladybird`, `#open-source`, `#ai-ethics`, `#browser`, `#code-provenance`
+
+---
+
+<a id="item-8"></a>
+## [宇航员因持续空气泄漏在国际空间站避难](https://www.bbc.com/news/live/c4g44ew3g1kt) ⭐️ 7.0/10
+
+国际空间站上的宇航员因持续的空气泄漏暂时避难，尽管先前使用密封剂使压力读数稳定，但泄漏并未完全解决。 这一事件凸显了维护老化国际空间站的持续挑战，并强调了 NASA 的 RELL 等先进泄漏检测技术对确保机组人员安全的重要性。 NASA 的机器人外部泄漏定位器（RELL）使用质谱仪和离子真空压力计来检测氨和其他泄漏，可能有助于精确定位泄漏源。
+
+hackernews · janpot · Jun 5, 15:00 · [社区讨论](https://news.ycombinator.com/item?id=48413464)
+
+**背景**: 国际空间站多年来一直存在轻微空气泄漏，通常由微流星体撞击或材料疲劳引起。宇航员经常使用密封剂修复泄漏，但由于空间站结构复杂，精确定位困难。
+
+**社区讨论**: 社区评论质疑为什么宇航员需要在模块之间有气闸的情况下避难，以及是否在紧急情况下有逃生舱可用。一位用户指出，如果泄漏被密封但空气从其他地方逸出，压力仍会下降，表明泄漏未解决。
+
+**标签**: `#ISS`, `#space safety`, `#leak detection`, `#NASA`, `#space station operations`
 
 ---
 
 <a id="item-9"></a>
-## [Linux 内核 spawn 模板提案旨在替代 fork+exec](https://lwn.net/Articles/1076018/) ⭐️ 8.0/10
+## [微软开源 pg_durable，实现数据库内持久化工作流](https://github.com/microsoft/pg_durable) ⭐️ 7.0/10
 
-李晨提出了一组新的系统调用 spawn_template_create()和 spawn_template_spawn()，允许缓存可执行文件数据以加速重复进程创建，可能取代传统的 fork()+exec()模式。 该提案可显著提升重复启动同一可执行文件的应用程序（如持续集成系统或 shell 脚本）的性能，通过减少复制进程状态并立即丢弃的开销。 spawn 模板通过 spawn_template_create()创建，缓存可执行文件数据，之后通过 spawn_template_spawn()使用，附带每次调用的参数、文件描述符操作和信号处理。当前补丁系列是 RFC，不太可能原样接受。
+微软开源了 pg_durable，这是一个 PostgreSQL 扩展，允许直接在数据库内执行持久化工作流，内置重试、调度和信号功能。 这减少了对 Temporal 等外部编排器的需求，将工作流逻辑与数据放在一起，简化了数据密集型管道和 AI 工作流的架构。 pg_durable 函数是一组 SQL 步骤的图，PostgreSQL 在执行过程中会对其进行检查点，提供精确一次语义。该扩展采用 MIT 许可证开源。
 
-rss · LWN.net · 6月5日 14:06
+hackernews · coffeemug · Jun 5, 15:59 · [社区讨论](https://news.ycombinator.com/item?id=48414367)
 
-**背景**: 在类 Unix 系统中，进程创建传统上使用 fork()创建子进程作为父进程的副本，然后 exec()替换为新程序。这很效率低下，因为 fork()复制整个进程状态，而该状态常常立即被 exec()丢弃。尽管存在 vfork()等优化，但未能完全解决重复启动同一程序的问题。
+**背景**: 持久化执行确保长时间运行的工作流在故障后能从最后一个检查点继续。传统上，这需要 Temporal 或 AWS Step Functions 等单独的编排服务。pg_durable 完全在 Postgres 内部运行，利用其事务保证。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://lkml.iu.edu/2605.3/07508.html">Linux-Kernel Archive: [RFC PATCH v1 09/13] Documentation ...</a></li>
-<li><a href="https://www.spinics.net/lists/kernel/msg6232310.html">Linux Kernel: [RFC PATCH v1 00/13] exec: add spawn templates ...</a></li>
-<li><a href="https://www.mail-archive.com/linux-kernel@vger.kernel.org/msg2633355.html">[RFC PATCH v1 04/13] exec: add spawn template UAPI definitions</a></li>
+<li><a href="https://github.com/microsoft/pg_durable">GitHub - microsoft/pg_durable: PostgreSQL in-database durable ...</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48414367">pg_durable: Microsoft open sources in-database durable execution | Hacker News</a></li>
+<li><a href="https://dev.to/contrite42/durable-workflows-on-postgres-what-you-dont-need-temporal-actually-buys-you-3o0f">Durable Workflows on Postgres: What "You Don't Need Temporal ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Linux kernel`, `#process creation`, `#system calls`, `#fork`, `#exec`
+**社区讨论**: 社区评论表达了兴趣，但也提出了对版本控制和调试的担忧，一些人更倾向于使用外部编排器以保持代码可维护性。评论还与 DBOS 和 Temporal 进行了比较，质疑 pg_durable 对异构系统的适用性。
+
+**标签**: `#Postgres`, `#durable execution`, `#Microsoft`, `#workflow`, `#open source`
 
 ---
 
 <a id="item-10"></a>
-## [Bundler 引入冷却机制防范供应链攻击](https://lwn.net/Articles/1076526/) ⭐️ 8.0/10
+## [英国政府官网将 Stripe 替换为荷兰支付服务商 Adyen](https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763) ⭐️ 7.0/10
 
-Bundler 4.0.13 于 2026 年 6 月 3 日发布，新增了依赖冷却功能，将解析新 gem 版本的时间延迟可配置的天数，以帮助缓解供应链攻击。 该功能缩小了攻击者通过自动安装利用新发布恶意 gem 的时间窗口，为 Ruby 生态系统增加了一道基于时间的关键防线。 冷却功能为可选启用，补充了强制 2FA 和可信发布等现有安全措施，延迟期可配置（通常为 3 到 7 天）。
+英国政府官网 Gov.uk 已将支付服务商从 Stripe 更换为荷兰的 Adyen，官方称此举是为了面向未来并简化 Gov.uk Pay 服务的变更。 此次更换标志着公共部门支付处理的显著转变，可能影响政府服务处理交易的方式，并为其他政府机构树立先例。 该合同规模与典型的美国企业云账单相比小得惊人，社区评论指出 Adyen 通常拒绝百万美元以下的客户。
 
-rss · LWN.net · 6月5日 12:57
+hackernews · toomuchtodo · Jun 5, 16:55 · [社区讨论](https://news.ycombinator.com/item?id=48415217)
 
-**背景**: 对包注册表的供应链攻击发生在攻击者入侵账户或发布恶意包时。自动安装会立即获取恶意版本。依赖冷却强制在新版本被解析前有一个强制性延迟，让社区有时间检测和报告威胁。在 Axios npm 事件等高知名度事件后，这种做法逐渐流行。
+**背景**: Stripe 和 Adyen 都是主要的在线支付服务商。Stripe 以其易于集成和开发者友好的 API 著称，而 Adyen 是直接处理器，受到大型商户的欢迎。Gov.uk Pay 是政府用于各种公共服务的支付平台。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://cooldowns.dev/">Dependency Cooldowns - Dependency Cooldowns</a></li>
-<li><a href="https://securitylabs.datadoghq.com/articles/dependency-cooldowns/">The case for dependency cooldowns in a post-axios world</a></li>
-<li><a href="https://blog.yossarian.net/2025/12/13/cooldowns-redux">Dependency cooldowns , redux</a></li>
+<li><a href="https://www.adyen.com/online-payments">Online payments | Making online payments easy - Adyen</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 该功能在 GitHub（讨论 #9113）上公开设计，吸取了社区意见并与其他生态系统进行了比较。总体情绪积极，因为它增加了一层实用的防御，而不干扰现有工作流程。
+**社区讨论**: 评论对合同规模之小表示惊讶，有人希望 Adyen 能像 Stripe 一样更好地营销。其他人指出 Adyen 拒绝小客户的策略，并猜测这对地方政府的成本节省和支付选项扩展的影响。
 
-**标签**: `#Ruby`, `#Bundler`, `#security`, `#supply-chain-attack`, `#package-manager`
+**标签**: `#government`, `#payments`, `#Adyen`, `#Stripe`, `#UK`
 
 ---
 
 <a id="item-11"></a>
-## [TinyTPU：从真实 RTL 编译的脉动阵列实时浏览器可视化](https://www.reddit.com/r/MachineLearning/comments/1txvvo4/tinytpu_systemverilog_systolic_array_compiled_to/) ⭐️ 8.0/10
+## [Conventional Commits 误导焦点，批评文章指出](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/) ⭐️ 7.0/10
 
-TinyTPU 是一个新的教育工具，将用 SystemVerilog 编写的 4×4 权重固定脉动阵列编译为 WebAssembly，允许用户在浏览器中逐步查看矩阵乘法执行，状态直接从编译的 RTL 中读取。 它弥合了 TPU 内部抽象示意图与实际硬件行为之间的差距，使学生和工程师能够直观理解权重固定数据流和对角线偏移等脉动阵列概念。 可视化提供三个层次：单个乘加单元、执行实际矩阵乘法的完整 4×4 阵列，以及针对大于硬件的矩阵的分块处理。该项目在 GitHub 上开源。
+Sumner Evans 的一篇博文指出，Conventional Commits 将开发者的注意力从撰写有实质内容的提交信息转移到僵化的格式上，在 Hacker News 引发了热烈讨论。 Conventional Commits 被广泛用于自动化生成变更日志和语义版本控制，因此这篇批评挑战了流行实践，并揭示了标准化与有意义沟通之间的权衡。 作者批评了对类型前缀（如 'feat'、'fix'）和作用域的强调，认为与清晰、描述性强的信息相比——这些信息能解释变更背后的“原因”——这些前缀作用有限。
 
-reddit · r/MachineLearning · /u/Horror-Flamingo-2150 · 6月5日 20:05
+hackernews · jsve · Jun 5, 15:39 · [社区讨论](https://news.ycombinator.com/item?id=48414027)
 
-**背景**: 脉动阵列是一种处理器网络，用于有节奏地计算和传递数据，常用于 Google TPU 等硬件加速器以实现高效的矩阵乘法。权重固定架构将权重固定在处理单元中，同时流式传输输入，从而减少数据移动。分块技术通过将大矩阵拆分为小块，使小阵列也能处理大矩阵。
+**背景**: Conventional Commits 是一种规范，定义了提交信息的结构化格式，通常包括类型、可选的作用域和描述。常与语义版本控制结合使用，用于自动确定版本号变更和生成变更日志。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Systolic_array">Systolic array - Wikipedia</a></li>
-<li><a href="https://telesens.co/2018/07/30/systolic-architectures/">Understanding Matrix Multiplication on a Weight-Stationary Systolic Architecture | Telesens</a></li>
-<li><a href="https://medium.com/@shouryagoel10000/tiling-in-matrix-multiplication-16f918ea01e5">Tiling in matrix multiplication . Hey! so…. you have been... | Medium</a></li>
+<li><a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Conventional_Commits_Specification">Conventional Commits Specification</a></li>
 
 </ul>
 </details>
 
-**标签**: `#systolic array`, `#TPU`, `#hardware visualization`, `#SystemVerilog`, `#WASM`
+**社区讨论**: 评论显示了不同的反应：一些人同意格式化可能被过度强调，而另一些人则捍卫结构以保持一致性。几位用户更偏好 Linux 内核风格的提交信息，并指出该约定通常缺少问题编号。
+
+**标签**: `#software engineering`, `#commit messages`, `#conventions`, `#best practices`, `#developer productivity`
 
 ---
 
 <a id="item-12"></a>
-## [RedNote 发布开源 2B 参数 TTS 模型，支持零样本语音克隆](https://www.reddit.com/r/LocalLLaMA/comments/1txwbge/dotstts_2b_sota_tts_from_rednote/) ⭐️ 8.0/10
+## [Cloudflare CEO 分享三个最糟糕的风投故事](https://twitter.com/eastdakota/status/2062860530360959273) ⭐️ 7.0/10
 
-RedNote（小红书）发布了 dots.tts 2B，这是一个 2B 参数的开源文本转语音模型，采用 Apache 2.0 许可证，具备全连续架构、零样本语音克隆和 48 kHz 合成能力。 这标志着开源 TTS 领域的重大进展，通过新颖的全连续设计避免了离散编解码令牌，实现了最先进的性能，可能降低高质量语音克隆和生成的门槛。 该模型使用语义编码器、LLM 和自回归流匹配声学头，基于 48 kHz AudioVAE，整个流程中没有任何离散令牌，并且无需音素管线即可直接实现文本到语音。
+Cloudflare CEO 马修·普林斯发布了一条 Twitter 帖子，讲述了三个与风投打交道的负面经历，引发了关于风投资金陷阱的讨论。 这条帖子为考虑风投资金的初创公司创始人提供了警示故事，凸显了失去控制权和激励不匹配等潜在风险，并加剧了自筹资金与风险资本之间的持续争论。 这些故事涉及风投施压创始人接受不利条款、试图驱逐创始人，甚至提议欺骗其他投资者，展示了初创企业融资中的最坏情况。
 
-reddit · r/LocalLLaMA · /u/KokaOP · 6月5日 20:21
+hackernews · orgonon · Jun 5, 19:08 · [社区讨论](https://news.ycombinator.com/item?id=48416845)
 
-**背景**: 文本转语音（TTS）系统将文本转换为语音音频。传统 TTS 常使用离散编解码令牌或基于音素的管线，可能引入伪影或增加复杂性。零样本语音克隆允许模型从短音频片段中模仿新声音而无需额外训练。dots.tts 采用全连续架构，将音频作为连续表示处理，可能提升自然度和表现力。
+**背景**: 自筹资金（Bootstrapping）意味着用个人储蓄或收入资助初创公司，避免外部投资者。风险资本为高增长初创公司提供资金，但通常伴随着快速扩张和董事会控制的要求。这一讨论凸显了自主权与财务支持之间的权衡。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://rednote-hilab.github.io/dots.tts-demo/">dots. tts — Demo Page</a></li>
-<li><a href="https://github.com/rednote-hilab/dots.tts">GitHub - rednote-hilab/dots. tts · GitHub</a></li>
+**社区讨论**: 评论者大多认同自筹资金的方式，有人指出自筹资金可以在没有超大规模扩张压力的情况下实现可持续收入。另一位指出 Cloudflare 本身从未盈利，质疑风投模式的有效性。一些读者质疑这些故事的真实性，而另一些人则要求分享成功案例以平衡叙事。
 
-</ul>
-</details>
-
-**标签**: `#TTS`, `#open-source`, `#zero-shot`, `#voice cloning`, `#RedNote`
+**标签**: `#Venture Capital`, `#Startups`, `#Funding`, `#Founder Stories`
 
 ---
 
 <a id="item-13"></a>
-## [KV 缓存卸载到 RAM 对有限显存场景可能值得](https://www.reddit.com/r/LocalLLaMA/comments/1txpqru/maybe_kv_cache_offload_to_ram_isnt_bad/) ⭐️ 8.0/10
+## [比亚迪 1000 公里续航豪华电动车火爆上市](https://electrek.co/2026/06/05/byds-worlds-first-1000-km-range-luxury-gt-off-to-hot-start/) ⭐️ 7.0/10
 
-一位用户演示了在 llama.cc 中将 KV 缓存卸载到 RAM，可以在 GPU 上运行更大的模型，而每秒生成的 token 数仅略有下降，例如在 RTX 5060 Ti 16GB 上运行 Qwen3.6 27B 时，峰值从 23 tps 降至 19 tps。 这挑战了普遍认为 KV 缓存卸载会严重降低性能的看法，表明对于显存有限的用户来说，这是一种实用的权衡，可以在不显著降低速度的情况下运行更大模型或更长上下文。 使用-nkvo 选项，用户在 RAM 上获得了 f16 KV 缓存质量，而不是量化的 q4_0，并且可以将上下文窗口翻倍至 128k，而速度仅略有下降（长生成期间从 19 tps 降至 14 tps）。卸载时对 KV 缓存进行量化并未提高性能。
+比亚迪推出了腾势 Z9 GT 豪华电动 GT，续航超过 1000 公里，充电时间不到 10 分钟，在中国起售价约 4 万美元，并开始进入欧洲市场。 这一成就打破了续航焦虑和充电速度的关键障碍，使长途电动汽车出行变得实用。价格具有竞争力，可能加速大众普及并对传统车企形成压力。 腾势 Z9 GT 采用比亚迪刀片电池技术，支持高达 1000kW 的超快充电。尽管电池容量大，但由于采用磷酸铁锂化学体系和垂直整合，价格仍然相对较低。
 
-reddit · r/LocalLLaMA · /u/bobaburger · 6月5日 16:23
+rss · Electrek · Jun 5, 19:58
 
-**背景**: KV 缓存在 LLM 推理过程中存储中间键值张量以避免重复计算，但会消耗大量 GPU 显存。将其卸载到 CPU RAM 可以释放显存用于模型权重，但会引入 PCIe 带宽瓶颈。Llama.cc 的-nkvo 选项控制 KV 缓存是保留在 GPU 上还是卸载到 RAM。
+**背景**: 比亚迪的刀片电池是一种磷酸铁锂电池，采用长而扁平的电池单元设计，提高了安全性、能量密度和结构刚性。汽车行业一直在努力将电动汽车充电时间缩短至 10 分钟左右，CATL 和研究实验室也取得了突破。腾势 Z9 GT 是首批同时实现长续航和超快充且价格亲民的量产电动汽车之一。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://kserve.github.io/website/docs/model-serving/generative-inference/kvcache-offloading">KV Cache Offloading | KServe</a></li>
-<li><a href="https://bentoml.com/llm/inference-optimization/kv-cache-offloading">KV cache offloading | LLM Inference Handbook</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BYD_Blade_battery">BYD Blade battery</a></li>
+<li><a href="https://www.byd.com/eu/technology/byd-blade-battery">BYD Blade Battery | BYD Europe</a></li>
+<li><a href="https://electrek.co/2026/04/14/ev-charging-10-minutes-or-less/">EV charging in 10 minutes or less? It's happening</a></li>
 
 </ul>
 </details>
 
-**标签**: `#llama.cpp`, `#KV cache`, `#GPU optimization`, `#local LLMs`, `#Qwen3`
+**标签**: `#electric vehicles`, `#BYD`, `#battery technology`, `#automotive`
 
 ---
 
 <a id="item-14"></a>
-## [KVarN KV 缓存量化在 llama.cpp 分支中实现](https://www.reddit.com/r/LocalLLaMA/comments/1txlhxu/i_implemented_kvarn_in_my_llamacpp_fork_and_ran/) ⭐️ 8.0/10
+## [小鹏每年投入 5 亿美元 AI 训练，声称与特斯拉 FSD 持平](https://electrek.co/2026/06/05/xpeng-vla-interview-cvpr-language-poison-tesla-fsd/) ⭐️ 7.0/10
 
-一名开发者在 llama.cpp 的分支中实现了华为的 KVarN KV 缓存量化方法，发布了预编译二进制文件，并通过基准测试显示可实现 3-5 倍的压缩且精度具有竞争力。 这使得一种有前景的 KV 缓存量化方法可供 llama.cpp 社区使用，有望提高推理性能，并为本地大模型用户实现更长的上下文窗口。 该实现支持键和值缓存的 2、3 或 4 位量化。在 Qwen 3.6 27B、64k 上下文上的基准测试显示，kvarn4-kvarn4 仅占 bf16 缓存大小的 27.9%，在 99.9% KLD 上达到 93.09%的精度，优于同比特率的 TurboQuant。
+小鹏汽车自动驾驶负责人刘先明博士向 Electrek 透露，公司每月在 AI 训练上投入约 3 亿元人民币（约合 4100 万美元），每年总计约 5 亿美元。他表示，小鹏的自动驾驶系统已经达到特斯拉 FSD v13 的水平，预计在 2026 年夏季结束前推出 v14 版本。 小鹏的这一巨额投入凸显了自动驾驶领域的激烈竞争，尤其是中美电动车企之间的较量。如果小鹏确实能与特斯拉 FSD 持平，将可能改变市场认知，并加速在中国市场的普及。 这一声明是在丹佛举行的 CVPR 2026 大会上提出的，刘博士与特斯拉的 Ashok Elluswamy、英伟达和 Waymo 的高管同台。小鹏的投入仅用于 AI 训练，不包括硬件或数据收集等其他成本。
 
-reddit · r/LocalLLaMA · /u/Anbeeld · 6月5日 13:48
+rss · Electrek · Jun 5, 13:58
 
-**背景**: KV 缓存存储自回归解码过程中的中间键值对，以避免重复计算，但它随序列长度线性增长，成为内存瓶颈。量化通过减少每个值的位数来降低内存占用。KVarN 是华为提出的方差归一化量化方法，号称在 3-5 倍压缩和加速的同时保持 FP16 级别的精度。
+**背景**: 特斯拉的全自动驾驶（FSD）是一套高级驾驶辅助功能，v13 是其最新重大更新，增加了倒车、目的地自动泊车等功能。CVPR（计算机视觉与模式识别会议）是顶级的年度计算机视觉会议，行业领袖在此展示突破性进展。小鹏汽车是中国主要的电动车制造商，正大力投资自动驾驶技术。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/huawei-csl/KVarN">huawei-csl/ KVarN : KVarN is a native vLLM KV - cache quantization ...</a></li>
-<li><a href="https://arxiv.org/pdf/2606.03458">KVarN : Variance-Normalized KV - Cache Quantization Mitigates Error...</a></li>
+<li><a href="https://www.notateslaapp.com/news/2411/tesla-releases-fsd-v132-adds-ability-to-reverse-start-fsd-from-park-autopark-at-destination-and-much-more">Tesla Releases FSD V13.2: Adds Ability to Reverse, Start FSD from Park, Autopark at Destination and Much More</a></li>
+<li><a href="https://cvpr.thecvf.com/">CVPR 2026</a></li>
 
 </ul>
 </details>
 
-**标签**: `#kv-cache`, `#quantization`, `#llama.cpp`, `#inference optimization`, `#LLM`
+**标签**: `#autonomous driving`, `#AI`, `#Xpeng`, `#Tesla FSD`, `#CVPR`
 
 ---
 
 <a id="item-15"></a>
-## [美国国防部因 AI 军事用途限制拟终止与 Anthropic 合作](https://t.me/zaihuapd/41777) ⭐️ 8.0/10
+## [VS Code 1.123.0 发布，带来多项改进](https://github.com/microsoft/vscode/releases/tag/1.123.0) ⭐️ 6.0/10
 
-美国国防部正考虑终止与人工智能公司 Anthropic 的合作，原因是双方在 Claude 模型军事用途的权限上存在分歧。Anthropic 禁止将 Claude 用于大规模监控和全自动武器系统，而国防部要求获得包括武器研发和战场行动在内的“所有合法用途”授权。 这一争端凸显了 AI 安全承诺与军方采用先进 AI 之间的日益紧张关系，可能为未来的政府与企业合作开创先例。结果将影响 OpenAI 和 Google 等其他 AI 公司如何处理类似的道德限制。 据报道，Claude 曾用于抓捕委内瑞拉总统马杜罗的军事行动，引发了 Anthropic 对其参与实战的担忧。值得注意的是，OpenAI 和 Google 等竞争对手已放宽了类似的军事用途限制。
+微软发布了 Visual Studio Code 1.123.0 版本，作为常规月度更新的一部分，包含增量改进和错误修复。 此次更新确保了这款广泛使用的代码编辑器对数百万开发者保持稳定高效，尽管并未引入突破性功能。 该版本包括性能优化、编辑器改进以及对 VS Code 生态系统特定语言支持的更新。
 
-telegram · zaihuapd · 6月5日 01:27
+github · ulugbekna · Jun 5, 08:50
 
-**背景**: Anthropic 是 Claude 系列大型语言模型的开发商，其设计非常注重 AI 安全和伦理准则。公司的使用政策明确禁止涉及大规模监控和自主武器系统（也称“杀手机器人”）的应用，后者是指无需人工干预即可选择并攻击目标的武器。美国国防部日益寻求将先进 AI 整合到国防行动中，包括自主系统和战场决策。
+**背景**: Visual Studio Code (VS Code) 是微软开发的一款免费开源代码编辑器，因其可扩展性和丰富的功能集而深受开发者喜爱。它每月发布稳定更新，包含新功能、错误修复和性能改进。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://platform.claude.com/docs/zh-CN/about-claude/models/overview">模型概览 - Claude API Docs</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/自主武器">自主武器 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://disarmament.unoda.org/zh/our-work/emerging-challenges/lethal-autonomous-weapon-systems">致命自主武器系统 | 联合国 裁军事务厅</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI ethics`, `#military AI`, `#Anthropic`, `#AI governance`, `#US DoD`
+**标签**: `#vscode`, `#release`, `#development-tools`, `#microsoft`
 
 ---
 
 <a id="item-16"></a>
-## [Anthropic 呼吁全球放缓前沿 AI 开发](https://www.anthropic.com/institute/recursive-self-improvement) ⭐️ 8.0/10
+## [过滤 Hacker News 上的 AI 帖子](https://elijahpotter.dev/articles/hacker-news-sans-AI) ⭐️ 6.0/10
 
-Anthropic 发布博文，呼吁全球主要 AI 实验室放缓前沿 AI 模型开发，以降低递归自我改进带来的风险，并提出可验证的规则和协调机制，而非单方面暂停。 这家领先 AI 实验室的提议可能深刻影响全球 AI 治理讨论，但也面临批评，认为其夸大风险或损害美国对中国的竞争力。 Anthropic 近日完成了近万亿美元估值的融资，并已提交保密的 IPO 文件。华盛顿和硅谷的批评者认为，放缓研发会让中国获得战略优势，且风险被夸大。
+一位开发者创建了名为'Hacker News, Sans AI'的工具，可以过滤掉 Hacker News 首页上与 AI 相关的帖子，让用户浏览时不受 AI 内容干扰。 该工具回应了部分 Hacker News 用户日益增长的 AI 疲劳感，他们觉得 AI 讨论过多，可能让网站对那些寻求多样化话题的用户更友好。 该工具据称托管在低性能服务器上，导致可访问性问题；而且存在讽刺意味——它可能使用 LLM 来分类 AI 与非 AI 帖子。
 
-telegram · zaihuapd · 6月5日 03:00
+hackernews · chilipepperhott · Jun 5, 20:38 · [社区讨论](https://news.ycombinator.com/item?id=48417916)
 
-**背景**: 递归自我改进是指 AI 系统重写自身代码以变得更智能的过程，可能导致超越人类控制的智能爆炸。前沿 AI 模型是最先进、能力最强的系统，常伴随重大风险和社会影响。Anthropic 的呼吁正值 AI 快速进步且安全担忧加剧之际。
+**背景**: Hacker News 是一个专注于计算机科学和创业的社会新闻网站，近年来 AI 相关提交激增。部分用户出现'AI 疲劳'，希望找到过滤此类内容的方法。
+
+**社区讨论**: 评论反应不一：有人因 AI 疲劳而欢迎该工具，也有人讽刺用 AI 过滤 AI 的悖论，还有人指出网站因托管不佳而无法访问。
+
+**标签**: `#HN`, `#filter`, `#AI`, `#content moderation`, `#community tool`
+
+---
+
+<a id="item-17"></a>
+## [Lowfat CLI 工具节省 91.8% LLM 令牌](https://github.com/zdk/lowfat) ⭐️ 6.0/10
+
+Lowfat 是一款轻量级、可插拔的 CLI 过滤器，通过精简命令输出来节省多达 91.8%的 LLM 令牌，作者两个月的使用记录已证明其效果。 随着 LLM 代理使用量的增长，令牌成本和上下文限制变得至关重要；Lowfat 提供了一种简单、本地优先的解决方案，在不改变代理行为的情况下显著减少令牌消耗，从而为高度依赖 CLI 的工作流节省成本并提升性能。 Lowfat 支持针对每个命令进行自定义过滤的插件系统、内置 UNIX 风格的可组合管道，以及可调节的过滤强度以避免剥离必要信息；在作者的测试中，它在 20 个常用命令上实现了总体 91.8%的令牌减少。
+
+hackernews · zdkaster · Jun 5, 09:10 · [社区讨论](https://news.ycombinator.com/item?id=48409955)
+
+**背景**: LLM 将文本处理为令牌（每令牌约 4 个字符），每次 API 调用的费用基于令牌数量。在代理场景中，像 kubectl get -o yaml 这样的 CLI 命令输出可能产生数千个令牌，迅速耗尽上下文窗口并增加开销。Lowfat 等工具旨在将命令输出中的无关部分（如时间戳、重复字段或冗余默认值）过滤掉，再发送给 LLM，从而减少令牌使用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">Recursive self-improvement</a></li>
-<li><a href="https://www.anthropic.com/institute/recursive-self-improvement">When AI builds itself \ Anthropic</a></li>
-<li><a href="https://www.cnn.com/2026/06/05/business/anthropic-calls-for-ai-brake-pedal">Anthropic warns that AI will soon be able to improve itself ...</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48409955">Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens | Hacker News</a></li>
+<li><a href="https://redis.io/blog/llm-token-optimization-speed-up-apps/">LLM Token Optimization: Cut Costs & Latency in 2026 - Redis</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 该提议在华盛顿和硅谷遭遇阻力，批评者指责 Anthropic 借安全之名打压对手，或认为单方放缓将让中国获利。也有人质疑全球协调的可行性。
+**社区讨论**: 评论者担心过滤输出可能缺少关键信息（如堆栈跟踪），导致代理混淆，并指出 rtk 等替代方案可能已经很好地处理了这个问题。一些人建议，子代理架构可能比输出过滤更有效地维护上下文质量。
 
-**标签**: `#AI safety`, `#AI governance`, `#Anthropic`, `#recursive self-improvement`, `#policy`
+**标签**: `#CLI`, `#LLM`, `#token-saving`, `#tool`, `#productivity`
+
+---
+
+<a id="item-18"></a>
+## [T1 Energy 收购 KORE Power 瞄准 AI 数据中心储能](https://electrek.co/2026/06/05/t1-energy-buys-kore-power-to-cash-in-on-the-ai-power-boom/) ⭐️ 6.0/10
+
+T1 Energy（前身为 FREYR Battery）宣布以 3200 万美元收购 KORE Power，旨在扩大其在 AI 数据中心储能系统领域的布局。 本次收购使 T1 Energy 能够利用 AI 数据中心电力需求激增带来的储能市场机遇，有望加速电池储能解决方案在快速增长的 AI 基础设施市场中的部署。 此次收购金额为 3200 万美元，包括股权和现金。KORE Power 专注于电池储能系统和软件，这与 T1 Energy 从电池电芯制造转向集成储能解决方案的战略一致。
+
+rss · Electrek · Jun 5, 21:41
+
+**背景**: T1 Energy（原名 FREYR Battery）最初专注于开发下一代电池电芯生产能力。KORE Power 是一家电池储能系统公司，提供先进的电池电芯和储能解决方案。此次收购反映了能源公司为满足 AI 数据中心日益增长的电力需求而进行战略布局的趋势，AI 数据中心需要可靠且可扩展的储能系统。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://electrek.co/2026/06/05/t1-energy-buys-kore-power-to-cash-in-on-the-ai-power-boom/">T1 Energy buys KORE Power to cash in on the AI power boom</a></li>
+<li><a href="https://www.solarpowerworldonline.com/2026/06/t1-energy-to-buy-energy-storage-brand-kore-power/">T1 Energy to buy energy storage brand KORE Power</a></li>
+<li><a href="https://korepower.com/">KORE Power</a></li>
+
+</ul>
+</details>
+
+**标签**: `#energy storage`, `#AI`, `#data centers`, `#acquisitions`, `#battery technology`
 
 ---

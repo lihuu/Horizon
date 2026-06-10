@@ -5,374 +5,351 @@ date: 2026-05-30
 lang: en
 ---
 
-> From 53 items, 16 important content pieces were selected
+> From 26 items, 15 important content pieces were selected
 
 ---
 
-1. [vLLM v0.22.0 Released with DeepSeek V4 Maturity and Rust Frontend](#item-1) ⭐️ 9.0/10
-2. [Probe-Targeted Fine-Tuning Makes LLMs Express True Confidence](#item-2) ⭐️ 9.0/10
-3. [Hacker finds critical flaws in CBSE online exam grading system](#item-3) ⭐️ 9.0/10
-4. [California Assembly Passes 'Protect Our Games Act'](#item-4) ⭐️ 8.0/10
-5. [Is AI repeating frontend's 'lost decade'?](#item-5) ⭐️ 8.0/10
-6. [Anthropic run-rate revenue reaches $47 billion](#item-6) ⭐️ 8.0/10
-7. [Loadable Crypto Module Proposed for FIPS Certification](#item-7) ⭐️ 8.0/10
-8. [Protestware targets AI coding agents via jqwik library](#item-8) ⭐️ 8.0/10
-9. [Monokernel achieves 3,300 tokens/s on AMD MI300X](#item-9) ⭐️ 8.0/10
-10. [Qwen3.6-27B Quantization Benchmark by User](#item-10) ⭐️ 8.0/10
-11. [Multi-Token Prediction speeds up inference up to 3.34x](#item-11) ⭐️ 8.0/10
-12. [Nvidia teases N1X laptop chip with 20 ARM cores, 6144 CUDA cores for Computex](#item-12) ⭐️ 8.0/10
-13. [StepFun Releases Step 3.7 Flash, a 196B MoE Model](#item-13) ⭐️ 8.0/10
-14. [BYD offers one-year accident liability coverage for city NOA](#item-14) ⭐️ 8.0/10
-15. [China Certifies Nine Domestic AI Chips for Gov Procurement](#item-15) ⭐️ 8.0/10
-16. [Blue Origin's New Glenn Rocket Explodes in Static Fire Test](#item-16) ⭐️ 8.0/10
+1. [Dead Economy Theory: Overcapacity Creates Zombie Economy](#item-1) ⭐️ 8.0/10
+2. [Deep dive into optimizing code diff rendering performance](#item-2) ⭐️ 8.0/10
+3. [California Passes 'Protect Our Games Act' for Game Preservation](#item-3) ⭐️ 8.0/10
+4. [AI May Repeat Frontend's Lost Decade, Commenters Disagree](#item-4) ⭐️ 8.0/10
+5. [GTA 6 Developers Form Union at Rockstar](#item-5) ⭐️ 8.0/10
+6. [Datasette 1.0a31 adds SQL write and stored queries](#item-6) ⭐️ 8.0/10
+7. [Anthropic's Run-Rate Revenue Hits $47 Billion](#item-7) ⭐️ 8.0/10
+8. [SQLite argued as sufficient backend for durable workflows](#item-8) ⭐️ 7.0/10
+9. [Mistral AI Now Summit Sparks Debate on Competitiveness](#item-9) ⭐️ 7.0/10
+10. [Framework 12: Repairability vs. Raw Performance Trade-off](#item-10) ⭐️ 7.0/10
+11. [Bijou64: A Novel Variable-Length Integer Encoding](#item-11) ⭐️ 7.0/10
+12. [Liquid AI Releases 8B MoE Model Trained on 38T Tokens](#item-12) ⭐️ 7.0/10
+13. [Rothko-style paintings from your local weather](#item-13) ⭐️ 7.0/10
+14. [Microsoft 0-day feud escalates as researcher threatens exploit dump](#item-14) ⭐️ 7.0/10
+15. [Tesla Owner Wins $10,600 Refund Over FSD Promises](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [vLLM v0.22.0 Released with DeepSeek V4 Maturity and Rust Frontend](https://github.com/vllm-project/vllm/releases/tag/v0.22.0) ⭐️ 9.0/10
+## [Dead Economy Theory: Overcapacity Creates Zombie Economy](https://www.owenmcgrann.com/p/the-dead-economy-theory) ⭐️ 8.0/10
 
-vLLM released version 0.22.0 with 459 commits from 230 contributors, featuring major hardening for DeepSeek V4, progress on Model Runner V2 toward default, and an experimental Rust frontend. Key improvements include NVFP4 fused MoE support, piecewise CUDA graphs, MTP speculative decoding, and multi-tier KV cache offloading. This release significantly enhances the inference efficiency and model support for DeepSeek V4, a state-of-the-art MoE model, while pushing Model Runner V2 towards broader adoption. The experimental Rust frontend also signals vLLM's exploration of performance-critical paths in a safer systems language. DeepSeek V4 now has a dedicated package, NVFP4 fused MoE, full and piecewise CUDA graph support, and MTP speculative decoding. Model Runner V2 gains an oracle to select it for Qwen3 dense models and automatic fallback to MRv1 when a KV connector is present.
+Owen McGrann's article 'The Dead Economy Theory' argues that systemic overcapacity in agriculture and technology, sustained by subsidies and low-productivity labor, has created a 'zombie economy' reminiscent of the dead internet theory. This theory challenges conventional economic assumptions about efficiency and growth, warning that AI-driven automation could exacerbate labor waste and market destruction, similar to agricultural inefficiencies in India. It has sparked high-engagement discussion on labor, UBI, and the future of work. The article draws a parallel between the 'dead internet theory' (most online content is AI-generated) and economic overcapacity, where workers are kept in low-productivity jobs due to subsidies or structural inertia. Specific examples include India's agriculture (43% labor share) and tech companies like Facebook with excessive developer teams on Messenger.
 
-github · khluu · May 29, 10:28
+hackernews · WillDaSilva · May 29, 15:46 · [Discussion](https://news.ycombinator.com/item?id=48324712)
 
-**Background**: vLLM is a high-throughput LLM inference engine with PagedAttention for efficient memory management. DeepSeek V4 is a Mixture-of-Experts (MoE) model that requires specialized kernel optimizations. NVFP4 fused MoE uses 4-bit floating point for faster expert computation, piecewise CUDA graphs reduce graph compilation overhead, and MTP speculative decoding uses Multi-Token Prediction drafters to speed up generation.
+**Background**: The 'dead internet theory' suggests that much of the internet is now automated bots and AI-generated content. A 'zombie company' is a firm that only generates enough revenue to service debt, lacking growth. McGrann extends these concepts to the broader economy, arguing that overcapacity in key sectors traps labor in unproductive work, similar to Japan's 'lost decades'.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://docs.vllm.ai/en/v0.15.0/api/vllm/model_executor/layers/fused_moe/oracle/nvfp4/">vllm.model_executor.layers. fused _ moe .oracle. nvfp4</a></li>
-<li><a href="https://docs.sglang.io/docs/advanced_features/piecewise_cuda_graph">Piecewise CUDA Graph - SGLang Documentation</a></li>
-<li><a href="https://njannasch.dev/blog/mtp-speculative-decoding-qwen-3-6-5060ti/">MTP Speculative Decoding Actually Works on MoE: 144 t/s on a</a></li>
+<li><a href="https://www.owenmcgrann.com/p/the-dead-economy-theory">The Dead Economy Theory - by Owen McGrann - The Palimpsest</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zombie_company">Zombie company - Wikipedia</a></li>
+<li><a href="https://www.investopedia.com/terms/z/zombies.asp">What Are Zombie Companies? Understanding Their Financial ... Zombie Company - Definition, Example, Effect on Economy Zombie company - Wikipedia Zombie Company: Definition, Risks, and Warning Signs Zombie Economics | Springer Nature Link “Zombie” Companies: Background and Policy Issues zombie economy - Wiktionary, the free dictionary</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#vllm`, `#LLM inference`, `#DeepSeek`, `#Rust`, `#open source`
+**Discussion**: Commenters offered nuanced perspectives: Animats highlighted India's agricultural overcapacity as analogous to potential AI overcapacity in the US, while rootusrootus shared an anecdote about Facebook's excessive developer staffing on Messenger, suggesting oversupply of tech talent. wcfrobert warned that AI efficiency could destroy its own market by eliminating customer income, and hughw questioned whether UBI could succeed given human tendencies toward substance abuse.
+
+**Tags**: `#economics`, `#technology`, `#AI`, `#labor`, `#overcapacity`
 
 ---
 
 <a id="item-2"></a>
-## [Probe-Targeted Fine-Tuning Makes LLMs Express True Confidence](https://www.reddit.com/r/MachineLearning/comments/1tqrtkn/making_llms_tell_you_how_confident_they_really/) ⭐️ 9.0/10
+## [Deep dive into optimizing code diff rendering performance](https://pierre.computer/writing/on-rendering-diffs) ⭐️ 8.0/10
 
-Researchers developed probe-targeted fine-tuning (LoRA) that uses internal probe signals to teach LLMs to verbalize their actual confidence in answers, achieving causal shifts verified by activation patching. This addresses the key problem of LLM miscalibration where models often express overconfident responses (99% confidence) despite internally distinguishing correct from incorrect answers with high AUROC (0.76-0.88), providing a simple, efficient method to improve trustworthiness. The method uses LoRA fine-tuning with only a few hundred examples and trains in under 10 minutes on an M3 Ultra. Activation patching experiments show a correlation of ρ=0.976 between swapped hidden states at confidence positions and expressed confidence, confirming causality.
+Pierre published a technical article detailing optimizations for rendering code diffs, including deferred syntax highlighting and performance benchmarks. Efficient diff rendering is crucial for code review tools and version control interfaces; this research can improve user experience and inspire similar optimizations in platforms like GitHub. The article considers deferred syntax highlighting to reduce initial page load, and measures performance with detailed benchmarks. It also discusses trade-offs such as accessibility for colorblind developers.
 
-reddit · r/MachineLearning · /u/Synthium- · May 29, 05:15
+hackernews · amadeus · May 29, 19:04 · [Discussion](https://news.ycombinator.com/item?id=48327809)
 
-**Background**: Large language models often suffer from poor calibration: they can internally detect whether they know an answer (probe AUROC up to 0.88), but their verbalized confidence is stuck at nearly 100% for all responses. Probe-targeted fine-tuning leverages this internal signal by using the probe's output as training targets for the model's own confidence output. Activation patching is a technique that swaps model activations between runs to test whether specific activations causally influence outputs.
+**Background**: Code diffs highlight changes between file versions, often using color-coded additions and deletions. Deferred syntax highlighting delays coloring code until after the diff is rendered, speeding up initial display.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/AUROC">AUROC</a></li>
-<li><a href="https://mbrenndoerfer.com/writing/activation-patching">Activation Patching : Causal Tracing in Neural Networks - Interactive</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)">Fine - tuning (deep learning) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Syntax_highlighting">Syntax highlighting - Wikipedia</a></li>
+<li><a href="https://github.blog/changelog/2022-06-24-deferred-syntax-highlighting/">Deferred syntax highlighting - GitHub Changelog</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#confidence calibration`, `#fine-tuning`, `#probe`, `#LoRA`
+**Discussion**: Commenters praised the clear writing and engineering depth, with suggestions for colorblind-friendly diffs and CSS adjustments. One user shared their own diff rendering work in a FreeCAD workbench, noting different bottlenecks.
+
+**Tags**: `#diff rendering`, `#performance optimization`, `#code review`, `#UI engineering`
 
 ---
 
 <a id="item-3"></a>
-## [Hacker finds critical flaws in CBSE online exam grading system](https://ni5arga.com/blog/posts/hacking-cbse/) ⭐️ 9.0/10
+## [California Passes 'Protect Our Games Act' for Game Preservation](https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill) ⭐️ 8.0/10
 
-A researcher disclosed multiple critical security vulnerabilities in India's CBSE online exam grading system, including hardcoded master passwords, client-side OTP validation, and SQL injection, potentially allowing grade manipulation. These vulnerabilities affect a high-stakes national examination system used by millions of students, and if exploited, could allow unauthorized grade changes, undermining the integrity of the entire examination process. The researcher found that the system used a hardcoded master password, validated OTPs entirely on the client side, allowed bypassing login pages, and had an SQL injection vulnerability; he reported to CERT-In in February 2026 but CBSE initially denied the flaws.
+The California State Assembly passed the 'Protect Our Games Act', requiring game publishers to maintain playability of digitally sold games even after online server shutdown. This bill sets a significant precedent for digital consumer rights and game preservation, potentially forcing publishers to design games with long-term viability in mind and reducing the loss of access to purchased games. The bill applies to digitally sold games but exempts subscription services, free-to-play titles, and games inherently playable offline. It also prohibits the sale of games that have become unusable due to service termination.
 
-telegram · zaihuapd · May 29, 05:52
+hackernews · TechTechTech · May 29, 19:55 · [Discussion](https://news.ycombinator.com/item?id=48328365)
 
-**Background**: A hardcoded password is a fixed credential embedded in source code that attackers can easily extract and use to bypass authentication. Client-side OTP validation means the one-time password is verified in the user's browser, which can be bypassed using browser dev tools. SQL injection allows an attacker to execute arbitrary SQL commands on the database, potentially reading or modifying sensitive data.
+**Background**: Many modern video games require online servers for core functionality, leading to unplayability when servers shut down. The 'Protect Our Games Act' aims to enforce digital preservation by mandating a playable version after server shutdown, addressing consumer and preservationist concerns.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.bleepingcomputer.com/news/security/hardcoded-password-found-in-cisco-software/">Hardcoded Password Found in Cisco Software</a></li>
-<li><a href="https://security.stackexchange.com/questions/276635/what-security-risks-do-you-see-with-wrong-otps-appearing-in-application-logs">logging - What security risks do you see with wrong OTPs</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Video_game_preservation">Video game preservation - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Always-online_DRM">Always-online DRM</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security vulnerability`, `#CBSE`, `#online exam system`, `#India`, `#cybersecurity`
+**Discussion**: Commenters on the news expressed mixed views. Some praised the bill as a necessary consumer protection, while others highlighted potential loopholes, such as publishers using shell companies per game to avoid liability. There is also debate about the exclusion of subscription games and the impact on future game design.
+
+**Tags**: `#legislation`, `#gaming`, `#digital preservation`, `#consumer protection`, `#software rights`
 
 ---
 
 <a id="item-4"></a>
-## [California Assembly Passes 'Protect Our Games Act'](https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill) ⭐️ 8.0/10
+## [AI May Repeat Frontend's Lost Decade, Commenters Disagree](https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/) ⭐️ 8.0/10
 
-The California State Assembly has passed the 'Protect Our Games Act', a bill that requires game publishers to keep digitally sold games functional or face penalties. The bill now moves to the State Senate for consideration. This legislation is a significant step for digital consumer rights and game preservation, potentially setting a precedent for other states and countries. It would force publishers to ensure that games remain playable even after server shutdowns, addressing a long-standing issue in the gaming industry. The bill excludes games provided via subscription services, free-to-play games, and games that are inherently playable offline indefinitely. It also prohibits the continued sale or distribution of games that have become unusable due to service termination.
+An article argues that AI-driven frontend development may lead to a 'lost decade' of lower quality, similar to the shift to frameworks in the late 2000s. This debate highlights tension between productivity gains and quality concerns, potentially influencing how teams adopt AI tools for web development. The article compares AI's impact to the 'frontend's lost decade' when frameworks like React and Angular replaced hand-coded HTML/CSS/JS, reducing deep expertise.
 
-hackernews · TechTechTech · May 29, 19:55 · [Discussion](https://news.ycombinator.com/item?id=48328365)
+hackernews · xyzal · May 29, 11:09 · [Discussion](https://news.ycombinator.com/item?id=48321631)
 
-**Background**: Many modern games incorporate always-online DRM or require persistent server connections to function, even for single-player modes. When publishers decide to shut down these servers, the games become unplayable, leaving consumers with non-functional purchases. The Protect Our Games Act aims to require publishers to release patches or provide alternative means to keep games functional, such as removing server checks, thereby preserving consumer access.
+**Background**: The 'lost decade' refers to a period in frontend development when complex frameworks introduced accidental complexity and abstraction layers. Fred Brooks' 'No Silver Bullet' paper distinguishes essential vs. accidental complexity in software engineering.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Always-on_DRM">Always - on DRM - Wikipedia</a></li>
-<li><a href="https://www.howtogeek.com/think-denuvo-is-bad-be-glad-we-dont-have-these-old-drm-solutions/">Think Denuvo Is Bad? Be Glad We Don't Have These 3 DRM Solutions...</a></li>
+<li><a href="https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/">Is AI causing a repeat of Frontend’s Lost Decade?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Accidental_complexity">Accidental complexity</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters are generally supportive of the bill, but they raise concerns about potential loopholes such as publishers creating shell companies to avoid liability. Some worry that the exemptions for subscription and free-to-play games could incentivize a shift toward those models, while others wish the bill covered subscription games as well to ensure broader preservation.
+**Discussion**: Commenters counter that the skills being lost are largely accidental complexity, such as browser quirks and CSS specificity, and that lowering the barrier to entry is positive. Some argue that prior quality was not universally high, and tradeoffs are acceptable.
 
-**Tags**: `#gaming`, `#legislation`, `#consumer rights`, `#digital preservation`
+**Tags**: `#AI`, `#frontend development`, `#web development`, `#software engineering`
 
 ---
 
 <a id="item-5"></a>
-## [Is AI repeating frontend's 'lost decade'?](https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/) ⭐️ 8.0/10
+## [GTA 6 Developers Form Union at Rockstar](https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/) ⭐️ 8.0/10
 
-A blog post argues that AI tools are causing a decline in frontend expertise and code quality, reminiscent of the 'lost decade' when frameworks like jQuery and React abstracted away fundamental web skills. This debate matters because it highlights a critical tension between AI-driven productivity gains and the erosion of deep frontend craftsmanship, potentially affecting web accessibility, performance, and overall software quality. The post references a past era where developers lost low-level skills to framework abstractions, and now AI code generation may accelerate that trend. Community comments counter that earlier shifts were largely beneficial and that AI similarly reduces accidental complexity.
+Developers at Rockstar Games have announced the formation of a union to address pay transparency, flexible working conditions, and an end to crunch culture. This unionization effort is a significant milestone for labor rights in the video game industry, which has long been plagued by crunch culture and pay disparities. It could inspire similar movements at other major studios. The union's demands include pay transparency, flexible working hours, and an end to mandatory overtime (crunch). Rockstar Games has a history of intense crunch, especially during the development of Red Dead Redemption 2.
 
-hackernews · xyzal · May 29, 11:09 · [Discussion](https://news.ycombinator.com/item?id=48321631)
+hackernews · AndrewKemendo · May 29, 15:32 · [Discussion](https://news.ycombinator.com/item?id=48324499)
 
-**Background**: The 'lost decade' in frontend development refers to the late 2000s when jQuery and then React, Vue, and Angular abstracted away direct DOM manipulation, leading to a generation of developers less familiar with vanilla HTML, CSS, and JavaScript. This pattern is now repeating with AI code assistants that generate entire components, further distancing developers from foundational knowledge.
+**Background**: Crunch culture refers to the widespread practice in game development of requiring extended, often unpaid overtime to meet deadlines. Rockstar Games has been heavily criticized for its crunch culture, particularly during the development of Red Dead Redemption 2. Unionization in the US video game industry is rare; this move by GTA 6 developers is a notable exception.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/">Is AI causing a repeat of Frontend ’s Lost Decade ? | Mastro Blog</a></li>
-<li><a href="https://en.m.wikipedia.org/wiki/Front-end_web_development">Front-end web development - Wikipedia</a></li>
-<li><a href="https://aiespionage.net/tech-deep-dives/is-ai-causing-a-repeat-of-front-end-s-lost-decade/">Is AI causing a repeat of Front end 's Lost Decade ? - AI Espionage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Crunch_(video_games)">Crunch (video games) - Wikipedia</a></li>
+<li><a href="https://kotaku.com/inside-rockstar-games-culture-of-crunch-1829936466">Inside Rockstar Games' Culture Of Crunch - Kotaku</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments show mixed sentiment: some agree that AI is lowering quality, while others argue that the previous era's 'expertise' was often dealing with unnecessary complexity. Several commenters note that the past industry was not filled with skilled artisans, and that tradeoffs are acceptable as long as more people can build things.
+**Discussion**: Commenters largely supported the unionization, with many noting the need for better pay and working conditions in the gaming industry. Some discussed the pay disparity between game developers and other tech roles, while others highlighted challenges such as outsourcing and H1B visas that weaken union power.
 
-**Tags**: `#AI`, `#frontend development`, `#software engineering`, `#quality`, `#community debate`
+**Tags**: `#union`, `#video game industry`, `#labor rights`, `#crunch culture`, `#game development`
 
 ---
 
 <a id="item-6"></a>
-## [Anthropic run-rate revenue reaches $47 billion](https://simonwillison.net/2026/May/29/anthropic/#atom-everything) ⭐️ 8.0/10
+## [Datasette 1.0a31 adds SQL write and stored queries](https://simonwillison.net/2026/May/29/datasette/#atom-everything) ⭐️ 8.0/10
 
-Anthropic disclosed in its $65 billion Series H funding announcement that its run-rate revenue crossed $47 billion earlier in May 2026, up from $9 billion at the end of 2025. This rapid revenue growth—from $9B to $47B in under six months—demonstrates extraordinary enterprise adoption of AI, positioning Anthropic as one of the fastest-scaling companies in any industry and surpassing OpenAI in valuation. The run-rate is an annualized projection based on the most recent month's revenue multiplied by 12, not to be confused with annual recurring revenue (ARR). Previous milestones include $14B in February 2026 and $30B in April 2026.
+Datasette 1.0a31, an alpha release, introduces the ability for users with proper permissions to execute write queries (INSERT, UPDATE, DELETE) against the database and to save stored queries (renamed from 'canned queries') for private or shared use. This release transforms Datasette from a read-only data exploration tool into an interactive data editing platform, enabling collaborative data management and reusable query workflows, which significantly expands its utility for teams and organizations handling data. The write query feature supports templated insert, update, and delete operations, while stored queries can be parameterized and shared across a Datasette instance. Permission controls are enforced via Datasette's existing permissions system, and the term 'canned queries' has been deprecated in favor of 'stored queries'.
 
-rss · Simon Willison · May 29, 01:23
+rss · Simon Willison · May 29, 03:32
 
-**Background**: Run-rate revenue is a common metric for fast-growing startups, calculated by extrapolating recent monthly revenue to a full year. It gives a forward-looking estimate but can be volatile. Anthropic, the developer of the Claude AI model family, has been raising large funding rounds to scale compute, model training, and commercial expansion.
+**Background**: Datasette is an open-source tool for exploring and publishing data, allowing users to turn any dataset into an interactive website and API. It typically works with SQLite databases and has been read-only until this alpha. The new write capabilities require careful permission management, building on the permissions overhaul in Datasette 1.0a20.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Revenue">Revenue - Wikipedia</a></li>
-<li><a href="https://www.investopedia.com/terms/r/runrate.asp">investopedia.com/terms/r/runrate.asp</a></li>
+<li><a href="https://datasette.io/blog/2026/sql-write-queries/">SQL write queries and stored queries in Datasette ... - Datasette Blog</a></li>
+<li><a href="https://simonwillison.net/2026/may/29/datasette/">Release: datasette 1.0a31 | Simon Willison’s Weblog</a></li>
+<li><a href="https://datasette.io/">Datasette: An open source multi-tool for exploring and publishing data</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Anthropic`, `#AI industry`, `#revenue`, `#funding`, `#business milestone`
+**Tags**: `#datasette`, `#sql`, `#open-source`, `#data-exploration`, `#release`
 
 ---
 
 <a id="item-7"></a>
-## [Loadable Crypto Module Proposed for FIPS Certification](https://lwn.net/Articles/1073759/) ⭐️ 8.0/10
+## [Anthropic's Run-Rate Revenue Hits $47 Billion](https://simonwillison.net/2026/May/29/anthropic/#atom-everything) ⭐️ 8.0/10
 
-A patch series by Amazon engineer Jay Wang proposes decoupling the Linux kernel crypto subsystem into a standalone loadable module, enabling a FIPS-certified module to be reused across multiple kernel versions without requiring full recertification. This proposal addresses a major pain point for organizations requiring FIPS compliance, as kernel updates currently invalidate certification and force lengthy recertification cycles, reducing the cost and delay of maintaining FIPS-certified Linux deployments. The proposal must overcome three obstacles: the build system cannot easily collect built-in objects into a module, the kernel's one-way symbol resolution prevents modules from exporting symbols to the main kernel, and the crypto subsystem must be available early in boot before the root filesystem is mounted.
+Anthropic announced that its run-rate revenue crossed $47 billion earlier in May 2026, up from $30 billion in April and $14 billion in February 2026. This was disclosed in the company's $65 billion Series H funding announcement. This explosive revenue growth signals massive enterprise adoption of AI, with Anthropic scaling organic revenue faster than any company in any industry historically. It also validates the business model of AI model providers and may influence investor expectations for the upcoming IPO. The run-rate revenue is calculated by annualizing the most recent month's revenue. In April 2026, Anthropic reported $30 billion run-rate, up from $9 billion at end of 2025. Axios noted one client spent half a billion dollars in a single month without usage limits on Claude licenses.
 
-rss · LWN.net · May 29, 14:29
+rss · Simon Willison · May 29, 01:23
 
-**Background**: FIPS (Federal Information Processing Standards) 140-3 certification is a rigorous validation process for cryptographic modules required by US government agencies and regulated industries. The certification is tied to the exact binary, so any kernel change invalidates it. Currently, Linux crypto is built into the main kernel, causing lengthy recertification after every update. This proposal aims to isolate the crypto code into a loadable module that can be certified once and reused across kernel versions.
+**Background**: Run-rate revenue is a projection that takes current revenue over a short period (typically a month) and multiplies it by 12 to estimate annual revenue. It is commonly used by fast-growing companies to indicate momentum. Anthropic's run-rate figures have been disclosed in funding announcements and are considered credible because lying to investors in such contexts would constitute securities fraud.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.corsec.com/fips-certification-process/">FIPS Certification Process - Corsec Security, Inc.</a></li>
-<li><a href="https://ordr.net/blog/ordr-and-fips-certification">FIPS Certification and Why Its Important for the Public Sector - ORDR</a></li>
+<li><a href="https://www.paddle.com/resources/revenue-run-rate">Guide to revenue run rate: Definition, calculation, benefits</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Linux kernel`, `#crypto`, `#FIPS`, `#kernel modules`, `#security`
+**Discussion**: Ed Zitron expressed skepticism about the $30 billion figure, but the article argues his doubts should be updated given the new $47 billion number. Some dismissed the numbers as untrustworthy because they come from Anthropic, but the author counters that these figures are shared in fundraising documents and lying would be securities fraud, especially with an IPO pending.
+
+**Tags**: `#Anthropic`, `#revenue`, `#AI industry`, `#enterprise AI`, `#funding`
 
 ---
 
 <a id="item-8"></a>
-## [Protestware targets AI coding agents via jqwik library](https://lwn.net/Articles/1075315/) ⭐️ 8.0/10
+## [SQLite argued as sufficient backend for durable workflows](https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/) ⭐️ 7.0/10
 
-On May 25, 2026, the jqwik property-based testing library version 1.10.0 was released with code that instructs AI coding agents to delete jqwik tests and source code, marking a novel protestware attack that evades traditional security scanners. This incident highlights a new class of supply-chain attack specifically targeting AI-assisted development workflows, where malicious instructions embedded in plain text can bypass current software composition analysis tools. It raises urgent concerns about trust in AI coding agents and the need for new detection mechanisms. The attack uses a simple System.out.print statement of 68 bytes of ASCII, making it invisible to scanners that look for install hooks, network calls, or filesystem writes. The change was committed and released by the legitimate maintainer through the normal build process, so it passes SLSA provenance checks.
+An article titled 'SQLite is all you need for durable workflows' argues that SQLite can serve as a simple and sufficient backend for building durable workflow systems, challenging the assumption that production workflows require a full database server. This matters because it challenges conventional wisdom that production workflow systems require scalable database servers like PostgreSQL, potentially simplifying architectures and reducing operational complexity for many applications. The article specifically addresses concerns about SQLite's concurrency limitations, arguing that many workflow use cases have low concurrency requirements and that SQLite's simplicity outweighs the trade-offs. It also highlights that projects like Temporal use SQLite for local development.
 
-rss · LWN.net · May 29, 14:09
+hackernews · tomasol · May 29, 17:54 · [Discussion](https://news.ycombinator.com/item?id=48326802)
 
-**Background**: jqwik is a Java library for property-based testing, which automatically generates test cases based on properties the code should satisfy. Protestware refers to software that protests against a policy or action, often by introducing harmful behavior into the supply chain. Traditional supply-chain security tools focus on detecting network calls, file writes, or obfuscated code, but they are not designed to catch instructions embedded in plain ASCII text that target AI agents.
+**Background**: Durable workflows are automated processes that maintain state and can survive failures, often used for orchestrating multi-step tasks like retries and API calls. SQLite is an embedded database that runs within the application process, providing file-based storage with ACID guarantees but limited concurrent write throughput compared to server databases like PostgreSQL or MySQL.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://jqwik.net/">jqwik : Property - Based Testing in Java</a></li>
-<li><a href="https://socket.dev/blog/a-short-history-of-protestware">A Short History of Protestware - Socket</a></li>
-<li><a href="https://www.baeldung.com/java-jqwik-property-based-testing">Property - Based Testing with jqwik | Baeldung</a></li>
+<li><a href="https://sqlite.org/lockingv3.html">File Locking And Concurrency In SQLite Version 3</a></li>
+<li><a href="https://github.com/durable-workflow/workflow">GitHub - durable-workflow/workflow: Durable workflow engine</a></li>
+<li><a href="https://dev.to/lovestaco/concurrency-control-and-database-recovery-in-sqlite-2pmo">Concurrency Control and Database Recovery in SQLite - DEV Community</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#supply-chain security`, `#AI agents`, `#protestware`, `#Java`, `#vulnerability`
+**Discussion**: The community shows divided opinions: some support SQLite's simplicity for workflows (bitexploder using Temporal), while others criticize its concurrency handling (levkk emphasizes unsuitable for multi-process access). Additional comments note a sole author's massive code output (vultour), suggest DuckDB as a faster alternative (m2f2), and complain about SQLite's type system (Thaxll).
+
+**Tags**: `#SQLite`, `#workflows`, `#databases`, `#concurrency`, `#production`
 
 ---
 
 <a id="item-9"></a>
-## [Monokernel achieves 3,300 tokens/s on AMD MI300X](https://www.reddit.com/r/MachineLearning/comments/1tqvuz9/building_a_monokernel_for_llm_inference_on_amd/) ⭐️ 8.0/10
+## [Mistral AI Now Summit Sparks Debate on Competitiveness](https://koenvangilst.nl/lab/mistral-ai-now-summit) ⭐️ 7.0/10
 
-Researchers built a monokernel that runs the entire LLM decode sequence as a single GPU program on AMD MI300X, achieving up to 3,300 output tokens per second per request without speculative decoding or quantization. This demonstrates that optimizing for hardware topology can dramatically reduce LLM inference latency on AMD GPUs, potentially closing the gap with NVIDIA H100 in low-latency serving. The work currently runs on a small 2B parameter coding model with batch size 1 on 8x MI300X GPUs, and the authors plan to extend it to large frontier mixture-of-experts (MoE) models.
+A blog post covering the Mistral AI Now Summit generated community debate about Mistral's declining competitiveness relative to Chinese AI labs and other small models. This debate highlights concerns about Europe's ability to compete in AI, as Mistral is a flagship European AI company. The discussion could influence industry perception and investment decisions. Mistral's 'small' model is 120B parameters, roughly four times larger than competitors like Gemma4 and Qwen3.6, yet underperforms. Mistral is focusing on on-premise and European-hosted models for regulated industries.
 
-reddit · r/MachineLearning · /u/averne_ · May 29, 08:54
+hackernews · vnglst · May 29, 16:22 · [Discussion](https://news.ycombinator.com/item?id=48325340)
 
-**Background**: A monokernel is a single GPU kernel that fuses all operations of a model's forward pass, reducing launch overhead and improving memory efficiency. The AMD MI300X GPU has a unique chiplet architecture with I/O dies (IODs) that connect compute units; mapping memory access patterns to the physical die layout is key to achieving peak performance.
+**Background**: Mistral AI is a French AI company founded in 2023, valued over $14B as of 2025. It produces open-weight LLMs and proprietary models. The Mistral AI Now Summit is an event showcasing their enterprise offerings.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://rocm.docs.amd.com/en/develop/how-to/programming_guide.html">Programming guide — ROCm Documentation</a></li>
-<li><a href="https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles">Look Ma, No Bubbles! Designing a Low-Latency Megakernel for...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mistral_AI">Mistral AI - Wikipedia</a></li>
+<li><a href="https://techcrunch.com/2025/09/09/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/">What is Mistral AI? Everything to know about the OpenAI ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM inference`, `#GPU optimization`, `#AMD MI300X`, `#monokernel`, `#deep learning systems`
+**Discussion**: Commenters expressed disappointment in Mistral's technical progress, noting Chinese labs like DeepSeek and Minimax have surpassed them. However, some praised Mistral's on-premise strategy for regulated industries.
+
+**Tags**: `#Mistral`, `#AI`, `#Europe`, `#small models`, `#industry analysis`
 
 ---
 
 <a id="item-10"></a>
-## [Qwen3.6-27B Quantization Benchmark by User](https://www.reddit.com/r/LocalLLaMA/comments/1tr9vzn/qwen3627b_quantization_benchmark/) ⭐️ 8.0/10
+## [Framework 12: Repairability vs. Raw Performance Trade-off](https://www.jeffgeerling.com/blog/2026/its-hard-to-justify-framework-12/) ⭐️ 7.0/10
 
-A user benchmarked multiple quantizations of the Qwen3.6-27B model using Kullback-Leibler Divergence (KLD) and Same Top P metrics, comparing Unsloth, mradermacher, and other quantized versions from Q8 down to Q2. This benchmark provides practical guidance for practitioners deploying Qwen3.6-27B locally, helping them choose quantization levels with optimal quality-VRAM trade-offs based on objective metrics rather than anecdotal reports. The tests used llama.cpp's llama-perplexity with a context length of 8192 tokens and KV cache quantized to q8_0 to fit the model in GPU. Results show Unsloth's Q4_K_XL offers a good quality compromise, while mradermacher's Q6_K outperforms Unsloth's Q6_K in KLD and token selection match.
+An article argues that Framework's new 12-inch laptop is hard to justify on specs alone, but its repairability and alignment with user values like Linux support and right-to-repair make it compelling for a niche audience. This highlights a growing tension between raw hardware performance and ethical/sustainable design. Framework's approach challenges the industry norm, pushing for repairability and modularity, which may influence consumer expectations and other manufacturers. The Framework 12 features a 12.2-inch convertible design with stylus support, but its performance and battery life lag behind competitors like Apple's MacBook Air. Users can easily upgrade and repair components, aligning with the right-to-repair movement.
 
-reddit · r/LocalLLaMA · /u/bobaburger · May 29, 17:53
+hackernews · watermelon0 · May 29, 14:55 · [Discussion](https://news.ycombinator.com/item?id=48323869)
 
-**Background**: Quantization reduces the precision of a model's weights to lower bit widths (e.g., from FP16 to 4-bit), decreasing memory usage and increasing inference speed at the cost of some accuracy. KLD measures how much the output probability distribution of a quantized model deviates from the original, while Same Top P tracks how often the quantized model chooses the same top token as the base model.
+**Background**: Framework Computer Inc. is a company founded in 2020 that focuses on producing modular, repairable laptops. The right-to-repair movement advocates for consumers' ability to repair and modify their own devices. Most laptops today are difficult to repair, often requiring proprietary tools or soldering, leading to e-waste. Framework aims to change that by making parts easily replaceable.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://fireworks.ai/blog/fireworks-quantization">How Fireworks evaluates quantization precisely and interpretably</a></li>
-<li><a href="https://cosmo-edge.com/unsloth-dynamic-20-ggufs-llm-quantization/">Unsloth Dynamic 2.0 GGUFs: the new benchmark for LLM</a></li>
-<li><a href="https://github.com/ssfdre38/gemma4-turbo">GitHub - ssfdre38/gemma4-turbo: IQ 4 _ XS quantization of Gemma...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Framework_Laptop">Framework Laptop</a></li>
+<li><a href="https://frame.work/laptop12">Framework | Order your Framework Laptop 12 now</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#quantization`, `#benchmark`, `#Qwen`, `#local LLM`
+**Discussion**: Commenters express a range of views: some prioritize values like repairability and Linux support over raw specs, while others note that Apple's hardware is compelling but undermined by corporate policies. Overall sentiment is positive toward Framework, with many willing to accept trade-offs for alignment with their principles.
+
+**Tags**: `#hardware`, `#repairability`, `#Linux`, `#laptop`, `#Framework`
 
 ---
 
 <a id="item-11"></a>
-## [Multi-Token Prediction speeds up inference up to 3.34x](https://www.reddit.com/r/LocalLLaMA/comments/1trf0r0/i_tested_mtp_on_vllm_and_llamacpp_for_gemma_4/) ⭐️ 8.0/10
+## [Bijou64: A Novel Variable-Length Integer Encoding](https://www.inkandswitch.com/tangents/bijou64/) ⭐️ 7.0/10
 
-A Reddit user benchmarked Multi-Token Prediction (MTP) on Gemma 4 31B and Qwen 3.6 27B using vLLM and llama.cpp, achieving up to 132.52 tok/s (3.34x faster) on an RTX PRO 6000 Blackwell GPU. MTP is a speculative decoding technique that dramatically improves inference throughput without significant quality loss, making large dense models more practical for real-time applications and local deployment. The best result was vLLM with Gemma 4 at n=5 speculative tokens achieving 132.52 tok/s vs 39.69 tok/s baseline; llama.cpp with Qwen 3.6 peaked at 117.70 tok/s with n=3. The draft model is tiny (76M parameters for Gemma 4) and VRAM overhead appeared negligible.
+Bijou64 introduces a variable-length integer encoding that trades off canonicality for simplicity, using a first byte to encode the length in a way that allows direct computation of the integer without loops. This encoding could simplify implementations and improve performance in certain scenarios, but its non-canonical nature and incompatibility with SIMD instructions limit its practical advantages over established formats like LEB128. The encoding allows multiple representations for the same number (non-canonical), which can introduce security bugs similar to those in LEB128. Additionally, the variable-length byte layout prevents efficient SIMD decoding.
 
-reddit · r/LocalLLaMA · /u/FantasticNature7590 · May 29, 20:42
+hackernews · justinweiss · May 29, 15:03 · [Discussion](https://news.ycombinator.com/item?id=48323992)
 
-**Background**: Multi-Token Prediction (MTP) is a speculative decoding technique where a lightweight draft model predicts multiple future tokens, and the target model verifies them in a single forward pass. This amortizes memory bandwidth costs and speeds up autoregressive decoding. vLLM and llama.cpp are popular open-source inference engines that have recently added MTP support. GGUF is a quantization format for efficient local deployment.
+**Background**: Variable-length integer encodings like LEB128 store integers in a compact form by using 7 bits per byte and a continuation bit. Canonicality ensures each integer has exactly one representation, which is important for security and data integrity. Bijou64 abandons canonicality to simplify the encoding and decoding logic.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://medium.com/@bnjmn_marie/gguf-quantization-for-fast-and-memory-efficient-inference-on-your-cpu-d10fbe58fbca">GGUF Quantization for Fast and Memory-Efficient Inference... | Medium</a></li>
-<li><a href="https://ggufloader.github.io/what-is-gguf.html">What is GGUF ? Complete Guide to GGUF Format & Quantization</a></li>
+<li><a href="https://www.inkandswitch.com/tangents/bijou64/">bijou64</a></li>
+<li><a href="https://en.wikipedia.org/wiki/LEB128">LEB128 - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Variable-length_quantity">Variable-length quantity - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Multi-Token Prediction`, `#vLLM`, `#llama.cpp`, `#LLM inference`, `#benchmarking`
+**Discussion**: Commenters point out that Bijou64's non-canonicality does not fundamentally solve security issues, as missing range checks can still cause bugs. Others note that SIMD incompatibility limits its performance potential, but some find non-canonical encodings useful for applications like linking where placeholder sizes are needed.
+
+**Tags**: `#variable-length integers`, `#encoding`, `#LEB128`, `#data structures`, `#performance`
 
 ---
 
 <a id="item-12"></a>
-## [Nvidia teases N1X laptop chip with 20 ARM cores, 6144 CUDA cores for Computex](https://www.reddit.com/r/LocalLLaMA/comments/1tracb5/nvidia_teases_new_pc_laptop_chip_to_be_announced/) ⭐️ 8.0/10
+## [Liquid AI Releases 8B MoE Model Trained on 38T Tokens](https://www.liquid.ai/blog/lfm2-5-8b-a1b) ⭐️ 7.0/10
 
-Nvidia has teased a new ARM-based laptop processor, the N1X, featuring 20 ARM cores and 6144 CUDA cores based on the Blackwell architecture. The chip is expected to be officially announced at Computex on June 2, 2026, and is essentially a lower-power version of the DGX Spark superchip. This marks Nvidia's major push into the PC laptop market with its own ARM CPU, potentially challenging AMD's Strix Halo and Qualcomm's Snapdragon X. The chip's high CUDA core count could make it exceptionally powerful for local LLM inference on laptops. The N1X is expected to be a variant of the GB10 Grace Blackwell Superchip used in the DGX Spark, but optimized for lower-power laptop systems. Early leaks suggest a heterogeneous 'big-little' architecture and support for up to 128GB of unified memory, though software support and pricing remain key concerns.
+Liquid AI has released a new 8-billion-parameter Mixture of Experts (MoE) model, LFM 2.5 8B A1B, trained on 38 trillion tokens, with only 1.5 billion active parameters per token. This model represents a step toward efficient local AI inference, but community tests reveal mixed results, with a user finding it underperforms a two-year-old 3B model on bug fixing tasks. The model uses a Mixture of Experts architecture with 8B total parameters but only 1.5B active per token, enabling faster inference on consumer hardware. However, one user tested it on a bug fixing benchmark and found it fixed only 12% of bugs compared to Qwen2.5-Coder-3B's 50%.
 
-reddit · r/LocalLLaMA · /u/Terminator857 · May 29, 18:07
+hackernews · simjnd · May 29, 16:19 · [Discussion](https://news.ycombinator.com/item?id=48325306)
 
-**Background**: Nvidia has traditionally focused on discrete GPUs for gaming and professional use, while leaving CPU design to partners like Intel and AMD. The N1X represents Nvidia's first serious attempt at creating its own Arm-based CPU for laptops, developed in collaboration with MediaTek. This follows similar efforts by Apple with its M-series chips and Qualcomm with the Snapdragon X series. The DGX Spark is a desktop AI supercomputer priced around $4,700, aimed at developers and researchers.
+**Background**: Mixture of Experts (MoE) is a neural network architecture that divides the model into multiple specialized sub-networks (experts) and uses a gating mechanism to route inputs to only a subset of experts, reducing computation while keeping parameters large. This approach allows for larger total parameter counts while maintaining inference efficiency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.tomsguide.com/computing/cpus/nvidia-n1x-cpu-everything-we-know-so-far">Nvidia N1X and N1 CPU: Everything we know so far - Tom's Guide</a></li>
-<li><a href="https://www.digitalfoundry.net/news/2026/04/nvidia-is-making-laptops-now-n1n1x-leak-shows-a-128gb-monster-derived-from-their-dgx-spark-desktop-ai-workhorse">Nvidia Is Making Laptops Now: N1/ N1X Leak Shows a 128GB Monster...</a></li>
-<li><a href="https://www.notebookcheck.net/Nvidia-N1X-leak-points-to-limited-2026-availability.1282855.0.html">Nvidia N1X leak points to limited 2026 availability</a></li>
+<li><a href="https://intuitionlabs.ai/articles/mixture-of-experts-moe-models">Understanding Mixture of Experts (MoE) Neural Networks |</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Reddit commenters are excited about the hardware specs but remain skeptical about software support, especially for Windows on ARM and gaming compatibility. Many note that Nvidia must address the poor market reception of previous ARM laptop efforts by Microsoft and Qualcomm. Pricing is a major point of discussion, with hopes that the N1X laptops will be significantly cheaper than the $4,700 DGX Spark.
+**Discussion**: One user reported that the model underperformed Qwen2.5-Coder-3B on a bug fixing benchmark (12% vs 50% fix rate). Another user expressed optimism about local models improving, suggesting that as quantization and MoE advance, local models may become good enough to replace frontier subscription models for many tasks. A third user asked about the LocalCowork demo tool and noted interest in scaling MoE for vision-language-action models.
 
-**Tags**: `#Nvidia`, `#ARM`, `#Laptop Chip`, `#LLM`, `#Computex`
+**Tags**: `#AI`, `#machine learning`, `#MoE`, `#model release`, `#evaluation`
 
 ---
 
 <a id="item-13"></a>
-## [StepFun Releases Step 3.7 Flash, a 196B MoE Model](https://www.reddit.com/r/LocalLLaMA/comments/1tqloii/stepfun_37_flash/) ⭐️ 8.0/10
+## [Rothko-style paintings from your local weather](https://rothko.joonas.wtf/) ⭐️ 7.0/10
 
-StepFun has released Step 3.7 Flash, a multimodal Mixture-of-Experts model with 196B total parameters (11B active), capable of running locally on 128GB RAM and achieving strong benchmark results on coding and agentic tasks. This model provides a compelling local deployment option that rivals larger models on agentic and coding benchmarks, which is particularly relevant for the local LLM community and agent workflow development. The model includes a built-in 1.8B ViT for vision, and its benchmarks include SWE-Bench Pro 56.26% (beating DeepSeek V4 Flash and matching Gemini 3.5 Flash), DeepSearchQA F1 92.82%, and HLE with tools 47.2%. It is available on OpenRouter and NVIDIA NIM for those who prefer not to self-host.
+A new web app at rothko.joonas.wtf generates abstract paintings in the style of Mark Rothko, using real-time weather data from the user's location to determine colors and composition. This project merges generative art with practical data, offering a novel, aesthetic way to visualize weather. It demonstrates how creative coding can transform mundane information into art, inspiring similar ambient displays. The app estimates the user's location via IP geolocation and uses weather API data (temperature, cloud cover, etc.) to generate a Rothko-like color field painting. However, users in stable climates like Arizona may see the same image frequently, as noted in comments.
 
-reddit · r/LocalLLaMA · /u/Everlier · May 29, 00:32
+hackernews · jxmorris12 · May 29, 18:31 · [Discussion](https://news.ycombinator.com/item?id=48327367)
 
-**Background**: MoE (Mixture of Experts) models activate only a subset of parameters per token, enabling large total capacity with lower computational cost. SWE-Bench Pro is a challenging benchmark for real-world software engineering tasks, and DeepSearchQA evaluates multi-step information-seeking ability. StepFun is a Chinese AI company focused on developing efficient large language models.
+**Background**: Mark Rothko was a 20th-century abstract painter known for his color field paintings, featuring soft-edged rectangles of color. Generative art uses autonomous systems (like algorithms) to create artwork, often producing unique outputs. This web app combines both concepts: an algorithm uses weather data to paint a Rothko-style composition in real time.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://scaleapi.github.io/SWE-bench_Pro-os/">SWE-Bench Pro</a></li>
-<li><a href="https://huggingface.co/datasets/google/deepsearchqa">google/ deepsearchqa · Datasets at Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mark_Rothko">Mark Rothko - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Generative_art">Generative art</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#MoE`, `#Local LLM`, `#Multimodal`, `#Model Release`
+**Discussion**: Comments are overwhelmingly positive, praising the concept and aesthetics. One user suggests it could be a home ambient display. Another notes that in consistent weather, images repeat, wishing for more variation. Overall, the community appreciates the creativity and simplicity.
+
+**Tags**: `#generative art`, `#weather visualization`, `#creative coding`, `#web app`
 
 ---
 
 <a id="item-14"></a>
-## [BYD offers one-year accident liability coverage for city NOA](https://news.mydrivers.com/1/1125/1125729.htm) ⭐️ 8.0/10
+## [Microsoft 0-day feud escalates as researcher threatens exploit dump](https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085) ⭐️ 7.0/10
 
-BYD announced that it will provide one-year accident liability coverage for its City Navigation Assisted Driving (city NOA) system, covering all economic losses for the vehicle involved in accidents caused by assisted driving, with no upper limit. This policy could set a precedent in the automotive industry, boosting consumer confidence in assisted driving technology and potentially accelerating adoption of autonomous driving features. The coverage applies to new car buyers of DiPilot A and B systems for one year from delivery, and also to existing owners who upgrade to DiPilot 5.0. The DiPilot C system is priced at 12,000 yuan for new car selection.
+A security researcher has escalated a dispute with Microsoft over its bug bounty program, threatening to release additional Windows 0-day exploits after claiming the company mishandled his previous reports and failed to compensate or acknowledge him. This feud highlights a breakdown in coordinated vulnerability disclosure (CVD), which could lead to more unpatched exploits being publicly released, potentially endangering millions of Windows users and increasing pressure on Microsoft to reform its bug bounty practices. The researcher previously disclosed a zero-day vulnerability to Microsoft but claims the company ignored his report and later labeled his actions as a violation of CVD. Microsoft has not publicly shared the correspondence, leading to disagreement over who is at fault.
 
-telegram · zaihuapd · May 29, 01:03
+hackernews · Cider9986 · May 29, 19:37 · [Discussion](https://news.ycombinator.com/item?id=48328175)
 
-**Background**: City Navigation Assisted Driving (city NOA) is an advanced driver-assistance system that enables autonomous navigation on urban roads, including lane changes, turns, and traffic light response. BYD's DiPilot (Tianshen Zhiyan) is its suite of assisted driving systems, with variants A, B, and C offering different levels of capability. Liability for accidents during assisted driving has been a key concern for consumers and regulators.
+**Background**: A zero-day vulnerability is a security flaw unknown to the vendor, making it extremely dangerous because no patch exists. Coordinated vulnerability disclosure (CVD) is a process where researchers privately report bugs to vendors, giving them time to fix before public release. Bug bounty programs reward researchers for finding and reporting such flaws, but disputes over responsiveness and compensation are common.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://ee.ofweek.com/2026-05/ART-8110-2801-30688887.html">智 驾 竞赛比亚迪丢王炸：兜底 城 市 NOA... - OFweek电子工程网</a></li>
-<li><a href="https://aikahao.xcar.com.cn/video/3782133.html">aikahao.xcar.com.cn/video/3782133.html</a></li>
+**Discussion**: Comments show divided opinions: some criticize Microsoft for poor handling and note that disclosure is a two-way street, while others defend Microsoft's bug bounty team, citing the overwhelming volume of low-quality reports and the difficulty of triage. There is also concern that the researcher may face legal consequences and that victims of exploits will suffer.
 
-</ul>
-</details>
-
-**Tags**: `#Autonomous driving`, `#Automotive`, `#BYD`, `#Assisted driving`, `#Liability`
+**Tags**: `#security`, `#vulnerability disclosure`, `#Microsoft`, `#bug bounty`, `#0-day`
 
 ---
 
 <a id="item-15"></a>
-## [China Certifies Nine Domestic AI Chips for Gov Procurement](https://www.tomshardware.com/tech-industry/semiconductors/china-certifies-nine-domestic-ai-chips-for-government-procurement) ⭐️ 8.0/10
+## [Tesla Owner Wins $10,600 Refund Over FSD Promises](https://electrek.co/2026/05/29/this-tesla-owner-won-10k-in-court-for-teslas-fsd-lies-tesla-is-still-fighting-him/) ⭐️ 6.0/10
 
-China's Information Security Evaluation Center for the first time added an 'AI training and inference chip' category to its security certification framework, certifying nine domestic AI processors for government procurement. The certified chips include products from Huawei (Ascend), Alibaba (Pingtouge Zhenwu), Biren Technology, and Hygon, while Cambricon and Baidu's Kunlun Core were not listed. This marks a significant policy shift by officially endorsing domestic AI chips for government use, potentially accelerating the replacement of foreign chips (like NVIDIA) in China's public sector and boosting the domestic AI hardware ecosystem. The certification is valid for three years and serves as the procurement basis for government agencies and state-owned enterprises. The nine chips cover a range of AI acceleration capabilities, but specific performance benchmarks were not disclosed.
+A Tesla owner, Ben Gawiser, won a $10,600 court judgment against Tesla for failing to deliver its Full Self-Driving (FSD) promises, and after Tesla initially delayed payment, he eventually received the refund as of a May 29, 2026 update. This case sets a legal precedent for consumer rights against overhyped autonomous driving claims, potentially encouraging other owners to seek refunds and pressuring Tesla to deliver on its FSD promises. Tesla continued to fight the payment even after the judgment, delaying it by just a few days at a time, but the owner ultimately received the full $10,600 refund.
 
-telegram · zaihuapd · May 29, 08:41
+rss · Electrek · May 29, 23:40
 
-**Background**: The 'Anke' security procurement catalog is a list of approved hardware and software for Chinese government use, focusing on information security and self-reliance. Previously, it mainly covered CPUs and other components; this is the first time AI accelerators have been included. Huawei's Ascend series, for example, is designed for AI training and inference using a proprietary architecture.
+**Background**: For over a decade, Tesla has sold vehicles with the promise of Full Self-Driving capability, claiming all cars had the necessary hardware. However, FSD has remained a level 2 driver-assist system, leading to lawsuits from owners who paid for features that never materialized.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.bbc.com/zhongwen/articles/cgrp5krzp8qo/simp">bbc.com/zhongwen/articles/cgrp5krzp8qo/simp</a></li>
-<li><a href="https://m.ebrun.com/669634.html">“死磕”鲲鹏 昇 腾 生态的极客们 要搞点大事情 - AI - 亿邦动力</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI chips`, `#China`, `#government procurement`, `#security certification`, `#technology policy`
-
----
-
-<a id="item-16"></a>
-## [Blue Origin's New Glenn Rocket Explodes in Static Fire Test](https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/) ⭐️ 8.0/10
-
-On May 28, 2026, Blue Origin's New Glenn rocket exploded during a static fire test at Cape Canaveral, destroying the vehicle and damaging launch infrastructure, with no injuries reported. This explosion severely delays Blue Origin's launch schedule and impacts NASA's Artemis lunar landing plans, as Blue Origin is contracted for lander and rover deliveries, and also disrupts Amazon's Project Kuiper satellite deployment. The explosion occurred during a static fire test of seven BE-4 methane engines on the first stage; the vehicle was lost and the launch pad's lightning protection tower collapsed. The NG-4 mission was to launch 48 Project Kuiper satellites.
-
-telegram · zaihuapd · May 29, 11:08
-
-**Background**: New Glenn is Blue Origin's heavy-lift reusable rocket powered by seven BE-4 engines burning liquid methane and oxygen. Static fire tests are routine pre-launch checks where engines are briefly ignited while the rocket is held down. This explosion is a major setback for Blue Origin, which has yet to achieve orbital flight with New Glenn.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/BE-4">BE-4 - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Project_Kuiper">Project Kuiper</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#space`, `#Blue Origin`, `#New Glenn`, `#NASA`, `#rocket explosion`
+**Tags**: `#Tesla`, `#FSD`, `#autonomous driving`, `#legal`, `#consumer rights`
 
 ---

@@ -5,397 +5,791 @@ date: 2026-05-15
 lang: en
 ---
 
-> From 45 items, 17 important content pieces were selected
+> From 56 items, 35 important content pieces were selected
 
 ---
 
-1. [Bun Rewritten from Zig to Rust, 1M+ Lines Merged](#item-1) ⭐️ 9.0/10
-2. [Anthropic Partners with SpaceX for Colossus Compute](#item-2) ⭐️ 9.0/10
-3. [NGINX 18-Year-Old RCE Vulnerability CVE-2026-42945](#item-3) ⭐️ 9.0/10
-4. [DeepSeek Session Isolation Vulnerability: Unclosed '<think' Leaks Conversations](#item-4) ⭐️ 9.0/10
-5. [vLLM v0.21.0 Released with Breaking Changes and New Features](#item-5) ⭐️ 8.0/10
-6. [Removing Modem and GPS from 2024 RAV4 Hybrid](#item-6) ⭐️ 8.0/10
-7. [First public macOS kernel exploit targets Apple M5](#item-7) ⭐️ 8.0/10
-8. [RTX 5090 eGPU with M4 MacBook Air: Gaming and LLM Breakthrough](#item-8) ⭐️ 8.0/10
-9. [Nginx Exploit Targets Rewrite Directives](#item-9) ⭐️ 8.0/10
-10. [arXiv bans hallucinated references for 1 year](#item-10) ⭐️ 8.0/10
-11. [MIT President on Funding and Talent Pipeline Challenges](#item-11) ⭐️ 8.0/10
-12. [AI reliance may degrade developer skills](#item-12) ⭐️ 8.0/10
-13. [Atomic buffered writes discussed at LSFMM+BPF 2026](#item-13) ⭐️ 8.0/10
-14. [COW context proposed to replace anonymous reverse mapping](#item-14) ⭐️ 8.0/10
-15. [Comprehensive Study: FP8 Remains Best for KV-Cache Quantization](#item-15) ⭐️ 8.0/10
-16. [US Approves H200 Chip Sales to Chinese Tech Giants](#item-16) ⭐️ 8.0/10
-17. [JD.com Launches AI Hardware Store, Restocks Sanctioned NVIDIA GPUs](#item-17) ⭐️ 8.0/10
+1. [arXiv Imposes 1-Year Ban for Hallucinated References](#item-1) ⭐️ 9.0/10
+2. [Bun Rewritten from Zig to Rust in One Week](#item-2) ⭐️ 9.0/10
+3. [Removing Modem and GPS from 2024 Toyota RAV4 Hybrid](#item-3) ⭐️ 8.0/10
+4. [First public macOS kernel memory corruption exploit on Apple M5](#item-4) ⭐️ 8.0/10
+5. [RTX 5090 eGPU on M4 MacBook Air: A Gaming and LLM Breakthrough](#item-5) ⭐️ 8.0/10
+6. [Critical Nginx Vulnerability Discovered with ASLR Mitigation](#item-6) ⭐️ 8.0/10
+7. [HDD Firmware Hacking: Reverse Engineering and Exploitation](#item-7) ⭐️ 8.0/10
+8. [AI reliance may reduce developer critical thinking, debate ensues](#item-8) ⭐️ 8.0/10
+9. [$10,000 MG4 EV with semi-solid-state battery sells 100,000 units in China](#item-9) ⭐️ 8.0/10
+10. [RTX 5000 PRO (48GB) Delivers Impressive LLM Inference Performance](#item-10) ⭐️ 8.0/10
+11. [TurboQuant Study: FP8 KV-Cache Quantization Remains Best Default](#item-11) ⭐️ 8.0/10
+12. [Local LLM as Daily Personal Knowledge Base: Real-World Setups Shared](#item-12) ⭐️ 8.0/10
+13. [Tracking shows RTX 5090 defying price drops in EU market](#item-13) ⭐️ 8.0/10
+14. [Scenema Audio Releases Zero-Shot Expressive Voice Cloning Model](#item-14) ⭐️ 8.0/10
+15. [World's first standard modular battery-swapping ship in service](#item-15) ⭐️ 8.0/10
+16. [China's Electric Concrete Mixer Sales Surge from 1,309 to 20,000+](#item-16) ⭐️ 8.0/10
+17. [Honda Posts First Annual Loss After EV Retreat](#item-17) ⭐️ 8.0/10
+18. [AWS user faces $30k bill from runaway Claude on Bedrock](#item-18) ⭐️ 8.0/10
+19. [MIT President Warns of Funding Crisis Impacting Talent Pipeline](#item-19) ⭐️ 7.0/10
+20. [XPeng in Talks to Buy Volkswagen Plant in Europe](#item-20) ⭐️ 7.0/10
+21. [VS Code Agents Window supports local AI models but requires Copilot](#item-21) ⭐️ 7.0/10
+22. [Browsers Favor Big Sites, Hurting Competition](#item-22) ⭐️ 7.0/10
+23. [EV Registrations Hit 26% Record in Austria, BYD Tops Brands](#item-23) ⭐️ 7.0/10
+24. [Anthropic's 2028 AI scenario warns of US-China chip war](#item-24) ⭐️ 7.0/10
+25. [Amazonbot Finally Respects robots.txt](#item-25) ⭐️ 6.0/10
+26. [Codex Now Free in ChatGPT Mobile App](#item-26) ⭐️ 6.0/10
+27. [Museum Exhibit Chronicles Canada's Early Computer Hobbyist Era](#item-27) ⭐️ 6.0/10
+28. [Tesla makes FSD intervention feedback mandatory](#item-28) ⭐️ 6.0/10
+29. [China Proposes Budget EV Category Inspired by Japan's Kei Cars](#item-29) ⭐️ 6.0/10
+30. [AI coding agents reduce technology lock-in risks](#item-30) ⭐️ 6.0/10
+31. [Mitchell Hashimoto on Language Fungibility and Bun's Rust Port](#item-31) ⭐️ 6.0/10
+32. [Nvidia Releases NVFP4 Quantized Kimi 2.6 and 2.5 Models](#item-32) ⭐️ 6.0/10
+33. [InclusionAI Unveils Trillion-Parameter Reasoning Model Ring-2.6-1T](#item-33) ⭐️ 6.0/10
+34. [MTP & TurboQuant for Qwen on llama.cpp](#item-34) ⭐️ 6.0/10
+35. [SQL's ORDER BY Has Come a Long Way](#item-35) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Bun Rewritten from Zig to Rust, 1M+ Lines Merged](https://github.com/oven-sh/bun/pull/30412) ⭐️ 9.0/10
+## [arXiv Imposes 1-Year Ban for Hallucinated References](https://twitter.com/tdietterich/status/2055000956144935055) ⭐️ 9.0/10
 
-Bun's codebase has been completely rewritten from Zig to Rust, with over 1 million lines of Rust code now merged into the main branch. The rewrite was accomplished in approximately one week using a detailed porting guide mapping Zig idioms to Rust. This groundbreaking rewrite transforms Bun's architecture under the hood, potentially improving performance and memory safety while leveraging Rust's ecosystem. It also demonstrates a viable methodology for large-scale, LLM-assisted codebase translation, with implications for software complexity management. The Rust codebase has over 10,000 unsafe blocks across 736 files, indicating a mechanical translation that preserved many Zig-specific patterns. The total code size rivals the Rust compiler itself, with nearly 1M lines of Rust code compared to about 700K lines of the original Zig.
+arXiv announced a policy imposing a one-year submission ban on authors found to have submitted papers with hallucinated (AI-generated fake) references. The policy also requires subsequent submissions to have prior acceptance at a reputable peer-reviewed venue. This directly addresses the growing crisis of AI-generated slop polluting academic literature, especially in AI/ML and related fields. By imposing concrete consequences, arXiv aims to deter misuse of language models for paper generation and restore trust in preprints. The ban lasts one year, after which the author's submissions must first be accepted at a reputable peer-reviewed venue before being posted to arXiv. The policy appears to be planned but not yet live, as it is not explicitly listed on arXiv's policies page at the time of announcement.
 
-hackernews · Chaoses · May 14, 08:15 · [Discussion](https://news.ycombinator.com/item?id=48132488)
+hackernews · gjuggler · May 14, 20:39 · [Discussion](https://news.ycombinator.com/item?id=48140922)
 
-**Background**: Bun is a fast, all-in-one JavaScript runtime and toolkit built originally in Zig, known for its speed and compatibility with Node.js. Zig is a system programming language designed as a modern alternative to C, while Rust is a memory-safe systems language with a strong ecosystem. The rewrite was guided by a detailed porting document that mapped Zig constructs to Rust, using internal smart pointer types that already had Rust equivalents.
+**Background**: Hallucinated references are fake citations generated by AI language models that appear plausible but do not exist or are incorrect. This phenomenon has become a significant problem in academic publishing, with studies finding tens of thousands of such references in 2025 publications. Preprint servers like arXiv have felt the impact as authors submit AI-generated papers containing fabricated references. The new policy represents a proactive step to enforce integrity without requiring full peer review.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/oven-sh/bun">GitHub - oven-sh/bun: Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
-<li><a href="https://ziglang.org/">Home ⚡ Zig Programming Language</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)">Hallucination (artificial intelligence) - Wikipedia</a></li>
+<li><a href="https://www.nature.com/articles/d41586-026-00969-z">Hallucinated citations are polluting the scientific literature. What can be done?</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The discussion reveals a mix of awe and technical curiosity. Some commenters noted the impressive preparation—a detailed porting guide—and questioned why a translator wasn't automated. Others pointed out the high number of unsafe blocks and suggested that Bun's complexity is becoming a test case for software engineering in the LLM era.
+**Discussion**: Community sentiment is broadly positive, with comments like 'this is incredibly good for science' and 'forcing consequences... can only be a good thing.' However, some commenters caution about the need for careful vetting before adverse actions and note that the policy may not yet be live.
 
-**Tags**: `#Bun`, `#Rust`, `#Zig`, `#Software Engineering`, `#Rewrite`
+**Tags**: `#arxiv`, `#academic integrity`, `#AI policy`, `#hallucinated references`
 
 ---
 
 <a id="item-2"></a>
-## [Anthropic Partners with SpaceX for Colossus Compute](https://t.me/zaihuapd/41371) ⭐️ 9.0/10
+## [Bun Rewritten from Zig to Rust in One Week](https://github.com/oven-sh/bun/pull/30412) ⭐️ 9.0/10
 
-Anthropic announced a partnership with SpaceX to access the entire Colossus 1 data center, gaining over 300 MW of new compute capacity and more than 220,000 NVIDIA GPUs, effective immediately. This massive infrastructure scaling significantly increases compute resources for Claude, doubling rate limits for Claude Code and removing peak restrictions for Pro/Max users, directly benefiting developers and enterprises relying on Anthropic's AI. The partnership includes over 220,000 NVIDIA GPUs and 300 MW of additional capacity from SpaceX's Colossus 1 data center; Claude Code's 5-hour rate limit is doubled and peak restrictions for Pro/Max users are removed, while Claude Opus API rate limits have also been significantly increased.
+The pull request to rewrite the entire Bun JavaScript runtime from Zig to Rust has been merged, resulting in over 1 million lines of Rust code and a reduction of 4,000 lines, accomplished in approximately one week using a detailed porting guide. This rewrite demonstrates the feasibility of large-scale automated translation between system programming languages, sparking discussions on language safety, performance, and software complexity management in the era of large language models. The new Rust codebase contains 1,443 Rust files totaling 929,213 lines, with 10,428 unsafe blocks across 736 files, relying on Bun's existing smart pointer types and a comprehensive porting guide that maps Zig idioms to Rust equivalents.
 
-telegram · zaihuapd · May 14, 00:57
+hackernews · r/programming · Chaoses · May 14, 08:15 · [Discussion](https://news.ycombinator.com/item?id=48132488)
 
-**Background**: Colossus 1 is a supercomputer built by xAI (Elon Musk's AI company) in Memphis, Tennessee, originally for training AI models and supporting projects like X and SpaceX. It houses a massive cluster of NVIDIA GPUs and has been expanded to over 300 MW capacity. Anthropic, the developer of the Claude AI assistant, now rents all of its computing power to meet surging demand for its models.
+**Background**: Bun is a popular all-in-one JavaScript runtime that bundles, transpiles, runs, and packages JavaScript and TypeScript. It was originally written in Zig, a low-level systems programming language focused on robustness and optimal performance. Rust is another systems language known for memory safety without a garbage collector, making it a common choice for performance-critical software.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Colossus_(supercomputer)">Colossus (supercomputer) - Wikipedia</a></li>
-<li><a href="https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/">Anthropic to use all of SpaceX-xAI's Colossus 1 data center compute - DCD</a></li>
+<li><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#Anthropic`, `#SpaceX`, `#compute infrastructure`, `#Claude`
+**Discussion**: Community comments highlight the porting guide's thorough preparation, with some questioning why a translator wasn't used instead of manual rewriting. Others note the large number of unsafe blocks and the challenge of reviewing a million-line PR, raising concerns about codebase complexity and LLM-era software management.
+
+**Tags**: `#bun`, `#rust`, `#zig`, `#javascript-runtime`, `#software-rewrite`
 
 ---
 
 <a id="item-3"></a>
-## [NGINX 18-Year-Old RCE Vulnerability CVE-2026-42945](https://depthfirst.com/research/nginx-rift-achieving-nginx-rce-via-an-18-year-old-vulnerability) ⭐️ 9.0/10
+## [Removing Modem and GPS from 2024 Toyota RAV4 Hybrid](https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/) ⭐️ 8.0/10
 
-On May 13, 2026, depthfirst and F5 disclosed CVE-2026-42945, a heap buffer overflow in NGINX's rewrite module that allows unauthenticated remote code execution. The vulnerability has been present in NGINX code since 2008, affecting versions 0.6.27 to 1.30.0, and patches have been released. This vulnerability affects billions of servers globally, including NGINX Open Source, NGINX Plus, and many enterprise products, making it critical for infrastructure security. Immediate patching is strongly recommended to prevent potential widespread attacks. The vulnerability is a heap buffer overflow caused by inconsistent state in the two-pass execution engine when rewrite directives contain question marks, leading to memory corruption. Exploitation requires a specific rewrite configuration pattern, and successful attacks can achieve code execution in the NGINX worker process.
+A detailed guide shows how to physically remove the cellular modem and GPS antenna from a 2024 Toyota RAV4 hybrid to disable telemetry, with warnings that Bluetooth-connected phones still allow data transmission. This highlights growing consumer privacy concerns over vehicle telemetry, especially data sharing with insurers, and provides a practical method for users to take control. Even after modem removal, connecting a phone via Bluetooth lets the car use the phone's internet to send telemetry; using a wired USB connection avoids this but CarPlay itself captures vehicle data.
 
-telegram · zaihuapd · May 14, 02:41
+hackernews · arkadiyt · May 14, 17:08 · [Discussion](https://news.ycombinator.com/item?id=48138136)
 
-**Background**: NGINX is a widely used web server and reverse proxy, especially in cloud-native environments. Its rewrite module processes URI rewriting via a two-pass execution: first calculating buffer length, then writing the result. A flag inconsistency causes the second pass to write more data than allocated, causing overflow.
+**Background**: Modern vehicles like the 2024 RAV4 have a Telematics Control Unit (TCU) that collects and transmits data via cellular networks. This includes GPS location, driving behavior, and vehicle diagnostics, often shared with third parties like insurance companies. Removing the modem physically stops cellular communication, but the car can still send data over Bluetooth tethering.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.picussecurity.com/resource/blog/nginx-rift-cve-2026-42945-critical-heap-buffer-overflow-vulnerability-explained">NGINX Rift: CVE-2026-42945 Critical Heap Buffer Overflow ...</a></li>
-<li><a href="https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html">18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE</a></li>
-<li><a href="https://community.broadcom.com/tanzu/blogs/beltran-rueda-borrego/2026/05/14/critical-nginx-rce-vulnerability-cve-2026-42945">Critical NGINX RCE vulnerability CVE-2026-42945</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Telematic_control_unit">Telematic control unit</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#nginx`, `#vulnerability`, `#rce`, `#CVE-2026-42945`, `#security`
+**Discussion**: Commenters noted that some vehicles, like the 2024 Ford Maverick, have a single fuse for the telematics unit that can be pulled without errors. Others raised concerns about Toyota allegedly sharing data with insurers and the difficulty of disabling telemetry while using CarPlay.
+
+**Tags**: `#privacy`, `#automotive`, `#hardware hacking`, `#telemetry`, `#Toyota`
 
 ---
 
 <a id="item-4"></a>
-## [DeepSeek Session Isolation Vulnerability: Unclosed '<think' Leaks Conversations](https://github.com/deepseek-ai/DeepSeek-R1/issues/840) ⭐️ 9.0/10
+## [First public macOS kernel memory corruption exploit on Apple M5](https://blog.calif.io/p/first-public-kernel-memory-corruption) ⭐️ 8.0/10
 
-A session isolation vulnerability in DeepSeek's dialogue system has been disclosed, where sending an unclosed '<think' string in a new empty conversation causes the model to return fragments of other users' conversation histories, potentially including sensitive information such as code, keys, and private data. The vulnerability was reported responsibly on May 11, 2026, by the researcher cancat2024. This vulnerability poses a severe privacy risk as it allows unauthorized access to other users' conversation data, including potentially confidential or proprietary information. Given the widespread use of DeepSeek's API and web interface, this could lead to widespread data breaches if exploited. The vulnerability specifically triggers when the user sends an unclosed '<think' string without a closing tag, causing the model to incorrectly output fragments from other sessions. The researcher noted that the issue also affects third-party deployments, indicating it may be inherent to the model's architecture rather than a simple web server bug.
+A publicly disclosed kernel memory corruption exploit targeting Apple's M5 chip has been released, bypassing the new MIE (Memory Integrity Enforcement) hardware security feature. The exploit is detailed in a 55-page report from the Calif team. This exploit undermines Apple's touted 'unparalleled' security for M5 Macs, demonstrating that even cutting-edge hardware defenses like MTE can be bypassed. It could impact the security perception of Apple's latest chips and influence future vulnerability research. The exploit specifically targets the MIE (Memory Integrity Enforcement) system, which is Apple's implementation of ARM's Memory Tagging Extension (MTE). The report is 55 pages long and is considered highly technical. The exact method of bypassing MTE has not been fully disclosed in the public summary.
 
-telegram · zaihuapd · May 14, 13:15
+hackernews · quadrige · May 14, 18:25 · [Discussion](https://news.ycombinator.com/item?id=48139219)
 
-**Background**: DeepSeek's dialogue system uses a special '<think' token to indicate reasoning steps, often used in chain-of-thought prompting. The '<think' token is intended to be paired with a closing '<｜end▁of▁thinking｜> to mark internal reasoning. In this vulnerability, leaving the '<think' tag unclosed confuses the model's session handling, causing it to retrieve data from other users' conversations instead of isolating each session.
+**Background**: Memory corruption exploits are a class of vulnerabilities that allow attackers to overwrite memory, often leading to code execution. Apple's M5 and A19 chips introduced MIE (Memory Integrity Enforcement), built on ARM's MTE, to detect and prevent such attacks at the hardware level. This exploit claims to be the first public demonstration of a kernel memory corruption exploit succeeding against MIE.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.vellum.ai/llm-parameters/thinking-tokens">How to use Thinking Tokens?</a></li>
-<li><a href="https://api-docs.deepseek.com/news/news250821">DeepSeek-V3.1 Release | DeepSeek API Docs</a></li>
-<li><a href="https://dev.to/bailorgana/when-ai-leaks-internal-tags-debugging-a-3-layer-streaming-architecture-bug-ig4">When AI Leaks Internal Tags: Debugging a 3-Layer Streaming ...</a></li>
+<li><a href="https://blog.calif.io/p/first-public-kernel-memory-corruption">First public macOS kernel memory corruption exploit on Apple M5</a></li>
+<li><a href="https://www.viruss.eu/security/apple-touts-unparalleled-protection-for-m5-macs/">Apple touts 'unparalleled' protection for M5 Macs |</a></li>
 
 </ul>
 </details>
 
-**Discussion**: In the GitHub issue, community members noted that third-party deployments also exhibit the vulnerability, suggesting it is a fundamental model issue rather than a simple API bug. Some speculated that the model might be 'hallucinating' the data, while others confirmed that actual user data was being leaked, raising serious privacy concerns.
+**Discussion**: Community comments show a mix of technical skepticism and engaged discussion. Some commenters question the lack of technical details in the blog post, while others debate the exploit's monetary value in Apple's bug bounty program. One user expressed regret over buying the M5 for its security features.
 
-**Tags**: `#security`, `#vulnerability`, `#deepseek`, `#AI safety`, `#data leakage`
+**Tags**: `#security`, `#exploit`, `#Apple M5`, `#kernel`, `#memory corruption`
 
 ---
 
 <a id="item-5"></a>
-## [vLLM v0.21.0 Released with Breaking Changes and New Features](https://github.com/vllm-project/vllm/releases/tag/v0.21.0) ⭐️ 8.0/10
+## [RTX 5090 eGPU on M4 MacBook Air: A Gaming and LLM Breakthrough](https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/) ⭐️ 8.0/10
 
-vLLM v0.21.0 introduces breaking build changes including deprecation of transformers v4 and a C++20 build requirement, along with new features such as KV offloading with hybrid memory allocator, speculative decoding with thinking budgets, and a TOKENSPEED_MLA attention backend for Blackwell GPUs. This release significantly impacts the LLM inference ecosystem by enforcing migration to transformers v5 and requiring updated compilers, while also improving memory efficiency and decoding performance, especially for reasoning models on NVIDIA Blackwell GPUs. The release includes 367 commits from 202 contributors, with support for new model architectures like MiMo-V2.5 and Cohere Eagle, as well as performance optimizations like FlashInfer top-p sampler enabled by default and a 51% faster AllPool.forward.
+A guide demonstrates successfully connecting an NVIDIA RTX 5090 eGPU to an Apple M4 MacBook Air via Thunderbolt, enabling games that are otherwise unplayable on macOS and significantly improving LLM prompt processing speed. This achievement overcomes Apple's official lack of eGPU support for Apple Silicon, potentially opening new possibilities for Mac gaming and AI workloads, and highlights a workaround that could influence future hardware and software decisions. The setup uses a Thunderbolt eGPU enclosure and custom drivers to bypass macOS limitations, though performance is still constrained by a 1.5GB memory window and lack of official GPU passthrough.
 
-github · khluu · May 14, 23:15
+hackernews · allenleee · May 14, 15:47 · [Discussion](https://news.ycombinator.com/item?id=48137145)
 
-**Background**: vLLM is an open-source library for fast LLM inference and serving. KV cache offloading moves key-value tensors to CPU memory to reduce GPU memory usage, and the hybrid memory allocator manages both GPU and CPU memory pools. Speculative decoding uses a draft model to predict multiple tokens that are then verified, speeding up inference. The TOKENSPEED_MLA backend is a specialized attention implementation for MLA (Multi-Latent Attention) used in models like DeepSeek, optimized for Blackwell GPUs.
+**Background**: An eGPU (external GPU) allows connecting a desktop graphics card to a laptop via Thunderbolt for enhanced graphics performance. Apple originally supported eGPUs on Intel Macs only with AMD GPUs, but Apple Silicon Macs officially have no eGPU support due to the unified memory architecture. This guide uses virtualization and driver modifications to achieve functionality.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://vllm.ai/blog/kv-offloading-connector">Inside vLLM ’s New KV Offloading Connector: Smarter Memory ...</a></li>
-<li><a href="https://deepwiki.com/vllm-project/vllm/8-attention-backends">Attention Backends | vllm-project/vllm | DeepWiki</a></li>
-<li><a href="https://pypi.org/project/tokenspeed-mla/">Speed-of-light TokenSpeed MLA kernels for Blackwell SM100 and...</a></li>
+<li><a href="https://egpu.io/">eGPU .io | External Graphics Card Community</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#vllm`, `#LLM inference`, `#breaking change`, `#GPU`, `#transformers`
+**Discussion**: Commenters are impressed by the technical feat, with some noting previous attempts at GPU passthrough on Apple Silicon. One commenter highlights the LLM performance gains as the most practical benefit, while another laments the lack of official Apple support.
+
+**Tags**: `#eGPU`, `#Apple Silicon`, `#gaming`, `#LLM`, `#macOS`
 
 ---
 
 <a id="item-6"></a>
-## [Removing Modem and GPS from 2024 RAV4 Hybrid](https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/) ⭐️ 8.0/10
+## [Critical Nginx Vulnerability Discovered with ASLR Mitigation](https://github.com/DepthFirstDisclosures/Nginx-Rift) ⭐️ 8.0/10
 
-A detailed guide was published on physically removing the cellular modem and GPS unit from a 2024 Toyota RAV4 hybrid to stop telemetry data collection by the vehicle. This guide addresses growing privacy concerns over vehicle telemetry data collection, which can be shared with insurance companies or other third parties, and empowers owners to take control of their data. Even after modem removal, connecting a phone via Bluetooth can still allow telemetry transmission through the phone's internet, but using a wired USB connection avoids this. Removing the modem may disable safety features like Toyota's Safety Connect roadside assistance.
-
-hackernews · arkadiyt · May 14, 17:08 · [Discussion](https://news.ycombinator.com/item?id=48138136)
-
-**Background**: Modern vehicles are equipped with a telematic control unit (TCU) that collects data from internal systems and communicates with cloud services. Toyota's Safety Connect is a subscription-based telematics system providing services like remote diagnostics and emergency assistance. Privacy advocates warn that such data can be shared with insurers without explicit consent.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Telematic_control_unit">Telematic control unit - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Safety_Connect">Safety Connect - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters noted that the Ford Maverick has a single fuse for the telematics unit that can be removed without errors, offering a simpler alternative. Others shared personal issues with Toyota's GPS compass heading errors and lack of manufacturer support, motivating hardware removal.
-
-**Tags**: `#privacy`, `#vehicle telemetry`, `#hardware mod`, `#Toyota`, `#data collection`
-
----
-
-<a id="item-7"></a>
-## [First public macOS kernel exploit targets Apple M5](https://blog.calif.io/p/first-public-kernel-memory-corruption) ⭐️ 8.0/10
-
-The security research team Calif disclosed the first public macOS kernel memory corruption exploit specifically targeting Apple's M5 chip, demonstrating a critical vulnerability in the kernel. This marks a significant milestone in Apple security research as it exposes a previously unknown vulnerability in the latest M5 architecture, potentially affecting millions of devices and challenging claims of M5's security enhancements. The exploit involves kernel memory corruption, and the research report is 55 pages long. The vulnerability's survival despite MTE (Memory Tagging Extension) is a matter of curiosity, as noted in community comments.
-
-hackernews · quadrige · May 14, 18:25 · [Discussion](https://news.ycombinator.com/item?id=48139219)
-
-**Background**: Apple's M5 chip is part of the Apple Silicon family, designed with advanced security features including MTE (Memory Tagging Extension) and Neural Accelerators. Kernel memory corruption exploits are among the most severe vulnerabilities, allowing attackers to gain full system control. This is the first public exploit of its kind for M5.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Apple_M5">Apple M5 - Wikipedia</a></li>
-<li><a href="https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/">Apple unleashes M5, the next big leap in AI performance for Apple silicon - Apple</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments express a mix of excitement and skepticism. Some users note the lack of technical details, while others discuss the potential bounty value ($100k-$1.5M). There is also sarcastic speculation about fabricated vulnerabilities, and one user regrets buying M5 due to MIE (Mythos Integrity Engine?).
-
-**Tags**: `#security`, `#macOS`, `#kernel`, `#exploit`, `#Apple M5`
-
----
-
-<a id="item-8"></a>
-## [RTX 5090 eGPU with M4 MacBook Air: Gaming and LLM Breakthrough](https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/) ⭐️ 8.0/10
-
-A developer successfully demonstrated using an RTX 5090 as an external GPU (eGPU) connected to an M4 MacBook Air, enabling playable gaming and significantly faster LLM inference on macOS. This is significant because Apple Silicon Macs officially do not support eGPUs, limiting their graphics and AI capabilities. The hack opens up new possibilities for macOS gaming and local AI workloads, potentially influencing future Apple decisions. The setup likely uses a virtual machine with GPU passthrough or a custom driver to bypass macOS limitations, as Apple only supports eGPUs on Intel Macs with AMD GPUs. The demonstration included both game benchmarks and LLM inference improvements, with notable gains in prompt processing speed.
-
-hackernews · allenleee · May 14, 15:47 · [Discussion](https://news.ycombinator.com/item?id=48137145)
-
-**Background**: An external GPU (eGPU) connects to a computer via Thunderbolt or USB-C to provide additional graphics power. However, Apple Silicon Macs—unlike Intel-based Macs—have never officially supported eGPUs for graphics acceleration, limiting macOS gaming and AI performance. This hack demonstrates a workaround using an RTX 5090, one of NVIDIA's most powerful consumer GPUs.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.lenovo.com/us/en/glossary/external-gpu/">Everything You Need To Know About External GPU | Lenovo US</a></li>
-<li><a href="https://medium.com/macoclock/why-dont-macs-with-apple-silicon-support-egpu-db13a705512c">Why Don’t Macs With Apple Silicon Support eGPU ? | Medium</a></li>
-<li><a href="https://apple.gadgethacks.com/news/apple-silicon-egpu-support-explained-compute-only-not-graphics/">Apple Silicon eGPU Support Explained: Compute... :: Gadget Hacks</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters expressed excitement and surprise, with many noting the impressive engineering feat. Some discussed the long-standing request for VM GPU passthrough on Apple Silicon, while others highlighted the practical benefits for LLM inference compared to gaming. A few pointed out that Apple's official stance remains unsupportive, but the hack represents a significant step forward.
-
-**Tags**: `#eGPU`, `#Apple Silicon`, `#gaming`, `#LLM`, `#hack`
-
----
-
-<a id="item-9"></a>
-## [Nginx Exploit Targets Rewrite Directives](https://github.com/DepthFirstDisclosures/Nginx-Rift) ⭐️ 8.0/10
-
-A new Nginx exploit named Nginx-Rift was disclosed, targeting servers with specific rewrite directives using unnamed capture groups. F5 has released patches in versions 1.31.0 and 1.30.1 to address this vulnerability. This vulnerability is significant because Nginx is one of the most widely used web servers globally, and successful exploitation could lead to remote code execution under specific preconditions. The high community engagement (267 upvotes, 59 comments) underscores its technical importance and real-world impact. The exploit precondition includes a 'rewrite' directive with a question mark in the replacement string, followed by a 'set' directive referencing a regex capture group. The published proof-of-concept assumes ASLR is disabled, but the disclosure claims a reliable ASLR bypass exists. F5 recommends using named captures instead of unnamed ones as a mitigation.
+A critical vulnerability in Nginx, named Nginx-Rift, was disclosed that exploits specific rewrite and set directives, potentially allowing code execution. The published proof-of-concept does not bypass ASLR, but the researchers claim a reliable ASLR bypass exists. Given Nginx's widespread use as a web server, this vulnerability poses a significant risk, especially if ASLR bypass techniques are refined. Administrators running affected configurations must apply patches promptly. The vulnerability requires a rewrite directive with a question mark in the replacement string followed by a set directive referencing a regex capture group. F5 has patched versions 1.31.0 and 1.30.1, and mitigation involves using named captures instead of unnamed ones.
 
 hackernews · hetsaraiya · May 14, 17:17 · [Discussion](https://news.ycombinator.com/item?id=48138268)
 
-**Background**: Nginx uses rewrite directives to manipulate request URIs based on regular expressions for URL redirection and access control. ASLR (Address Space Layout Randomization) is a defense-in-depth technique that randomizes memory addresses to make exploitation harder; bypassing it allows attackers to reliably hijack execution flow. This exploit combines a memory corruption vulnerability in Nginx's rewrite processing with a technique to bypass ASLR, significantly increasing its severity.
+**Background**: Nginx is a popular open-source web server used by many high-traffic websites. Rewrite directives in Nginx allow URL manipulation, and set directives assign variables. Address Space Layout Randomization (ASLR) is a security technique that randomizes memory addresses to make exploitation harder.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://www.keycdn.com/support/nginx-rewrite-rules">Nginx Rewrite Rules - KeyCDN Support</a></li>
-<li><a href="https://csg.csail.mit.edu/6.S983/labs/aslr/">ASLR Bypass Lab - Computation Structures Group - MIT</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Address_space_layout_randomization">Address space layout randomization - Wikipedia</a></li>
+<li><a href="https://www.incibe.es/en/incibe-cert/blog/aslr-essential-protection-against-memory-exploitation">ASLR: the essential protection against memory exploitation | INCIBE-CERT | INCIBE</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed concern that although the published exploit requires ASLR to be disabled, the disclosure claims ASLR bypass is possible, making the vulnerability more severe than initially perceived. Some highlighted the specific preconditions and noted that F5's mitigation (using named captures) is effective. Others debated whether alternative web servers written in memory-safe languages like Caddy (Go) or Jetty (Java) would be inherently more secure.
+**Discussion**: Community members debate the severity, noting that the PoC disables ASLR but the writeup claims an ASLR bypass is possible. Some users express concern over the prevalence of memory-unsafe languages and ask for alternatives like Caddy or Jetty.
 
-**Tags**: `#security`, `#nginx`, `#exploit`, `#vulnerability`, `#aslr`
+**Tags**: `#security`, `#nginx`, `#vulnerability`, `#exploit`, `#web-server`
+
+---
+
+<a id="item-7"></a>
+## [HDD Firmware Hacking: Reverse Engineering and Exploitation](https://icode4.coffee/?p=1465) ⭐️ 8.0/10
+
+A detailed exploration of reverse engineering and hacking hard drive firmware has been published, covering techniques applicable to both HDDs and SSDs, with references to Samsung SSD firmware work and practical CTF challenges. This research is significant for security researchers and firmware enthusiasts as it exposes potential vulnerabilities in mass-storage devices, which could be exploited for persistent malware or data recovery. The article details reverse engineering methods, tools, and modifications, including altering hashed passwords in /etc/shadow via firmware hacks, and references a decompiled Samsung 840 EVO firmware PDF.
+
+hackernews · jsploit · May 14, 16:19 · [Discussion](https://news.ycombinator.com/item?id=48137553)
+
+**Background**: Hard drive firmware controls the internal operations of HDDs and SSDs, and is typically proprietary and encrypted. Reverse engineering it is technically challenging but can reveal critical security vulnerabilities. Previous work includes NSA's firmware hacking capabilities and community efforts like the PicoIDE project.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.reddit.com/r/ReverseEngineering/comments/1g8kzc/hdd_firmware_where_to_start/">HDD Firmware: Where to Start : ReverseEngineering</a></li>
+<li><a href="https://forum.hddguru.com/viewtopic.php?f=13&t=31127">View topic - SSD firmware hacking | Forum</a></li>
+<li><a href="https://firmwaresecurity.com/tag/hdd-firmware/">HDD firmware – Firmware Security</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments highlight a decompiled Samsung SSD firmware PDF, a CTF challenge from Red Balloon involving a 'weird' hard drive, and references to NSA firmware spying. The overall sentiment is appreciative of the technical depth and practical applications.
+
+**Tags**: `#firmware`, `#reverse engineering`, `#hard drive`, `#security`, `#hacking`
+
+---
+
+<a id="item-8"></a>
+## [AI reliance may reduce developer critical thinking, debate ensues](https://jpain.io/god-damn-ai-is-making-me-dumb/) ⭐️ 8.0/10
+
+A blog post and Hacker News discussion explore how over-reliance on AI for coding may reduce developers' critical thinking and skill retention, while counterpoints argue that thoughtful use enhances productivity and learning. This matters because it highlights a potential cognitive cost of AI tools in software development, impacting learning, problem-solving, and long-term skill development for developers at all levels. The blog post author argues that AI makes them 'dumb' by reducing deep thinking, while commenters offer counterpoints such as using AI socratically to catch errors and fill knowledge gaps, enhancing rather than diminishing skills.
+
+hackernews · Eighth · May 14, 18:19 · [Discussion](https://news.ycombinator.com/item?id=48139148)
+
+**Background**: Large Language Models (LLMs) like GPT-4 are AI systems trained on vast text data to generate human-like text. Developers increasingly use LLMs for coding tasks (e.g., GitHub Copilot). The debate centers on whether this boosts productivity or erodes fundamental programming skills.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
+<li><a href="https://www.ibm.com/think/topics/large-language-models">What Are Large Language Models (LLMs)? | IBM</a></li>
+<li><a href="https://news.ycombinator.com/">Hacker News</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Comments show a split: some feel AI reduces critical thinking, especially for junior developers; others find it intellectually stimulating when used with skepticism. One commenter notes onboarding difficulty in a new job due to AI reliance.
+
+**Tags**: `#AI`, `#software engineering`, `#cognitive effects`, `#developer productivity`, `#LLM`
+
+---
+
+<a id="item-9"></a>
+## [$10,000 MG4 EV with semi-solid-state battery sells 100,000 units in China](https://electrek.co/2026/05/14/10000-ev-a-hit-in-china-offering-semi-solid-state-battery/) ⭐️ 8.0/10
+
+The MG4, the world's first mass-produced EV with a semi-solid-state battery, has sold 100,000 units in just eight months in China at a starting price of around $10,000. This milestone indicates that semi-solid-state battery technology is commercially viable and gaining consumer acceptance, potentially accelerating the transition away from conventional lithium-ion batteries in EVs. The MG4's semi-solid-state battery is a hybrid design that retains some liquid electrolyte, offering higher energy density, faster charging, improved safety, and longer range compared to standard lithium-ion batteries.
+
+rss · Electrek · May 14, 18:11
+
+**Background**: Semi-solid-state batteries are a transitional technology between conventional lithium-ion and fully solid-state batteries. They use a gel-like or semi-solid electrolyte that reduces the amount of flammable liquid, improving safety while enabling higher energy density. This technology is seen as a key step toward next-generation EV batteries.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/Semi-solid-state_battery">Semi-solid-state battery</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#EV`, `#battery technology`, `#solid-state battery`, `#China`
 
 ---
 
 <a id="item-10"></a>
-## [arXiv bans hallucinated references for 1 year](https://twitter.com/tdietterich/status/2055000956144935055) ⭐️ 8.0/10
+## [RTX 5000 PRO (48GB) Delivers Impressive LLM Inference Performance](https://www.reddit.com/r/LocalLLaMA/comments/1td53ii/the_rtx_5000_pro_48gb_arrived_and_it_is_better/) ⭐️ 8.0/10
 
-arXiv announced a policy that authors whose papers contain hallucinated references will face a 1-year ban from submitting to arXiv, after which they must have papers accepted at a reputable peer-reviewed venue before resubmitting. This policy aims to curb the growing problem of AI-generated 'slop' in academic literature, preserving the integrity of scientific publishing. It sets a precedent for other preprint repositories and journals to follow. The ban is reportedly not yet live but planned; the policy details are not clearly listed on arXiv's policies page yet. The ban applies regardless of intent, raising concerns about accidental inclusion of hallucinated references.
+A user reports that the NVIDIA RTX 5000 PRO with 48GB VRAM achieves 4400 tokens per second prefill speed for Qwen3.6-27B-FP8 using vLLM on Linux, outperforming expectations for local LLM inference. This real-world benchmark shows that the RTX 5000 PRO provides server-grade prefill speed at a consumer-adjacent price point, making it a strong alternative to multiple consumer GPUs or Mac Studio for long-context and batch LLM tasks. The card costs $4,300 and the total build was $5,600 with 64GB RAM. The user, a PC novice, used Claude Code and vLLM to set up the system, achieving 4400 t/s prefill on a 27B FP8 model with full precision cache.
 
-hackernews · gjuggler · May 14, 20:39 · [Discussion](https://news.ycombinator.com/item?id=48140922)
+reddit · r/LocalLLaMA · Valuable-Run2129 · May 14, 17:28
 
-**Background**: Hallucinated references are fake or non-existent citations generated by AI language models, which have been found in numerous academic papers, including at NeurIPS. This phenomenon is part of the broader issue of AI hallucination, where AI produces factually incorrect outputs. A Nature analysis suggests tens of thousands of 2025 publications might contain invalid references generated by AI.
+**Background**: In LLM inference, prefill speed (prompt processing) determines time-to-first-token, critical for long context, RAG, and batch jobs. Token generation speed (TG) is more noticeable in conversational use. The RTX 5000 PRO is a workstation GPU with ECC memory and server-grade drivers, positioned between consumer GeForce and enterprise Quadro.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.physicsforums.com/threads/hallucinated-citations-are-polluting-the-scientific-literature.1084914/">Hallucinated citations are polluting the scientific literature</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)">Hallucination (artificial intelligence) - Wikipedia</a></li>
-<li><a href="https://www.findarticles.com/hallucinated-citations-surface-in-neurips-papers/">Hallucinated Citations Surface In NeurIPS Papers</a></li>
+<li><a href="https://www.jinghong-chen.net/estimate-vram-usage-in-llm-inference/">Estimate LLM inference speed and VRAM usage quickly: with a</a></li>
+<li><a href="https://blog.jroddev.com/llm-prompt-processing-performance/">LLM Prompt Processing Performance</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community comments show strong support for the policy, with users emphasizing that arXiv is a privilege, not a right. Some users call for careful vetting to avoid punishing accidental mistakes, while others share anecdotes of colleagues being caught with AI slop and receiving revision requests.
+**Discussion**: The community is impressed with the prefill speed (4400 t/s) and power efficiency compared to dual RTX 5090s, but some commenters note the RTX 5000 PRO is not competitively priced relative to the RTX Pro 6000, and express surprise that a $4300 GPU performs well.
 
-**Tags**: `#arXiv`, `#academic integrity`, `#AI hallucination`, `#scientific publishing`
+**Tags**: `#hardware`, `#GPU`, `#LLM inference`, `#NVIDIA`
 
 ---
 
 <a id="item-11"></a>
-## [MIT President on Funding and Talent Pipeline Challenges](https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline) ⭐️ 8.0/10
+## [TurboQuant Study: FP8 KV-Cache Quantization Remains Best Default](https://vllm.ai/blog/2026-05-11-turboquant) ⭐️ 8.0/10
 
-MIT President Sally Kornbluth released a video message addressing the challenges in research funding and the talent pipeline, sparking a wide-ranging discussion on the state of US academia and science policy. The discussion reflects deep systemic issues in US research funding, immigration policies affecting talent flow, and growing disillusionment with academic careers, which could undermine long-term US competitiveness in science and technology. The message comes amid declining grant success rates and increasing administrative burdens, with community comments highlighting that unfunded students are less likely to accept admissions, and that many PhDs are leaving academia for industry.
+A comprehensive study by vLLM found that FP8 KV-cache quantization outperforms TurboQuant variants, offering 2x KV-cache capacity with negligible accuracy loss, while TurboQuant variants like k8v4, 4bit-nc, and 3bit-nc show trade-offs in accuracy and performance. This study provides clear guidance for LLM inference optimization, confirming FP8 as the best default for KV-cache quantization and cautioning against adopting TurboQuant variants without careful evaluation. Specifically, TurboQuant k8v4 offers only 2.4x KV-cache savings versus FP8's 2x, with consistent negative impact on throughput and latency; TurboQuant 4bit-nc is practical under memory pressure but trades capacity for accuracy and speed costs; TurboQuant k3v4-nc and 3bit-nc show meaningful accuracy drops on reasoning and long-context tasks.
 
-hackernews · dmayo · May 14, 14:51 · [Discussion](https://news.ycombinator.com/item?id=48136262)
+reddit · r/LocalLLaMA · MajorZesty · May 14, 20:59 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1tdb4ic/a_first_comprehensive_study_of_turboquant/)
 
-**Background**: The US research ecosystem relies heavily on federal funding and a steady influx of talent from US and international students. Concerns about the talent pipeline often focus on funding shortfalls, visa restrictions, and the attractiveness of academic careers compared to industry. The discussion around President Kornbluth's message touches on these issues, reflecting broader anxieties about the future of American science.
+**Background**: KV-cache quantization reduces memory usage of key-value caches in large language model inference, enabling longer context lengths or larger batch sizes. TurboQuant is a vector quantization algorithm proposed by Google Research in 2026, claiming extreme compression for KV caches. FP8 quantization applies 8-bit floating-point representation to the cache, offering a balance of compression and accuracy.
 
-**Discussion**: Community comments are deeply divided: many bemoan poor pay and job prospects in academia, with one commenter noting that 80% of recent PhDs they know want to leave. Others highlight executive interference and the high cost of degrees, while some from abroad see PhDs moving to industry as normal and not a crisis.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">TurboQuant: Redefining AI efficiency with extreme compression</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TurboQuant">TurboQuant - Wikipedia</a></li>
+<li><a href="https://grokipedia.com/page/TurboQuant">TurboQuant</a></li>
 
-**Tags**: `#academia`, `#research funding`, `#talent pipeline`, `#US science policy`
+</ul>
+</details>
+
+**Discussion**: Community comments expressed skepticism: one user noted that even FP8 numbers are worse than unquantized, preferring unquantized KV cache. Another criticized the lack of comparison with Q4, arguing the study is useless for VRAM-constrained users. A third user reported that 3bit-nc performed poorly with Qwen3.6-27b, but k8v4 worked well.
+
+**Tags**: `#KV-cache quantization`, `#LLM inference`, `#vLLM`, `#TurboQuant`, `#FP8`
 
 ---
 
 <a id="item-12"></a>
-## [AI reliance may degrade developer skills](https://jpain.io/god-damn-ai-is-making-me-dumb/) ⭐️ 8.0/10
+## [Local LLM as Daily Personal Knowledge Base: Real-World Setups Shared](https://www.reddit.com/r/LocalLLaMA/comments/1tcrtt6/anyone_actually_using_a_local_llm_as_their_daily/) ⭐️ 8.0/10
 
-A developer shares a personal reflection on how over-reliance on AI coding assistants is eroding their critical thinking and programming abilities, sparking a debate in the software engineering community. This debate highlights a growing concern that while AI boosts productivity, it may also contribute to skill atrophy, especially among junior developers, and challenges the industry to find a balanced approach to AI-assisted coding. The post received high engagement (388 upvotes, 236 comments), with commenters sharing contrasting experiences—some feel a persistent urge to verify AI output, while others find AI intellectually stimulating when used socraticly. No specific technical details were provided in the original post.
+A Reddit user asked about using local LLMs for personal knowledge base, and community members with over 8 months of daily experience shared detailed setups, including hardware (36GB M3 Max), model (Qwen3 32B), embedding (bge-m3), and a hand-rolled RAG pipeline using Ollama, PostgreSQL, and pgvector. This discussion demonstrates that local LLMs can be reliably used for personal knowledge management beyond coding, potentially reducing reliance on cloud services and improving privacy. It provides actionable insights for others interested in building private, open-source knowledge bases. The experienced user emphasized that chunking quality is critical—responsible for 90% of retrieval issues—and chose a hand-rolled retrieval script (~300 lines of Python) over frameworks like LlamaIndex to avoid maintenance overhead. Another user created a real-time translation and OCR tool using a local LLM for an MMORPG, integrating screen capture and speech input.
 
-hackernews · Eighth · May 14, 18:19 · [Discussion](https://news.ycombinator.com/item?id=48139148)
+reddit · r/LocalLLaMA · InformationSweet808 · May 14, 08:24
 
-**Background**: AI coding assistants, such as GitHub Copilot and Claude, generate code based on natural language prompts, enabling 'vibe coding' where developers quickly produce working apps. However, concerns have emerged that this may impede deep learning and problem-solving skills, particularly for novices. The term 'vibe coding' refers to relying on AI to generate code with little understanding of the underlying logic.
+**Background**: Retrieval-Augmented Generation (RAG) combines LLMs with external data retrieval from a vector database, enabling the model to answer queries based on personal documents. Embedding models convert text into vector representations for similarity search. Quantization reduces model size for consumer hardware, making local deployment feasible. Frameworks like LlamaIndex simplify building RAG pipelines, but some users prefer custom scripts for control.
 
-**Discussion**: Comments reveal a split sentiment: some developers feel uneasy about blind trust and always verify AI output, while others report that Socratic interaction with AI enhances their learning. A junior developer noted that AI slowed down their onboarding due to over-reliance on generated code.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation - Wikipedia</a></li>
+<li><a href="https://aws.amazon.com/what-is/retrieval-augmented-generation/">What is RAG? - Retrieval-Augmented Generation AI Explained - AWS</a></li>
+<li><a href="https://www.debutinfotech.com/blog/llamaindex-a-detailed-guide">Everything You Need to Know About LlamaIndex: A Detailed Guide</a></li>
 
-**Tags**: `#AI`, `#software engineering`, `#programming productivity`, `#cognitive skills`, `#developer experience`
+</ul>
+</details>
+
+**Discussion**: The community sentiment is positive and pragmatic; users validated that local RAG works for daily use but requires careful chunking and a modest-sized model (32B parameters is sufficient). Some cautioned about hallucinations, recommending double-checking for critical queries, while others noted that retrieval accuracy improves with well-designed chunking and embedding models.
+
+**Tags**: `#local LLM`, `#RAG`, `#personal knowledge management`, `#embedding`, `#retrieval`
 
 ---
 
 <a id="item-13"></a>
-## [Atomic buffered writes discussed at LSFMM+BPF 2026](https://lwn.net/Articles/1072019/) ⭐️ 8.0/10
+## [Tracking shows RTX 5090 defying price drops in EU market](https://www.reddit.com/r/LocalLLaMA/comments/1td6ia5/i_tracked_eu_gpu_prices_across_15_stores_for_50/) ⭐️ 8.0/10
 
-At the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), developers discussed atomic-buffered writes for the Linux kernel. PostgreSQL's need for 8KB atomic writes and a new writethrough-based approach were presented. This feature could dramatically improve performance for databases like PostgreSQL by eliminating the need for full-page writes in the write-ahead log (WAL), reducing write amplification and increasing transaction throughput. It also advances Linux kernel filesystem capabilities for modern NVMe storage. PostgreSQL currently uses full-page writes to the WAL to prevent torn 8KB pages, leading to a 14x increase in WAL size and lower transaction rates. The proposed writethrough approach writes data directly to disk instead of relying on page cache writeback, enabling atomic guarantees for buffered I/O.
+A 50+ day tracking of GPU prices across 15 EU stores found that the RTX 5090 is the only tier with rising prices (+3%), while all other cards including the RTX 5080 and RX 9070 XT saw declines of up to 9%. For AI practitioners considering local inference, this indicates that RTX 5090 demand from AI/workstation users is keeping prices high, unlike typical gaming GPUs which drop after launch. This may affect purchasing decisions for building local LLM inference setups. The tracking recorded over 126,000 data points with a 6-hour scrape cadence. Notable single-model drops include the ASUS Prime RTX 5070 Ti falling 23.4% and ASUS TUF RTX 5060 Ti falling 21%. Algorithmic pricing was observed, with one store changing prices 45 times in 15 days within a €0.99 range.
 
-rss · LWN.net · May 14, 14:54
+reddit · r/LocalLLaMA · egudegi · May 14, 18:16
 
-**Background**: Atomic writes ensure that a write operation is either fully committed to disk or not at all, preventing torn writes. For buffered I/O, the Linux kernel typically uses a page cache with delayed writeback, which is incompatible with atomic guarantees. A writethrough cache strategy writes data immediately to the underlying storage, bypassing the cache's delayed writeback.
+**Background**: Local inference refers to running large language models (LLMs) on one's own hardware instead of using cloud APIs, ensuring data privacy and reducing latency. GPU pricing trends in the EU market affect affordability for building local inference systems. The RTX 5090, as NVIDIA's flagship, is in high demand for both gaming and AI workloads.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.kernel.org/doc/html/latest/filesystems/ext4/atomic_writes.html">2.10. Atomic Block Writes — The Linux Kernel documentation</a></li>
-<li><a href="https://lwn.net/Articles/1060063/">The ongoing quest for atomic buffered writes [LWN.net]</a></li>
-<li><a href="https://lwn.net/Articles/1016015/">Supporting untorn buffered writes [LWN.net]</a></li>
+<li><a href="https://prajnaaiwisdom.medium.com/what-is-local-llm-inference-a-beginners-guide-b31043768d4f">What Is Local LLM Inference? A Beginner’s Guide | by PrajnaAI | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Linux kernel`, `#filesystem`, `#storage`, `#database`, `#atomic writes`
+**Discussion**: Commenters expressed nostalgia for when hardware got cheaper over time, with one noting that the RTX 5070 Ti price remains 'insanely high' despite being similar to a 4080 Super. Another observed that used 7900 XTX prices are finally dropping.
+
+**Tags**: `#GPU pricing`, `#RTX 5090`, `#local inference`, `#EU market`, `#hardware trends`
 
 ---
 
 <a id="item-14"></a>
-## [COW context proposed to replace anonymous reverse mapping](https://lwn.net/Articles/1072378/) ⭐️ 8.0/10
+## [Scenema Audio Releases Zero-Shot Expressive Voice Cloning Model](https://v.redd.it/9firr53ti31h1) ⭐️ 8.0/10
 
-Lorenzo Stoakes proposed a 'COW context' replacement for the kernel's anonymous reverse mapping at the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit, aiming to reduce complexity and improve performance. This proposal addresses long-standing performance issues and code complexity in a core kernel subsystem, potentially improving scalability and maintainability for all Linux systems. The COW context tracks anonymous mappings at the mm_struct (per-process) level instead of the per-VMA level, reducing the number of objects and lock contention during fork operations.
+Scenema Audio has released model weights and inference code for zero-shot expressive voice cloning that separates emotional performance from voice identity, allowing any voice to perform any emotion without prior recordings of that voice in that emotional state. This release is significant because it enables highly natural and emotionally expressive speech generation for video production and other applications, surpassing traditional autoregressive TTS in quality. The open-source release allows the community to build upon and customize the technology. The model is a diffusion-based TTS, not a traditional pipeline, and may produce repetition or gibberish on some seeds; it is intended for a post-editing workflow. The developers note that despite these limitations, the output sounds more natural and less robotic than Gemini 3.1 Flash TTS.
 
-rss · LWN.net · May 14, 13:14
+reddit · r/LocalLLaMA · a__side_of_fries · May 14, 12:29 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1tcwqdd/scenema_audio_zeroshot_expressive_voice_cloning/)
 
-**Background**: Reverse mapping finds page-table entries that refer to a given physical page, which is needed for memory management. Anonymous pages currently use a complex per-VMA mechanism that suffers from high lock contention and memory overhead. Stoakes's COW context aims to simplify this by using a per-mm_struct structure that can outlive the process.
+**Background**: Zero-shot voice cloning allows synthesizing speech in a target voice using only a short reference audio, without needing training examples from that voice. Diffusion models generate audio by gradually denoising random noise, often producing more natural-sounding speech than autoregressive models. This release combines both techniques for expressive voice cloning.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.sobyte.net/post/2022-08/linux-anonymous-pages-reverse-mapping/">Reverse mapping of anonymous pages in Linux - SoByte</a></li>
-<li><a href="https://lwn.net/Articles/85050/">Kernel development [LWN.net]</a></li>
+<li><a href="https://docs.nvidia.com/nim/speech/latest/tts/voice-cloning.html">Cloning a Voice with Zero-Shot TTS — NVIDIA Speech NIM Microservices</a></li>
+<li><a href="https://arxiv.org/abs/2303.13336">[2303.13336] A Survey on Audio Diffusion Models: Text To Speech</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Linux kernel`, `#memory management`, `#reverse mapping`, `#COW`, `#performance`
+**Discussion**: Community members expressed excitement about the release, noting the coincidental timing with another similar tool. One user asked about accent consistency, while another humorously commented on the audio demo's emotional delivery.
+
+**Tags**: `#voice cloning`, `#TTS`, `#zero-shot`, `#diffusion model`, `#speech generation`
 
 ---
 
 <a id="item-15"></a>
-## [Comprehensive Study: FP8 Remains Best for KV-Cache Quantization](https://vllm.ai/blog/2026-05-11-turboquant) ⭐️ 8.0/10
+## [World's first standard modular battery-swapping ship in service](https://v.redd.it/kacs5phij51h1) ⭐️ 8.0/10
 
-vLLM published a comprehensive benchmark study of TurboQuant KV-cache quantization variants, concluding that FP8 remains the best default, offering 2x capacity with negligible accuracy loss. TurboQuant 4bit-nc is the most practical variant but comes with trade-offs in accuracy and performance. This study provides clear, practical guidance for practitioners choosing KV-cache quantization methods, affecting deployment decisions for LLM inference in memory-constrained environments. It highlights that while high compression ratios are attractive, they often come at significant accuracy and latency costs. TurboQuant k8v4 offers 2.4x savings vs FP8's 2x, but hurts throughput and latency. TurboQuant 3bit-nc and k3v4-nc show meaningful accuracy drops on reasoning tasks, while 4bit-nc is tolerable for memory-constrained edge deployments.
+The world's first standard modular battery-swapping ship has been put into operation in China, designed for inland waterway transport and using a modular battery system that replaces conventional marine fuel. This innovation promises to decarbonize maritime transport by enabling faster battery swaps compared to charging, and the standardized form factor could be adopted across the shipping industry, significantly reducing emissions from inland vessels. The ship is fitted with six modular batteries, each with a capacity of 430 kWh, and the battery-swapping system uses a standard 20-foot modular energy container format, facilitating easy replacement at ports.
 
-reddit · r/LocalLLaMA · MajorZesty · May 14, 20:59 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1tdb4ic/a_first_comprehensive_study_of_turboquant/)
+reddit · r/electricvehicles · straightdge · May 14, 19:10 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1td82sh/worldfirst_standard_modular_batteryswapping_ship/)
 
-**Background**: KV-cache quantization reduces memory consumption of the key-value cache during LLM inference, enabling longer context lengths. FP8 is an 8-bit floating-point format commonly used for quantization. TurboQuant is Google's advanced KV-cache compression algorithm, achieving up to 6x reduction through techniques like non-uniform quantization and weight sharing.
+**Background**: Battery-swapping technology allows depleted batteries to be replaced with fully charged ones in minutes, avoiding long charging downtimes. Standardized modular battery containers are designed to fit into existing port infrastructure, similar to how standard shipping containers are handled. This project is part of broader efforts to electrify inland waterway transport, which often relies on diesel engines.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://docs.vllm.ai/en/latest/features/quantization/quantized_kvcache/">Quantized KV Cache - vLLM</a></li>
-<li><a href="https://grokipedia.com/page/TurboQuant">TurboQuant</a></li>
-<li><a href="https://huggingface.co/blog/kv-cache-quantization">Unlocking Longer Generation with Key-Value Cache Quantization</a></li>
+<li><a href="https://www.marineinsight.com/world-first-standard-modular-battery-swapping-ship-enters-service-in-china/">World-First Standard Modular Battery - Swapping Ship Enters Service...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is mixed: some users criticize the lack of comparison with Q4 quantization, while others find 4bit-nc useful for memory-constrained scenarios. One user reports success with TurboQuant 2-3 on Gemma 4 with long context, while another confirms that FP8 numbers are visibly worse than unquantized.
+**Discussion**: One commenter questioned why a new form factor was developed instead of using standard shipping containers already handled at ports. Another commenter envisioned a network of offshore battery swap stations powered by wind and solar along sea routes.
 
-**Tags**: `#KV-cache quantization`, `#TurboQuant`, `#LLM inference`, `#FP8`, `#performance benchmarks`
+**Tags**: `#battery-swapping`, `#maritime`, `#clean energy`, `#innovation`, `#shipping`
 
 ---
 
 <a id="item-16"></a>
-## [US Approves H200 Chip Sales to Chinese Tech Giants](https://www.reuters.com/business/retail-consumer/us-clears-h200-chip-sales-10-china-firms-nvidia-ceo-looks-breakthrough-2026-05-14/) ⭐️ 8.0/10
+## [China's Electric Concrete Mixer Sales Surge from 1,309 to 20,000+](https://cleantechnica.com/2026/05/08/chinas-electric-concrete-mixer-boom-is-a-warning-to-slow-heavy-truck-markets/) ⭐️ 8.0/10
 
-The US Department of Commerce has approved sales of NVIDIA's H200 AI chips to about 10 Chinese companies, including Alibaba, Tencent, and ByteDance, but no deliveries have been completed yet due to cautious Chinese stance. This marks a partial easing of US-China chip export controls, potentially allowing Chinese AI firms to access advanced hardware for AI workloads, while highlighting the ongoing trade tensions and China's push for domestic alternatives. Each customer can purchase up to 75,000 H200 chips, and distributors like Lenovo and Foxconn have also received permits. The H200 is one generation behind NVIDIA's Blackwell processor, which remains banned for China.
+China's new-energy concrete mixer sales skyrocketed from 1,309 units in 2021 to over 20,000 units in 2025, with Q1 2026 reporting 5,125 sales, 99.5% of which were pure electric. This rapid adoption shows that electric heavy trucks are moving from demonstration to mainstream, challenging global markets that have been slower to electrify and signaling a shift in construction logistics. Penetration of new-energy mixers grew from under 2% in 2021 to about 70% in 2025, with 5,099 pure electric and 26 methanol-electric hybrids sold in Q1 2026, and zero fuel-cell sales.
 
-telegram · zaihuapd · May 14, 08:57
+reddit · r/electricvehicles · ApprehensiveSize7662 · May 14, 15:28 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1td1lys/chinas_electric_concrete_mixer_boom_is_a_warning/)
 
-**Background**: The H200 is a high-end GPU designed for AI and HPC workloads, featuring enhanced memory and bandwidth compared to predecessors. NVIDIA dominates the AI chip market, but US restrictions have limited sales of cutting-edge chips to China since 2022. The Chinese government has encouraged development of domestic AI chips to reduce dependency on foreign technology.
+**Background**: New-energy concrete mixers use electric batteries or hybrid systems instead of diesel, offering lower operating costs and cleaner emissions. Methanol-electric hybrids generate electricity from methanol to power the motor or recharge batteries, extending range. China's heavy truck market is the world's largest, and its rapid electrification of specialized vehicles like mixers serves as a bellwether for global trends.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Nvidia">Nvidia - Wikipedia</a></li>
-<li><a href="https://www.nvidia.com/en-us/data-center/h200/">H 200 GPU | NVIDIA</a></li>
-<li><a href="https://www.bbc.com/news/articles/cg4erx1n04lo">US approves sale of Nvidia 's advanced H 200 chips to China</a></li>
+<li><a href="https://www.ly-cimc-linyu.com/a/news/Advantages-of-new-energy-mixer-trucks.html">What are the advantages of new energy mixer trucks?-CIMC</a></li>
+<li><a href="https://vanreviewer.co.uk/news/new-methanol-electric-hybrid-engines-are-heading-to-europe/">New methanol electric hybrid engines are heading to... - Van Reviewer</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI chips`, `#geopolitics`, `#NVIDIA`, `#US-China trade`, `#H200`
+**Discussion**: Commenters noted that electric concrete mixers make sense due to short trip distances (typically under an hour) and easy DC fast charging at plants, with some expressing frustration that US adoption lags behind China and Denmark.
+
+**Tags**: `#electric vehicles`, `#heavy trucks`, `#concrete mixers`, `#China`, `#clean technology`
 
 ---
 
 <a id="item-17"></a>
-## [JD.com Launches AI Hardware Store, Restocks Sanctioned NVIDIA GPUs](https://u.jd.com/HaDkFMa) ⭐️ 8.0/10
+## [Honda Posts First Annual Loss After EV Retreat](https://www.nytimes.com/2026/05/14/business/honda-earnings-electric-vehicles.html?unlocked_article_code=1.iVA.PvHf.pdUF3GHKTMil&smid=nytcore-ios-share) ⭐️ 8.0/10
 
-JD.com has launched an 'AI Hardware JD Self-Operated Store' and is now offering previously sanctioned NVIDIA GPUs including the RTX 5090 32G Turbo Edition, RTX PRO 6000 Blackwell Server Edition, and H100 for purchase in China. This development signals a potential easing of export controls or alternative supply channels for high-end AI GPUs in China, directly impacting AI compute accessibility and the broader tech industry amid ongoing geopolitical tensions. The RTX 5090 Turbo Edition is confirmed to be a 'no-castration' global unified specification model, while the H100 was previously suspended from export to China due to sanctions. The store also includes the RTX PRO 6000 for professional rendering and data centers.
+Honda reported its first annual loss in company history, partly due to a $9 billion write-down related to its failed EV strategy. The automaker is now pivoting to hybrids, with two new hybrid models planned by 2028. This underscores the severe financial risks legacy automakers face in the transition to electric vehicles. Honda's loss reflects broader industry struggles, as many traditional carmakers have found it difficult to compete with EV leaders like Tesla and Chinese brands. The $9 billion hit includes charges for scaling back EV investments and restructuring. Honda will focus on hybrids instead, but its overall product lineup remains stale, with key models like the Odyssey not updated for nearly a decade.
 
-telegram · zaihuapd · May 14, 15:15
+reddit · r/electricvehicles · hikerdaze · May 14, 06:17 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1tcpjlt/honda_posts_first_ever_annual_loss_after_pullback/)
 
-**Background**: NVIDIA's Blackwell architecture, used in the RTX PRO 6000, is a GPU microarchitecture designed for AI and accelerated computing. The H100, based on the Hopper architecture, is a data center GPU critical for large-scale AI training. Both have been subject to US export restrictions targeting China's access to advanced AI hardware.
+**Background**: Honda is a major Japanese automaker that has been slow to embrace electrification. While some models like the CR-V have hybrid options, Honda has lagged behind competitors in developing dedicated EVs, leading to this financial setback. The company now faces an uncertain future as it attempts to catch up.
+
+**Discussion**: Commenters were not surprised, noting that Honda's stagnation goes beyond EVs — its entire lineup has aged, with no significant updates for models like the Odyssey and Pilot. Many believe this is just the beginning of Honda's struggles, as it relies on past reputation without innovating.
+
+**Tags**: `#automotive industry`, `#electric vehicles`, `#business strategy`, `#Honda`, `#financial performance`
+
+---
+
+<a id="item-18"></a>
+## [AWS user faces $30k bill from runaway Claude on Bedrock](https://www.reddit.com/r/artificial/comments/1tcu7w5/aws_user_hit_with_30000_dollar_bill_after_claude/) ⭐️ 8.0/10
+
+An AWS user incurred a $30,000 invoice due to a runaway Claude agent on Amazon Bedrock, while AWS Cost Anomaly Detection failed to alert the user in time. This incident exposes critical gaps in cloud cost management for AI workloads and underscores the urgent need for mandatory spend caps and circuit breakers as autonomous agents are deployed at scale. AWS markets Cost Anomaly Detection as a safety net for runaway spend, but it failed entirely in this case; Anthropic is now metering and throttling programmatic Claude usage at the API layer to manage inference costs.
+
+reddit · r/artificial · petburiraja · May 14, 10:35
+
+**Background**: AWS Cost Anomaly Detection uses machine learning to identify anomalous spending and alert users, but it requires proper configuration and may not catch sudden spikes quickly. Claude is Anthropic's large language model, accessible via API or on platforms like AWS Bedrock. Autonomous AI agents can execute tasks independently, potentially incurring costs without human oversight.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)">Blackwell (microarchitecture) - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/NVIDIA_H100_GPU">NVIDIA H100 GPU</a></li>
-<li><a href="https://www.nvidia.com/en-us/data-center/h100/">H100 GPU | NVIDIA</a></li>
+<li><a href="https://aws.amazon.com/aws-cost-management/aws-cost-anomaly-detection/">AWS Cost Anomaly Detection - Amazon Web Services</a></li>
+<li><a href="https://docs.aws.amazon.com/cost-management/latest/userguide/getting-started-ad.html">Getting started with AWS Cost Anomaly Detection - AWS Cost Management</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI hardware`, `#NVIDIA`, `#export controls`, `#e-commerce`, `#China`
+**Discussion**: Commenters expressed frustration with AWS and GCP lacking hard spend limits, calling it 'toxic' and suggesting it should be illegal. Others noted that deploying autonomous agents faster than operational guardrails become standard is dangerous, and mandatory spend caps and circuit breakers are inevitable.
+
+**Tags**: `#AWS`, `#Claude`, `#cost-management`, `#AI-safety`, `#cloud-computing`
+
+---
+
+<a id="item-19"></a>
+## [MIT President Warns of Funding Crisis Impacting Talent Pipeline](https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline) ⭐️ 7.0/10
+
+MIT President Sally Kornbluth released a video message addressing research funding challenges and their detrimental effect on the talent pipeline, highlighting that unfunded students are less likely to accept admission offers. This issue strikes at the core of the academic system, potentially reducing the number of qualified researchers entering STEM fields and weakening U.S. competitiveness in science and technology. MIT's graduate student body is 41% international, and declines in funding could disproportionately affect these students and the diversity of the talent pool.
+
+hackernews · dmayo · May 14, 14:51 · [Discussion](https://news.ycombinator.com/item?id=48136262)
+
+**Background**: Research funding from federal agencies like NIH and NSF has been declining in real terms, leading to greater competition for grants. This financial pressure has made it harder for universities to support students, especially in PhD programs that typically take 6 years to complete.
+
+**Discussion**: Comments reveal widespread disillusionment with academia; many recent PhD graduates are considering leaving academia due to grueling work and poor job prospects. Some argue that while most PhDs leave academia, the value of a PhD extends beyond staying in academia, especially in experimental fields like nanofabrication.
+
+**Tags**: `#academia`, `#research funding`, `#talent pipeline`, `#higher education`, `#systemic issues`
+
+---
+
+<a id="item-20"></a>
+## [XPeng in Talks to Buy Volkswagen Plant in Europe](https://electrek.co/2026/05/14/xpeng-talks-buy-volkswagen-plant-europe-expansion/) ⭐️ 7.0/10
+
+XPeng is in discussions with Volkswagen to acquire a factory in Europe as its contract production with Magna Steyr in Austria reaches capacity, with exports surging 62% year-over-year to 6,006 vehicles in April 2026. This signals a strategic shift by Chinese EV makers to localize production in Europe to circumvent EU tariffs, following similar moves by BYD, and could reshape the competitive landscape of the European auto industry. XPeng already produces G6 and G9 SUVs in Austria via Magna Steyr, but needs additional capacity. The potential acquisition of a Volkswagen plant would give XPeng direct manufacturing control in Europe.
+
+rss · Electrek · May 14, 19:23
+
+**Background**: Chinese EV makers like XPeng and BYD face high EU tariffs (e.g., XPeng at 30.7%) on imported vehicles. To avoid these, they are increasingly setting up local production. XPeng began European assembly at Magna Steyr's plant in Graz, Austria, in September 2025. Buying an existing factory from Volkswagen would accelerate its expansion and reduce reliance on contract manufacturing.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/XPeng">XPeng - Wikipedia</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2025-09-15/china-s-xpeng-partners-with-magna-to-produce-evs-in-austria">China’s Xpeng Partners With Magna to Produce EVs in Austria</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#XPeng`, `#Volkswagen`, `#electric vehicles`, `#manufacturing`, `#Europe`
+
+---
+
+<a id="item-21"></a>
+## [VS Code Agents Window supports local AI models but requires Copilot](https://code.visualstudio.com/docs/copilot/customization/language-models#_can-i-use-a-local-model-without-an-internet-connection) ⭐️ 7.0/10
+
+VS Code introduced a new Agents window (Preview) that allows developers to use local AI models for coding assistance. However, it still requires an active GitHub Copilot subscription and an internet connection for certain features like embedding-based semantic search. This marks VS Code's first step toward integrating local AI models, offering developers more privacy and offline options. However, the continued requirement for a paid subscription and internet access limits its appeal, especially for users seeking a fully local, free coding assistant. Even when using a local model for code generation, VS Code relies on cloud-based embeddings for semantic search, which requires an internet connection. The Agents window is a separate interface focused on AI-assisted coding, distinct from the main editor.
+
+reddit · r/LocalLLaMA · _wsgeorge · May 14, 16:45 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1td3uzi/vs_codes_new_agents_window_lets_you_use_local_ai/)
+
+**Background**: The VS Code Agents window is a preview feature that provides a dedicated space for AI-powered coding assistance, similar to Cursor's agent mode. Local AI models run on the user's machine, avoiding sending code to external servers, but certain features like semantic search depend on cloud embeddings. GitHub Copilot is a paid subscription service that integrates AI into VS Code, and this new feature extends its capabilities to local models while maintaining subscription requirements.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://code.visualstudio.com/docs/copilot/agents/agents-window">Use the Agents window (Preview)</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community reaction is mixed: some users sarcastically appreciate the irony of needing a paid subscription to use local models, while others prefer faster alternatives like Zed. One commenter explained that the internet requirement stems from cloud-based embeddings for semantic search, even when generating code locally.
+
+**Tags**: `#VS Code`, `#local AI`, `#Copilot`, `#coding assistant`, `#AI integration`
+
+---
+
+<a id="item-22"></a>
+## [Browsers Favor Big Sites, Hurting Competition](https://denodell.com/blog/browsers-treat-big-sites-differently) ⭐️ 7.0/10
+
+The article reveals that browsers apply special optimizations for large websites, such as Chrome's site isolation and WebKit's process-per-site model, which can stifle competition and innovation on the web. This practice creates an uneven playing field, making it harder for smaller sites to compete and potentially reducing user choice and web diversity. It parallels GPU driver optimizations that favor big games. Chrome's site isolation improves security for large sites but also allocates more resources to them. Similarly, WebKit's process-per-site model treats sites differently based on perceived importance.
+
+reddit · r/programming · Successful_Bowl2564 · May 14, 15:10 · [Discussion](https://www.reddit.com/r/programming/comments/1td13ep/browsers_treat_big_sites_differently/)
+
+**Background**: Browsers use different process models to isolate tabs or sites for security and performance. Larger sites often receive preferential treatment, such as dedicated processes or optimized rendering, which can disadvantage smaller competitors. This behavior is analogous to how GPU driver developers optimize for popular games, making it harder for new titles to perform well.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Site_isolation">Site isolation - Wikipedia</a></li>
+<li><a href="https://www.chromium.org/Home/chromium-security/site-isolation/">Site Isolation</a></li>
+
+</ul>
+</details>
+
+**Discussion**: One commenter highlights Safari's deliberate stagnation of web progress to protect App Store profits, while another draws an analogy to GPU driver optimizations benefiting large game studios. A third criticizes the article's use of AI-generated prose.
+
+**Tags**: `#browsers`, `#web standards`, `#competition`, `#web development`, `#browser behavior`
+
+---
+
+<a id="item-23"></a>
+## [EV Registrations Hit 26% Record in Austria, BYD Tops Brands](https://bsky.app/profile/chrigru.bsky.social/post/3mlobeurrls2z) ⭐️ 7.0/10
+
+In April 2026, electric vehicle registrations in Austria reached a record 26% market share, and BYD became the best-selling EV brand, overtaking Skoda and Volkswagen. This milestone indicates accelerating EV adoption in a major European market and demonstrates BYD's ability to compete with legacy automakers outside China. April 2026 was also the second-best month in absolute registration numbers, after March which was boosted by Tesla's end-of-quarter delivery push. BYD's success in Austria contrasts with its struggle to gain traction in neighboring Germany.
+
+reddit · r/electricvehicles · linknewtab · May 14, 17:37 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1td5ciy/ev_registrations_in_austria_reach_26_in_april_a/)
+
+**Background**: Electric vehicle market share is a key indicator of EV adoption in a country. BYD is a Chinese automaker that has rapidly expanded globally, particularly in Europe. Austria's car market often shows similar trends to Germany, but BYD has managed to gain a foothold in Austria despite not having a single model in Germany's EV top 20.
+
+**Discussion**: Commenters noted BYD's contrasting performance between Austria and Germany, with one pointing out that BYD does not even have a model in Germany's EV top 20. Another asked if this is the first time BYD has sold the most EVs in an EU country, and expressed enthusiasm for BYD's expansion in Australia.
+
+**Tags**: `#electric vehicles`, `#market share`, `#automotive industry`, `#sustainability`, `#technology adoption`
+
+---
+
+<a id="item-24"></a>
+## [Anthropic's 2028 AI scenario warns of US-China chip war](https://www.reddit.com/r/artificial/comments/1td99uw/anthropic_just_published_a_pretty_alarming_2028/) ⭐️ 7.0/10
+
+Anthropic published a scenario paper outlining two possible futures for global AI leadership by 2028, focusing on US-China dynamics, export controls, and Chinese workarounds like chip smuggling and distillation attacks. This paper is significant because it highlights how geopolitical measures like chip export controls could determine which nation shapes global AI norms, affecting everything from surveillance technologies to economic competitiveness. Anthropic describes two scenarios: one where the US closes loopholes and maintains a 12-24 month lead, and another where China reaches near-parity through smuggling and distillation, potentially exporting AI surveillance tools to authoritarian regimes.
+
+reddit · r/artificial · Direct-Attention8597 · May 14, 19:53
+
+**Background**: Frontier AI refers to the most advanced general-purpose models with broad impact. The US currently leads due to advanced chips from NVIDIA, TSMC, and ASML, but export controls aim to prevent China from acquiring such hardware. Distillation attacks involve using many fake accounts to extract model outputs from US APIs, effectively stealing R&D.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">Detecting and preventing distillation attacks</a></li>
+<li><a href="https://www.mindstudio.ai/blog/ai-model-distillation-attacks-explained">AI Model Distillation Attacks: What They Are and Why They Matter | MindStudio</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/frontier-models/">What Are Frontier AI Models and How They Work | NVIDIA Glossary</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The Reddit community expressed skepticism, with one user noting that the US already ships AI surveillance tools, and another calling out hypocrisy given Anthropic's use of copyrighted data for training.
+
+**Tags**: `#AI geopolitics`, `#export controls`, `#US-China`, `#frontier AI`, `#Anthropic`
+
+---
+
+<a id="item-25"></a>
+## [Amazonbot Finally Respects robots.txt](https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/) ⭐️ 6.0/10
+
+Amazonbot, Amazon's web crawler, has started respecting robots.txt after previously ignoring it and causing excessive traffic for some websites. This change was announced via email to affected site owners. This marks a positive but incremental step in web crawler etiquette, as robots.txt is a voluntary standard. It may reduce unwanted scraping for sites that block Amazonbot, but enforcement remains voluntary. The change was not announced publicly but communicated directly to site owners who complained. Some users still report new Amazon user agents like 'Amazon-Quick-on-Behalf-of-$HEXID' that may not respect robots.txt.
+
+hackernews · xena · May 14, 20:22 · [Discussion](https://news.ycombinator.com/item?id=48140730)
+
+**Background**: Amazonbot is a web crawler used by Amazon to index web content for services like Alexa and AI models. robots.txt is a standard used by websites to communicate with crawlers about which parts of the site should not be accessed. Historically, many crawlers voluntarily respect robots.txt, but compliance is not enforced.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://developer.amazon.com/amazonbot">Customer facing page of Amazonbot crawler which all web content...</a></li>
+<li><a href="https://dark-visitors.firebaseapp.com/agents/amazonbot">Amazonbot User Agent - Amazon 's AI Search Crawler Documentation</a></li>
+<li><a href="https://datadome.co/bots/amazonbot/">What is Amazonbot ? How to block it ?</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters shared mixed reactions: some noted significant traffic issues from Amazonbot, while others pointed out that robots.txt is merely a courtesy. A user mentioned a new undocumented AWS user agent generating notable traffic, raising concerns about ongoing scraping.
+
+**Tags**: `#web scraping`, `#robots.txt`, `#Amazon`, `#crawlers`, `#web crawling`
+
+---
+
+<a id="item-26"></a>
+## [Codex Now Free in ChatGPT Mobile App](https://openai.com/index/work-with-codex-from-anywhere/) ⭐️ 6.0/10
+
+OpenAI has integrated its Codex AI coding agent into the free tier of the ChatGPT mobile app, allowing users to access coding assistance on iOS and Android devices. This move extends Codex's availability beyond desktop and CLI to mobile platforms. Making Codex free on mobile lowers the barrier for developers to experiment with AI-assisted coding on the go, potentially increasing adoption. However, the mobile experience may be less effective due to screen size and input constraints, as noted by community feedback. Codex in the ChatGPT mobile app is part of the free plan, but users' interactions may be used for training. It is separate from Codex Cloud and the Linux-unavailable Codex App, leading to some confusion.
+
+hackernews · mikeevans · May 14, 20:06 · [Discussion](https://news.ycombinator.com/item?id=48140529)
+
+**Background**: OpenAI Codex is a suite of AI agents designed to automate software engineering tasks such as building features, refactoring code, and migrations. It was previously accessible via desktop app, CLI, or cloud interface. The ChatGPT mobile app integration introduces a mobile-first way to interact with Codex.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI | OpenAI</a></li>
+<li><a href="https://openai.com/index/introducing-codex/">Introducing Codex | OpenAI</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members expressed surprise that Codex is free on mobile, but some found the mobile experience less effective due to smaller screens and lack of keyboard. There was confusion about whether it was Codex Cloud integration, and some noted the missing Linux support. Overall sentiment was mixed, with cautious optimism but concerns about mobile limitations.
+
+**Tags**: `#codex`, `#chatgpt`, `#mobile`, `#ai coding`, `#openai`
+
+---
+
+<a id="item-27"></a>
+## [Museum Exhibit Chronicles Canada's Early Computer Hobbyist Era](https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada) ⭐️ 6.0/10
+
+York University's museum launched an online exhibit detailing the computer hobby movement in Canada before the microcomputer revolution, showcasing clubs, magazines, and kits from the 1960s–1970s. This exhibit preserves a previously underexplored chapter of computing history, highlighting Canada's grassroots innovation and community-building that preceded the personal computer boom, which may inspire retrocomputing enthusiasts and historians. The exhibit covers hobbyist groups like the Toronto PET User Group (TPUG) and mentions key figures such as Jim Butterfield, though commenters note the omission of the magazine 'Electron' and regional accessibility challenges.
+
+hackernews · rbanffy · May 14, 12:57 · [Discussion](https://news.ycombinator.com/item?id=48134743)
+
+**Background**: In the 1960s and 1970s, before affordable home computers, hobbyists built machines from kits like the Altair or scavenged parts, forming clubs to share knowledge. Canada had a vibrant scene with groups like TPUG and publications such as 'Electron', which later transformed into a HiFi magazine, leaving a gap in hobbyist media.
+
+**Discussion**: Commenters expressed nostalgia for the era, with one lamenting the absence of Canada's 'Electron' magazine, which was a key resource. Others noted regional inaccessibility, especially in Northwestern Canada, and praised figures like Jim Butterfield. A user highlighted that TPUG still runs the annual World of Commodore conference in Toronto.
+
+**Tags**: `#history of computing`, `#Canada`, `#computer hobbyists`, `#retrocomputing`
+
+---
+
+<a id="item-28"></a>
+## [Tesla makes FSD intervention feedback mandatory](https://electrek.co/2026/05/14/tesla-forces-fsd-intervention-feedback-mandatory/) ⭐️ 6.0/10
+
+Tesla now requires drivers to provide feedback every time they intervene on Full Self-Driving (FSD), with a persistent prompt that stays on screen until a reason is selected or a voice note is sent. This change arrived with FSD v14.3.2 in software update 2026.2.9.9, rolled out in late April, and was retroactively added to release notes. This mandatory feedback requirement increases data collection for improving FSD, potentially accelerating development. However, it may annoy drivers and could be seen as a step toward Tesla shifting more responsibility to users for system failures. The feedback prompt used to disappear on its own after a few seconds but now persists indefinitely until the driver responds. Tesla did not announce the change initially; the release notes were updated retroactively.
+
+rss · Electrek · May 14, 23:09
+
+**Background**: Full Self-Driving (FSD) is Tesla's advanced driver-assistance system that requires constant driver supervision. Intervention feedback is a key mechanism for Tesla to learn from driver corrections. Previously, the prompt was optional and could be dismissed easily; the mandatory change aims to increase feedback volume and quality.
+
+**Tags**: `#Tesla`, `#Full Self-Driving`, `#autonomous vehicles`, `#feedback`, `#software update`
+
+---
+
+<a id="item-29"></a>
+## [China Proposes Budget EV Category Inspired by Japan's Kei Cars](https://electrek.co/2026/05/14/china-wants-to-build-electric-kei-car-industry-boost-ev-sales/) ⭐️ 6.0/10
+
+The China Passenger Car Association (CPCA) has proposed creating a standardized budget electric vehicle category modeled on Japan's kei cars, aiming to revive sluggish domestic EV sales and target elderly and rural buyers. If implemented, this policy could dramatically expand EV adoption in China by making affordable, regulation-friendly EVs accessible to millions of new consumers, potentially reshaping the world's largest auto market. The proposal would replace cheap, often unsafe unregulated EVs currently popular in rural areas with a legal category featuring size, speed, and power limits, along with tax breaks similar to Japan's kei car system.
+
+rss · Electrek · May 14, 14:28
+
+**Background**: Japan's kei car category, established in 1949, includes tiny vehicles with max 660cc engines, dimensions under 3.4m long, 1.48m wide, and 2m high. Owners enjoy lower taxes and insurance, making kei cars over a third of new car sales in Japan. China's auto industry has been hit by slowing EV demand, prompting CPCA to propose similar measures.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Kei_car">Kei car - Wikipedia</a></li>
+<li><a href="https://www.motortrend.com/features/what-is-a-kei-car">What Is a Kei Car? What You Need to Know About Japan’s Tiny Vehicles</a></li>
+<li><a href="https://www.caixinglobal.com/2026-01-23/chinas-car-sales-stall-amid-tax-hikes-and-waning-stimulus-102406968.html">China ’s Car Sales Hit the Brakes Amid Tax Hikes and... - Caixin Global</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#EV`, `#China`, `#Automotive`, `#Policy`, `#K-car`
+
+---
+
+<a id="item-30"></a>
+## [AI coding agents reduce technology lock-in risks](https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything) ⭐️ 6.0/10
+
+Simon Willison discusses how AI coding agents make technology choices less permanent by reducing the cost of rewriting apps, citing a company that used agents to rewrite their iPhone and Android apps to React Native. This shift could fundamentally change software engineering strategies, as teams may feel more comfortable adopting new languages or frameworks knowing they can cheaply migrate later, reducing the fear of vendor lock-in. The company chose React Native over maintaining separate native apps, but their key rationale was that if the decision proved wrong, they could just port back to native using coding agents. Mitchell Hashimoto's quote about Bun migrating from Zig to Rust echoes this sentiment.
+
+rss · Simon Willison · May 14, 22:53
+
+**Background**: AI coding agents are AI-powered tools that can autonomously write, refactor, or rewrite code based on high-level instructions. Technology lock-in occurs when a company becomes dependent on a particular technology stack, making switching costly or risky. Historically, once a major app was built in a language or framework, migrating to another was prohibitively expensive, locking teams in for years.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
+<li><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI agents`, `#React Native`, `#programming languages`, `#software engineering`, `#technology lock-in`
+
+---
+
+<a id="item-31"></a>
+## [Mitchell Hashimoto on Language Fungibility and Bun's Rust Port](https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything) ⭐️ 6.0/10
+
+Mitchell Hashimoto commented on Twitter that programming languages are becoming fungible, using Bun's port from Zig to Rust as an example. He claimed that Bun could be rewritten in any language in roughly a week or two, making languages like Rust expendable. This challenges the traditional notion of language lock-in, suggesting that modern software engineering practices and tooling make it easier to switch languages. It prompts reflection on the long-term commitment to language ecosystems and the value of language-specific expertise. Bun is a JavaScript runtime originally written in Zig but recently ported to Rust. Hashimoto's comment emphasizes that the rewrite took a short time, highlighting the fungibility of languages rather than the specific technical merits of Rust or Zig.
+
+rss · Simon Willison · May 14, 22:31
+
+**Background**: Bun is a fast, all-in-one JavaScript runtime that aims to replace Node.js. It was initially built using Zig, a low-level language focused on performance and simplicity. The port to Rust, a systems language known for memory safety, demonstrates that major rewrites between languages can be accomplished quickly with modern tooling. This concept of fungibility suggests that languages are less of a long-term lock-in and more of a tool that can be swapped as needs evolve.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
+<li><a href="https://github.com/oven-sh/bun">GitHub - oven-sh/bun: Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#programming languages`, `#rust`, `#zig`, `#bun`, `#software engineering`
+
+---
+
+<a id="item-32"></a>
+## [Nvidia Releases NVFP4 Quantized Kimi 2.6 and 2.5 Models](https://www.reddit.com/r/LocalLLaMA/comments/1tcxb77/nvfp4_kimi26_and_kimi_25_released_by_nvidia/) ⭐️ 6.0/10
+
+Nvidia has released NVFP4 quantized versions of the Kimi-K2.6 and Kimi-2.5 models, achieving accuracy comparable to the INT4 baseline across several benchmarks such as GPQA Diamond and SciCode. This release demonstrates the viability of NVFP4, a 4-bit floating-point format designed for efficient inference on NVIDIA Blackwell GPUs, potentially enabling lower memory usage while maintaining high accuracy. However, the massive VRAM requirement (over 600GB) limits practical accessibility to most users. The NVFP4 models are quantized using NVIDIA's Model Optimizer library and are available on Hugging Face. The accuracy differences are minimal, with NVFP4 slightly outperforming INT4 on SciCode and MMMU Pro but slightly underperforming on GPQA Diamond and τ²-Bench Telecom.
+
+reddit · r/LocalLLaMA · Opening-Broccoli9190 · May 14, 12:53
+
+**Background**: NVFP4 is a 4-bit floating-point precision format introduced by NVIDIA for the Blackwell architecture, utilizing a two-level scaling strategy with fine-grained FP8 scaling factors and an additional FP32 scalar to improve accuracy at ultra-low precision. Quantization reduces model size and speeds up inference, but the Kimi-K2.6 model is extremely large, requiring over 600GB of VRAM even at 4-bit precision.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog</a></li>
+<li><a href="https://github.com/NVIDIA/Model-Optimizer">GitHub - NVIDIA/Model-Optimizer: A unified library of SOTA</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments noted the model's limitations regarding toxic language and societal biases in training data. Users also expressed disappointment that quantization-aware distillation (QAD) was not discussed, and questioned the practicality given the high VRAM requirements, with one commenter noting that very few can run such a large model.
+
+**Tags**: `#nvidia`, `#kimi`, `#model quantization`, `#nvfp4`, `#llm`
+
+---
+
+<a id="item-33"></a>
+## [InclusionAI Unveils Trillion-Parameter Reasoning Model Ring-2.6-1T](https://huggingface.co/inclusionAI/Ring-2.6-1T) ⭐️ 6.0/10
+
+InclusionAI has released Ring-2.6-1T, a trillion-parameter reasoning model designed for complex real-world tasks such as agent workflows, engineering development, and scientific research. The model introduces a Reasoning Effort mechanism with two intensity levels and an asynchronous reinforcement learning training paradigm using the IcePop algorithm. This release pushes the frontier of large language model scale, but early community benchmarks indicate it barely outperforms a 27B model and is outperformed by Kimi K2.6, raising questions about the efficiency of simply scaling parameters. The mixed reception suggests that architectural innovations and training quality may matter more than raw parameter count. The model supports two reasoning effort levels ('high' and 'xhigh') for flexible adjustment of reasoning depth, and employs an Async RL architecture combined with the IcePop algorithm to improve training stability for long-horizon tasks. Despite its trillion-parameter scale, preliminary evaluations show underwhelming performance compared to smaller, well-optimized models.
+
+reddit · r/LocalLLaMA · jacek2023 · May 14, 16:30 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1td3fhc/inclusionairing261t_hugging_face/)
+
+**Background**: Large language models have scaled rapidly in recent years, with many models reaching hundreds of billions or even trillions of parameters. However, achieving reliable reasoning and agent capabilities remains challenging, and long-horizon tasks require models to plan and execute multiple steps over extended periods. Trillion-parameter models aim to improve these capabilities, but often face diminishing returns.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://forums.developer.nvidia.com/t/announcing-megatron-for-training-trillion-parameter-models-nvidia-jarvis-availability/174938">Announcing Megatron for Training Trillion Parameter Models</a></li>
+<li><a href="https://john-shulman-gpt4o-gemini-flash.vercel.app/advancements-in-ai-capabilities/long-horizon-tasks">Long - Horizon Tasks – Nextra</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments are mixed: one user noted that the 1T model 'barely clawing past 27B and getting trounced by Kimi K2.6,' while another criticized it as 'too small' relative to other trillion-parameter models. Overall, the reception is skeptical about the model's practical performance despite its large scale.
+
+**Tags**: `#AI model`, `#large language model`, `#reasoning`, `#Hugging Face`
+
+---
+
+<a id="item-34"></a>
+## [MTP & TurboQuant for Qwen on llama.cpp](https://v.redd.it/4ffhkftui01h1) ⭐️ 6.0/10
+
+An implementation of Multi-Token Prediction (MTP) for the Qwen model on llama.cpp with TurboQuant claims a 40% speedup, achieving 34 tokens/s compared to 21 tokens/s without MTP. If validated, this could significantly speed up local LLM inference, but community skepticism about TurboQuant's real-world performance limits the impact. The patched code is available on GitHub, and quantized Qwen 3.6 27B/35B models with MTP are on Hugging Face. Community comments argue that TurboQuant is not faster than existing Q4 quantization.
+
+reddit · r/LocalLLaMA · gladkos · May 14, 02:35 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1tckzy2/multitoken_prediction_mtp_for_qwen_on_llamacpp/)
+
+**Background**: Multi-Token Prediction (MTP) is a technique where a language model predicts multiple future tokens at once, improving inference throughput. TurboQuant is an online vector quantization algorithm for KV cache compression developed by Google Research. However, llama.cpp already supports efficient KV cache quantization methods, and community tests show TurboQuant offers no speed advantage.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/Multi-token_prediction">Multi-token prediction</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TurboQuant">TurboQuant</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters criticize the post for presenting TurboQuant as beneficial when it is actually slower than F16 or Q4 quantization. One user notes that TurboQuant's PR to llama.cpp was rejected because existing Q4 quantization is already faster and Tur biQuant only helps at lower bitwidths where quality degrades.
+
+**Tags**: `#multi-token prediction`, `#qwen`, `#llama.cpp`, `#local LLM`, `#quantization`
+
+---
+
+<a id="item-35"></a>
+## [SQL's ORDER BY Has Come a Long Way](https://modern-sql.com/blog/2026-05/order-by-history) ⭐️ 6.0/10
+
+A historical overview of the SQL ORDER BY clause evolution from early SQL to modern features has been published on modern-sql.com. Understanding the evolution of ORDER BY helps developers write more efficient queries and leverage modern database capabilities. The article covers decades of changes, though specific examples and versions are not provided in the summary. Community comments mention trusting execution plans and SQL Server specifics.
+
+reddit · r/programming · mariuz · May 14, 15:23 · [Discussion](https://www.reddit.com/r/programming/comments/1td1gxa/sqls_order_by_has_come_a_long_way/)
+
+**Background**: The SQL ORDER BY clause sorts query results by specified columns. It has evolved to support complex expressions, null handling, and tie-breaking, impacting query performance and output.
+
+**Discussion**: One commenter emphasizes trusting execution plans over infographics, suggesting to use EXPLAIN. Another commenter, an SQL Server expert, disagrees with a claim about ORDER BY expression origin rules, citing personal experience with computed values.
+
+**Tags**: `#SQL`, `#databases`, `#query optimization`, `#history`
 
 ---

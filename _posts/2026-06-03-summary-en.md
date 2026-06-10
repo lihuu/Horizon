@@ -5,77 +5,208 @@ date: 2026-06-03
 lang: en
 ---
 
-> From 54 items, 9 important content pieces were selected
+> From 33 items, 17 important content pieces were selected
 
 ---
 
-1. [Adafruit Receives Legal Demand from Flux.ai](#item-1) ⭐️ 8.0/10
-2. [Anthropic Expands Project Glasswing for Critical Infrastructure](#item-2) ⭐️ 8.0/10
-3. [Love systemd timers - A call to switch from cron](#item-3) ⭐️ 8.0/10
-4. [Backprop destroys V1 brain alignment in one epoch, study finds](#item-4) ⭐️ 8.0/10
-5. [Qwen3.6-27B tested as Claude replacement in agent orchestrator](#item-5) ⭐️ 8.0/10
-6. [1-bit and Ternary 4B Image Models: Tiny Footprints for Local Devices](#item-6) ⭐️ 8.0/10
-7. [Gemma 4 E4B with LiteRT achieves ~2.4x text generation speedup](#item-7) ⭐️ 8.0/10
-8. [Codex Free and Go Subscriptions Reset Cycle Changed to 30 Days](#item-8) ⭐️ 8.0/10
-9. [Tencent secretly builds WeChat AI agent to link millions of mini-programs](#item-9) ⭐️ 8.0/10
+1. [KDE Plasma to End X11 Support](#item-1) ⭐️ 8.0/10
+2. [Microsoft Launches MAI-Code-1-Flash 137B Model](#item-2) ⭐️ 7.0/10
+3. [CT Scans of BYD Car Parts Reveal Manufacturing Insights](#item-3) ⭐️ 7.0/10
+4. [Adafruit Receives Demand Letter from Flux.ai's Legal Counsel](#item-4) ⭐️ 7.0/10
+5. [Trump signs downsized AI executive order](#item-5) ⭐️ 7.0/10
+6. [Browser ad feature criticized as cartel-like privacy threat](#item-6) ⭐️ 7.0/10
+7. [Why Janet? A Personal Essay on Choosing a Lisp-like Language](#item-7) ⭐️ 7.0/10
+8. [Anthropic Expands Claude Mythos to 15 Countries' Critical Infrastructure](#item-8) ⭐️ 7.0/10
+9. [Why You Should Love systemd Timers Over Cron](#item-9) ⭐️ 7.0/10
+10. [Microsoft Announces MAI-Thinking-1 and MAI-Code-1-Flash](#item-10) ⭐️ 7.0/10
+11. [User leaves Gmail over excessive AI features](#item-11) ⭐️ 6.0/10
+12. [Walking Tour of Seattle Surveillance Infrastructure](#item-12) ⭐️ 6.0/10
+13. [HP re-releases classic HP-16C calculator as collector's edition](#item-13) ⭐️ 6.0/10
+14. [Fidonet 1993 Overview Sparks Nostalgic Community Discussion](#item-14) ⭐️ 6.0/10
+15. [BYD Claims Cast Aluminum Frame Beats Steel in Strength and Weight](#item-15) ⭐️ 6.0/10
+16. [Mercedes CLA EV achieves nearly 400 miles real-world range](#item-16) ⭐️ 6.0/10
+17. [Tesla Semi wows fleet operator on Grapevine test](#item-17) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Adafruit Receives Legal Demand from Flux.ai](https://blog.adafruit.com/) ⭐️ 8.0/10
+## [KDE Plasma to End X11 Support](https://blog.davidedmundson.co.uk/blog/596/) ⭐️ 8.0/10
 
-Adafruit received a demand letter from Flux.ai's legal counsel, Fenwick, threatening legal action over a planned blog post about Flux.ai's product and business practices. This incident highlights tensions between open-source hardware communities and companies using aggressive legal tactics to suppress critical reviews, potentially chilling free expression and honest product assessments. The demand letter came in response to an unpublished blog post by Adafruit; the community speculates it concerned Flux.ai's AI-powered PCB design tool, which has drawn complaints about billing and performance.
+KDE Plasma has announced that the upcoming release will be the last to support the X11 display server, with future versions requiring Wayland. This transition will enable a single code path via Wayland for new features and improvements. This marks a major milestone in the Linux desktop ecosystem, as KDE is one of the last major desktop environments to fully move away from X11 to Wayland. It will affect millions of users and application developers, offering better performance and security but also raising concerns about feature parity and accessibility. The transition will allow KDE to introduce new features that were impossible under X11, but known issues remain, such as inability to save window positions for native Wayland windows, no per-application keyboard layouts, and regression in accessibility software like voice input systems.
 
-hackernews · semanser · Jun 2, 10:00 · [Discussion](https://news.ycombinator.com/item?id=48368121)
+hackernews · jandeboevrie · Jun 2, 14:16 · [Discussion](https://news.ycombinator.com/item?id=48370588)
 
-**Background**: Adafruit is a well-known open-source hardware company that frequently reviews tools and products. Flux.ai offers a cloud-based, AI-assisted PCB design platform. Demand letters are often used to intimidate critics, but can backfire by drawing negative attention.
+**Background**: X11 is a decades-old display server protocol that has been the standard on Linux, but it suffers from security and performance limitations. Wayland is a modern replacement that integrates the display server and compositor, aiming to be simpler and more secure. The transition has been ongoing for several years, with major desktops like GNOME already defaulting to Wayland.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.flux.ai/p/nb/design-pcb-with-ai">Design PCBs with AI | Flux</a></li>
-<li><a href="https://www.flux.ai/p/blog/best-pcb-design-software-2026">Best PCB Design Software in 2026: Tools Compared</a></li>
+<li><a href="https://en.wikipedia.org/wiki/X_display_server">X display server</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wayland_display_server">Wayland display server</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members expressed strong support for Adafruit, sharing negative experiences with Flux.ai's product and billing. Ladyada, Adafruit's founder, sought a constructive resolution, while others criticized Flux.ai's legal aggression.
+**Discussion**: Community comments are mixed: some users praise KDE developers for pushing Wayland forward and report a smoother experience with fewer breakages, while others highlight significant regressions, especially for accessibility tools like Talon voice input, and missing features such as PiP windows staying on top. There is concern that some issues may take years to resolve.
 
-**Tags**: `#legal`, `#open-source hardware`, `#Adafruit`, `#Flux.ai`, `#PCB design`
+**Tags**: `#KDE`, `#Plasma`, `#Wayland`, `#X11`, `#Linux Desktop`
 
 ---
 
 <a id="item-2"></a>
-## [Anthropic Expands Project Glasswing for Critical Infrastructure](https://www.anthropic.com/news/expanding-project-glasswing) ⭐️ 8.0/10
+## [Microsoft Launches MAI-Code-1-Flash 137B Model](https://microsoft.ai/news/introducingmai-code-1-flash/) ⭐️ 7.0/10
 
-Anthropic has expanded Project Glasswing to deploy its advanced cybersecurity model Claude Mythos across critical infrastructure in 15 countries, moving from initial researcher access to broader operational use. This deployment marks a significant step in using AI for national-level security, but also raises concerns about model reliability, compute constraints, and ethical implications of entrusting critical systems to a single AI provider. Claude Mythos is described as Anthropic's most powerful cybersecurity model, previously restricted to security researchers; the expansion targets critical infrastructure such as power grids, water systems, and telecommunications in 15 countries.
+Microsoft announced MAI-Code-1-Flash, a 137B parameter mixture-of-experts code generation model with 5B active parameters, alongside six other MAI models. This release shows Microsoft's commitment to code AI, but early community analysis questions its competitiveness, as smaller models like Qwen achieve similar SWE-bench scores at lower cost. The model scores 51% on SWE-bench Pro, while the 35B-parameter Qwen3.6-35B-A3B scores 49.5%. Microsoft compares it to Claude Haiku 4.5, which commenters note is an older, smaller model.
 
-hackernews · surprisetalk · Jun 2, 13:15 · [Discussion](https://news.ycombinator.com/item?id=48369863)
+hackernews · EvanZhouDev · Jun 2, 18:47 · [Discussion](https://news.ycombinator.com/item?id=48374466)
 
-**Background**: Project Glasswing is an Anthropic initiative that provides restricted access to Claude Mythos, a model designed for vulnerability detection and cybersecurity. Claude is a series of large language models by Anthropic, competing with OpenAI's GPT. The expansion raises questions about compute capacity, as Anthropic may lack resources to offer Mythos publicly, and about surveillance risks given Anthropic's prior statements on mass surveillance.
+**Background**: Code generation models are specialized large language models trained on code and natural language. Mixture-of-experts (MoE) architectures use sparse activation to reduce computational cost, enabling large total parameter counts with lower inference costs. SWE-bench is a benchmark for evaluating models on real-world software engineering tasks.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://simonwillison.net/2026/Apr/7/project-glasswing/">Anthropic’s Project Glasswing—restricting Claude Mythos to</a></li>
-<li><a href="https://news.aibase.com/news/27173">Anthropic's Project Glasswing: The Achievement of</a></li>
-<li><a href="https://www.bbc.com/news/articles/crk1py1jgzko">What is Anthopic's Claude Mythos and what risks does it pose?</a></li>
+**Discussion**: Community comments express skepticism: one user notes MAI-Code-1-Flash's performance is similar to Qwen's 35B model despite being much larger, and another criticizes the use of Claude Haiku as a baseline. Some users have canceled GitHub Copilot due to pricing changes and express disinterest in the new model.
 
-</ul>
-</details>
-
-**Discussion**: Community comments express skepticism: some report high false positive rates ('noise') in practical use, while others suspect Anthropic is using security as a pretext to mask compute limitations. Ethical concerns are raised about Anthropic's involvement in mass surveillance, and a commenter notes a potential shift toward memory-safe languages like Rust for infrastructure.
-
-**Tags**: `#Anthropic`, `#critical infrastructure`, `#AI deployment`, `#ethics`, `#security`
+**Tags**: `#AI`, `#Machine Learning`, `#Code Generation`, `#Microsoft`, `#Model Evaluation`
 
 ---
 
 <a id="item-3"></a>
-## [Love systemd timers - A call to switch from cron](https://blog.tjll.net/you-dont-love-systemd-timers-enough/) ⭐️ 8.0/10
+## [CT Scans of BYD Car Parts Reveal Manufacturing Insights](https://www.lumafield.com/scan-of-the-month/byd) ⭐️ 7.0/10
 
-A blog post titled 'You Don't Love systemd Timers Enough' argues that systemd timers are superior to cron for scheduling tasks on Linux, citing benefits like integrated logging, resilience to missed runs after reboot, and easier debugging. This debate reflects a broader shift in Linux system administration from traditional tools like cron toward systemd's integrated ecosystem, affecting how administrators manage scheduled tasks across modern distributions. systemd timers support OnCalendar syntax similar to cron, but also provide monotonic timers, randomized delays, and integration with journalctl for unified logging. The author emphasizes that timers can be tested manually and survive system downtime.
+Lumafield published high-resolution CT scans of BYD car parts, including a key, seatbelt, and motor controller, exposing internal manufacturing details and supply chain architecture. This analysis provides rare transparency into BYD's vertical integration strategy and design choices, triggering discussions on the accuracy of reverse engineering and the scale of in-house production compared to legacy automakers. The scans reveal that BYD produces about 75% of its components in-house, similar to Tesla but far above Ford's ~25%, and the article notes that BYD's vertical integration spans from lithium mines to port logistics.
+
+hackernews · viasfo · Jun 2, 20:30 · [Discussion](https://news.ycombinator.com/item?id=48375824)
+
+**Background**: CT (computed tomography) scanning uses X-rays to create 3D cross-sectional images of objects non-destructively, allowing for detailed inspection of internal structures. Vertical integration refers to a company controlling multiple stages of production within its supply chain, from raw materials to final assembly.
+
+**Discussion**: A BYD owner corrected the article's claim about the key being 'hinged,' explaining that the physical key pulls out via a clip, and the hinge-like feature is a plastic weld artifact. Another commenter compared production scales: BYD 4.6M, Ford 4.4M, Tesla 1.6M vehicles per year. A user in Mexico noted the contrast between local prevalence of BYD vehicles and US media perception.
+
+**Tags**: `#automotive`, `#engineering`, `#reverse engineering`, `#supply chain`, `#BYD`
+
+---
+
+<a id="item-4"></a>
+## [Adafruit Receives Demand Letter from Flux.ai's Legal Counsel](https://blog.adafruit.com/) ⭐️ 7.0/10
+
+Adafruit, a prominent open-source hardware company, received a demand letter from Fenwick legal counsel on behalf of Flux.ai, a venture-funded AI PCB design startup. The letter likely pertains to a potential critical review or commentary about Flux.ai that Adafruit was preparing to publish. This incident highlights tensions between open-source communities and venture-backed startups over intellectual property and critical discourse. It could set a precedent for how companies respond to negative reviews, potentially chilling legitimate criticism. The demand letter was sent by Fenwick, a prominent law firm, on behalf of Flux.ai. Adafruit's founder, ladyada, has reached out to Flux.ai's CEO to resolve the matter publicly, possibly via a podcast.
+
+hackernews · semanser · Jun 2, 10:00 · [Discussion](https://news.ycombinator.com/item?id=48368121)
+
+**Background**: Adafruit is a major open-source hardware company known for selling electronics kits and publishing reviews and tutorials. Flux.ai is a browser-based PCB design tool that uses AI to assist with schematic and layout, targeting modern hardware design methodologies. The tool has received mixed reviews, with some users reporting poor experiences and high token costs.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.flux.ai/">Flux - Design PCBs with AI</a></li>
+<li><a href="https://www.electronics-lab.com/flux-ai-an-ai-powered-browser-based-pcb-design-tool-review/">Flux.ai – An AI Powered, Browser-Based PCB Design Tool Review</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments express strong skepticism towards Flux.ai's product quality and legal strategy. Many users describe negative experiences with Flux.ai, calling it an 'awful product' that consumes tokens with little output. Some suggest Adafruit was preparing a critical post, leading Flux.ai to preemptively send a demand letter.
+
+**Tags**: `#Legal`, `#Hardware`, `#Open-source`, `#PCB design`, `#Community conflict`
+
+---
+
+<a id="item-5"></a>
+## [Trump signs downsized AI executive order](https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389) ⭐️ 7.0/10
+
+President Trump signed an executive order on June 2, 2026, that requires AI companies to voluntarily submit powerful new models for government review 30 days before public release and directs the Justice Department to prosecute individuals who misuse AI for hacking. This order represents a significant federal AI regulatory move, balancing safety oversight with industry innovation, and could set a precedent for how the U.S. government addresses risks from advanced AI models without imposing mandatory restrictions. The review is voluntary and applies only to the most powerful models; the order also calls for developing a cybersecurity benchmark for models and directs prosecution of AI-enabled computer crimes, but lacks mandatory testing or licensing requirements.
+
+hackernews · _alternator_ · Jun 2, 16:40 · [Discussion](https://news.ycombinator.com/item?id=48372628)
+
+**Background**: Executive orders allow the president to direct federal agencies without new legislation. Previous AI orders, like Biden's 2023 executive order, required mandatory safety testing. This new order is seen as a scaled-back version, emphasizing voluntary compliance and enforcement against misuse rather than pre-market mandates.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.opb.org/article/2026/06/02/trumps-new-ai-safety-order-seeks-voluntary-review-of-new-models/">Trump signs AI safety order seeking voluntary review of new models - OPB</a></li>
+<li><a href="https://www.reuters.com/legal/litigation/white-house-briefs-ai-firms-plans-model-review-information-reports-2026-05-20/">White House briefs AI firms on plans for model review, the ... - Reuters</a></li>
+<li><a href="https://news.bloomberglaw.com/us-law-week/rising-ai-related-sophisticated-crimes-need-urgent-DOJ-Attention">Rising AI-Related Sophisticated Crimes May Invite More DOJ Focus</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters expressed skepticism about the order's substance, noting it lacks concrete requirements. Some worried it could lead to de facto restrictions on open-source models by creating a review process that favors closed, vetted releases. Others argued the voluntary review period might allow insider trading rather than improve security, and criticized that DOJ prosecution of AI misuse was already possible under existing law.
+
+**Tags**: `#AI regulation`, `#executive order`, `#policy`, `#cybersecurity`, `#open source`
+
+---
+
+<a id="item-6"></a>
+## [Browser ad feature criticized as cartel-like privacy threat](https://blog.zgp.org/the-advertising-cartel-coming-to-your-web-browser/) ⭐️ 7.0/10
+
+A blog post criticizes a proposed browser advertising feature, arguing that big tech companies are forming a cartel to embed tracking into browsers while bypassing privacy regulations. The post highlights concerns over a lack of consent mechanisms and dual standards for third-party advertisers versus built-in browser tracking. This debate impacts the future of web privacy and online advertising, as browser-level tracking could become a default, undermining user control. The discussion reflects broader tensions between big tech, advertisers, regulators, and users over how to balance privacy and ad revenue. The proposed feature, part of Google's Privacy Sandbox and similar initiatives, includes APIs like Topics and FLoC that categorize users for ad targeting without third-party cookies. Critics argue that these systems give browser vendors preferential treatment and may still enable tracking, while supporters claim they improve privacy compared to current methods.
+
+hackernews · speckx · Jun 2, 19:39 · [Discussion](https://news.ycombinator.com/item?id=48375175)
+
+**Background**: The Privacy Sandbox was a Google-led initiative launched in 2019 to develop privacy-preserving advertising technologies, replacing third-party cookies. It included APIs such as Topics (which shares users' interest categories) and FLoC (which groups users into cohorts). The initiative faced antitrust scrutiny and was officially discontinued in April 2025 due to low adoption. However, similar browser-based advertising features continue to be proposed by other companies, raising concerns about a cartel-like control over web standards.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Privacy_Sandbox">Privacy Sandbox</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Topics_API">Topics API</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FLoC">FLoC</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Comments reveal polarized views: some agree that the proposal gives browser vendors unfair advantages and lacks consent options, while others suspect the blog author is an advertiser protecting their profits. A few commenters see cross-company cooperation on privacy as a positive sign, and one criticizes the website's own invasive pop-up.
+
+**Tags**: `#privacy`, `#advertising`, `#web browsers`, `#big tech`, `#tracking`
+
+---
+
+<a id="item-7"></a>
+## [Why Janet? A Personal Essay on Choosing a Lisp-like Language](https://ianthehenry.com/posts/why-janet/) ⭐️ 7.0/10
+
+The author published a personal essay titled 'Why Janet? (2023)' explaining why they adopted Janet as their primary programming language, citing its simplicity, portability, and unique features like built-in parsers and PEG grammars. This essay has sparked high community engagement, highlighting Janet as a modern Lisp-inspired language that excels in embedding and distribution, encouraging developers to consider alternatives beyond mainstream languages like Python or Lua. Janet is a functional and imperative language implemented in C99, featuring a bytecode VM, built-in sandboxing via feature sets, and a package manager (jpm) that can produce standalone binaries. The article mentions that Janet's standard library includes a parser library and that bindings created with 'def' are immutable, though a community commenter noted an inaccuracy regarding 'setq'.
+
+hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com/item?id=48367907)
+
+**Background**: Janet is a lightweight Lisp-inspired programming language created by Caleb Evans and first released in 2017. It is designed for system scripting, automation, and embedding into C/C++ programs, similar to Lua or GNU Guile. Janet runs on Windows, Linux, macOS, and other platforms, and emphasizes simplicity and portability with a small runtime footprint. The language offers features such as pattern matching, PEG parsers, and first-class support for closures and macros.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://janet-lang.org/">Janet Programming Language</a></li>
+<li><a href="https://github.com/janet-lang/janet">GitHub - janet-lang/janet: A dynamic language and bytecode vm</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters expressed mixed opinions: some praised Janet's portability and sandboxing, while others criticized its limited library ecosystem and lack of package versioning. One user highlighted an inaccuracy in the article regarding 'setq' behavior, and another mentioned Fennel as a similar language that compiles to Lua. Overall, the discussion was constructive, with users sharing their experiences and alternative perspectives.
+
+**Tags**: `#Janet`, `#programming languages`, `#Lisp`, `#embedded scripting`, `#technical essay`
+
+---
+
+<a id="item-8"></a>
+## [Anthropic Expands Claude Mythos to 15 Countries' Critical Infrastructure](https://www.anthropic.com/news/expanding-project-glasswing) ⭐️ 7.0/10
+
+Anthropic announced the expansion of Project Glasswing, deploying its Claude Mythos AI model to secure critical infrastructure across 15 countries, as reported on June 2, 2026. This expansion marks a significant step in using advanced AI for national security, but raises concerns about effectiveness and ethical implications of AI monitoring critical systems. Claude Mythos is a large language model designed to find software vulnerabilities, and it remains unreleased to the public due to safety concerns. The expansion covers 15 countries, though specific names were not disclosed.
+
+hackernews · surprisetalk · Jun 2, 13:15 · [Discussion](https://news.ycombinator.com/item?id=48369863)
+
+**Background**: Project Glasswing is Anthropic's cybersecurity initiative launched in April 2026 to secure critical software using AI. Claude Mythos is a frontier model described as a 'step change' in capabilities, but has drawn mixed reactions from the security community.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Mythos">Claude Mythos</a></li>
+<li><a href="https://www.anthropic.com/glasswing">Project Glasswing : Securing critical software for the AI era \ Anthropic</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Comments reveal skepticism: one user reported that Claude Mythos generated excessive false positives in practice, while another accused Anthropic of using security concerns to mask compute shortages. Concerns about mass surveillance and the need for memory-safe alternatives like Rust were also raised.
+
+**Tags**: `#Anthropic`, `#critical infrastructure`, `#AI safety`, `#Claude Mythos`, `#deployment`
+
+---
+
+<a id="item-9"></a>
+## [Why You Should Love systemd Timers Over Cron](https://blog.tjll.net/you-dont-love-systemd-timers-enough/) ⭐️ 7.0/10
+
+The article argues that systemd timers are superior to cron due to better resilience to system startup times, clearer configuration, integration with journalctl, and easier debugging. This matters because cron is a decades-old standard for task scheduling in Linux, and systemd timers offer modern features like missed-run catch-up, randomized delays, and unified logging, making them a more robust choice for system administrators. systemd timers use .timer unit files that work with corresponding .service files, supporting both calendar-based (OnCalendar) and monotonic events. They log to journald, can be tested with systemctl start, and support dependencies on other systemd services.
 
 hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com/item?id=48367904)
 
-**Background**: systemd is the init system used by most Linux distributions, managing services and system processes. Timers are a systemd feature for scheduling tasks, offering advantages over the traditional cron daemon such as better logging, dependency handling, and missed-run recovery.
+**Background**: systemd is a system and service manager for Linux used by most modern distributions. It replaced traditional init systems like SysVinit. systemd timers are a mechanism within systemd for scheduling tasks, similar to cron but more tightly integrated with the rest of the system, providing features like persistent timers that catch up after downtime and randomized delays to avoid load spikes.
 
 <details><summary>References</summary>
 <ul>
@@ -85,139 +216,161 @@ hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com
 </ul>
 </details>
 
-**Discussion**: Commenters shared mixed experiences: some praised timers for resilience after reboot and integration with journalctl, while others noted that cron's simplicity and predictable PATH handling remain appealing. The author engaged with feedback, acknowledging valid points on both sides.
+**Discussion**: The comments show strong support for systemd timers, with users sharing real-world experiences like backups that run after boot if missed and automatic printer maintenance. Some debate about PATH handling exists, but overall sentiment is positive toward timers.
 
-**Tags**: `#systemd`, `#cron`, `#Linux`, `#system administration`, `#timers`
+**Tags**: `#systemd`, `#cron`, `#Linux`, `#system administration`, `#scheduling`
 
 ---
 
-<a id="item-4"></a>
-## [Backprop destroys V1 brain alignment in one epoch, study finds](https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/) ⭐️ 8.0/10
+<a id="item-10"></a>
+## [Microsoft Announces MAI-Thinking-1 and MAI-Code-1-Flash](https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything) ⭐️ 7.0/10
 
-A new study shows that backpropagation drops 90% of V1 brain alignment after just one epoch of training on CIFAR-10, while local learning rules like predictive coding and STDP preserve 69-75% of alignment. This challenges the assumption that backpropagation is a good model of biological learning, at least for early visual cortex, and suggests a fundamental trade-off between building high-level representations and maintaining low-level brain alignment. It may guide the development of more biologically plausible AI algorithms. The study measured representational similarity analysis (RSA) alignment to human fMRI at eight checkpoints across 40 epochs, using five seeds per learning rule. Backpropagation achieved Cohen's d > 5 vs. predictive coding and STDP, indicating extremely consistent differences across seeds.
+Microsoft announced two new text LLMs: MAI-Thinking-1 (reasoning, 35B parameters) and MAI-Code-1-Flash (5B parameters for code). MAI-Thinking-1 uses a sparse Mixture of Experts architecture and is claimed to be preferred over Sonnet 4.6 in blind evaluations, while MAI-Code-1-Flash is rolling out to GitHub Copilot users in VS Code. These low-parameter models could significantly reduce the cost of high-performance reasoning and code generation, making powerful AI more accessible. Moreover, their training on clean, licensed data sets a precedent for addressing copyright concerns in AI development. MAI-Thinking-1 has ~1T total parameters but only 35B active, matching Claude Opus 4.6 on SWE-Bench Pro. Both models were trained from scratch on enterprise-grade, commercially licensed data without distillation from third-party models, addressing data provenance concerns.
 
-reddit · r/MachineLearning · /u/ConfusionSpiritual19 · Jun 2, 12:43
+rss · Simon Willison · Jun 2, 22:21
 
-**Background**: Backpropagation is the standard algorithm for training deep neural networks, but it is not biologically plausible because it requires symmetric weights and global error signals. Local learning rules like predictive coding and STDP are more aligned with how biological neurons learn, using local information to adjust synapses. This study uses Representational Similarity Analysis (RSA) to compare how well artificial neural network representations match brain activity patterns measured by fMRI.
+**Background**: Reasoning models like OpenAI's o-series and Gemini thinking variants use extra compute during inference to generate step-by-step reasoning, improving accuracy on complex tasks. Parameter count and architecture (e.g., sparse MoE) affect model performance and cost; smaller activated-parameter models can run on consumer hardware. Most current large models train on unlicensed web scrapes, raising copyright issues.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://medium.com/data-science/feedback-alignment-methods-7e6c41446e36">Feedback Alignment Methods. A biologically-motivated... | Medium</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Spike-timing-dependent_plasticity">Spike-timing-dependent plasticity</a></li>
-<li><a href="https://arxiv.org/abs/1904.11740">[1904.11740] Representation Similarity Analysis for Efficient</a></li>
+<li><a href="https://microsoft.ai/news/introducing-mai-thinking-1/">Introducing MAI-Thinking-1 - Microsoft AI</a></li>
+<li><a href="https://www.zdnet.com/article/all-the-new-ai-models-microsoft-just-launched-at-build/">Microsoft's first reasoning model is one of 7 AIs just ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Reddit community discussion highlights the robustness of the results across seeds and the interesting trade-off. Some commenters note that the resolution limit from using only 5 seeds (p≈0.031) is a limitation, and suggest testing on deeper architectures to see if the pattern holds but more slowly.
-
-**Tags**: `#neuroscience`, `#backpropagation`, `#predictive coding`, `#STDP`, `#brain alignment`
+**Tags**: `#Microsoft`, `#LLM`, `#AI models`, `#reasoning`, `#code generation`
 
 ---
 
-<a id="item-5"></a>
-## [Qwen3.6-27B tested as Claude replacement in agent orchestrator](https://www.reddit.com/r/LocalLLaMA/comments/1tunmam/replaced_claude_with_local_qwen3627b_in_my/) ⭐️ 8.0/10
+<a id="item-11"></a>
+## [User leaves Gmail over excessive AI features](https://moddedbear.com/gmail-thinks-im-stupid-so-i-left) ⭐️ 6.0/10
 
-A user replaced Claude with the local Qwen3.6-27B model in their multi-agent orchestrator OpenYabby for two weeks, finding it competitive for plan generation but weaker in code quality and tool-call reliability. This hands-on comparison demonstrates the current viability of local models as a reasoning layer for multi-agent systems, while highlighting the critical gaps—especially tool-call accuracy—that must be closed before fully replacing cloud-based reasoning. The test used Qwen3.6-27B at Q6_K quantization on a single RTX 3090 via Ollama, across 47 workflows. Plan generation achieved ~95% schema validity, but tool-call format errors were ~12% vs Claude's 0.5%, and long-context drift appeared beyond 14k tokens.
+A user publicly announced they switched from Gmail to Fastmail, citing frustration with Google's aggressive AI integration in email, including auto-suggested replies and smart features. This reflects a growing user backlash against AI-driven email features that feel intrusive and unnecessary, highlighting a market demand for simpler, privacy-focused alternatives like Fastmail. Fastmail is a subscription-based, ad-free email service offering app passwords, hide-my-email aliases, and iOS integration, though its calendar lacks autocomplete for addresses. The user praises Fastmail's speed and simplicity compared to Gmail's sluggish AI overlays.
 
-reddit · r/LocalLLaMA · /u/Interesting-Sock3940 · Jun 2, 11:05
+hackernews · speckx · Jun 2, 19:27 · [Discussion](https://news.ycombinator.com/item?id=48375016)
 
-**Background**: Multi-agent orchestrators like OpenYabby use a lead/manager/sub-agent loop where a reasoning model generates plans, delegates tasks, and reviews outputs. Local models offer cost savings and privacy but often lag behind cloud models in reliability. Qwen3.6-27B is a 27B-parameter model that can run on consumer GPUs.
+**Background**: Gmail has increasingly integrated AI features like Smart Reply and Smart Compose, which suggest full responses or auto-complete emails. Some users find these features helpful, but others see them as intrusive and unnecessary. Fastmail, founded in 1999 and based in Melbourne, offers a more traditional, privacy-focused email experience with no ads and faster performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/OpenYabby/OpenYabby">GitHub - OpenYabby / OpenYabby : Voice-driven multi - agent assistant...</a></li>
-<li><a href="https://signal-ia-rouge.vercel.app/en/article/replaced-claude-with-local-qwen36-27b-in-my-multi-agent-orchestrator-for-2-weeks-12d156">Replaced Claude with local Qwen3.6-27B in my multi - agent ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fastmail">Fastmail</a></li>
+<li><a href="https://www.fastmail.com/">Email and calendar made better | Fastmail</a></li>
+<li><a href="https://grokipedia.com/page/Fastmail">Fastmail</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local-llm`, `#multi-agent`, `#qwen`, `#claude`, `#orchestration`
+**Discussion**: Community comments praise Fastmail's speed and simplicity, with one user noting it 'has everything Gmail has' and is 'instant'. Others express frustration with Google's AI suggestions being overly large and irrelevant, and question why native English speakers would use LLMs to write emails.
+
+**Tags**: `#Email`, `#AI features`, `#Gmail`, `#Fastmail`, `#Productivity`
 
 ---
 
-<a id="item-6"></a>
-## [1-bit and Ternary 4B Image Models: Tiny Footprints for Local Devices](https://www.reddit.com/r/LocalLLaMA/comments/1tusnh5/1bit_bonsai_image_4b_and_ternary_bonsai_image_4b/) ⭐️ 8.0/10
+<a id="item-12"></a>
+## [Walking Tour of Seattle Surveillance Infrastructure](https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/) ⭐️ 6.0/10
 
-Researchers have released Bonsai Image 4B models quantized to 1-bit and ternary precision, achieving memory footprints of only 0.93 GB and 1.21 GB respectively. This breakthrough enables powerful 4 billion parameter image generation models to run on local devices like smartphones and laptops, democratizing access to high-quality AI image synthesis without cloud dependence. The models use extreme low-bit quantization (1-bit ternary) to compress a 4B parameter diffusion transformer, reducing size by over 10x compared to standard 16-bit models while retaining generation quality.
+The article presents a detailed walking tour of visible surveillance cameras in Seattle, examining their societal implications and the concept of 'gazes'. It highlights the growing normalization of surveillance in urban spaces, raising privacy and civil liberties concerns that affect all citizens. The tour uses art-school vocabulary like 'kinds of gazes' that some find inaccessible, and discusses how cameras encode social agreements about normal behavior.
 
-reddit · r/LocalLLaMA · /u/Addyad · Jun 2, 14:28
+hackernews · eustoria · Jun 2, 13:24 · [Discussion](https://news.ycombinator.com/item?id=48369980)
 
-**Background**: Quantization reduces the precision of model weights to save memory and speed up inference. 1-bit quantization uses only binary weights (-1 or 1), while ternary uses {-1,0,1}. Diffusion transformers are a class of generative models that combine diffusion processes with transformer architectures, used in modern image generators like Stable Diffusion 3. Bonsai Image 4B builds on this lineage with aggressive quantization for edge deployment.
+**Background**: Surveillance infrastructure refers to the network of cameras and monitoring systems deployed in public spaces. The walking tour is a curated route that highlights the prevalence and design of these cameras, prompting reflection on privacy and social control.
+
+**Discussion**: Commenters have mixed feelings: some accept surveillance as necessary for safety given high crime rates, while others criticize the inaccessible language and argue that surveillance erodes freedom. There is debate over the trade-off between liberty and security.
+
+**Tags**: `#surveillance`, `#privacy`, `#seattle`, `#ethics`, `#technology`
+
+---
+
+<a id="item-13"></a>
+## [HP re-releases classic HP-16C calculator as collector's edition](https://hpcalcs.com/product/hp-16c-collectors-edition/) ⭐️ 6.0/10
+
+After more than 35 years, Hewlett-Packard has re-released the HP-16C Computer Scientist calculator as a Collector's Edition, preserving the original design with some modern refinements. This re-release appeals to nostalgic programmers and calculator enthusiasts, but questions about build quality and alternative options like SwissMicros DM16L highlight the niche market and practical concerns. The HP-16C was originally produced from 1982 to 1989 for computer programmers. The new Collector's Edition aims to honor the legacy, but some users are wary due to issues with the earlier 15C Collector's Edition.
+
+hackernews · dm319 · Jun 2, 19:02 · [Discussion](https://news.ycombinator.com/item?id=48374685)
+
+**Background**: HP's Voyager series calculators (including HP-11C, 15C, and 16C) were renowned for their robust build quality and Reverse Polish Notation (RPN) logic. The HP-16C was specialized for programmers, supporting hexadecimal, octal, and binary arithmetic. SwissMicros produces modern clones like the DM16L that offer similar functionality with updated hardware.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/html/2509.07025v1">1 BIT IS ALL WE NEED: Binary Normalized Neural Networks</a></li>
-<li><a href="https://arxiv.org/pdf/2303.01505">Ternary Quantization : A Survey</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Stable_Diffusion">Stable Diffusion - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/HP-16C">HP-16C - Wikipedia</a></li>
+<li><a href="https://hpcalcs.com/product/hp-16c-collectors-edition/">HP 16c Collector’s Edition - HP Calc</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#image generation`, `#quantization`, `#efficient AI`, `#diffusion transformer`, `#on-device AI`
+**Discussion**: Commenters express strong nostalgia but often recommend SwissMicros alternatives or keeping their original devices; concerns about build quality compared to originals are common, especially after issues with the 15C Collector's Edition.
+
+**Tags**: `#hardware`, `#calculators`, `#retro computing`, `#HP`
 
 ---
 
-<a id="item-7"></a>
-## [Gemma 4 E4B with LiteRT achieves ~2.4x text generation speedup](https://www.reddit.com/r/LocalLLaMA/comments/1tuygn6/using_gemma_4_e4b_with_the_litert_engine_24x/) ⭐️ 8.0/10
+<a id="item-14"></a>
+## [Fidonet 1993 Overview Sparks Nostalgic Community Discussion](https://www.fidonet.org/inet92_Randy_Bush.txt) ⭐️ 6.0/10
 
-A user benchmarked Gemma 4 E4B using Google's LiteRT engine and found a ~2.4x speedup in text generation over the Q4 GGUF quantized version, while image captioning speed was only 1.1x faster. This demonstrates that LiteRT with multi-token prediction (MTP) can significantly boost local LLM inference speeds, making smaller models like Gemma 4 E4B more practical for real-time applications on consumer hardware. The benchmark used a 4060 Ti 16GB GPU and compared LiteRT-LM 4B (with MTP) against llama.cpp GGUF Q4M. Text generation averaged 157.2 tok/s vs 66.3 tok/s, a 2.4x gain. Image captioning per image was 0.65s vs 0.72s, only 1.1x faster.
+A historical 1993 document detailing Fidonet technology, use, tools, and history has been shared online, prompting a wave of nostalgic comments from former users. This highlights Fidonet's significance as a precursor to modern social networks and the enduring legacy of early decentralized online communities. It offers valuable historical context for understanding the evolution of internet-based communication. Fidonet used a store-and-forward system over dial-up modems to exchange email and forum messages, with node addresses like '2:463/1161'. A Turkish clone called HitNet existed with similar addressing.
 
-reddit · r/LocalLLaMA · /u/AnticitizenPrime · Jun 2, 17:46
+hackernews · BruceEel · Jun 2, 13:53 · [Discussion](https://news.ycombinator.com/item?id=48370291)
 
-**Background**: LiteRT is Google's lightweight runtime for deploying ML models on edge devices, and GGUF is a popular quantization format for running LLMs locally via llama.cpp. Multi-token prediction (MTP) allows the model to predict multiple tokens at once, speeding up autoregressive generation.
+**Background**: Fidonet is a worldwide computer network for bulletin board systems (BBSes) that operated via store-and-forward messaging over telephone lines. BBSes were early online communities where users dialed in to read messages, play games, and share files. Fidonet allowed BBSes to exchange messages globally, creating a decentralized network that peaked with nearly 40,000 nodes in the mid-1990s before the rise of the internet.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ai.google.dev/edge/litert-lm/js">LiteRT-LM Web API | Google AI Edge |</a></li>
-<li><a href="https://ai.google.dev/gemma/docs/mtp/overview">Speed-up Gemma 4 with Multi - Token Prediction | Google AI for...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FidoNet">FidoNet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bulletin_board_system">Bulletin board system - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Gemma 4`, `#LiteRT`, `#LLM inference`, `#performance benchmarking`, `#MTP`
+**Discussion**: Commenters expressed strong nostalgia, with one user noting the 'magical' experience of seeing messages relay across the country for free. Another mentioned a Turkish Fidonet clone (HitNet) and its early social networking features. A few pointed out that Fidonet and its alt-nets are still active today.
+
+**Tags**: `#Fidonet`, `#BBS`, `#History`, `#Networking`
 
 ---
 
-<a id="item-8"></a>
-## [Codex Free and Go Subscriptions Reset Cycle Changed to 30 Days](https://t.me/zaihuapd/41701) ⭐️ 8.0/10
+<a id="item-15"></a>
+## [BYD Claims Cast Aluminum Frame Beats Steel in Strength and Weight](https://electrek.co/2026/06/02/byd-says-its-cast-aluminum-frame-is-lighter-tougher-and-safer-than-steel/) ⭐️ 6.0/10
 
-Codex free accounts and Go subscription accounts now reportedly have their quota reset cycle extended from 7 to 30 days, without any official announcement from OpenAI. This change drastically reduces the monthly reset frequency for affected users from 4 times to 1 time, impacting developers who rely on Codex for coding assistance and may increase pressure to upgrade to Team subscriptions. The individual quota amount per cycle appears unchanged, but the reset now occurs monthly instead of weekly for free and Go subscriptions, while Team subscriptions remain on a 7-day cycle.
+BYD announced that its cast aluminum frame for the Yangwang U8L SUV is lighter, tougher, and safer than a comparable steel frame, having passed a 12-ton lift test. This could enable significant weight reduction in large EVs while improving structural rigidity and safety, potentially influencing future vehicle design and manufacturing across the industry. The frame weighs 56 kg (~123 lbs) less than a steel equivalent, yet torsional rigidity is over 50% better. BYD claims the U8L is the first vehicle to pass a 12-ton lifting test with such a frame.
 
-telegram · zaihuapd · Jun 2, 02:02
+rss · Electrek · Jun 2, 20:40
 
-**Background**: Codex is an AI coding agent developed by OpenAI that assists with tasks like writing code, debugging, and code review. It offers different subscription tiers: a free tier with limited monthly usage, a Go subscription for individual developers, and Team subscriptions for organizations. The reset cycle determines how often usage quotas are replenished.
+**Background**: In automotive construction, chassis frames have traditionally used steel for strength or aluminum for weight savings. BYD's approach uses a cast aluminum integrated frame, which reduces weight while increasing stiffness and crash safety. The 12-ton lift test simulates extreme loads, demonstrating the frame's durability and safety margin.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Codex_(AI_agent)">Codex ( AI agent) - Wikipedia</a></li>
-<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI | OpenAI</a></li>
-<li><a href="https://docs.codex.io/concepts/subscriptions">Subscriptions - Codex</a></li>
+<li><a href="https://electrek.co/2026/06/02/byd-says-its-cast-aluminum-frame-is-lighter-tougher-and-safer-than-steel/">BYD says its cast aluminum frame is lighter and tougher than steel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vehicle_frame">Vehicle frame - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Codex`, `#GitHub Copilot`, `#developer tools`, `#API`, `#service change`
+**Tags**: `#electric vehicles`, `#automotive`, `#materials science`, `#manufacturing`
 
 ---
 
-<a id="item-9"></a>
-## [Tencent secretly builds WeChat AI agent to link millions of mini-programs](https://t.me/zaihuapd/41705) ⭐️ 8.0/10
+<a id="item-16"></a>
+## [Mercedes CLA EV achieves nearly 400 miles real-world range](https://electrek.co/2026/06/02/mercedes-cla-ev-delivers-nearly-400-miles-range-real-world-test/) ⭐️ 6.0/10
 
-Reports indicate that Tencent is secretly developing an AI agent for WeChat, designed to connect and execute tasks across millions of mini-programs, aiming to surpass Alibaba and ByteDance in China's AI race. This AI agent could transform WeChat into a powerful AI-driven platform, automating tasks like ride-hailing and grocery ordering for 1.4 billion monthly active users, intensifying competition among Chinese tech giants. The agent reportedly plans to interface with WeChat's extensive mini-program ecosystem; Tencent has not officially commented on the report.
+The Mercedes-Benz CLA EV 350 drove close to 400 miles on a single charge in a real-world test, surpassing its EPA-estimated range of 312 miles by about 25%. This real-world result demonstrates that Mercedes has achieved a significant breakthrough in EV efficiency, potentially narrowing the range gap with competitors like Tesla and alleviating consumer range anxiety. The test was conducted on public roads with mixed driving conditions, and the vehicle used a production-spec CLA EV 350. The nearly 400-mile range is about 25% higher than the official EPA rating.
 
-telegram · zaihuapd · Jun 2, 05:03
+rss · Electrek · Jun 2, 14:28
 
-**Background**: AI agents are autonomous software programs that can perform tasks across applications, as described by IBM. WeChat mini-programs are lightweight apps within the WeChat ecosystem, used for services like ordering and booking. Combining an AI agent with mini-programs could enable seamless task execution.
+**Background**: The CLA EV is Mercedes' entry-level electric sedan, built on the MMA platform. EPA range estimates are standardized lab tests, while real-world driving conditions often yield different results; achieving higher real-world range indicates efficient thermal management and aerodynamics.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.ibm.com/think/topics/ai-agents">What Are AI Agents ? | IBM</a></li>
-<li><a href="https://developers.weixin.qq.com/miniprogram/en/design/">WeChat Mini Program Design Guide</a></li>
+**Tags**: `#electric vehicles`, `#Mercedes`, `#range test`, `#automotive technology`
 
-</ul>
-</details>
+---
 
-**Tags**: `#AI`, `#WeChat`, `#Tencent`, `#mini-programs`, `#AI agent`
+<a id="item-17"></a>
+## [Tesla Semi wows fleet operator on Grapevine test](https://electrek.co/2026/06/02/covenant-logistics-tesla-semi-grapevine-test-amazed/) ⭐️ 6.0/10
+
+Covenant Logistics, a major US trucking firm, completed a two-week evaluation of the Tesla Semi, including a fully loaded run over the steep Grapevine pass on I-5, leaving the driver amazed by its performance and confidence. This real-world test by a major fleet operator signals growing confidence in electric heavy-duty trucks, potentially accelerating adoption in the logistics industry. The Grapevine is a notoriously steep section of Interstate 5 in California. The test involved a loaded trailer, and the driver reported feeling more confident than in a diesel truck.
+
+rss · Electrek · Jun 2, 14:20
+
+**Background**: The Grapevine is a steep grade on I-5 north of Los Angeles, challenging for heavy trucks. Tesla Semi is an all-electric Class 8 truck with a claimed range of 500 miles. Covenant Logistics operates over 2,600 tractors, making this a significant endorsement.
+
+**Tags**: `#electric vehicles`, `#Tesla Semi`, `#trucking`, `#logistics`
 
 ---

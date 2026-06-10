@@ -5,311 +5,280 @@ date: 2026-05-31
 lang: en
 ---
 
-> From 48 items, 14 important content pieces were selected
+> From 18 items, 12 important content pieces were selected
 
 ---
 
-1. [Running Python ASGI Apps in Browser with Pyodide and Service Workers](#item-1) ⭐️ 9.0/10
-2. [SpaceX Wins $4.16B US Military Satellite Missile Tracking Contract](#item-2) ⭐️ 9.0/10
-3. [Accenture acquires Ookla for $1.2B](#item-3) ⭐️ 8.0/10
-4. [Zig's ELF Linker Improvements Detailed in Devlog](#item-4) ⭐️ 8.0/10
-5. [Voxel Space Tutorial Revives 1992 Comanche Graphics](#item-5) ⭐️ 8.0/10
-6. [OpenRouter raises $113M Series B](#item-6) ⭐️ 8.0/10
-7. [Openrsync: OpenBSD's reimplementation of rsync adopted in macOS](#item-7) ⭐️ 8.0/10
-8. [Pope Leo's first encyclical criticizes technological messianism](#item-8) ⭐️ 8.0/10
-9. [Anthropic details sandboxing techniques for Claude across products](#item-9) ⭐️ 8.0/10
-10. [Debugger reveals training failures local to layers and steps](#item-10) ⭐️ 8.0/10
-11. [NVIDIA NVFP4 Quantization of Qwen3.6-35B-A3B](#item-11) ⭐️ 8.0/10
-12. [GPU Specs Comparison for Local LLM Inference Challenges Mac Recommendations](#item-12) ⭐️ 8.0/10
-13. [Parallax: Parameterized Local Linear Attention for LLMs](#item-13) ⭐️ 8.0/10
-14. [Huawei Proposes 'Tao Law' Using Temporal Scaling for Chips](#item-14) ⭐️ 8.0/10
+1. [Domain expertise is the real moat, not technical skill](#item-1) ⭐️ 8.0/10
+2. [Accenture acquires Ookla for $1.2B](#item-2) ⭐️ 8.0/10
+3. [Zig's ELF Linker and Incremental Compilation Get Major Boost](#item-3) ⭐️ 8.0/10
+4. [Voxel Space Algorithm Deep Dive](#item-4) ⭐️ 8.0/10
+5. [OpenRouter raises $113M Series B](#item-5) ⭐️ 8.0/10
+6. [Anthropic details sandboxing for Claude across products](#item-6) ⭐️ 8.0/10
+7. [Running Python ASGI apps in browser via Pyodide + service worker](#item-7) ⭐️ 8.0/10
+8. [Openrsync: A clean-room rsync implementation by OpenBSD team](#item-8) ⭐️ 7.0/10
+9. [Pope Leo's first encyclical critiques AI messianism](#item-9) ⭐️ 7.0/10
+10. [Fortescue's Nabrawind achieves first crane-less wind turbine install in Africa](#item-10) ⭐️ 7.0/10
+11. [Pandoc Templates Aggregator Launches](#item-11) ⭐️ 6.0/10
+12. [Tech Veteran Retires to Live Offline, Citing AI as Last Straw](#item-12) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Running Python ASGI Apps in Browser with Pyodide and Service Workers](https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything) ⭐️ 9.0/10
+## [Domain expertise is the real moat, not technical skill](https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/) ⭐️ 8.0/10
 
-Simon Willison demonstrated a method to run Python ASGI apps in the browser using Pyodide and Service Workers, enabling execution of JavaScript script tags that previously failed in Web Worker-based approaches. This was achieved via a Claude Code experiment and tested with Datasette Lite and a basic ASGI FastCGI demo. This breakthrough overcomes a key limitation of running Python apps in the browser, allowing proper execution of JavaScript-dependent plugins and dynamic content. It significantly enhances the capabilities of Python-in-browser tools like Datasette Lite and expands the potential for serverless Python applications. The demo uses Service Workers instead of Web Workers to intercept network requests and run Python ASGI apps within Pyodide, preserving script tag execution. Simon plans to upgrade Datasette Lite to adopt this approach after fully understanding the implementation.
+An article argues that as AI tools improve software development, domain expertise—not technical proficiency—becomes the lasting competitive advantage. This shifts the focus from who can code faster to who deeply understands the problem domain, affecting hiring, education, and the role of software engineers. The article references 'vibe coding', a practice where developers rely heavily on AI to generate code without deep review, highlighting the gap between domain knowledge and technical implementation.
 
-rss · Simon Willison · May 30, 21:02
+hackernews · aaronbrethorst · May 30, 20:40 · [Discussion](https://news.ycombinator.com/item?id=48340411)
 
-**Background**: Pyodide is a Python distribution for the browser based on WebAssembly, allowing Python to run entirely on the client side. ASGI (Asynchronous Server Gateway Interface) is a specification for asynchronous Python web servers and applications, enabling modern web frameworks like FastAPI and Starlette. Service Workers are scripts that run in the background of a web browser, capable of intercepting network requests and enabling offline experiences.
+**Background**: Vibe coding is a term coined by Andrej Karpathy in 2025, where AI tools generate code from natural language prompts, allowing even non-programmers to create software. Critics warn of security and maintainability issues. The article argues that true competitive advantage comes from deep domain expertise, not just coding ability.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://pyodide.org/">Pyodide — Version 0.29.4</a></li>
-<li><a href="https://github.com/pyodide/pyodide">GitHub - pyodide / pyodide : Pyodide is a Python distribution for...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Pyodide`, `#ASGI`, `#WebAssembly`, `#Datasette`, `#Service Workers`
+**Discussion**: Commenters largely agree with the article, sharing real-world examples where domain experts without technical skills struggled to build robust systems, and noting that AI tools can mislead without proper technical oversight. Some express skepticism about shifting goalposts in AI discussions.
+
+**Tags**: `#domain expertise`, `#AI`, `#software engineering`, `#moat`, `#vibe coding`
 
 ---
 
 <a id="item-2"></a>
-## [SpaceX Wins $4.16B US Military Satellite Missile Tracking Contract](https://www.bloomberg.com/news/articles/2026-05-29/spacex-wins-4-billion-contract-for-us-golden-dome-satellites) ⭐️ 9.0/10
+## [Accenture acquires Ookla for $1.2B](https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises) ⭐️ 8.0/10
 
-SpaceX has been awarded a $4.16 billion contract by the US Space Force to develop a space-based missile tracking constellation as part of the Golden Dome defense system. This contract marks a significant expansion of SpaceX's role in national security space, and the network aims to reduce blind spots in existing ground-based radar and airborne surveillance. It positions SpaceX at the core of a next-generation layered missile defense architecture. The constellation will integrate space-based sensors, communication systems, and ground processing capabilities to track foreign aircraft, missiles, and other aerial threats from orbit. SpaceX had previously contributed to Golden Dome's space-based interceptor prototype development and joined a multi-company consortium for the program's underlying software.
+Accenture has announced its acquisition of Ookla, the company behind Speedtest, Downdetector, Ekahau, and RootMetrics, for approximately $1.2 billion. This acquisition strengthens Accenture's network intelligence capabilities by adding vast real-world performance data and AI-driven insights, enabling better optimization of Wi-Fi and 5G networks for enterprises and telecom operators. Ookla's data platform processes over 250 million consumer-initiated tests per month, supplemented by controlled drive, walk, and embedded testing. The deal includes Ookla's popular services like Speedtest and Downdetector.
 
-telegram · zaihuapd · May 30, 01:53
+hackernews · Garbage · May 30, 16:28 · [Discussion](https://news.ycombinator.com/item?id=48337987)
 
-**Background**: The Golden Dome defense plan, announced by President Trump in May 2025, is a modern iteration of the Strategic Defense Initiative (SDI) from the 1980s, often called 'Star Wars'. It aims to create a layered homeland missile defense system using space-based sensors and interceptors to counter evolving threats from ballistic and hypersonic missiles. Similar concepts were revived in 2019 under the Space Development Agency's National Defense Space Architecture.
+**Background**: Ookla is best known for Speedtest.net, a widely used internet speed testing tool, and Downdetector, a service that monitors real-time outages. The company generates significant revenue by selling aggregated network performance data to telecom operators and other enterprises. Accenture, a global IT services and consulting firm, already competes in network optimization through its prior acquisition of Umlaut.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.nytimes.com/2025/05/20/us/politics/trump-golden-dome.html">Trump Unveils Plans for ‘Golden Dome’ Missile Defense</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Space-Based_Interceptor">Space-Based Interceptor</a></li>
+**Discussion**: Commenters noted that the real value of Ookla lies in its data sales to telecoms, not consumer services. Some expressed concerns about conflicts of interest if Accenture consults for companies while also owning Downdetector, while others highlighted Accenture's ongoing competition with Ookla via its Umlaut acquisition.
 
-</ul>
-</details>
-
-**Tags**: `#SpaceX`, `#defense`, `#satellite`, `#military`, `#space`
+**Tags**: `#acquisition`, `#network`, `#data`, `#AI`
 
 ---
 
 <a id="item-3"></a>
-## [Accenture acquires Ookla for $1.2B](https://newsroom.accenture.com/news/2026/accenture-to-acquire-ookla-to-strengthen-network-intelligence-and-experience-with-data-and-ai-for-enterprises) ⭐️ 8.0/10
+## [Zig's ELF Linker and Incremental Compilation Get Major Boost](https://ziglang.org/devlog/2026/#2026-05-30) ⭐️ 8.0/10
 
-Accenture announced the acquisition of Ookla, the company behind Speedtest and Downdetector, for $1.2 billion to enhance network intelligence with data and AI for enterprises. This acquisition gives Accenture access to vast network performance data from millions of consumer tests, enabling it to offer deeper insights for telecoms and enterprises. It also raises concerns about data trust and potential conflicts of interest, as Accenture now owns tools that monitor outages of its consulting clients. The deal includes Ookla's data products such as Speedtest, Downdetector, Ekahau, and RootMetrics, with over 250 million consumer-initiated tests per month. Accenture plans to use this data to help communication service providers optimize Wi-Fi and 5G networks.
+Zig's devlog from May 30, 2026, announced significant improvements to its ELF linker and incremental compilation, enabling faster iteration for systems programming. These improvements make Zig a more practical C replacement, allowing development at the speed of interpreted languages while retaining C or Rust performance, potentially accelerating adoption in systems programming. The linker now supports fast incremental linking, which is great for development builds but may be mutually exclusive with link-time optimization (LTO) for release builds. The improvements currently target ELF platforms.
 
-hackernews · Garbage · May 30, 16:28 · [Discussion](https://news.ycombinator.com/item?id=48337987)
+hackernews · kristoff_it · May 30, 17:29 · [Discussion](https://news.ycombinator.com/item?id=48338673)
 
-**Background**: Ookla is best known for Speedtest.net, a widely used internet speed testing platform. Its data is highly valued by telecom operators for network planning and optimization. Accenture is a global professional services company specializing in IT services and consulting. The acquisition aligns with Accenture's strategy to integrate data and AI into enterprise network solutions.
+**Background**: The Executable and Linkable Format (ELF) is a standard file format for executables and object code on Unix-like systems. Incremental compilation recompiles only modified parts of a program, speeding up the edit-compile-debug cycle. Zig is a systems programming language designed as a modern alternative to C, focusing on safety and performance.
 
-**Discussion**: Community comments highlight that the real value of the deal lies in the data, not the consumer tools, with telcos paying six figures annually for insights. Some express distrust, fearing that Accenture could manipulate outage data to protect its consulting clients. A former employee confirms that the data business is highly lucrative and that Accenture was already a competitor through its Umlaut acquisition.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">Executable and Linkable Format - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Incremental_compilation">Incremental compilation</a></li>
 
-**Tags**: `#acquisition`, `#network intelligence`, `#data`, `#AI`, `#enterprise`
+</ul>
+</details>
+
+**Discussion**: Community members expressed excitement about Zig becoming a viable C replacement, with comments highlighting faster iteration and the potential to match the development speed of JavaScript or Python. Some users discussed the trade-off between incremental linking and link-time optimization for release builds.
+
+**Tags**: `#Zig`, `#linker`, `#incremental compilation`, `#systems programming`, `#C replacement`
 
 ---
 
 <a id="item-4"></a>
-## [Zig's ELF Linker Improvements Detailed in Devlog](https://ziglang.org/devlog/2026/#2026-05-30) ⭐️ 8.0/10
+## [Voxel Space Algorithm Deep Dive](https://s-macke.github.io/VoxelSpace/) ⭐️ 8.0/10
 
-A new devlog from the Zig team details improvements to its ELF linker, focusing on faster incremental compilation and linking for development iteration. These improvements could make Zig a more practical C replacement by drastically reducing compile-link-iterate times, especially for systems programming. It also enables better toolchain interoperability and could influence other languages like Raku to consider Zig as a backend target. The linker supports incremental linking, which is beneficial for development but may not be suitable for release builds due to potential incompatibility with link-time optimization. The devlog includes specific technical advancements that the community has been eagerly awaiting.
+An in-depth technical article explains the Voxel Space rendering algorithm used in the 1992 game Comanche, detailing its heightmap-based terrain rendering approach. This algorithm was a groundbreaking approach for 1992, enabling smooth terrain rendering on limited hardware, and remains an important case study for retro game development and graphics programming. The algorithm is actually a 2.5D raycasting method using a heightmap and colormap, not true volumetric voxels; it represented terrain as vertical columns rather than cubes.
 
-hackernews · kristoff_it · May 30, 17:29 · [Discussion](https://news.ycombinator.com/item?id=48338673)
+hackernews · davikr · May 30, 14:25 · [Discussion](https://news.ycombinator.com/item?id=48336564)
 
-**Background**: Zig is a modern systems programming language designed to improve upon C, with features like compile-time generics, manual memory management, and no hidden control flow. The ELF (Executable and Linkable Format) is the standard binary format on Linux and Unix-like systems, and a linker is a tool that combines object files into an executable. The Zig linker is a self-hosted component that handles linking for Zig and potentially other languages, making its performance crucial for developer productivity.
+**Background**: Voxel Space is a terrain rendering technique that stores a 2D array of height values (heightmap) and color values (colormap). During rendering, the engine casts rays through the heightmap, drawing vertical columns of pixels to simulate a 3D landscape from a first-person perspective. This approach is considered '2.5D' because it lacks full 3D freedom, limiting movement to a single plane at a fixed height. The technique was popularized by the game Comanche: Maximum Overkill in 1992, offering realistic-looking terrain on hardware like the 386SX.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/ELF_file_format">ELF file format</a></li>
-<li><a href="https://ziglang.org/">Home Zig Programming Language</a></li>
+<li><a href="https://s-macke.github.io/VoxelSpace/">Voxel Space | VoxelSpace</a></li>
+<li><a href="https://github.com/s-macke/VoxelSpace">GitHub - s-macke/VoxelSpace: Terrain rendering algorithm in ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments express excitement about the linker progress, with users noting it could make Zig a true C replacement and enable rapid iteration similar to dynamic languages. Some discuss potential use cases like porting Raku's VM to Zig, while others raise questions about incremental linking's compatibility with release-mode optimizations.
+**Discussion**: Commenters noted that the technique is technically a heightmap rather than true voxels, while appreciating its historical significance. One user shared a metaphor for minimal testing ('oil tank holiday tests'), and others contributed links to modern implementations inspired by the algorithm.
 
-**Tags**: `#Zig`, `#linker`, `#systems programming`, `#compilers`, `#performance`
+**Tags**: `#graphics programming`, `#voxel rendering`, `#retro game development`, `#heightmaps`, `#algorithms`
 
 ---
 
 <a id="item-5"></a>
-## [Voxel Space Tutorial Revives 1992 Comanche Graphics](https://s-macke.github.io/VoxelSpace/) ⭐️ 8.0/10
+## [OpenRouter raises $113M Series B](https://openrouter.ai/announcements/series-b) ⭐️ 8.0/10
 
-An interactive tutorial has been published that explains the Voxel Space algorithm used in the 1992 game Comanche, demonstrating height-map-based terrain rendering with step-by-step visualization. This tutorial provides a rare deep dive into a groundbreaking retro-graphics technique, making it accessible to modern developers and enthusiasts, and preserving the history of real-time 3D rendering. The algorithm is technically a height-map renderer, not true voxel rendering, as it uses a 2D height array to create 3D terrain. The tutorial includes interactive demos and links to C++ and AGS ports.
+OpenRouter, an LLM API proxy platform, announced a $113 million Series B funding round. The company remains founder-led and founder-controlled, according to co-founder comments. This significant funding validates the growing need for unified access to multiple LLMs amid rapid model proliferation. It underscores the value of API proxies in reducing friction for developers exploring diverse AI models. OpenRouter provides a single API endpoint to over 400 models from dozens of providers, with features like billing caps and a roughly 5% surcharge. The company plans to use the funds to strengthen its balance sheet and continue building developer tools.
 
-hackernews · davikr · May 30, 14:25 · [Discussion](https://news.ycombinator.com/item?id=48336564)
+hackernews · freeCandy · May 30, 17:27 · [Discussion](https://news.ycombinator.com/item?id=48338660)
 
-**Background**: The Voxel Space algorithm was developed by NovaLogic for the 1992 helicopter combat game Comanche, achieving smooth terrain rendering on early PCs. Unlike true voxel methods that store data in a 3D grid, it uses a height map—a grayscale image where each pixel's brightness represents elevation—to efficiently render landscapes by projecting columns of prisms onto the screen.
+**Background**: OpenRouter is a unified API platform that acts as a proxy between developers and various LLM providers, simplifying access to hundreds of models through a single interface. This reduces the hassle of managing multiple API keys and provider-specific quirks, especially important as the number of available models continues to grow. The service also offers features like rate limiting and spend tracking.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.colinhoad.com/voxel-space-demo-bits-and-bytes-ep-4">Voxel Space Demo - Bits and Bytes (Ep. 4) | Colin Hoad</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Heightmap">Heightmap - Wikipedia</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://medium.com/@chidarasuma/what-is-openrouter-9cb5c0f8ce76">What is OpenRouter ?. OpenRouter .ai is a gateway platform | Medium</a></li>
+<li><a href="https://www.datacamp.com/tutorial/openrouter">OpenRouter : A Guide With Practical Examples | DataCamp</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters noted the technical distinction between height maps and true voxels, with one user sharing a personal anecdote about "oil tank holiday" tests in code testing. Several users contributed links to their own implementations in C++, AGS, and other platforms, highlighting the algorithm's lasting influence.
+**Discussion**: The Hacker News community largely praised OpenRouter's low-friction experience and billing caps, though some questioned the long-term value once the model ecosystem consolidates. The co-founder clarified that the funding is for building a durable company, not an exit strategy.
 
-**Tags**: `#voxel-space`, `#terrain-rendering`, `#retro-graphics`, `#algorithm`, `#comanche`
+**Tags**: `#AI`, `#funding`, `#openrouter`, `#LLM`, `#infrastructure`
 
 ---
 
 <a id="item-6"></a>
-## [OpenRouter raises $113M Series B](https://openrouter.ai/announcements/series-b) ⭐️ 8.0/10
+## [Anthropic details sandboxing for Claude across products](https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything) ⭐️ 8.0/10
 
-OpenRouter, a unified LLM API proxy platform, has raised $113 million in Series B funding to expand its infrastructure and user base. This major funding round signals strong investor confidence in AI infrastructure intermediaries, as OpenRouter reduces friction for developers by aggregating over 300 models behind a single API, potentially accelerating adoption of diverse LLMs. OpenRouter charges a 5% surcharge on API usage, and claims over 250,000 apps and 4.2 million users globally. The company remains founder-led and founder-controlled post-funding.
+Anthropic published a detailed engineering overview of sandboxing techniques used to contain Claude across Claude.ai, Claude Code, and Claude Cowork, including gVisor, Seatbelt, Bubblewrap, and full VMs. This transparency helps build trust in AI agent deployments by showing concrete security measures, and it sets a precedent for other AI companies to document their sandboxing practices. Claude.ai uses gVisor, Claude Code uses Seatbelt on macOS and Bubblewrap on Linux, and Claude Cowork runs a full VM. The post also reveals a previously missed risk: the api.anthropic.com/v1/files exfiltration vector.
 
-hackernews · freeCandy · May 30, 17:27 · [Discussion](https://news.ycombinator.com/item?id=48338660)
+rss · Simon Willison · May 30, 21:36
 
-**Background**: OpenRouter is an API proxy that provides a unified interface for accessing hundreds of LLMs, including models from OpenAI, Anthropic, and open-source alternatives. Developers can switch between models with minimal code changes, and the platform offers features like automatic routing and billing caps, which many providers lack. The service is compatible with the OpenAI SDK, making integration straightforward for many existing applications.
+**Background**: Sandboxing is a security technique that isolates applications from the rest of the system to prevent malware or unauthorized actions. gVisor is a container sandbox by Google that implements Linux system calls in userspace for added security. Seatbelt is Apple's kernel-level sandbox framework for macOS, and Bubblewrap is a lightweight unprivileged sandbox for Linux. These tools limit what an AI agent can access or exfiltrate.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://apify.com/apify/openrouter">OpenRouter · Apify</a></li>
-<li><a href="https://openrouter.ai/">OpenRouter</a></li>
-<li><a href="https://www.morphllm.com/openrouter-alternative">OpenRouter Alternative: Intelligent Model Routing vs API Proxies</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GVisor">GVisor</a></li>
+<li><a href="https://nono.sh/docs/cli/internals/seatbelt">macOS Seatbelt - Nono Docs</a></li>
+<li><a href="https://wiki.archlinux.org/title/Bubblewrap">Bubblewrap - ArchWiki</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments on Hacker News reflect mixed views: while many praise OpenRouter for its low-friction model experimentation and billing caps, some question the long-term value given the 5% surcharge and the potential consolidation of the LLM market. The co-founder responded that the company remains founder-controlled and aims to build strong products for builders.
-
-**Tags**: `#AI`, `#funding`, `#OpenRouter`, `#LLM`, `#API`
+**Tags**: `#sandboxing`, `#AI safety`, `#Claude`, `#security`, `#Anthropic`
 
 ---
 
 <a id="item-7"></a>
-## [Openrsync: OpenBSD's reimplementation of rsync adopted in macOS](https://github.com/kristapsdz/openrsync) ⭐️ 8.0/10
+## [Running Python ASGI apps in browser via Pyodide + service worker](https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything) ⭐️ 8.0/10
 
-The OpenBSD team has released Openrsync, a new implementation of the rsync file synchronization tool, which has already been adopted in macOS 15.0 as the default rsync. This reimplementation offers a more secure and maintainable codebase for the widely-used rsync protocol, reducing reliance on the original Samba-maintained version and improving integration in BSD and macOS ecosystems. Openrsync was initially developed as part of an RPKI validator project, and while it generally matches Samba rsync's functionality, some users have reported issues with the --rsync-path option when syncing directories.
+Simon Willison demonstrated running Python ASGI apps entirely in the browser using Pyodide and service workers, overcoming previous limitations where JavaScript in script tags would not execute. This innovation enables full-featured Python web apps like Datasette to run client-side with JavaScript execution intact, expanding possibilities for browser-based Python development and plugin compatibility. The approach uses a service worker to intercept fetch requests and route them to a Pyodide-based ASGI server running in WebAssembly, preserving script execution. Willison created demos for a basic ASGI FastCGI app and Datasette 1.0a31.
 
-hackernews · sph · May 30, 10:51 · [Discussion](https://news.ycombinator.com/item?id=48334854)
+rss · Simon Willison · May 30, 21:02
 
-**Background**: rsync is a popular open-source utility for efficiently transferring and synchronizing files across systems, commonly used for backups and mirroring. The original implementation is maintained by the Samba team, but concerns about code complexity and security have led to alternative implementations like Openrsync.
+**Background**: Pyodide is a Python distribution for the browser and Node.js based on WebAssembly, allowing Python code to run client-side. ASGI (Asynchronous Server Gateway Interface) is a standard for asynchronous Python web servers, succeeding WSGI. Previously, Datasette Lite used Web Workers but could not execute JavaScript in script tags, limiting plugin functionality.
 
-**Discussion**: Community comments are generally positive, noting steady improvements and enthusiasm for exclusive use. However, one user pointed out a specific compatibility issue with the --rsync-path flag when syncing to a remote directory. Another comment highlighted a separate Go-based rsync implementation by the Gokrazy team, and one user mentioned that vibe-coded commits in the original rsync codebase make Openrsync a welcome alternative.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://pyodide.org/">Pyodide — Version 0.29.4</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ASGI">ASGI</a></li>
 
-**Tags**: `#rsync`, `#openbsd`, `#implementation`, `#macos`, `#file-sync`
+</ul>
+</details>
+
+**Tags**: `#Pyodide`, `#ASGI`, `#WebAssembly`, `#Service Workers`, `#Datasette`
 
 ---
 
 <a id="item-8"></a>
-## [Pope Leo's first encyclical criticizes technological messianism](https://www.economist.com/europe/2026/05/28/leos-first-encyclical-attacks-technological-messianism) ⭐️ 8.0/10
+## [Openrsync: A clean-room rsync implementation by OpenBSD team](https://github.com/kristapsdz/openrsync) ⭐️ 7.0/10
 
-Pope Leo has released his first encyclical, which sharply criticizes technological messianism—the belief that technology will solve all human problems—and warns against replacing humans with artificial intelligence. This encyclical marks a significant intervention by a major religious leader in debates about AI ethics and the societal control of technology, potentially shaping public discourse and policy. The encyclical reportedly acknowledges the Pope's own use of technology even as it condemns unchecked faith in AI, highlighting a tension between embracing and cautioning against technological progress.
+Openrsync, a clean-room implementation of the rsync utility developed by the OpenBSD team, has been adopted as the default rsync in macOS 15.0 and is gaining attention for its maturity and improvements over the original Samba rsync. This adoption by Apple validates openrsync's reliability and security, and its clean-room design avoids potential licensing issues while improving performance. It also strengthens the OpenBSD ecosystem by showcasing a portable tool widely used across platforms. Openrsync is developed under the OpenBSD project and uses a permissive BSD license. It aims to be a drop-in replacement for rsync, but some users report minor incompatibilities, such as handling of trailing slashes in remote paths.
 
-hackernews · 1vuio0pswjnm7 · May 30, 10:30 · [Discussion](https://news.ycombinator.com/item?id=48334710)
+hackernews · sph · May 30, 10:51 · [Discussion](https://news.ycombinator.com/item?id=48334854)
 
-**Background**: Technological messianism is the conviction that technology will inevitably lead to positive outcomes and solve all problems. A papal encyclical is a formal letter from the Pope that outlines the Catholic Church's official position on important issues, carrying significant moral authority for believers.
+**Background**: Rsync is a widely used utility for efficiently transferring and synchronizing files across systems, often over SSH. A clean-room implementation means the developers recreated rsync's functionality without referencing the original copyrighted code, relying only on public specifications and reverse engineering. OpenBSD is a security-focused Unix-like operating system known for its rigorous code audits and permissive licensing.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.economist.com/europe/2026/05/28/leos-first-encyclical-attacks-technological-messianism">Leo’s first encyclical attacks technological messianism</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Papal_encyclical">Papal encyclical</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Clean_room_implementation">Clean room implementation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenBSD">OpenBSD</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters debated who should control technology—technologists, users, governments, or religious institutions—with some expressing skepticism about AI hype. Others referenced Peter Thiel's views on the Antichrist and questioned whether AI CEOs suffer from 'AI psychosis.'
+**Discussion**: The community is generally positive, noting openrsync's improvement over time and its value given recent regressions in the original rsync codebase. However, user Panino reported a specific bug where remote file creation behaves differently than Samba rsync. Others point to alternative implementations like a Go version by Michael Stapelberg.
 
-**Tags**: `#AI`, `#ethics`, `#technology`, `#religion`, `#society`
+**Tags**: `#rsync`, `#OpenBSD`, `#open-source`, `#implementation`, `#macOS`
 
 ---
 
 <a id="item-9"></a>
-## [Anthropic details sandboxing techniques for Claude across products](https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything) ⭐️ 8.0/10
+## [Pope Leo's first encyclical critiques AI messianism](https://www.economist.com/europe/2026/05/28/leos-first-encyclical-attacks-technological-messianism) ⭐️ 7.0/10
 
-Anthropic published a detailed blog post explaining how they sandbox Claude across Claude.ai, Claude Code, and Cowork using gVisor, Seatbelt, and Bubblewrap respectively. This documentation addresses a common trust gap in AI sandboxing by providing thorough details on containment strategies, which helps users and developers assess security risks and build confidence in deploying agentic AI. Claude.ai uses gVisor; Claude Code on macOS uses Apple's Seatbelt framework and on Linux uses Bubblewrap; Claude Cowork runs in a full virtual machine (Apple Virtualization on macOS, HCS on Windows). The post also describes past risks like the api.anthropic.com/v1/files exfiltration vector.
+Pope Leo released his first encyclical, which harshly criticizes the deification of technology, especially artificial intelligence, warning against a new form of messianism that places faith in technological salvation. This encyclical marks a significant intervention by a major religious figure in the debate over AI ethics, challenging the narrative of tech CEOs who portray AI as a god-like entity. It adds moral and theological weight to calls for democratic control of technology. The encyclical specifically targets the concept of 'technological messianism', arguing that placing ultimate trust in technology leads to a loss of human dignity and moral responsibility. It calls for a human-centered approach to AI development.
 
-rss · Simon Willison · May 30, 21:36
+hackernews · 1vuio0pswjnm7 · May 30, 10:30 · [Discussion](https://news.ycombinator.com/item?id=48334710)
 
-**Background**: Sandboxing is a security technique that isolates applications to prevent them from affecting the host system or accessing unauthorized data. gVisor is an open-source application kernel developed by Google that implements many Linux system calls in userspace for stronger isolation than traditional containers. Seatbelt is Apple's sandboxing framework on macOS, and Bubblewrap is a lightweight Linux sandbox used by tools like Flatpak. Understanding these methods helps readers appreciate the layered security approach Anthropic employs.
+**Background**: A papal encyclical is a formal letter from the Pope addressing the entire Catholic Church and often the wider world on important matters of faith and morals. 'Technological messianism' refers to the quasi-religious belief that technology, especially AI, will solve all human problems and usher in a utopian future. Pope Leo's critique aligns with previous Vatican statements cautioning against unchecked technological power.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/GVisor">gVisor - Wikipedia</a></li>
-<li><a href="https://wiki.archlinux.org/title/Bubblewrap">Bubblewrap - ArchWiki</a></li>
-<li><a href="https://nono.sh/docs/cli/internals/seatbelt">macOS Seatbelt - Nono Docs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Encyclical">Encyclical - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Messianism">Messianism - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI safety`, `#Claude`, `#sandboxing`, `#security`, `#Anthropic`
+**Discussion**: Commenters debated whether AI CEOs suffer from 'AI psychosis' by treating language models as conscious beings, and highlighted the broader struggle over who controls technology—technologists, users, governments, or now religious leaders. Some referenced Peter Thiel's views on the Antichrist in the context of AI risks.
+
+**Tags**: `#AI ethics`, `#religion`, `#technology criticism`, `#papal encyclical`, `#society`
 
 ---
 
 <a id="item-10"></a>
-## [Debugger reveals training failures local to layers and steps](https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/) ⭐️ 8.0/10
+## [Fortescue's Nabrawind achieves first crane-less wind turbine install in Africa](https://electrek.co/2026/05/30/fortescue-nabrawind-deploy-first-crane-less-wind-turbine-in-africa/) ⭐️ 7.0/10
 
-A PyTorch debugger called NeuralDBG was open-sourced, which hooks into training loops to automatically detect and localize failures such as vanishing gradients, exploding gradients, and data anomalies by monitoring per-layer gradient norm transitions. This changes failure diagnosis from relying on global loss curves to focusing on specific layers and steps, enabling faster and more precise debugging for ML engineers, potentially saving hours of training time. The tool extracts semantic events like 'gradient norm transitions' and 'first occurrence tracking' rather than raw tensors, making the output compact and actionable; a simple code snippet for per-layer gradient norm monitoring is provided as a practical takeaway.
+Fortescue's subsidiary Nabrawind has successfully installed a full-scale, energy-producing wind turbine in Namibia using its crane-less Skylift technology, marking a world first for Africa. This crane-less method reduces reliance on expensive heavy-lift cranes, lowering installation costs and enabling wind farm deployment in remote or challenging terrains, accelerating renewable energy adoption in Africa. The Skylift system allows tower and turbine assembly after the rotor is mounted at a height of 30 to 40 meters, and can operate reliably in wind speeds up to 15 m/s with gusts of 20 m/s.
 
-reddit · r/MachineLearning · /u/ProgrammerNo8287 · May 30, 08:48
+rss · Electrek · May 30, 13:42
 
-**Background**: Training deep learning models often suffers from failures like vanishing or exploding gradients, which are typically diagnosed by monitoring the loss curve. However, the loss is a global aggregate that obscures the root cause. Per-layer gradient norms provide a more localized signal, but raw norms are noisy; detecting transitions from healthy to anomalous values is key.
+**Background**: Traditional wind turbine installation requires massive cranes, which are expensive to transport and operate, especially in remote areas. Crane-less technologies like Nabrawind's Skylift use a self-erecting process that builds the turbine from the ground up, significantly reducing logistics and cost barriers.
 
-**Tags**: `#PyTorch`, `#debugging`, `#training failures`, `#deep learning`, `#gradient analysis`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://reneweconomy.com.au/fortescue-wind-technology-company-completes-first-crane-less-turbine-installation/">Fortescue wind technology company completes first “crane-less” turbine installation</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#renewable-energy`, `#wind-turbine`, `#engineering-breakthrough`, `#crane-less-deployment`, `#Africa`
 
 ---
 
 <a id="item-11"></a>
-## [NVIDIA NVFP4 Quantization of Qwen3.6-35B-A3B](https://www.reddit.com/r/LocalLLaMA/comments/1ts6j6j/nvidiaqwen3635ba3bnvfp4_hugging_face/) ⭐️ 8.0/10
+## [Pandoc Templates Aggregator Launches](https://pandoc-templates.org/) ⭐️ 6.0/10
 
-NVIDIA has released a quantized version of the Qwen3.6-35B-A3B model using the NVFP4 data type, achieving approximately 3.06x reduction in memory requirements while maintaining nearly identical accuracy across benchmarks. This enables efficient deployment of large mixture-of-experts models on limited hardware, significantly lowering the barrier for running advanced LLMs locally. The minimal accuracy loss (e.g., MMLU Pro from 85.6 to 85.0) makes NVFP4 a practical choice for production use. Only the weights and activations of linear operators in transformer blocks within MoE are quantized, reducing bits per parameter from 16 to 4. The model is quantized using NVIDIA's Model Optimizer and is ready for inference with the vLLM engine.
+A new website, pandoc-templates.org, aggregates Pandoc templates for easy use in document conversion, offering a centralized repository of community-contributed templates. This site simplifies template discovery for Pandoc users, potentially improving document formatting workflows and encouraging broader adoption of Pandoc in technical writing and publishing. The site features previews of each template, but community comments note challenges with PDF generation, such as broken table layouts and missing Unicode fallback fonts.
 
-reddit · r/LocalLLaMA · /u/pmttyji · May 30, 17:49
+hackernews · ankitg12 · May 30, 09:56 · [Discussion](https://news.ycombinator.com/item?id=48334515)
 
-**Background**: Quantization reduces numerical precision of model weights to lower memory usage and speed up inference. NVFP4 is a floating-point format with shared exponent and compact mantissa, offering higher dynamic range than uniform INT4. The Qwen3.6-35B-A3B is a 35-billion parameter mixture-of-experts (MoE) model, where only a subset of experts is active per token, making it efficient yet memory-intensive. vLLM is a high-throughput inference engine that supports various quantization formats.
+**Background**: Pandoc is a free and open-source universal document converter that transforms files between many markup formats, including Markdown, HTML, and LaTeX. Templates in Pandoc allow users to customize the output formatting and structure, making it a powerful tool for generating professional documents from plain text sources.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://build.nvidia.com/spark/nvfp4-quantization">NVFP4 Quantization | DGX Spark</a></li>
-<li><a href="https://github.com/vllm-project/vllm">GitHub - vllm -project/ vllm : A high-throughput and memory ...</a></li>
-<li><a href="https://arxiv.org/abs/2507.11181">[2507.11181] Mixture of Experts in Large Language Models</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pandoc">Pandoc - Wikipedia</a></li>
+<li><a href="https://pandoc.org/">Pandoc - index</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#quantization`, `#nvidia`, `#qwen`, `#efficient inference`, `#model optimization`
+**Discussion**: Community comments express appreciation for Pandoc's capabilities and the new template site, with users sharing positive experiences like using Pandoc in GitHub Actions for novel formatting. However, some users report difficulties with PDF generation, including table issues and missing characters, and others note the site's usefulness for finding visually appealing templates.
+
+**Tags**: `#pandoc`, `#document conversion`, `#templates`, `#markdown`, `#writing tools`
 
 ---
 
 <a id="item-12"></a>
-## [GPU Specs Comparison for Local LLM Inference Challenges Mac Recommendations](https://www.reddit.com/r/LocalLLaMA/comments/1trkze4/i_compared_all_specs_of_the_major_gpusmachines/) ⭐️ 8.0/10
+## [Tech Veteran Retires to Live Offline, Citing AI as Last Straw](https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything) ⭐️ 6.0/10
 
-A Reddit user published a comprehensive comparison of major GPUs (including RTX PRO 6000, Intel Arc Pro B70, Radeon MI50, RTX 5070 Ti, etc.) for local LLM inference, analyzing price, FP16 TFLOPS, VRAM, bandwidth, and derived metrics like $/TFLOP and $/GB, arguing that Macs are overpriced for this use case. This data-driven comparison helps the local LLM community make more informed hardware purchasing decisions beyond brand bias, especially for those prioritizing prefill speed and total cost of ownership. The author highlights that memory bandwidth is often the bottleneck for LLM inference, and that prefill performance is neglected by common word-generation benchmarks; the table includes Max-Q variants for power efficiency and notes that some GPUs support 2x-4x faster FP16/BF16 via tensor cores.
+Chad Whitacre, a well-known figure in open source, announced his retirement from tech and open source, intending to live a largely offline life reminiscent of the 1980s. He describes his new lifestyle as 'AI Amish' or 'Internet Amish', rejecting AI and doomscrolling while still using cars and electricity. This move highlights growing unease among tech professionals about AI's rapid advancement and its impact on personal identity and open source sustainability. Whitacre's concrete actions, as opposed to mere complaints, could inspire others to reconsider their relationship with technology. Whitacre published a typewritten, scanned letter explaining his decision, and earlier wrote about his experience with Claude Code and Opus 4.5, which he found intoxicating but disturbing as it felt like another presence in his mind. His retirement includes stepping away from the Open Source Endowment, which will continue without him.
 
-reddit · r/LocalLLaMA · /u/Ok_Top9254 · May 30, 00:44
+rss · Simon Willison · May 30, 19:39
 
-**Background**: For local LLM inference, key GPU specs include FP16 TFLOPS (computational throughput for half-precision), VRAM capacity (how large a model can fit), and memory bandwidth (speed of transferring data, often the primary bottleneck after the first token). Max-Q is NVIDIA's technology to optimize power and performance in workstation GPUs. The author uses derived metrics like $/TFLOP and $/GB to evaluate cost efficiency.
+**Background**: Chad Whitacre has long been involved in open source sustainability efforts, attempting to solve the problem of funding open source projects. The continued disruption caused by AI has made that challenge even harder. In his letter, he analogizes his aim to the Sentinelese tribe of North Sentinel Island, who violently repel outsiders to preserve their isolated way of life, and the Amish, who live a simpler, technology-limited lifestyle. He seeks a 'Neo-Amish' existence that avoids AI and social media doomscrolling, while still accepting 20th-century conveniences like cars and electricity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ozyphus.github.io/gpu-maths.html">GPU Mathematics for Machine Learning - Interactive Guide</a></li>
-<li><a href="https://www.adaline.ai/blog/understanding-gpu-for-inference-in-llms">Understanding GPU for Inference in LLMs | Adaline</a></li>
-<li><a href="https://www.nvidia.com/en-sg/geforce/gaming-laptops/max-q-technologies/">Max-Q Technologies for Laptops | NVIDIA</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sentinelese">Sentinelese - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#GPU`, `#LLM`, `#hardware comparison`, `#local inference`, `#performance`
-
----
-
-<a id="item-13"></a>
-## [Parallax: Parameterized Local Linear Attention for LLMs](https://www.reddit.com/r/LocalLLaMA/comments/1ts79rg/parallax_parameterized_local_linear_attention_for/) ⭐️ 8.0/10
-
-Researchers propose Parallax, a parameterized local linear attention mechanism that scales for large language model pretraining by removing numerical solvers and adding a learnable query-like projector to probe the KV covariance. This work offers a theoretically grounded improvement over standard softmax attention with provably better bias-variance tradeoffs, and demonstrates consistent perplexity gains at 0.6B and 1.7B scales, marking the first architecture-optimizer codesign for attention mechanisms. Parallax uses a hardware-aware algorithm that increases arithmetic intensity over FlashAttention, and its prototype decode kernel matches or outperforms FlashAttention 2/3 across various batch sizes and context lengths. The advantage persists under both parameter-matched and compute-matched controls, and the Muon optimizer is found to unlock Parallax's capacity.
-
-reddit · r/LocalLLaMA · /u/Thrumpwart · May 30, 18:18
-
-**Background**: Standard Transformer attention uses softmax, which is a local constant estimate in the test-time regression framework. Local Linear Attention (LLA) upgrades this to a local linear estimate, improving bias-variance tradeoffs but facing scalability issues due to numerical solvers. Parallax introduces a parameterized version that removes these solvers and learns a projector to the KV covariance, enabling efficient pretraining.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://arxiv.org/abs/2605.29157">[2605.29157] Parallax: Parameterized Local Linear Attention for...</a></li>
-<li><a href="https://openreview.net/pdf?id=WGpzi489XY">L ATTENTION : AN OPTIMAL INTERPO L SOFTMAX ATTENTION FOR EST-T R</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#attention mechanism`, `#LLM`, `#efficient attention`, `#language modeling`, `#machine learning research`
-
----
-
-<a id="item-14"></a>
-## [Huawei Proposes 'Tao Law' Using Temporal Scaling for Chips](https://t.me/zaihuapd/41648) ⭐️ 8.0/10
-
-Huawei officially introduced the 'Tao Law' at the 2026 International Symposium on Circuits and Systems (ISCAS 2026), proposing temporal scaling to replace geometric scaling for semiconductor advancement. The company has already designed and mass-produced 381 chips based on this law, and plans to release a new Kirin chip using logic folding technology in autumn 2026. The Tao Law offers a new path for semiconductor development beyond Moore's Law, potentially overcoming physical scaling limits and reshaping the global chip industry. It marks the first time China has proposed a guiding principle for worldwide semiconductor evolution, with significant strategic implications. The Tao Law reduces the time constant τ to achieve multi-level co-optimization across devices, circuits, chips, and systems, aiming for transistor density equivalent to 1.4nm process by 2031. The logic folding technology is a true 3D chip design approach that goes beyond traditional 2D and pseudo-3D designs by optimizing interconnections at the logic gate level.
-
-telegram · zaihuapd · May 30, 02:18
-
-**Background**: Moore's Law states that transistor density doubles approximately every two years, but it is now approaching physical limits as transistor sizes shrink to atomic scales. Huawei's Tao Law introduces temporal scaling — reducing signal propagation delay — as an alternative to shrinking dimensions, maintaining performance gains through system-level co-optimization rather than relying solely on process node advancements.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://baike.baidu.com/item/时间缩微/67842555">时间缩微 _百度百科</a></li>
-<li><a href="https://zhichai.net/topic/177620770">华为"韬定律"深度解读：从几何 缩微 到 时间缩微 的范式跃迁</a></li>
-<li><a href="https://k.sina.com.cn/article_5953189932_162d6782c06704cr5a.html?cre=tianyi&mod=pcpager_tech&loc=12&r=0&rfunc=24&tj=cxvertical_pc_pager_spt&tr=12">k.sina.com.cn/article_5953189932_162d6782c06704cr5a.html?cre...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#semiconductor`, `#Huawei`, `#chip design`, `#Moore's Law`, `#innovation`
+**Tags**: `#AI impact`, `#tech retirement`, `#open source`, `#career`
 
 ---

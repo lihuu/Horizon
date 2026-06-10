@@ -5,224 +5,222 @@ date: 2026-06-01
 lang: en
 ---
 
-> From 44 items, 9 important content pieces were selected
+> From 19 items, 10 important content pieces were selected
 
 ---
 
-1. [Cloudflare Turnstile WebGL Fingerprinting Undermines Privacy](#item-1) ⭐️ 8.0/10
-2. [1-Bit Bonsai Image 4B: Efficient Local Image Generation](#item-2) ⭐️ 8.0/10
-3. [VideoLAN Unveils Dav2d: Open-Source AV2 Decoder](#item-3) ⭐️ 8.0/10
-4. [Linux Restartable Sequences Explained](#item-4) ⭐️ 8.0/10
-5. [Deflock reaches 100k mapped ALPRs in the US](#item-5) ⭐️ 8.0/10
-6. [NVIDIA Parakeet Ported to ggml: Faster, Quantized, No Python](#item-6) ⭐️ 8.0/10
-7. [Abliterated Gemma 4 E2B Variants Benchmarked](#item-7) ⭐️ 8.0/10
-8. [FROST Attack Uses SSD Timing to Spy on Users](#item-8) ⭐️ 8.0/10
-9. [AV2 Reference Encoder Reaches First 1.0.0 Release](#item-9) ⭐️ 8.0/10
+1. [Dav2d: An Optimized AV2 Decoder Announced](#item-1) ⭐️ 9.0/10
+2. [Restartable Sequences](#item-2) ⭐️ 9.0/10
+3. [Cloudflare Turnstile requires WebGL fingerprinting, raising privacy alarms](#item-3) ⭐️ 8.0/10
+4. [Deflock Maps 100,000 ALPRs in USA](#item-4) ⭐️ 8.0/10
+5. [AI Prototyping: Speed vs. Quality and UX](#item-5) ⭐️ 7.0/10
+6. [1-Bit Bonsai Image 4B Enables Local Image Generation](#item-6) ⭐️ 6.0/10
+7. [United Airlines Flight Diverted Over Bluetooth Name 'Bomb'](#item-7) ⭐️ 6.0/10
+8. [London's Free Roof Terraces: Public Access vs. Control](#item-8) ⭐️ 6.0/10
+9. [The Website Specification Sparks Debate on Agent Readiness](#item-9) ⭐️ 6.0/10
+10. [Backpressure as Metaphor for AI Self-Validation](#item-10) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Cloudflare Turnstile WebGL Fingerprinting Undermines Privacy](https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting) ⭐️ 8.0/10
+## [Dav2d: An Optimized AV2 Decoder Announced](https://jbkempf.com/blog/2026/dav2d/) ⭐️ 9.0/10
 
-Cloudflare Turnstile now requires WebGL for fingerprinting, effectively bypassing privacy protections like Firefox's resistFingerprinting and disabling access for minority browsers that lack WebGL support. This practice undermines user privacy by enabling persistent tracking without consent, and it disproportionately affects users of minority or privacy-focused browsers, fragmenting the web. The issue was reported by a minority browser maintainer who noted that users started encountering Cloudflare challenges a few weeks ago. WebGL fingerprinting uses hardware and driver details to create a unique identifier.
+Jean-Baptiste Kempf announced dav2d, an open-source AV2 decoder that builds on the performance-focused approach of the dav1d AV1 decoder. As AV2 decoding is roughly five times more complex than AV1, an efficient software decoder like dav2d is critical for the adoption of AV2 on existing hardware without dedicated AV2 decoders. AV2 decoding complexity requires careful architecture-specific optimization, and dav2d aims to provide real-time software decoding on current hardware through techniques similar to those used in dav1d.
 
-hackernews · HypnoticOcelot · May 31, 14:13 · [Discussion](https://news.ycombinator.com/item?id=48345840)
+hackernews · captain_bender · May 31, 11:44 · [Discussion](https://news.ycombinator.com/item?id=48344961)
 
-**Background**: Browser fingerprinting collects device information (OS, browser type, screen resolution, etc.) to create a unique identifier, often used for tracking without cookies. WebGL fingerprinting specifically leverages the graphics card's capabilities, which vary greatly even between identical devices. Cloudflare Turnstile is a CAPTCHA alternative that aims to verify human users without manual puzzles, but its reliance on WebGL compromises privacy for non-standard browsers.
+**Background**: AV2 is the next-generation open video codec from the Alliance for Open Media, succeeding AV1 and offering around 30% bitrate reduction. dav1d is a highly optimized AV1 decoder developed by the VideoLAN and FFmpeg communities. dav2d follows a similar design philosophy to provide an efficient software decoder for AV2.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://grokipedia.com/page/Cloudflare_Turnstile">Cloudflare Turnstile</a></li>
-<li><a href="https://browserleaks.com/webgl">WebGL Browser Report - WebGL Fingerprinting - BrowserLeaks</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Browser_fingerprinting">Browser fingerprinting</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AV2_(video_coding_format)">AV2 (video coding format)</a></li>
+<li><a href="http://images.videolan.org/projects/dav1d.html">dav1d - dav1d is an AV1 decoder - VideoLAN</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters raised concerns about the broader arms race between bot detection and circumvention, with some noting that fingerprinting is common even if ecologically costly. Others criticized Mozilla for not enabling resistFingerprinting by default, while a minority browser maintainer reported real user impact.
+**Discussion**: Comments express concerns that AV2's high computational demands could render current hardware obsolete, and there is interest in seeing AV2 decoding benchmarks. The announcement page was temporarily unavailable due to high traffic from Hacker News.
 
-**Tags**: `#privacy`, `#fingerprinting`, `#Cloudflare`, `#WebGL`, `#browser`
+**Tags**: `#AV2`, `#codec`, `#decoding`, `#video`, `#open-source`
 
 ---
 
 <a id="item-2"></a>
-## [1-Bit Bonsai Image 4B: Efficient Local Image Generation](https://prismml.com/news/bonsai-image-4b) ⭐️ 8.0/10
+## [Restartable Sequences](https://justine.lol/rseq/) ⭐️ 9.0/10
 
-PrismML has released Bonsai Image 4B, a 4-billion parameter diffusion transformer that uses 1-bit weight quantization to reduce memory footprint by up to 8.3x, enabling on-device image generation on an iPhone. This marks a significant step toward democratizing high-quality image generation by making it feasible on consumer devices without requiring expensive cloud subscriptions. Users can now run sophisticated models locally, preserving privacy and enabling offline use. Bonsai Image 4B is based on FLUX.2 Klein 4B and is available in both 1-bit and ternary variants. While it achieves strong visual quality, some community members noted that it is marginally slower than the original small FLUX.2 model.
+Explains Linux's restartable sequences (rseq) as a superior solution for per-CPU critical sections, eliminating mutexes and atomics.
 
-hackernews · modinfo · May 31, 15:04 · [Discussion](https://news.ycombinator.com/item?id=48346257)
+hackernews · grappler · May 31, 14:38 · [Discussion](https://news.ycombinator.com/item?id=48346019)
 
-**Background**: 1-bit quantization is a technique where each model weight is represented using only a single bit (or a small number of bits), dramatically reducing memory and computation requirements. Diffusion models are a class of generative models that create images by iteratively denoising random noise, and they typically require significant GPU memory. By applying extreme quantization, models like Bonsai Image 4B can run on devices with limited resources, such as smartphones.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://prismml.com/news/bonsai-image-4b">PrismML — Introducing 1-bit and Ternary Bonsai Image 4B: Image Generation for Local Devices</a></li>
-<li><a href="https://www.prnewswire.com/news-releases/prismml-releases-bonsai-image-4b-302782354.html">PrismML Releases Bonsai Image 4B</a></li>
-<li><a href="https://gigazine.net/gsc_news/en/20260527-bonsai-image-4b-image-generation-ai/">I tried out 'Bonsai Image 4B,' an image generation AI that runs locally on iPhones, and modified FLUX.2 Klein 4B into a 1-bit version, reducing memory usage to 1/8.3 of the original. - GIGAZINE</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments were mixed: some users expressed excitement about local hardware upgrades as an alternative to subscriptions, while others questioned whether memory is the real bottleneck given that generation time remains slow. One user pointed out that Bonsai Image 4B is not truly the first to run on iPhone, as FLUX.2 itself runs via app with 8-bit or 6-bit quantization.
-
-**Tags**: `#1-bit`, `#image generation`, `#model compression`, `#local AI`, `#diffusion models`
+**Tags**: `#rseq`, `#Linux kernel`, `#concurrency`, `#lock-free programming`, `#systems programming`
 
 ---
 
 <a id="item-3"></a>
-## [VideoLAN Unveils Dav2d: Open-Source AV2 Decoder](https://jbkempf.com/blog/2026/dav2d/) ⭐️ 8.0/10
+## [Cloudflare Turnstile requires WebGL fingerprinting, raising privacy alarms](https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting) ⭐️ 8.0/10
 
-VideoLAN has released dav2d, an open-source decoder for the AV2 video codec, marking the first major independent implementation of the standard. AV2 promises 25-30% bitrate reduction over AV1 but requires roughly five times more decoding complexity, making efficient software decoders crucial for adoption. Dav2d provides a production-ready, cross-platform decoder that can help hardware and software ecosystems prepare for AV2. The dav2d decoder is developed by the same team behind libavcodec and focuses on both speed and correctness. It is cross-platform and aims to serve as a reference for future hardware implementations.
+Cloudflare Turnstile has started requiring WebGL fingerprinting to detect bots, as disclosed in a recent analysis. This change moves away from purely user-friendly CAPTCHA alternatives to more invasive tracking techniques. This development is significant because it compromises user privacy on a massive scale, given Cloudflare's extensive reach across the internet. It affects all users who rely on Turnstile for bot protection, forcing them to accept fingerprinting that can uniquely identify devices. WebGL fingerprinting works by rendering a hidden 3D scene in the browser and extracting unique characteristics of the GPU and driver. This technique can produce a highly stable fingerprint, and the analysis notes that Firefox's resistFingerprinting setting is ineffective against it.
 
-hackernews · captain_bender · May 31, 11:44 · [Discussion](https://news.ycombinator.com/item?id=48344961)
+hackernews · HypnoticOcelot · May 31, 14:13 · [Discussion](https://news.ycombinator.com/item?id=48345840)
 
-**Background**: AV2 is the next-generation open, royalty-free video coding format from the Alliance for Open Media, succeeding AV1. It was formally released in May 2026 and offers about 30% better compression efficiency than AV1 at the cost of significantly higher computational complexity. VideoLAN is known for developing VLC media player and has a history of creating efficient decoders like dav1d for AV1.
+**Background**: Cloudflare Turnstile is a CAPTCHA alternative that aims to verify human users without intrusive challenges. WebGL fingerprinting is a browser-based technique that uses the WebGL API to create a unique identifier based on the user's graphics hardware and drivers. This has been a known privacy concern, but its incorporation into Turnstile represents a new step.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.phoronix.com/news/Dav2d-Open-Source-AV2-Decode">VideoLAN Publishes Dav2d For Open-Source AV2 Decoder - Phoronix</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AV2_(video_coding_format)">AV2 (video coding format)</a></li>
+<li><a href="https://www.cloudflare.com/products/turnstile/">Cloudflare Turnstile - Easy CAPTCHA Alternative</a></li>
+<li><a href="https://browserleaks.com/webgl">WebGL Browser Report - WebGL Fingerprinting - BrowserLeaks</a></li>
+<li><a href="https://medium.com/@datajournal/webgl-fingerprinting-60893a9ca382">What is WebGL Fingerprinting ? How It Works & Tips | Medium</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express concern that AV2's decoding complexity is roughly five times that of AV1, potentially making existing AV1 hardware decoders obsolete. Some question whether a 25% size reduction justifies the cost of new hardware, though others note that software decoding may suffice for many use cases with optimization.
+**Discussion**: Commenters expressed mixed feelings: some acknowledge fingerprinting as necessary for bot detection, while others criticize the privacy invasion. There is particular concern about minority browsers that break due to this change, and frustration that Firefox's strict privacy settings do not block it.
 
-**Tags**: `#video codec`, `#AV2`, `#decoder`, `#performance`, `#open source`
+**Tags**: `#privacy`, `#fingerprinting`, `#Cloudflare`, `#WebGL`, `#bot-detection`
 
 ---
 
 <a id="item-4"></a>
-## [Linux Restartable Sequences Explained](https://justine.lol/rseq/) ⭐️ 8.0/10
+## [Deflock Maps 100,000 ALPRs in USA](https://deflock.org/) ⭐️ 8.0/10
 
-An article provides an in-depth technical explanation of Linux restartable sequences (rseq), a kernel feature enabling lock-free data structures without mutexes or atomic operations. This feature can significantly improve performance in multi-threaded applications by eliminating the overhead of traditional synchronization mechanisms, benefiting systems programmers working on high-concurrency code. Restartable sequences work by having the program mark critical sections; if the kernel preempts the thread within that section, it restarts the sequence from the beginning. The librseq library provides helpers for common use cases, so users often do not need to write assembly.
+The open-source project Deflock has mapped over 100,000 automated license plate readers (ALPRs) across the United States, as announced on its website. This milestone highlights the scale of ALPR surveillance and fuels debate on privacy trade-offs, as the map exposes the ubiquity of license plate tracking infrastructure. The data is sourced from OpenStreetMap, though community members have noted an overcount of approximately 2.5% due to duplicate entries, which the project may need to correct.
 
-hackernews · grappler · May 31, 14:38 · [Discussion](https://news.ycombinator.com/item?id=48346019)
+hackernews · pilingual · May 31, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48347370)
 
-**Background**: Restartable sequences (rseq) are a Linux kernel mechanism that allows user-space code to perform per-CPU operations atomically without system calls. They were added in Linux kernel 4.18 and are used to efficiently implement reference counting, per-CPU counters, and other lock-free data structures. The kernel detects preemption or migration during a critical section and restarts the sequence, ensuring correctness without traditional locking.
+**Background**: Automated license plate readers (ALPRs) are high-speed camera systems mounted on poles that capture license plate data for law enforcement and private entities. Deflock is an open-source project that aggregates user-submitted and open data to create a public map of ALPR locations, aiming to increase transparency and privacy awareness.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://lwn.net/Articles/1033957/">The rseq() manual page [LWN.net]</a></li>
-<li><a href="https://lwn.net/Articles/697539/">Kernel development [LWN.net]</a></li>
+<li><a href="https://www.404media.co/the-open-source-project-deflock-is-mapping-license-plate-surveillance-cameras-all-over-the-world/">The Open Source Project DeFlock Is Mapping License Plate...</a></li>
+<li><a href="https://www.forbes.com/sites/larsdaniel/2024/11/26/think-youre-not-being-watched-deflock-says-think-again/">Think You’re Not Being Watched? DeFlock Says Think Again</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is largely positive, with users expressing excitement about using rseq in their projects. However, some commenters criticized the article's tone and lack of reference to the librseq library, noting that it provides easier-to-use helpers that avoid assembly.
+**Discussion**: Community comments show mixed sentiment: some praise the pushback on privacy abuses, while others question data accuracy (e.g., overcounting by 2.5k duplicates), technical accessibility issues with the new map, and the legality of such data storage. One commenter suggests focusing on legislation rather than mapping, linking to EFF analysis of Ring's practices.
 
-**Tags**: `#linux`, `#kernel`, `#concurrency`, `#systems-programming`
+**Tags**: `#privacy`, `#surveillance`, `#ALPR`, `#open data`, `#security`
 
 ---
 
 <a id="item-5"></a>
-## [Deflock reaches 100k mapped ALPRs in the US](https://deflock.org/) ⭐️ 8.0/10
+## [AI Prototyping: Speed vs. Quality and UX](https://darylcecile.net/notes/speed-of-prototyping-age-of-ai) ⭐️ 7.0/10
 
-The open-source project Deflock announced it has mapped over 100,000 automated license plate readers (ALPRs) across the United States. This milestone highlights the scale of surveillance infrastructure and empowers communities to challenge privacy abuses. It also sparks debate on how to counterbalance the benefits of security cameras with individual privacy rights. However, some community members note the data may be overcounted by a few percent due to duplication in OpenStreetMap. Additionally, the new map interface requires WebGL, causing accessibility issues for some users.
+AI tools have dramatically increased the speed of prototyping, but this has led to a rise in shipping poor-quality ideas and overlooking user experience (UX). This trend threatens to undermine software quality and user satisfaction, as cheap execution prioritizes quantity over thoughtful design and testing. The article notes that ideas that appear effective on the surface but have real UX problems are being prioritized due to persuasive leadership, bypassing proper user research.
 
-hackernews · pilingual · May 31, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48347370)
+hackernews · mooreds · May 31, 16:37 · [Discussion](https://news.ycombinator.com/item?id=48347153)
 
-**Background**: Automated License Plate Readers (ALPRs) are high-speed cameras that capture license plate data, often used by law enforcement and private companies. Deflock is a community-driven open-source project that maps these devices to increase transparency and accountability. The project uses OpenStreetMap data and encourages public contributions. As surveillance concerns grow, initiatives like Deflock help individuals understand where they are being watched.
+**Background**: Prototyping is a crucial phase in software development where ideas are turned into quick, testable models. Traditional prototyping emphasizes iteration and discarding early versions to achieve high quality. AI now enables faster creation, but may encourage skipping essential UX steps.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.forbes.com/sites/larsdaniel/2024/11/26/think-youre-not-being-watched-deflock-says-think-again/">Think You’re Not Being Watched? DeFlock Says Think Again</a></li>
-<li><a href="https://www.404media.co/the-open-source-project-deflock-is-mapping-license-plate-surveillance-cameras-all-over-the-world/">The Open Source Project DeFlock Is Mapping License Plate ...</a></li>
-<li><a href="https://sls.eff.org/technologies/automated-license-plate-readers-alprs">Automated License Plate Readers</a></li>
+**Discussion**: Commenters express mixed views: some worry about the cost of increased speed, citing garbage being shipped and UX problems being ignored. Others remain hopeful that AI will enable a new era of prototyping where early versions are deliberately discarded for high quality. Questions are raised about whether prototypes are often shipped directly to production.
 
-</ul>
-</details>
-
-**Discussion**: Commenters expressed mixed feelings: some support the pushback against privacy abuses, while others raise concerns about data accuracy (e.g., ~2,500 duplicate entries) and technical limitations like WebGL requirements. A few suggest that companies like Flock could circumvent mapping by placing cameras on private property, advocating for stronger legislation instead.
-
-**Tags**: `#privacy`, `#surveillance`, `#ALPR`, `#openstreetmap`, `#mapping`
+**Tags**: `#AI`, `#prototyping`, `#software development`, `#user experience`, `#productivity`
 
 ---
 
 <a id="item-6"></a>
-## [NVIDIA Parakeet Ported to ggml: Faster, Quantized, No Python](https://www.reddit.com/r/LocalLLaMA/comments/1tt6oja/i_ported_nvidia_parakeet_speechtotext_to_ggml/) ⭐️ 8.0/10
+## [1-Bit Bonsai Image 4B Enables Local Image Generation](https://prismml.com/news/bonsai-image-4b) ⭐️ 6.0/10
 
-A developer ported NVIDIA's Parakeet speech-to-text models to pure C++/ggml, achieving byte-identical output to NeMo with up to 5x speedup on GPU and 1.86x on CPU when quantized, and releasing GGUF quantized variants for efficient CPU/GPU inference. This makes high-quality NVIDIA speech-to-text models deployable without Python or PyTorch, enabling faster inference, lower memory usage, and easy embedding in applications, which benefits developers building local and edge ASR systems. The port supports FastConformer TDT/CTC/RNNT/hybrid models, runs on CPU and GPU (CUDA, HIP, Vulkan, Metal), and includes cache-aware streaming with word-level timestamps and confidence scores. The GGUF model file is self-contained with tokenizer baked in.
+PrismML announced Bonsai Image 4B, a 4 billion parameter image generation model using 1-bit weight quantization, claiming it can run directly on local devices such as iPhones. This advances the goal of running powerful AI models on consumer hardware without cloud dependence, potentially reducing costs and enabling privacy-preserving on-device generation. The model compresses each weight to a single bit (ternary values: -1, 0, +1) with per-group scaling, drastically reducing memory footprint. However, community commenters note that other quantized models like FLUX.2 4B already run on iPhones via 8-bit or 6-bit quantization, challenging the novelty of this claim.
 
-reddit · r/LocalLLaMA · /u/mudler_it · May 31, 20:35
+hackernews · modinfo · May 31, 15:04 · [Discussion](https://news.ycombinator.com/item?id=48346257)
 
-**Background**: ggml is a tensor library for machine learning that enables large models on commodity hardware, used by llama.cpp and whisper.cpp. NVIDIA Parakeet is a family of state-of-the-art ASR models based on the FastConformer architecture. GGUF is a quantization format that reduces model size and speeds up inference on consumer hardware.
+**Background**: Traditional neural networks store weights as 16-bit or 32-bit floating-point numbers. 1-bit quantization reduces each weight to a single bit, enabling large models to fit in limited device RAM. This technique has been explored in large language models like Microsoft's BitNet b1.58. PrismML extends the approach to image generation models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ggml.ai/">ggml .ai</a></li>
-<li><a href="https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/">Pushing the Boundaries of Speech Recognition with NVIDIA NeMo</a></li>
-<li><a href="https://medium.com/@bnjmn_marie/gguf-quantization-for-fast-and-memory-efficient-inference-on-your-cpu-d10fbe58fbca">GGUF Quantization for Fast and Memory-Efficient Inference... | Medium</a></li>
+<li><a href="https://huggingface.co/prism-ml/Bonsai-8B-mlx-1bit">prism-ml/Bonsai-8B-mlx-1bit · Hugging Face PrismML-Eng/Bonsai-Image-Demo - GitHub PrismML’s 1-Bit Bonsai LLMs: 8B Model in 1.15 GB Bonsai - Free Frontier Coding Models New 1 bit LLM is here : Bonsai-8B - Medium Bonsai AI Tutorial: Run a 1-Bit LLM Locally On an Old Laptop</a></li>
+<li><a href="https://github.com/PrismML-Eng/Bonsai-image-demo">PrismML-Eng/Bonsai-Image-Demo - GitHub</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#speech-to-text`, `#ggml`, `#NVIDIA Parakeet`, `#model optimization`, `#open source`
+**Discussion**: Comments show mixed sentiment: some are excited about local AI capabilities, while others question whether 1-bit quantization solves the real bottleneck of generation speed. There is debate over the claim of being 'the first' to run on iPhone, with references to existing quantized models already doing so.
+
+**Tags**: `#image generation`, `#quantization`, `#local AI`, `#1-bit models`, `#machine learning`
 
 ---
 
 <a id="item-7"></a>
-## [Abliterated Gemma 4 E2B Variants Benchmarked](https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/) ⭐️ 8.0/10
+## [United Airlines Flight Diverted Over Bluetooth Name 'Bomb'](https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/) ⭐️ 6.0/10
 
-A Reddit user posted a comprehensive comparison of 13 abliterated variants of Google's Gemma 4 E2B model, using 44 GPU hours to evaluate safety removal (HarmBench ASR) and performance on 8 benchmarks, revealing which methods preserve capabilities. This work provides actionable insights for the AI safety community by identifying abliteration techniques that achieve high attack success rates without degrading performance, and it exposes discrepancies between claimed and actual capability preservation, which is critical for open-source model alignment. The best variant (coder3101) achieves 96% ASR and even outperforms the base model on GSM8K math, while aggressive methods cause significant perplexity increases (up to 7.35x) and token wastage; moreover, 5 of 13 models were missing safetensor keys due to shared KV projections.
+A United Airlines Boeing 767 returning from Newark was forced to turn back after a passenger's Bluetooth device named 'Bomb' triggered a security alert. This incident highlights the potential for everyday technology like Bluetooth to cause serious disruptions in aviation security, raising questions about protocol sensitivity and the possibility of malicious exploitation. The specific Bluetooth device was likely a portable speaker with the name preset by the manufacturer, and the flight crew decided to return as a precautionary measure. No explosive devices were found.
 
-reddit · r/LocalLLaMA · /u/nathandreamfast · May 31, 13:44
+hackernews · Eridanus2 · May 31, 12:41 · [Discussion](https://news.ycombinator.com/item?id=48345248)
 
-**Background**: Abliteration is a technique to remove safety alignment from large language models, often by ablating or modifying the refusal direction. Tools like Heretic automate this process. HarmBench is a standardized benchmark for evaluating the attack success rate (ASR) against harmful prompts, measuring how often a model refuses or complies.
+**Background**: Bluetooth devices broadcast their names to nearby devices, and airport security personnel are trained to respond to any perceived threats. The term 'bomb' is strictly prohibited in aviation contexts due to the high sensitivity and potential for panic.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/blog/mlabonne/abliteration">Uncensor any LLM with abliteration</a></li>
-<li><a href="https://github.com/p-e-w/heretic">GitHub - p-e-w/heretic: Fully automatic censorship removal for</a></li>
-<li><a href="https://arxiv.org/abs/2402.04249">[2402.04249] HarmBench: A Standardized Evaluation Framework for</a></li>
+**Discussion**: Commenters noted the absurdity of the situation, with some calling it a 'hilariously stupid reaction' while others warned of potential attack vectors. One commenter shared that 'crash' and 'bomb' are banned words in aviation software development.
 
-</ul>
-</details>
-
-**Tags**: `#abliteration`, `#Gemma 4`, `#model safety`, `#benchmark`, `#alignment`
+**Tags**: `#aviation`, `#bluetooth`, `#security`, `#safety`
 
 ---
 
 <a id="item-8"></a>
-## [FROST Attack Uses SSD Timing to Spy on Users](https://futurism.com/future-society/websites-spying-solid-state-drive) ⭐️ 8.0/10
+## [London's Free Roof Terraces: Public Access vs. Control](https://diamondgeezer.blogspot.com/2026/05/londons-free-roof-terraces.html) ⭐️ 6.0/10
 
-Researchers disclosed the FROST (Fingerprinting Remotely using OPFS-based SSD Timing) attack, which allows malicious websites to infer user activities by measuring SSD read/write timing via the browser's Origin Private File System (OPFS) API, without any user interaction. This side-channel attack poses a significant privacy threat as it enables remote, passive surveillance of a user's browsing and application usage with high accuracy, using only standard browser APIs. It highlights a new class of vulnerabilities in modern web platform features. In experiments, the FROST attack achieved 88.95% accuracy in predicting visited websites and 95.83% accuracy in predicting opened applications. The attack was tested on macOS and Linux, but researchers claim Windows is also potentially vulnerable; closing browser tabs after use can reduce risk.
+A blog post reveals that many London roof terraces promised as free public amenities during planning approval are later restricted through onerous access policies like pre-booking, ID checks, and photography bans. This practice undermines public trust in planning concessions and deprives communities of genuinely accessible green spaces, highlighting a loophole that prioritizes developer profits over public benefit. Developers often obtain planning permission by agreeing to include public roof terraces, but then restrict access through advance booking, identity verification, photography restrictions, and intimidating security presence, effectively privatizing the space.
 
-telegram · zaihuapd · May 31, 01:55
+hackernews · zeristor · May 31, 07:16 · [Discussion](https://news.ycombinator.com/item?id=48343714)
 
-**Background**: SSD timing side-channel attacks exploit the measurable differences in read/write latency caused by contention for the SSD's internal resources. The Origin Private File System (OPFS) is a browser API that provides web apps with a private, sandboxed file system for storing files locally. FROST uses OPFS to generate controlled read/write operations and measures their completion time to detect other activity on the system, inferring which websites or applications are in use.
+**Background**: Planning concessions are voluntary benefits offered by developers to gain approval for projects, such as public spaces or affordable housing. In London, roof terraces are sometimes included as such concessions. However, without proper enforcement and monitoring, developers can impose restrictive policies that defeat the public purpose, as seen in this case.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://cyberpress.org/sites-ssd-timing-side-channel-attacks/">Malicious Sites Track Users Through SSD Timing Side-Channel Attacks</a></li>
-<li><a href="https://cybersecuritynews.com/malicious-websites-track-ssd-timing/">Malicious Websites Track Visitors by Analyzing their SSD ...</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system">Origin private file system - Web APIs | MDN</a></li>
+<li><a href="https://lawforeverything.com/concession-agreement/">Concession Agreement: Key Concepts and Definition</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#side-channel attack`, `#SSD`, `#browser`, `#privacy`
+**Discussion**: Commenters share similar experiences in other cities like Cambridge (USA), San Francisco, and along London's Thames Path, expressing frustration that the privatization of public amenities is widespread. They call for stronger enforcement to ensure genuine public access.
+
+**Tags**: `#urbanism`, `#public space`, `#planning`, `#London`, `#corporate accountability`
 
 ---
 
 <a id="item-9"></a>
-## [AV2 Reference Encoder Reaches First 1.0.0 Release](https://videocardz.com/newz/aomedias-av2-encoder-gets-first-1-0-0-release) ⭐️ 8.0/10
+## [The Website Specification Sparks Debate on Agent Readiness](https://specification.website/) ⭐️ 6.0/10
 
-AOMedia has tagged the first 1.0.0 release of the AV2 reference encoder in the AVM GitHub repository, marking an initial milestone for the next-generation royalty-free video codec. This release signifies progress toward a practical AV2 codec, which aims to deliver approximately 30% better compression than AV1, potentially reshaping video streaming, broadcasting, and real-time communications with higher efficiency. The current AVM software is a reference implementation for defining and testing the format, not an optimized production encoder; it still suffers from slow encoding speed and unresolved detail preservation issues, and the AV2 specification remains a draft.
+A new website specification document has been published covering modern web standards and introducing 'Agent Readiness' requirements, sparking significant discussion on Hacker News with 428 points and 180 comments. The debate highlights the tension between practical web development best practices and speculative future standards like AI agent compatibility, which could influence how developers approach website building and maintenance. The site itself fails to implement its own required practices, and many recommendations are sourced from other standards, leading to criticism about its credibility. The 'Agent Readiness' section is particularly controversial, with concerns that it could be misused for cloaking content.
 
-telegram · zaihuapd · May 31, 14:08
+hackernews · k1m · May 31, 07:09 · [Discussion](https://news.ycombinator.com/item?id=48343683)
 
-**Background**: AV2 is an open, royalty-free video coding format developed by the Alliance for Open Media, succeeding the widely used AV1. Work began in 2020, and prototype implementations show around 30% bitrate reduction over AV1 at similar quality. AV2 is expected to compete with the royalty-based VVC (H.266) format in the market.
+**Background**: A website specification typically defines project goals, technical requirements, and design standards. 'Agent Readiness' refers to making websites discoverable and interactive for AI agents through standardized protocols, analogous to SEO for search engines but for AI systems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/AV2_(video_coding_format)">AV2 (video coding format)</a></li>
-<li><a href="https://www.phoronix.com/news/AV2-1.0-Specification-Released">AV 2 v1.0 Specification Released For Next-Gen Video Coding - Phoronix</a></li>
-<li><a href="https://aomedia.org/press+releases/AOMedia-Announces-Year-End-Launch-of-Next-Generation-Video-Codec-AV2-on-10th-Anniversary/">AOMedia Announces Year-End Launch of Next Generation Video</a></li>
+<li><a href="https://www.forbes.com/councils/forbestechcouncil/2021/04/02/how-to-write-a-website-specification/">How To Write A Website Specification - Forbes</a></li>
+<li><a href="https://www.pinmeto.com/glossary/agent-ready-website/">Agent - Ready Website : Making Your Site Discoverable by AI Agents</a></li>
+<li><a href="https://www.introvertai.co/blog/agent-readiness">Agent Readiness : Make Your Website Work with... | IntrovertAI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AV2`, `#video codec`, `#AOMedia`, `#reference encoder`
+**Discussion**: Hacker News comments are mixed: some praise the site's solid web hygiene advice while criticizing the Agent Readiness section as impractical and potentially harmful, others point out the irony that the site does not comply with its own specifications, and a few suggest it appears largely AI-generated.
+
+**Tags**: `#web development`, `#AI agents`, `#web standards`, `#specifications`
+
+---
+
+<a id="item-10"></a>
+## [Backpressure as Metaphor for AI Self-Validation](https://www.lucasfcosta.com/blog/backpressure-is-all-you-need) ⭐️ 6.0/10
+
+A blog post proposes using 'backpressure' as a metaphor for AI agents validating their own work before human review, suggesting a structured approach to reduce human oversight burden. This idea addresses the scalability bottleneck of human-in-the-loop systems by enabling agents to self-correct, potentially improving efficiency in AI workflows. However, the misapplication of the term 'backpressure' sparks debate about proper engineering terminology. The proposed approach involves agents validating their own outputs via checkpoints, retries, and self-assessment before escalating to humans, though community commenters note this is not true backpressure as defined in systems engineering.
+
+hackernews · lucasfcosta · May 31, 12:11 · [Discussion](https://news.ycombinator.com/item?id=48345090)
+
+**Background**: In systems engineering, backpressure is a flow control mechanism where a downstream component signals an upstream component to slow down when overwhelmed. It is commonly used in distributed systems and data streaming to prevent overload. Human-in-the-loop (HITL) systems involve human review of AI outputs, which can become a bottleneck as AI scales. The blog post attempts to apply the backpressure concept to HITL workflows, but critics argue the proposed measures lack the dynamic signaling characteristic of true backpressure.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Backpressure_routing">Backpressure routing - Wikipedia</a></li>
+<li><a href="https://medium.com/@jayphelps/backpressure-explained-the-flow-of-data-through-software-2350b3e77ce7">Backpressure explained — the resisted flow of data through ... Backpressure routing - Wikipedia Backpressure - System Design Concept Backpressure Pattern What is backpressure in streaming data systems and how can a ... Understanding Backpressure in Distributed Systems - LinkedIn</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community commenters largely agree the idea is not new, with some noting similar approaches like 'ralph loops' existing since early 2023. The main criticism is the misuse of 'backpressure'—the proposed throttling is fixed, not adaptive signaling. Others mention API costs and checkpoint biases as practical challenges.
+
+**Tags**: `#AI agents`, `#human-in-the-loop`, `#workflow automation`, `#backpressure`
 
 ---
