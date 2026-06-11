@@ -32,7 +32,8 @@ trap "rm -rf $TMPDIR" EXIT
 git fetch origin gh-pages:gh-pages 2>/dev/null || git checkout --orphan gh-pages && git checkout main
 
 git worktree add "$TMPDIR" gh-pages
-cp -r docs/* "$TMPDIR/"
+mkdir -p "$TMPDIR/_posts"
+cp docs/_posts/* "$TMPDIR/_posts/"
 
 cd "$TMPDIR"
 git add -A
