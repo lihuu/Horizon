@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 8192,
+    "languages": ["zh", "en"],
+    "analysis_concurrency": 5,
+    "enrichment_concurrency": 5
+  },
+  "filtering": {
+    "ai_score_threshold": 6.0,
+    "time_window_hours": 24
+  },
+  "sources": {
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 30,
+      "min_score": 100
+    },
+    "rss": [
+      {
+        "name": "Electrek",
+        "url": "https://electrek.co/feed/",
+        "enabled": true,
+        "category": "ev-auto"
+      },
+      {
+        "name": "HuggingFace Blog",
+        "url": "https://huggingface.co/blog/feed",
+        "enabled": true,
+        "category": "ai-ml"
+      },
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "category": "ai-tools"
+      },
+      {
+        "name": "Hacker News AI/ML",
+        "url": "https://hnrss.org/newest?q=ai+machine+learning&points=50",
+        "enabled": true,
+        "category": "ai-ml"
+      }
+    ],
+    "github": [
+      {
+        "type": "repo_releases",
+        "owner": "microsoft",
+        "repo": "vscode",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "facebook",
+        "repo": "react",
+        "enabled": true
+      }
+    ],
+    "reddit": {
+      "enabled": true,
+      "subreddits": [
+        {
+          "subreddit": "MachineLearning",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 30
+        },
+        {
+          "subreddit": "LocalLLaMA",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 30
+        },
+        {
+          "subreddit": "programming",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 30
+        },
+        {
+          "subreddit": "electricvehicles",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30
+        },
+        {
+          "subreddit": "artificial",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30
+        }
+      ],
+      "users": [],
+      "fetch_comments": 3
+    },
+    "twitter": {
+      "enabled": false,
+      "users": [],
+      "fetch_limit": 0,
+      "fetch_reply_text": false
+    }
+  },
+  "webhook": {
+    "enabled": false
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.example.com",
+    "smtp_port": 465,
+    "imap_server": "imap.example.com",
+    "imap_port": 993,
+    "email_address": "none@example.com",
+    "sender_name": "Horizon"
+  }
+}
