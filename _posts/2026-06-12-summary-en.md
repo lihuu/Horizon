@@ -5,323 +5,301 @@ date: 2026-06-12
 lang: en
 ---
 
-> From 29 items, 15 important content pieces were selected
+> From 27 items, 14 important content pieces were selected
 
 ---
 
-1. [AMD's RCE fix uses CRC-32, not crypto signature](#item-1) ⭐️ 9.0/10
-2. [Homebrew 6.0.0 Released with Tap Trust, Faster API, Linux Sandboxing](#item-2) ⭐️ 8.0/10
-3. [Xiaomi Open-Sources MiMo Code AI Coding Assistant](#item-3) ⭐️ 8.0/10
-4. [Anthropic Apologizes for Invisible Claude Fable Guardrails](#item-4) ⭐️ 8.0/10
-5. [LLM Nuclear Wargame Simulation Reveals Diverse AI Personalities](#item-5) ⭐️ 8.0/10
-6. [AI-Generated Lines of Code as Vanity Metric](#item-6) ⭐️ 8.0/10
-7. [Human Attention Requires Human Effort](#item-7) ⭐️ 7.0/10
-8. [Petition to Withdraw Canada's Bill C-22 Gains Momentum](#item-8) ⭐️ 7.0/10
-9. [Waymo Launches $30/Month Subscription Tier](#item-9) ⭐️ 7.0/10
-10. [DeltaDB Tracks Every Edit Between Commits](#item-10) ⭐️ 7.0/10
-11. [Datasette 1.0a33 Extends _extra= Pattern to Queries and Rows](#item-11) ⭐️ 7.0/10
-12. [Is Symbolic Regression Still Relevant with LLMs?](#item-12) ⭐️ 7.0/10
-13. [Adaptive Video Tokenization via Temporal Redundancy Masking](#item-13) ⭐️ 7.0/10
-14. [uv 0.11.21 Released with New CPython Versions and Preview Features](#item-14) ⭐️ 6.0/10
-15. [Claude Fable 5 Impresses with Proactive Bug Fixing](#item-15) ⭐️ 6.0/10
+1. [AMD's RCE Vulnerability Patched with CRC-32 Instead of Crypto](#item-1) ⭐️ 9.0/10
+2. [Homebrew 6.0.0 Released with Tap Trust and Linux Sandboxing](#item-2) ⭐️ 8.0/10
+3. [Demand Human Effort for Human Attention](#item-3) ⭐️ 8.0/10
+4. [Xiaomi Open-Sources MiMo Code AI Coding Assistant](#item-4) ⭐️ 8.0/10
+5. [Anthropic Apologizes for Secret Claude Fable Guardrails](#item-5) ⭐️ 8.0/10
+6. [Claude Fable 5: Mid-Tier Coding Performance with Cheating Issues](#item-6) ⭐️ 8.0/10
+7. [Lines of Code: A Misleading Metric in the AI Era](#item-7) ⭐️ 8.0/10
+8. [Adaptive Video Tokenization via Temporal Redundancy Masking](#item-8) ⭐️ 8.0/10
+9. [Petition to Withdraw Canada's Bill C-22](#item-9) ⭐️ 7.0/10
+10. [Waymo Premier: $30/month Subscription for Priority Rides](#item-10) ⭐️ 7.0/10
+11. [Datasette 1.0a33 Extends JSON Extras API to Rows and Queries](#item-11) ⭐️ 7.0/10
+12. [Symbolic Regression vs. LLMs: Still Relevant?](#item-12) ⭐️ 7.0/10
+13. [uv 0.11.21 Released with New CPython Versions and Preview Features](#item-13) ⭐️ 6.0/10
+14. [FablePool: Crowdfund AI Projects via Prompts](#item-14) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [AMD's RCE fix uses CRC-32, not crypto signature](https://mrbruh.com/amd2/) ⭐️ 9.0/10
+## [AMD's RCE Vulnerability Patched with CRC-32 Instead of Crypto](https://mrbruh.com/amd2/) ⭐️ 9.0/10
 
-A remote code execution vulnerability in AMD software was initially dismissed by AMD, then patched inadequately using only a CRC-32 checksum instead of cryptographic signature verification, leaving users vulnerable if the webserver is compromised. This flaw undermines trust in AMD's software security practices and exposes users to trivial compromise via supply chain attacks, highlighting the critical need for proper cryptographic verification in security patches. The patch uses HTTPS to prevent man-in-the-middle attacks, but the downloaded executable is only verified with a CRC-32 checksum, which is not cryptographically secure and can be easily forged if an attacker compromises the webserver.
+A remote code execution vulnerability in AMD software was disclosed, and AMD's patch replaces proper cryptographic signature verification with a non-cryptographic CRC-32 check, leaving systems trivially exploitable if the webserver is compromised. This is critical because it shows AMD's inadequate security response, potentially affecting millions of systems and undermining trust in supply chain security. The use of CRC-32, which is designed for error detection not security, means an attacker who compromises the update server can easily inject malicious code. The vulnerability allows remote code execution via a man-in-the-middle attack or webserver compromise. AMD's fix only adds HTTPS (preventing MITM) but uses CRC-32 for executable integrity, which is trivial to forge.
 
 hackernews · MrBruh · Jun 11, 16:03 · [Discussion](https://news.ycombinator.com/item?id=48492215)
 
-**Background**: CRC-32 is a cyclic redundancy check designed to detect accidental data corruption, not intentional tampering. Cryptographic signatures, such as RSA or ECDSA, are required to verify authenticity and integrity against malicious modification. AMD's use of CRC-32 instead of a cryptographic signature means that anyone who compromises the update server can serve a malicious executable that passes the checksum check.
+**Background**: CRC-32 is a cyclic redundancy check used for detecting accidental data corruption, not for security. Cryptographic signatures (e.g., RSA, ECDSA) are required to prevent forgery. This vulnerability highlights the importance of proper code signing in software update mechanisms.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Cyclic_redundancy_check">Cyclic redundancy check - Wikipedia</a></li>
-<li><a href="https://asecuritysite.com/encryption/crc32">CRC-32 Example</a></li>
-<li><a href="https://calcbin.com/tools/crc-calculator">CRC Calculator — CRC-8, CRC-16, CRC-32 Checksum Online (2026) | CalcBin</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed disbelief and criticism, calling AMD's fix 'ridiculous' and 'hilariously clueless.' Some noted that AMD's software quality has been a recurring problem for decades, while others pointed out that man-in-the-middle attacks should not be considered out of scope.
+**Discussion**: The community expressed outrage and disbelief, calling AMD's fix 'clueless' and 'ridiculous'. Commenters noted that MITM attacks are realistic and that AMD has a history of poor software quality. Some also reported seeing unexpected console pop-ups related to the issue.
 
-**Tags**: `#security`, `#AMD`, `#RCE`, `#vulnerability disclosure`, `#supply chain`
+**Tags**: `#security`, `#vulnerability`, `#AMD`, `#RCE`, `#supply chain`
 
 ---
 
 <a id="item-2"></a>
-## [Homebrew 6.0.0 Released with Tap Trust, Faster API, Linux Sandboxing](https://brew.sh/2026/06/11/homebrew-6.0.0/) ⭐️ 8.0/10
+## [Homebrew 6.0.0 Released with Tap Trust and Linux Sandboxing](https://brew.sh/2026/06/11/homebrew-6.0.0/) ⭐️ 8.0/10
 
-Homebrew 6.0.0 introduces a new tap trust security mechanism, a faster and smaller default internal JSON API, sandboxing on Linux, and initial support for macOS 27 (Golden Gate). As a widely-used package manager for macOS and Linux, this major release enhances security and performance, making Homebrew more trustworthy and efficient for millions of developers. The Linux sandboxing feature also improves safety for Linux users. The tap trust mechanism requires third-party taps to be explicitly trusted before their code is executed, preventing arbitrary Ruby code from running. The new JSON API is built into Homebrew itself, replacing the external formulae.brew.sh API for faster and more reliable data access.
+Homebrew 6.0.0 introduces a mandatory tap trust security mechanism, a faster and smaller default internal JSON API, sandboxing on Linux via Bubblewrap, and initial support for macOS 27 (Golden Gate). This major release enhances security and performance for millions of macOS and Linux users, addressing long-standing concerns about third-party tap safety and Linux compatibility. The new tap trust mechanism reduces the risk of malicious code execution, while Linux sandboxing makes Homebrew a more viable option on Linux distributions. The tap trust mechanism requires users to explicitly trust third-party taps before their code is evaluated, and the new JSON API is now the default, offering faster metadata retrieval. Linux sandboxing uses Bubblewrap to isolate build processes, improving system stability.
 
 hackernews · mikemcquaid · Jun 11, 13:24 · [Discussion](https://news.ycombinator.com/item?id=48490024)
 
-**Background**: Homebrew is a free and open-source package manager that simplifies installing software on macOS and Linux. Taps are third-party repositories that can contain additional formulae and casks. Previously, tapping a repository could execute arbitrary Ruby code without user consent, posing a security risk. The new trust mechanism addresses this by requiring explicit user approval.
+**Background**: Homebrew is a popular open-source package manager for macOS and Linux, allowing users to install software from the command line. Taps are third-party repositories that extend Homebrew's package selection, but they have historically posed security risks because their code runs with user privileges. The new trust mechanism addresses this by requiring explicit user approval.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://brew.sh/2026/06/11/homebrew-6.0.0/">Homebrew: 6.0.0</a></li>
 <li><a href="https://docs.brew.sh/Tap-Trust">Homebrew Documentation: Tap Trust</a></li>
-<li><a href="https://github.com/brewdo/brewdo">GitHub - brewdo/brewdo: sandboxing for Homebrew · GitHub</a></li>
+<li><a href="https://alternativeto.net/news/2026/6/homebrew-6-0-brings-tap-trust-security-mechanism-smaller-json-api-and-linux-sandboxing/">Homebrew 6.0 brings tap trust security mechanism, smaller ...</a></li>
+<li><a href="https://news.linxi.com.au/news/homebrew-600-introduces-mandatory-tap-trust-and-macos-27-support">Homebrew 6.0.0 release: Tap trust, Linux sandboxing , macOS 27 ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community expressed gratitude for the maintainers' long-term dedication, with one former maintainer praising the 16+ years of work. Some users discussed switching to alternatives like Nix or mise, citing better reproducibility or version management, while others appreciated Homebrew's ease of use and support for immutable Linux distributions.
+**Discussion**: Community comments express gratitude for the maintainers' long-term dedication, with one former maintainer noting 16+ years of service. Some users discuss switching to alternatives like Nix or mise, citing reproducibility or ease of use, while others praise Homebrew's improvements and its role on immutable Linux distributions.
 
-**Tags**: `#package-manager`, `#homebrew`, `#macos`, `#linux`, `#dev-tools`
+**Tags**: `#package manager`, `#Homebrew`, `#macOS`, `#Linux`, `#security`
 
 ---
 
 <a id="item-3"></a>
+## [Demand Human Effort for Human Attention](https://tombedor.dev/human-attention-and-human-effort/) ⭐️ 8.0/10
+
+A blog post argues that when requesting human attention (e.g., code reviews, emails), one must demonstrate human effort, critiquing the flood of AI-generated PRs and communications that degrade team collaboration. This matters because the increasing use of AI-generated content in professional settings is eroding trust and collaboration, leading to ignored PRs and frustrated teams. It calls for a cultural shift to maintain human accountability. The post highlights that AI-generated PRs often lack the human touch needed for effective review, and that reviewers subconsciously deprioritize such work. The author suggests that if you want human attention, you must put in human effort.
+
+hackernews · jjfoooo4 · Jun 11, 23:01 · [Discussion](https://news.ycombinator.com/item?id=48497609)
+
+**Background**: In software engineering, code reviews and team communications rely on human judgment and effort. With the rise of AI tools like Claude and ChatGPT, some developers generate large volumes of AI-produced code and messages, expecting the same level of attention as human-crafted work. This creates an imbalance where the effort to produce is low but the effort to review remains high.
+
+**Discussion**: Commenters share experiences of coworkers flooding teams with AI-generated PRs and communications, leading to ignored work and frustration. Some note that AI-generated content often lacks human touch and review, while others discuss the need for new conventions for AI-to-human communication.
+
+**Tags**: `#AI`, `#code review`, `#software engineering`, `#team collaboration`, `#productivity`
+
+---
+
+<a id="item-4"></a>
 ## [Xiaomi Open-Sources MiMo Code AI Coding Assistant](https://mimo.xiaomi.com/mimocode) ⭐️ 8.0/10
 
-Xiaomi has released MiMo Code, an open-source AI coding assistant forked from OpenCode, featuring persistent memory, subagent orchestration, and goal-driven autonomous loops. This move makes advanced agentic coding capabilities freely available, potentially lowering barriers for developers and shifting industry norms toward open-source AI coding tools. MiMo Code is a terminal-native tool that can read/write code, run commands, manage Git, and includes a persistent memory system for cross-session project understanding and self-improvement via dream/distill mechanisms.
+Xiaomi has released MiMo Code, an open-source AI coding assistant forked from OpenCode, featuring persistent memory, subagent orchestration, and goal-driven autonomous loops. This move challenges closed-source alternatives like Claude Code and promotes open standards in AI-assisted development, potentially lowering switching costs for developers and fostering community innovation. MiMo Code retains all core OpenCode capabilities (multiple providers, TUI, LSP, MCP, plugins) and adds persistent memory, intelligent context management, subagent orchestration, goal-driven autonomous loops, compose workflows, and self-improvement via dream/distill.
 
 hackernews · apeters · Jun 11, 14:27 · [Discussion](https://news.ycombinator.com/item?id=48490826)
 
-**Background**: Agentic coding refers to AI agents that autonomously plan, write, test, and modify code with minimal human intervention. OpenCode is an existing open-source coding agent that provides multiple LLM providers, TUI, LSP, MCP, and plugin support. MiMo Code extends OpenCode with additional features like persistent memory and subagent orchestration.
+**Background**: Agentic coding refers to AI assistants that autonomously execute high-level tasks rather than just suggesting code. OpenCode is an open-source terminal-native AI coding agent that MiMo Code builds upon. Xiaomi's release aligns with a trend toward open-source coding harnesses, contrasting with closed-source tools like Claude Code.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/XiaomiMiMo/MiMo-Code">GitHub - XiaomiMiMo/MiMo-Code · GitHub</a></li>
-<li><a href="https://mimo.xiaomi.com/mimocode/start">MiMo Code docs</a></li>
-<li><a href="https://github.com/anomalyco/opencode/">GitHub - anomalyco/ opencode : The open source coding agent.</a></li>
+<li><a href="https://github.com/XiaomiMiMo/MiMo-Code">GitHub - XiaomiMiMo/ MiMo-Code</a></li>
+<li><a href="https://opencode.ai/docs/">Intro | AI coding agent built for the terminal - opencode .ai</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Agentic_coding">Agentic coding</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community largely welcomes the open-source release, with some praising Xiaomi's shift toward openness and noting the unique persistent memory feature. Others compare it favorably to closed-source tools like Claude Code and deprecated Gemini CLI, emphasizing the importance of open-source coding harnesses.
+**Discussion**: The community largely applauds the open-source move, with commenters praising Xiaomi's transformation and noting that coding harnesses should be open to minimize switching costs. Some highlight MiMo Code's advanced features like persistent memory and subagent orchestration, contrasting it favorably with closed-source alternatives.
 
 **Tags**: `#AI coding assistant`, `#open source`, `#Xiaomi`, `#agentic coding`, `#LLM`
 
 ---
 
-<a id="item-4"></a>
-## [Anthropic Apologizes for Invisible Claude Fable Guardrails](https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail) ⭐️ 8.0/10
+<a id="item-5"></a>
+## [Anthropic Apologizes for Secret Claude Fable Guardrails](https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail) ⭐️ 8.0/10
 
-Anthropic apologized for secretly modifying user prompts in Claude Code via invisible guardrails, a practice that undermined user trust and raised ethical concerns. The company stated it would reverse the changes and make guardrails explicit. This incident damages trust in AI systems, especially for developers relying on Claude Code for coding tasks, and highlights the tension between safety measures and user autonomy. It sets a precedent for transparency in AI guardrail deployment. The invisible guardrails used prompt modification, steering vectors, or PEFT to limit Claude's effectiveness for building frontier LLMs, and were discovered by users who noticed unexpected behavior. Anthropic's apology came after community backlash, but critics remain skeptical about whether the changes are fully reversed.
+Anthropic admitted it secretly deployed an invisible guardrail in Claude Fable 5 that silently degraded responses for users suspected of model distillation, and has now apologized and reversed the policy. This incident erodes trust in AI companies, as users discovered their interactions were being covertly manipulated without consent, raising serious concerns about transparency and corporate accountability in the AI industry. The guardrail was documented in Fable's 319-page system card and used methods like model downgrading to Claude Opus 4.8 when distillation attempts were detected, affecting not only rivals but also legitimate researchers.
 
 hackernews · rarisma · Jun 11, 12:05 · [Discussion](https://news.ycombinator.com/item?id=48489229)
 
-**Background**: Anthropic is an AI safety company that develops the Claude series of large language models. Guardrails are safety filters that restrict what an AI can do, but invisible guardrails that modify user prompts without consent raise serious ethical and trust issues. Claude Code is a coding assistant tool that uses Claude to help developers write code.
+**Background**: Model distillation is a technique where a smaller model is trained to mimic a larger, more capable model, often used to create cheaper alternatives. AI companies like Anthropic guard against this to protect their competitive advantage. The invisible guardrail was a covert measure that silently altered responses without user knowledge.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.techmeme.com/260609/p38">Techmeme: Anthropic says Fable 5 has invisible safeguards ...</a></li>
-<li><a href="https://scramnews.com/post/00tge2o0439q5/anthropic-fable-5-guardrails-backlash-ipo">Anthropic Fable 5 guardrails draw cybersecurity researcher ...</a></li>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail">Anthropic apologizes for invisible Claude Fable guardrails</a></li>
+<li><a href="https://www.ai-market-watch.com/news/anthropic-apologizes-for-hidden-guardrails-in-claude-fable-5-throttling-rivals-a-g8fuy9">Anthropic apologizes for invisible Claude Fable guardrails that...</a></li>
+<li><a href="https://letsdatascience.com/news/anthropic-revises-invisible-guardrail-on-claude-fable-6da783a4">Anthropic revises invisible guardrail on Claude Fable</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express strong disappointment and distrust, with users like Sol- and Avicebron criticizing Anthropic's paternalistic approach and warning that invisible modifications make the tool unreliable. Some, like accelbred, doubt the reversal is genuine, arguing that the technical capability will likely remain in use.
+**Discussion**: Commenters expressed strong distrust, noting that the invisible nature of the guardrail makes it impossible to verify if it has truly been removed. Some criticized Anthropic's paternalistic approach, arguing it undermines the empowering promise of AI and sets a dangerous precedent for covert manipulation.
 
-**Tags**: `#AI ethics`, `#guardrails`, `#Anthropic`, `#transparency`, `#Claude`
-
----
-
-<a id="item-5"></a>
-## [LLM Nuclear Wargame Simulation Reveals Diverse AI Personalities](https://www.kennethpayne.uk/p/shall-we-play-a-game) ⭐️ 8.0/10
-
-A blog post and accompanying paper simulate nuclear wargames using large language models (LLMs), finding that different LLMs exhibit distinct personalities and decision-making patterns in high-stakes scenarios. This research raises critical questions about the reliability and predictability of AI in military command and control, especially if LLMs are considered for advisory roles in nuclear strategy. The simulation involved three LLMs (Sonnet, GPT-5.2, Gemini Flash) playing 21 games, with conclusions drawn from self-reported reasoning, but critics note the wargame design does not differentiate between ordinary defeat and mutually assured destruction.
-
-hackernews · nick238 · Jun 11, 19:54 · [Discussion](https://news.ycombinator.com/item?id=48495575)
-
-**Background**: Large language models (LLMs) are neural networks trained on vast text data to generate human-like text. They are increasingly used in decision-support systems, but their behavior in high-stakes, novel scenarios is poorly understood. Nuclear wargames are a classic tool for exploring strategic decision-making under pressure.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-<li><a href="https://www.jwc.nato.int/article/ai-reshaping-military-wargaming/">From Strategy to Code: How AI is Reshaping Military Wargaming</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters debate the validity of the simulation: some argue the wargame design is flawed (e.g., not modeling mutually assured destruction), while others find the distinct AI personalities the most interesting takeaway, questioning whether AI adds value over human decision-makers.
-
-**Tags**: `#AI`, `#nuclear strategy`, `#wargaming`, `#LLM`, `#simulation`
+**Tags**: `#AI ethics`, `#Anthropic`, `#guardrails`, `#trust`, `#transparency`
 
 ---
 
 <a id="item-6"></a>
-## [AI-Generated Lines of Code as Vanity Metric](https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/) ⭐️ 8.0/10
+## [Claude Fable 5: Mid-Tier Coding Performance with Cheating Issues](https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype) ⭐️ 8.0/10
 
-A critical analysis argues that companies are using AI-generated lines of code as a vanity metric to justify layoffs, obscuring real engineering value. This matters because it highlights a dangerous trend where AI hype is used to misrepresent productivity, potentially leading to poor management decisions and harming software quality. The article references a February 2026 OpenAI blog post that boasts a million lines of code without describing the product's value, and a Microsoft executive's call for 1 million LoC per engineer per month.
+A critical analysis of Claude Fable 5 reveals mid-tier coding performance with high timeout rates and memorization-based cheating on benchmarks, including 38 confirmed cheating instances out of 200. This matters because it challenges Anthropic's marketing claims of Fable 5 being a top-tier coding model, highlighting significant reliability and integrity issues that affect trust in AI benchmarks. The model achieved four 'hall-of-fame firsts' but also set a record for timeouts. Cheating occurred via memorization of upstream fixes from training data, producing character-for-character identical patches.
 
-hackernews · RyeCombinator · Jun 11, 12:26 · [Discussion](https://news.ycombinator.com/item?id=48489402)
+hackernews · bugvader · Jun 11, 16:03 · [Discussion](https://news.ycombinator.com/item?id=48492210)
 
-**Background**: Lines of code (LoC) has long been rejected as a meaningful productivity metric in software engineering because it rewards verbosity over quality. The rise of AI code generation has revived LoC as a vanity metric, often used to claim productivity gains and justify workforce reductions.
+**Background**: Claude Fable 5 is Anthropic's latest frontier model, marketed for complex coding and autonomous tasks. Benchmark evaluations like FrontierBench measure model performance on coding challenges, but memorization of training data can inflate scores, undermining validity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://jellyfish.co/blog/vanity-metrics/">Vanity Metrics in Engineering | Jellyfish Blog</a></li>
-<li><a href="https://avelino.run/vanity-metrics-engineering/">Vanity Metrics in Engineering , From Lines of Code to AI ...</a></li>
+<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
+<li><a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html">Claude Fable 5 - Amazon Bedrock</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agree with the critique, noting that AI-generated LoC is a poor metric and that companies use AI as an excuse for post-COVID over-hiring corrections. Some observe that the hype around unmaintainable LoC may be fading.
+**Discussion**: Community comments report mixed experiences: one user found Fable 5 indistinguishable from Opus on large tasks after spending $2K, while another noted common-sense mistakes in an auction site test. Gwern highlighted the cheating and timeout issues as significant flaws.
 
-**Tags**: `#AI`, `#software engineering`, `#productivity`, `#metrics`, `#critique`
+**Tags**: `#AI`, `#coding benchmarks`, `#Claude`, `#model evaluation`, `#machine learning`
 
 ---
 
 <a id="item-7"></a>
-## [Human Attention Requires Human Effort](https://tombedor.dev/human-attention-and-human-effort/) ⭐️ 7.0/10
+## [Lines of Code: A Misleading Metric in the AI Era](https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/) ⭐️ 8.0/10
 
-A blog post argues that in the age of AI-generated content, people must demonstrate human effort when seeking human attention, or risk being ignored. This matters because as AI-generated content becomes pervasive, the value of genuine human effort in communication is increasingly critical for maintaining trust and accountability in workplaces and online interactions. The post emphasizes that simply using AI to generate messages without personal review or effort undermines the recipient's attention and respect. It suggests labeling AI-generated content and adding personal touch to maintain credibility.
+A blog post argues that lines of code (LoC) is a poor productivity metric, especially with AI-generated code, and criticizes companies using AI as an excuse for layoffs without evidence. This critique challenges the growing trend of measuring software productivity by LoC, which can lead to unmaintainable code and misguided layoffs, affecting engineers and the industry's focus on quality. The post highlights that the reasons for rejecting LoC as a metric—such as its inability to measure code quality—remain unchanged even with AI, and that AI-generated code often requires more maintenance.
 
-hackernews · jjfoooo4 · Jun 11, 23:01 · [Discussion](https://news.ycombinator.com/item?id=48497609)
+hackernews · RyeCombinator · Jun 11, 12:26 · [Discussion](https://news.ycombinator.com/item?id=48489402)
 
-**Background**: With the rise of large language models like GPT-4, AI-generated text has become common in emails, code reviews, and workplace communication. This has led to concerns about authenticity and the devaluation of human effort. The blog post addresses the social contract of attention: if you want someone to invest their attention, you must invest your own effort.
+**Background**: Lines of code has long been criticized as a flawed productivity metric because it rewards verbosity over quality. With the rise of AI code generation, some companies have revived LoC as a measure, claiming AI boosts output, but this ignores the complexity of software engineering and the risk of accumulating technical debt.
 
-**Discussion**: Commenters largely agree with the premise, sharing experiences of coworkers who rely entirely on AI output without review. Some argue that the real issue is accountability, not just attention. Others note that AI-generated text is often verbose and that conciseness is a form of effort.
+**Discussion**: Commenters largely agree with the critique, noting that AI hype has led to absurd metrics like "1 million LoC per engineer per month." They emphasize that code output is not the same as value, and that companies use AI as a convenient excuse for layoffs.
 
-**Tags**: `#AI`, `#communication`, `#software engineering`, `#workplace culture`
+**Tags**: `#AI`, `#software engineering`, `#productivity`, `#metrics`, `#code quality`
 
 ---
 
 <a id="item-8"></a>
-## [Petition to Withdraw Canada's Bill C-22 Gains Momentum](https://www.ourcommons.ca/petitions/en/Petition/Sign/e-7416) ⭐️ 7.0/10
+## [Adaptive Video Tokenization via Temporal Redundancy Masking](https://www.reddit.com/r/MachineLearning/comments/1u2u9bb/adaptive_tokenisation_via_temporal_redundancy/) ⭐️ 8.0/10
 
-A petition to withdraw Bill C-22, a Canadian bill with major privacy and surveillance implications, is gaining community attention and action, with a SECU Committee meeting scheduled for clause-by-clause review and voting on amendments. If passed, Bill C-22 could significantly expand government surveillance powers, impacting privacy rights for all Canadians and potentially hindering Canada's tech sector by making it harder to create consumer-facing businesses. The petition is hosted on the House of Commons website, and a SECU Committee meeting on C-22 is taking place later today, which may be the final meeting for clause-by-clause review.
+Researchers propose a parameter-free adaptive token allocation method for video tokenization that drops latent positions with minimal temporal change, achieving efficient compression without extra computation. The method uses a fixed threshold on temporal-L1 differences in latent space and reconstructs dropped positions with a lightweight Latent Inpainting Transformer (LIT). This work eliminates the computational overhead of existing adaptive tokenization methods, offering a 31x speedup over continuous baselines and 2x over discrete baselines. It enables content-driven compression that aggressively compresses static scenes while retaining detail in dynamic sequences, which is valuable for video streaming, storage, and real-time processing. The method requires only a single encoder pass and one LIT forward pass, with no auxiliary routing networks. It was evaluated on TokenBench and DAVIS benchmarks, achieving competitive reconstruction fidelity while delivering significant speedups.
 
-hackernews · hmokiguess · Jun 11, 15:37 · [Discussion](https://news.ycombinator.com/item?id=48491830)
+reddit · r/MachineLearning · /u/chhaya_35 · Jun 11, 09:32
 
-**Background**: Bill C-22 is a Canadian legislative proposal that raises significant privacy and surveillance concerns. It is part of a broader trend of government bills, such as C-34, that critics argue erode privacy protections. The petition aims to withdraw the bill before it becomes law.
+**Background**: Video tokenization converts video frames into discrete tokens for efficient processing by models. Adaptive tokenization aims to allocate more tokens to complex regions and fewer to static ones, but existing methods require iterative searches or trained networks, adding computational cost. This work exploits temporal redundancy in latent space to avoid such overhead.
 
-**Discussion**: Community comments express skepticism about the petition's impact but emphasize the importance of raising awareness. Some commenters note that the government may be surprised if Canada's tech sector suffers, while others share links to watch the committee meeting live.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2606.06158">Adaptive Tokenisation Via Temporal Redundancy Masking And ...</a></li>
+<li><a href="https://www.semanticscholar.org/paper/Adaptive-Tokenisation-Via-Temporal-Redundancy-And-Dave-Patkuri/7048f10d2a4e7e2d7b180a46391da15187a0e4b8/figure/2">Adaptive Tokenisation Via Temporal Redundancy Masking And ...</a></li>
 
-**Tags**: `#privacy`, `#Canada`, `#legislation`, `#surveillance`, `#tech policy`
+</ul>
+</details>
+
+**Discussion**: The Reddit discussion is positive, with users praising the novelty and efficiency of the approach. Some commenters discuss potential applications in video compression and real-time systems, while others question the threshold sensitivity and reconstruction quality in highly dynamic scenes.
+
+**Tags**: `#video tokenization`, `#latent space`, `#temporal redundancy`, `#compression`, `#machine learning`
 
 ---
 
 <a id="item-9"></a>
-## [Waymo Launches $30/Month Subscription Tier](https://waymo.com/blog/2026/06/waymo-premier/) ⭐️ 7.0/10
+## [Petition to Withdraw Canada's Bill C-22](https://www.ourcommons.ca/petitions/en/Petition/Sign/e-7416) ⭐️ 7.0/10
 
-Waymo announced Waymo Premier, a $30/month subscription service that provides priority pickups and cashback rewards for frequent riders. This marks a shift toward subscription models in autonomous ride-hailing, potentially increasing customer loyalty and recurring revenue for Waymo. The subscription costs $30 per month and is designed for users who spend over $300 monthly on rides, offering priority access and cashback. It resembles airline loyalty programs.
+A petition has been launched on the House of Commons website calling for the withdrawal of Canada's Bill C-22, the Lawful Access Act, 2026, which critics argue threatens privacy and harms the domestic tech industry. If enacted, Bill C-22 would require telecoms and digital platforms to retain metadata for up to one year and could grant the Public Safety Minister secret powers to compel design changes, impacting privacy rights and Canada's tech sector competitiveness. The petition, e-7416, was created in April 2025 and has garnered community support, with a SECU Committee meeting scheduled for clause-by-clause review and voting on amendments, potentially the final meeting.
 
-hackernews · boulos · Jun 11, 16:10 · [Discussion](https://news.ycombinator.com/item?id=48492304)
+hackernews · hmokiguess · Jun 11, 15:37 · [Discussion](https://news.ycombinator.com/item?id=48491830)
 
-**Background**: Waymo is a subsidiary of Alphabet Inc. that develops autonomous driving technology. It operates ride-hailing services in 11 U.S. cities as of April 2026.
+**Background**: Bill C-22, introduced in March 2026, is a lawful access bill that expands police powers to obtain digital data. Critics, including tech companies like Apple, Meta, and Signal, as well as U.S. House committees, have raised concerns about its privacy implications and potential to weaken encryption.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://waymo.com/">Waymo - Self-Driving Cars - Autonomous Vehicles - Ride-Hail</a></li>
-<li><a href="https://en.m.wikipedia.org/wiki/Waymo">Waymo - Wikipedia</a></li>
-<li><a href="https://9to5google.com/2026/04/22/waymo-new-cities-features/">Waymo : Where it’s available, upcoming cities, and new ...</a></li>
+<li><a href="https://www.michaelgeist.ca/2026/03/the-lawful-access-privacy-risks-unpacking-bill-c-22s-expansive-metadata-retention-requirements/">The Lawful Access Privacy Risks: Unpacking Bill C-22 's Expansive...</a></li>
+<li><a href="https://www.cbc.ca/news/politics/bill-c-22-encryption-cybersecurity-9.7213776">Liberals to amend police data interception bill following searing...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are mixed: some see the subscription as a good deal for frequent riders, while others criticize it as a symbol of economic inequality. Concerns about safety and security during Waymo rides were also raised.
+**Discussion**: Commenters express skepticism about the petition's impact but emphasize the importance of raising awareness. Some note that the bill, along with C-34, could further erode privacy and harm Canada's consumer tech sector, while others point to upcoming committee meetings as a critical juncture.
 
-**Tags**: `#autonomous vehicles`, `#ride-hailing`, `#subscription model`, `#Waymo`, `#transportation`
+**Tags**: `#privacy`, `#legislation`, `#Canada`, `#tech policy`
 
 ---
 
 <a id="item-10"></a>
-## [DeltaDB Tracks Every Edit Between Commits](https://zed.dev/blog/introducing-deltadb) ⭐️ 7.0/10
+## [Waymo Premier: $30/month Subscription for Priority Rides](https://waymo.com/blog/2026/06/waymo-premier/) ⭐️ 7.0/10
 
-Zed has introduced DeltaDB, a new version control system that captures every individual operation between commits using CRDTs, rather than only tracking snapshots at commit time. This approach could change how developers review code and understand project history, offering richer context for debugging and collaboration, but it also raises privacy and workflow concerns. DeltaDB uses Conflict-free Replicated Data Types (CRDTs) to incrementally record and synchronize changes in real time, and Zed has raised $32M to develop it further.
+Waymo has launched Waymo Premier, a $30/month subscription service that provides priority access to rides and cash back on fares. This marks a shift toward premium subscription models in autonomous ride-hailing, potentially creating a two-tier service that raises concerns about economic stratification and accessibility. The subscription pays for itself if a user spends over $300 per month on rides. Cash back features are particularly attractive for those expensing rides through employers.
 
-hackernews · jeremy_k · Jun 11, 16:28 · [Discussion](https://news.ycombinator.com/item?id=48492533)
+hackernews · boulos · Jun 11, 16:10 · [Discussion](https://news.ycombinator.com/item?id=48492304)
 
-**Background**: Traditional version control systems like Git track changes at the commit level, meaning only the final state of files is recorded. DeltaDB instead records every keystroke or edit operation, creating a continuous history that can be replayed or analyzed.
+**Background**: Waymo is a leading autonomous driving company and a subsidiary of Alphabet Inc., operating robotaxis in several U.S. cities. Subscription services are common in transportation, but this is one of the first for autonomous ride-hailing.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://shapeof.com/archives/2025/8/deltadb_from_zed.html">DeltaDB From Zed (the Code Editor) - shapeof.com</a></li>
-<li><a href="https://hypeburner.com/blog/news/zed-deltadb">Zed Raises $32M in Series B, Pivots to DeltaDB , a GitHub ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Waymo">Waymo - Wikipedia</a></li>
+<li><a href="https://builtin.com/articles/waymo-robotaxis">Waymo Explained: Alphabet’s Autonomous Vehicle Company | Built In</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments are largely skeptical: many developers feel that the messy intermediate state between commits is not useful and that recording every operation feels intrusive, akin to a screen recorder. Some suggest that Git's existing features like frequent auto-commits and merge --no-ff can already achieve similar results with less intrusion.
+**Discussion**: Community comments highlight security concerns (e.g., inability to intervene when a Waymo is blocked), economic stratification (K-shaped economy), and comparisons to public transit ($104/month for unlimited BART). Some see cash back as a perk for business travelers.
 
-**Tags**: `#version control`, `#developer tools`, `#software engineering`, `#git`
+**Tags**: `#autonomous vehicles`, `#subscription service`, `#Waymo`, `#transportation`, `#economy`
 
 ---
 
 <a id="item-11"></a>
-## [Datasette 1.0a33 Extends _extra= Pattern to Queries and Rows](https://simonwillison.net/2026/Jun/11/datasette/#atom-everything) ⭐️ 7.0/10
+## [Datasette 1.0a33 Extends JSON Extras API to Rows and Queries](https://simonwillison.net/2026/Jun/11/datasette/#atom-everything) ⭐️ 7.0/10
 
-Datasette 1.0a33 extends the `?_extra=` pattern, previously available only for tables, to row and query JSON API endpoints, allowing clients to request specific JSON keys. The pattern is now also fully documented. This release is a significant step toward a stable Datasette 1.0, providing a more flexible and efficient JSON API that reduces over-fetching and unnecessary SQL round-trips. It benefits all Datasette users and API consumers by enabling more precise data retrieval. The `?_extra=` mechanism lets API clients request only needed keys like facet results, row counts, or foreign-key metadata. Most of the code in this release was written with the help of AI assistants Claude and GPT.
+Datasette 1.0a33 extends the `?_extra=` pattern, previously available only for table endpoints, to row and query JSON pages, allowing API clients to request specific JSON keys and reduce over-fetching. This release is a significant step toward Datasette 1.0 stable, providing a stable, documented JSON API that improves flexibility and performance for developers building on Datasette. The `?_extra=` mechanism was first introduced in Datasette 1.0a3 for tables; 1.0a33 extends it to rows and queries, and the pattern is now documented in the official JSON API documentation.
 
 rss · Simon Willison · Jun 11, 15:26
 
-**Background**: Datasette is an open-source tool for exploring and publishing tabular data. Its JSON API previously returned all available data for a table, leading to over-fetching. The `?_extra=` pattern, introduced in 1.0a3, allowed clients to opt into specific extra data for tables, and 1.0a33 extends this to rows and queries.
+**Background**: Datasette is an open-source tool for exploring and publishing data as interactive web pages and JSON APIs. The `?_extra=` parameter allows clients to opt into additional JSON keys (e.g., row counts, column types) beyond the default response, reducing unnecessary data transfer and SQL queries.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="http://datasette.io/blog/2026/api-extras/">Datasette 1.0a33 with JSON extras in the API - Datasette Blog</a></li>
 <li><a href="https://simonwillison.net/2026/Jun/11/datasette/">Release: datasette 1.0a33 - simonwillison.net</a></li>
-<li><a href="https://digg.com/tech/mujp18gf">Datasette 1.0a33 Documents Expanded ?_extra= JSON API for ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#datasette`, `#open-source`, `#API`, `#release`, `#JSON`
+**Tags**: `#datasette`, `#release`, `#API`, `#JSON`, `#open-source`
 
 ---
 
 <a id="item-12"></a>
-## [Is Symbolic Regression Still Relevant with LLMs?](https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/) ⭐️ 7.0/10
+## [Symbolic Regression vs. LLMs: Still Relevant?](https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/) ⭐️ 7.0/10
 
-A Reddit discussion questions whether symbolic regression (SR) remains relevant given the increasing power of large language models (LLMs) in code generation and symbolic reasoning. This debate highlights the evolving landscape of machine learning, where traditional techniques like SR may be challenged or augmented by LLMs, impacting research directions and tool selection. The post references an ETH Zürich AISE video on SR as an introductory resource, and the community discussion explores pros and cons of SR versus LLM-based approaches.
+A Reddit discussion questions whether symbolic regression (SR) remains relevant given the increasing power of large language models (LLMs) in code generation and symbolic tasks. This debate highlights the evolving landscape of AI-driven scientific discovery, where LLMs may complement or compete with traditional SR methods, impacting fields like physics and biology that rely on interpretable models. The post references an ETH Zurich tutorial on SR and notes that LLMs can directly tackle SR tasks, but SR offers interpretability that LLMs lack as black-box models.
 
 reddit · r/MachineLearning · /u/omomom42 · Jun 11, 13:13
 
-**Background**: Symbolic regression is a machine learning technique that searches for mathematical expressions to fit data, producing interpretable models. Large language models (LLMs) are neural networks trained on vast text data, capable of generating code and performing symbolic reasoning, which overlaps with SR goals.
+**Background**: Symbolic regression is a machine learning technique that searches for mathematical expressions to fit data, without assuming a fixed model structure. It is valued for producing interpretable equations. Large language models (LLMs) like GPT-4 can generate code and solve symbolic problems, raising questions about the future of specialized SR methods.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-<li><a href="https://www.ibm.com/think/topics/large-language-models">What are large language models ( LLMs )? - IBM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Symbolic_regression">Symbolic regression - Wikipedia</a></li>
+<li><a href="https://arxiv.org/abs/2107.14351">[2107.14351] Contemporary Symbolic Regression Methods and ...</a></li>
+<li><a href="https://github.com/deep-symbolic-mathematics/LLM-SR">GitHub - deep- symbolic -mathematics/LLM-SR: [ICLR 2025 Oral ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community is divided: some argue SR offers interpretability and guarantees that LLMs lack, while others believe LLMs can outperform SR on many tasks and may eventually replace it. Several commenters suggest hybrid approaches combining both methods.
+**Discussion**: Comments likely compare SR's interpretability and sample efficiency with LLMs' flexibility and data hunger, with some arguing SR remains essential for scientific discovery where understanding the model is key.
 
-**Tags**: `#symbolic regression`, `#LLMs`, `#machine learning`, `#research`
+**Tags**: `#symbolic regression`, `#large language models`, `#machine learning`, `#AI research`
 
 ---
 
 <a id="item-13"></a>
-## [Adaptive Video Tokenization via Temporal Redundancy Masking](https://www.reddit.com/r/MachineLearning/comments/1u2u9bb/adaptive_tokenisation_via_temporal_redundancy/) ⭐️ 7.0/10
-
-A new parameter-free adaptive token allocation mechanism for video is proposed, which drops redundant latent positions based on temporal L1 differences and reconstructs them with a Latent Inpainting Transformer (LIT). This approach significantly reduces computational overhead in video tokenization, achieving a 31x speedup over the continuous adaptive baseline and a 2x speedup over the discrete baseline, which could enable more efficient video processing in resource-constrained environments. The method uses a fixed threshold on per-position temporal L1 differences in the latent space of a frozen continuous video tokenizer to identify and drop redundant tokens, and the lightweight LIT architecture reconstructs dropped positions with a single encoder pass and one LIT forward pass.
-
-reddit · r/MachineLearning · /u/chhaya_35 · Jun 11, 09:32
-
-**Background**: Video tokenization converts video frames into discrete tokens for efficient processing. Adaptive token allocation aims to assign more tokens to complex regions and fewer to static ones, but existing methods often require additional neural networks or iterative searches, increasing computation.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Temporal_difference_learning">Temporal difference learning</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#video tokenization`, `#temporal redundancy`, `#latent space`, `#compression`, `#machine learning`
-
----
-
-<a id="item-14"></a>
 ## [uv 0.11.21 Released with New CPython Versions and Preview Features](https://github.com/astral-sh/uv/releases/tag/0.11.21) ⭐️ 6.0/10
 
-uv 0.11.21 adds CPython 3.13.14 and 3.14.6, introduces preview features for workspace metadata and single-dependency upgrade, and includes performance improvements and bug fixes. This release keeps uv up-to-date with the latest Python versions and enhances its workspace and upgrade capabilities, making it more useful for Python developers managing complex projects. Preview features include `environment.root` in workspace metadata and the ability to update a single dependency constraint with `uv upgrade`. Performance improvements include parallel discovery of Python versions for `uv python list`.
+uv 0.11.21 adds CPython 3.13.14 and 3.14.6, introduces preview features for workspace metadata and single-dependency upgrade, improves performance with parallel Python version discovery, and fixes numerous bugs. This release continues uv's rapid iteration as a fast Python package manager, offering users early access to workspace metadata and targeted upgrades, which are highly requested features for monorepo workflows. Preview features include `environment.root` in workspace metadata and the ability to upgrade a single dependency constraint via `uv upgrade`. Performance gains come from parallel discovery of Python versions for `uv python list`.
 
 github · github-actions[bot] · Jun 11, 18:20
 
-**Background**: uv is a fast Python package and project manager developed by Astral, designed as a drop-in replacement for pip, pip-tools, and virtualenv. It supports dependency resolution, virtual environment management, and Python version management. Workspace metadata is a feature for managing multi-package projects.
+**Background**: uv is a fast Python package and project manager written in Rust, serving as a drop-in replacement for pip, pip-tools, and virtualenv. It is developed by Astral, the company behind the Ruff linter. Workspace metadata helps manage multi-package repositories, and targeted upgrades allow updating a single dependency without affecting others.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://docs.astral.sh/uv/">uv - Astral</a></li>
+<li><a href="https://github.com/astral-sh/uv/issues/14394">Is it possible to upgrade just a single package if ... - GitHub</a></li>
 
 </ul>
 </details>
@@ -330,23 +308,25 @@ github · github-actions[bot] · Jun 11, 18:20
 
 ---
 
-<a id="item-15"></a>
-## [Claude Fable 5 Impresses with Proactive Bug Fixing](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything) ⭐️ 6.0/10
+<a id="item-14"></a>
+## [FablePool: Crowdfund AI Projects via Prompts](https://fablepool.com/) ⭐️ 6.0/10
 
-Simon Willison reports that Claude Fable 5 autonomously diagnosed and fixed a UI bug in his Datasette Agent project, using techniques like writing HTML test pages and taking screenshots via macOS APIs. This showcases a new level of AI proactivity and autonomy in software development, where the model not only writes code but also independently devises testing and debugging strategies. Fable 5 used Python with pyobjc-framework-Quartz to enumerate windows, identify the Safari window with the bug, and take screenshots using screencapture, all without explicit instructions.
+FablePool launched a public platform where users pool money behind a prompt, and an AI agent builds the project in public, with transactions recorded on a public ledger. This concept combines crowdfunding with AI code generation (vibe coding), potentially lowering the barrier for non-developers to fund and create software, but the broken demo and community skepticism highlight serious feasibility and quality concerns. The demo project regressed at milestone 15, changing a working Wikimedia image link to a nonexistent file, and the platform was criticized for unclear licensing (MIT vs. public domain) and lack of quality control.
 
-rss · Simon Willison · Jun 11, 23:35
+hackernews · matthewbarras · Jun 11, 21:17 · [Discussion](https://news.ycombinator.com/item?id=48496539)
 
-**Background**: Claude Fable 5 is Anthropic's latest large language model, designed for autonomous software engineering tasks. Datasette Agent is an AI assistant for the Datasette data exploration tool, and Simon Willison is its creator.
+**Background**: Vibe coding, coined by Andrej Karpathy in 2025, refers to AI-assisted programming where users describe a project in a prompt and accept generated code without thorough review. FablePool extends this by adding a crowdfunding layer, allowing anyone to fund a prompt and have an AI build the project publicly.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
-<li><a href="https://agent.datasette.io/">Datasette Agent : an AI assistant for Datasette to help ...</a></li>
+<li><a href="https://news.linxi.com.au/news/fablepool-launches-public-platform-for-ai-driven-open-source-crowdfunding">FablePool launches public AI funding platform for open-source ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#Claude`, `#LLM`, `#proactive`, `#Simon Willison`
+**Discussion**: Commenters pointed out that the demo build is broken, with one noting a regression from milestone 14 to 15. Others questioned the licensing claim and the viability of funding complex tasks like "Solve Garbage Collection in C# for HFT" for only $200.
+
+**Tags**: `#crowdfunding`, `#AI code generation`, `#vibe coding`, `#open source`, `#prototype`
 
 ---
