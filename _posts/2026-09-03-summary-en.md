@@ -5,747 +5,812 @@ date: 2026-09-03
 lang: en
 ---
 
-> From 58 items, 34 important content pieces were selected
+> From 57 items, 36 important content pieces were selected
 
 ---
 
-1. [Report: 215K AI-Generated &\#x27;Best Software&\#x27; Pages Cited by Perplexity](#item-1) ⭐️ 9.0/10
-2. [Meta Releases Muse Spark 1.3 with Top DeepSWE Score and Low Cost](#item-2) ⭐️ 8.0/10
-3. [Google Unveils Gemini 3.8 Flash and Flash Cyber Models](#item-3) ⭐️ 8.0/10
-4. [Google avoids ad tech breakup in antitrust case](#item-4) ⭐️ 8.0/10
-5. [Paint.NET Developer Uses AI to Rewrite Direct2D for WINE](#item-5) ⭐️ 8.0/10
-6. [World&\#x27;s First Sodium-Ion Electric Haul Truck Deployed in China](#item-6) ⭐️ 8.0/10
-7. [Mistral AI Data Training Opt-Out Sparks Privacy Trust Debate](#item-7) ⭐️ 7.0/10
-8. [World&\#x27;s Largest Dark Matter Detector Records Single Anomalous Particle Event](#item-8) ⭐️ 7.0/10
-9. [Poisson Disk Sampling Deep-Dive Sparks Shader Implementation Insights](#item-9) ⭐️ 7.0/10
-10. [China&\#x27;s Solar Capacity Surpasses Coal Amid EV Boom](#item-10) ⭐️ 7.0/10
-11. [IBM Granite Time Series Models Bring Real-Time Intelligence to Confluent](#item-11) ⭐️ 7.0/10
-12. [Anthropic Publishes Claude System Prompts, Adds Song Lyric Refusal](#item-12) ⭐️ 7.0/10
-13. [User Releases 5.94B TikTok Video Dataset on Hugging Face](#item-13) ⭐️ 7.0/10
-14. [Muse Spark Open Weights Announced, Coming Soon](#item-14) ⭐️ 7.0/10
-15. [Qwen&\#x27;s Extended Reasoning Could Make It Open-Source King](#item-15) ⭐️ 7.0/10
-16. [H3-World: Language-Controlled Video Generation via Action Prompts](#item-16) ⭐️ 7.0/10
-17. [Vision Support Merged for DeepSeek-V4-Flash-Vision-Exp in llama.cpp](#item-17) ⭐️ 7.0/10
-18. [EV Battery Health Study: Ioniq 5 Leads, Tesla Lags](#item-18) ⭐️ 7.0/10
-19. [China Pushes Global Solid-State EV Battery Standards as Pilot Lines Scale](#item-19) ⭐️ 7.0/10
-20. [Reddit flags $200/week PC offer as likely scam](#item-20) ⭐️ 7.0/10
-21. [Visual Studio Code 1.136.0 Delivers Incremental Improvements and Fixes](#item-21) ⭐️ 6.0/10
-22. [Fable 5.1 World Modeling: AI-Generated 3D Worlds Draw Praise and Skepticism](#item-22) ⭐️ 6.0/10
-23. [Aging Brains Blend Memories Together Rather Than Simply Forgetting Them](#item-23) ⭐️ 6.0/10
-24. [Essay Advocating &\#x27;NPC Life&\#x27; Inspired by Zhuangzi Sparks Debate](#item-24) ⭐️ 6.0/10
-25. [Zero Motorcycles to Add DC Fast Charging in 2027](#item-25) ⭐️ 6.0/10
-26. [Tesla Settles Fatal Autopilot Fire Truck Lawsuit, Avoiding Jury Trial](#item-26) ⭐️ 6.0/10
-27. [Windrose unveils iPad-sized 70 kW electric PTO for electric semis](#item-27) ⭐️ 6.0/10
-28. [llm-gemini 0.34 adds Gemini 3.8 Flash support](#item-28) ⭐️ 6.0/10
+1. [Google Unveils Gemini 3.8 Flash and Flash Cyber](#item-1) ⭐️ 9.0/10
+2. [Meta Releases Muse Spark 1.3: Cost-Effective AI Model with Top DeepSWE Score](#item-2) ⭐️ 8.0/10
+3. [Report: AI-generated &\#x27;best software&\#x27; pages pollute Perplexity recommendations](#item-3) ⭐️ 8.0/10
+4. [5.94B TikTok Videos Scraped and Released on Hugging Face](#item-4) ⭐️ 8.0/10
+5. [H3-World: Text Instructions Control Video Characters and Camera](#item-5) ⭐️ 8.0/10
+6. [World&\#x27;s first sodium-ion electric haul truck begins work in China](#item-6) ⭐️ 8.0/10
+7. [China pushes global solid-state EV battery standard as pilot lines scale](#item-7) ⭐️ 8.0/10
+8. [China&\#x27;s Solar Capacity Overtakes Coal, Fueling EV Boom](#item-8) ⭐️ 7.5/10
+9. [Visual Studio Code 1.136.0 Released with Enhancements and Fixes](#item-9) ⭐️ 7.0/10
+10. [Google Avoids Court-Ordered Breakup of Ad Tech Business](#item-10) ⭐️ 7.0/10
+11. [Mistral AI Training Data Opt-Out Sparks User Distrust Debate](#item-11) ⭐️ 7.0/10
+12. [LZ Dark Matter Detector Records Single Anomalous Particle Event](#item-12) ⭐️ 7.0/10
+13. [Exit the Cave: A Philosophical Essay on Leaving Comfort Zones](#item-13) ⭐️ 7.0/10
+14. [Essay on Desiring an &\#x27;NPC&\#x27; Life Sparks Debate on Escapism and Meaning](#item-14) ⭐️ 7.0/10
+15. [Poisson Disk Sampling: Algorithm Deep-Dive and Visualization](#item-15) ⭐️ 7.0/10
+16. [Anthropic Reorganizes Claude System Prompts, Adds Song Lyric Restrictions](#item-16) ⭐️ 7.0/10
+17. [Paint.NET&\#x27;s AI-Assisted Clean-Room Rewrite of Direct2D for WINE](#item-17) ⭐️ 7.0/10
+18. [Meta Announces Muse Spark Open Weights Release](#item-18) ⭐️ 7.0/10
+19. [Qwen&\#x27;s Extended Reasoning Could Make It a Top Open-Weight Model](#item-19) ⭐️ 7.0/10
+20. [llama.cpp merges vision support for DeepSeek-V4-Flash-Vision-Exp](#item-20) ⭐️ 7.0/10
+21. [Beyond Lambdas: Debating Abstraction Levels in Functional Code](#item-21) ⭐️ 7.0/10
+22. [500,000 EV Battery Checks: Hyundai Ioniq 5 Leads, Tesla Ranks Low](#item-22) ⭐️ 7.0/10
+23. [Fable 5.1 AI World Modeling Tool Draws Praise and Practical Concerns](#item-23) ⭐️ 6.5/10
+24. [Aging Brains Blend Memories Together, Study Finds](#item-24) ⭐️ 6.0/10
+25. [Tesla Settles Fatal Autopilot Fire Truck Lawsuit, Avoids Jury Trial](#item-25) ⭐️ 6.0/10
+26. [Donut Lab claims 409 Wh/kg battery, but credibility questioned](#item-26) ⭐️ 6.0/10
+27. [Windrose unveils iPad-sized 70 kW electric PTO for semi trucks](#item-27) ⭐️ 6.0/10
+28. [IBM Time Series Models Integrate with Confluent for Real-Time Streaming Analytics](#item-28) ⭐️ 6.0/10
 29. [Deepity C++ Library Shows Predictive Coding Networks Match Backprop on MNIST](#item-29) ⭐️ 6.0/10
-30. [Confirmed: Q8 N-gram in IQ4 Qwen shows no speed degradation](#item-30) ⭐️ 6.0/10
-31. [Qwen&\#x27;s Slimmed Lineup Sparks Qwen4 Speculation in Community](#item-31) ⭐️ 6.0/10
-32. [Postgres NULL Ambiguity in SQL Calculations](#item-32) ⭐️ 6.0/10
-33. [Raising Abstraction in Functional Code: Readability vs. Explicitness](#item-33) ⭐️ 6.0/10
-34. [Polestar 4 SUV: An Electric Wagon Disguised as an SUV?](#item-34) ⭐️ 6.0/10
+30. [Local LLM GLM 5.3 Flash Creates Black Hole Minecraft Mod](#item-30) ⭐️ 6.0/10
+31. [Q8 N-gram Layer in Qwen 3.8 Shows No Speed Loss](#item-31) ⭐️ 6.0/10
+32. [Qwen&\#x27;s Reduced Lineup Sparks Speculation on Qwen4 Preview](#item-32) ⭐️ 6.0/10
+33. [Postgres NULL Ambiguity in Calculations](#item-33) ⭐️ 6.0/10
+34. [Hyundai Ioniq 5 Reviewer&\#x27;s Secret Long-Term Test Ends in ICCU Failure](#item-34) ⭐️ 6.0/10
+35. [Polestar 4 SUV Sparks Debate: Electric Wagon in Disguise?](#item-35) ⭐️ 6.0/10
+36. [Reddit user questions suspicious offer of computer and $200 weekly pay](#item-36) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Report: 215K AI-Generated &\#x27;Best Software&\#x27; Pages Cited by Perplexity](https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/) ⭐️ 9.0/10
+## [Google Unveils Gemini 3.8 Flash and Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/) ⭐️ 9.0/10
 
-A report from trellner.com reveals that three websites generated over 215,128 AI-written &quot;best software&quot; pages that are cited by Perplexity&\#x27;s AI search engine. This exposes a feedback loop where AI-generated content pollutes AI search recommendations and degrades information quality. This is significant because it demonstrates a systemic degradation of information quality in AI-powered search. As AI-generated content gets cited by AI search engines and potentially reused in future training data, it creates a feedback loop that could accelerate model collapse and erode trust in AI-driven recommendations. The report highlights that these &quot;best software&quot; pages are AI-generated answer engine optimization \(AEO\) plays, often hosted by the companies being compared. The feedback loop involves AI-generated content being cited by AI search engines, which then gets incorporated into future training datasets crawled from the web.
+Google announced the release of Gemini 3.8 Flash and Gemini 3.8 Flash Cyber, a fast, high-performing model with strong coding abilities and impressive benchmark scores. The model is now available, with a model card published on DeepMind&\#x27;s site. This release matters because it offers a low-cost, high-speed model that rivals larger models on benchmarks, potentially democratizing access to advanced AI for developers and hobbyists. Its strong HTML/JavaScript capabilities and multimodal support \(audio/video input\) could expand use cases in rapid prototyping and media analysis. Community testing shows the model can generate outputs for as little as 1.8 cents and complete tasks in about 13 seconds. It ranks top on some leaderboards \(e.g., DeepSwe\) and matches Opus 5 medium on intelligence scores, though some users note a regression in low thinking effort compared to 3.7.
 
-hackernews · jakobgreenfeld · Sep 2, 13:59 · [Discussion](https://news.ycombinator.com/item?id=49536375)
+hackernews · bratao · Sep 2, 15:12 · [Discussion](https://news.ycombinator.com/item?id=49537553)
 
-**Background**: Perplexity is an AI-powered search engine that synthesizes responses using large language models and real-time web search, citing sources in its answers. Model collapse is a phenomenon where AI models trained on AI-generated data progressively degrade in output quality and diversity, creating a feedback loop that threatens future generative AI development. As AI-generated data accumulates across the web, it inevitably ends up in future training datasets, which are often crawled from the Internet.
+**Background**: Gemini is Google&\#x27;s family of large language models. The &\#x27;Flash&\#x27; variants are optimized for speed and cost, making them suitable for high-volume and real-time applications. The new 3.8 Flash continues this trend, offering strong performance at a low price point, and includes multimodal support for audio and video input, which differentiates it from some competitors.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Perplexity_AI">Perplexity AI</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Model_collapse">Model collapse - Wikipedia</a></li>
-<li><a href="https://cacm.acm.org/blogcacm/model-collapse-is-already-happening-we-just-pretend-it-isnt/">Model Collapse Is Already Happening, We Just Pretend It Isn’t</a></li>
+**Discussion**: Community members are excited about the model&\#x27;s speed and coding abilities, with Simon Willison demonstrating a cool HTML/JS output for under 2 cents. Others report strong performance in real-world tasks like trip planning and photo ranking, and note it beats Opus 5 on some benchmarks, though there are mixed opinions on thinking effort levels.
 
-</ul>
-</details>
-
-**Discussion**: Commenters shared reproducible examples of the problem: one user noted LLMs consistently prefer their own generated code over human-refactored versions, while another described hallucinated locations like &quot;Foobar square&quot; that don&\#x27;t exist anywhere in the world. A Perplexity user observed the service optimized for speed over quality, producing garbage results, and another commenter noted models lack source skepticism, citing AI-generated AEO pages hosted by the companies being compared.
-
-**Tags**: `#AI`, `#search`, `#content quality`, `#LLM`, `#misinformation`
+**Tags**: `#AI`, `#Gemini`, `#Google`, `#LLM`, `#Model Release`
 
 ---
 
 <a id="item-2"></a>
-## [Meta Releases Muse Spark 1.3 with Top DeepSWE Score and Low Cost](https://developer.meta.com/ai/models/muse-spark/) ⭐️ 8.0/10
+## [Meta Releases Muse Spark 1.3: Cost-Effective AI Model with Top DeepSWE Score](https://developer.meta.com/ai/models/muse-spark/) ⭐️ 8.0/10
 
-Meta released Muse Spark 1.3, an update to its Muse Spark LLM, on the same day as the announcement. The model achieves a DeepSWE score of 75.4, the best so far, and offers improved performance on agentic and coding tasks with a very low cost per generation \(e.g., 4.2266 cents\). This release signals Meta&\#x27;s push into cost-efficient AI models that approach state-of-the-art performance, intensifying price competition in the industry. Developers and businesses can now access near-frontier capabilities at a fraction of the cost, which could lower barriers for AI adoption. Muse Spark 1.3 includes &\#x27;max reasoning&\#x27; for challenging reasoning and agentic tasks, and improved real-world usability based on learnings from Muse Code and Meta Model API adoption. The model also offers a &\#x27;contributor&\#x27; pricing tier that explicitly states Meta trains on the data, a transparency move praised by users.
+Meta has released Muse Spark 1.3, the latest version of its multimodal reasoning model, featuring improved generation quality and strong benchmark performance. The model achieves a DeepSWE score of 75.4, the best recorded so far, while remaining extremely cost-effective at roughly 4.2 cents per generation. Muse Spark 1.3 demonstrates that strong performance no longer requires frontier-model pricing, intensifying competition in the AI model market and likely driving prices down across the industry. Its combination of top-tier coding benchmark scores and low cost makes advanced AI-assisted development accessible to a much wider range of developers and organizations. Muse Spark 1.3 is tuned for long-horizon coding workflows, with fewer unnecessary turns and cleaner output, and performs competitively with frontier models across several coding evals. The model scores 62 on the Artificial Analysis Intelligence Index, which evaluates reasoning, knowledge, mathematics, and coding capabilities.
 
 hackernews · bvaldivielso · Sep 2, 19:35 · [Discussion](https://news.ycombinator.com/item?id=49541256)
 
-**Background**: Muse Spark is Meta&\#x27;s large language model family developed by Meta Superintelligence Labs \(MSL\), first introduced in April 2026 and launched as Muse Spark 1.1 in July 2026. It is designed for multimodal reasoning, coding, and AI-assisted tasks. The 1.3 update builds on months of broad adoption of Muse Code and the Meta Model API, aiming to make the model easier to use in real-world settings.
+**Background**: Muse Spark is the first model in Meta&\#x27;s Muse family, developed by Meta Superintelligence Labs, and is designed for multimodal reasoning, coding, and AI-assisted software development. It also powers Meta AI across Meta&\#x27;s products and services. The model supports tool-use, visual chain of thought, and multi-agent orchestration, making it suitable for agentic tasks.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Muse_Spark">Muse Spark - Wikipedia</a></li>
-<li><a href="https://developer.meta.com/ai/models/muse-spark/">Muse Spark 1.3 | Meta</a></li>
-<li><a href="https://research.meta.ai/blog/introducing-muse-spark-1-3">Introducing Muse Spark 1.3 | Meta AI Research</a></li>
+<li><a href="https://ai.meta.com/blog/introducing-muse-spark-msl/">Introducing Muse Spark: Scaling Towards Personal ...</a></li>
+<li><a href="https://artificialanalysis.ai/models/muse-spark-1-3">Muse Spark 1.3 (max) - Intelligence, Performance &amp; Price Analysis | Artificial Analysis</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is largely positive. Simon Willison demonstrated practical usage, noting the 1.3 output was better than 1.2 \(e.g., better bicycle frame, wing, and pelican hat\) at a cost of 4.2266 cents. Others praised the DeepSWE score and price competition, while some appreciated Meta&\#x27;s transparent &\#x27;contributor&\#x27; pricing that explicitly states training on user data.
+**Discussion**: Community members were largely positive, with simonw testing the model&\#x27;s SVG generation and confirming 1.3 produces better results than 1.2 at a cost of 4.2266 cents in 38 seconds. bertili highlighted the DeepSWE 75.4 score as the best so far and noted that competition is driving prices down, while superfrank praised the model&\#x27;s cost-effectiveness for development work. jmward01 appreciated Meta&\#x27;s transparent contributor pricing model that explicitly states when training on user data occurs.
 
-**Tags**: `#AI`, `#Meta`, `#model release`, `#benchmarks`, `#cost efficiency`
+**Tags**: `#AI`, `#Meta`, `#model release`, `#benchmarks`, `#cost-effective`
 
 ---
 
 <a id="item-3"></a>
-## [Google Unveils Gemini 3.8 Flash and Flash Cyber Models](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/) ⭐️ 8.0/10
+## [Report: AI-generated &\#x27;best software&\#x27; pages pollute Perplexity recommendations](https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/) ⭐️ 8.0/10
 
-Google announced Gemini 3.8 Flash and 3.8 Flash Cyber, a fast, low-cost model that excels at HTML/JavaScript generation and ranks competitively on benchmarks. The release includes a model card and is positioned as an incremental but high-value update to the Gemini family. This release offers developers a cost-effective, high-performance option for front-end code generation and multimodal media analysis, potentially shifting usage patterns away from pricier flagship models. Its competitive benchmark scores, matching Opus 5 medium, make it a strong contender for production workloads. The model reportedly achieves an intelligence score of 59 on Artificial Analysis, matching Opus 5 medium, and can generate output for as little as 1.8 cents in about 13 seconds. It also supports audio and video input, unlike OpenAI and Anthropic flagships which remain image-only.
+A report by trellner.com reveals that three websites manufactured 215,128 &\#x27;best software&\#x27; pages, which are now being cited by AI tools like Perplexity. This exposes how AI-generated content can corrupt AI recommendations at scale. This matters because it demonstrates a systemic vulnerability in AI search engines that rely on web content, potentially degrading the reliability of AI recommendations and eroding user trust. It highlights the urgent need for better source verification and content integrity measures across the AI ecosystem. The report details how these mass-produced pages were likely generated using AI, and how they managed to rank in search results and get cited by AI tools. The scale of 215,128 pages indicates a coordinated effort to game AI recommendation systems, potentially through search engine optimization and AI-generated content farms.
 
-hackernews · bratao · Sep 2, 15:12 · [Discussion](https://news.ycombinator.com/item?id=49537553)
+hackernews · jakobgreenfeld · Sep 2, 13:59 · [Discussion](https://news.ycombinator.com/item?id=49536375)
 
-**Background**: Gemini Flash models are designed for speed and cost-efficiency, targeting high-volume tasks such as code generation and media analysis. The 3.8 iteration builds on this by improving HTML/JavaScript generation and maintaining strong multimodal capabilities, making it a practical choice for developers seeking low-latency, budget-friendly AI.
+**Background**: Perplexity is an AI-powered search engine that synthesizes answers from web sources, citing them in responses. Large language models \(LLMs\) are trained on vast text data and can generate human-like content, which can be used to create fake or low-quality pages. When AI tools cite such AI-generated content, it creates a feedback loop that degrades the quality and trustworthiness of AI recommendations.
 
-**Discussion**: Developers like Simon Willison praised the model&\#x27;s speed and HTML/JavaScript quality, noting the low cost and multimodal input support. Others compared benchmarks, with some observing a possible regression in low thinking effort compared to 3.7, while one user highlighted its top ranking on DeepSwe beating Opus 5.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Perplexity_AI">Perplexity AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model</a></li>
 
-**Tags**: `#AI`, `#Gemini`, `#Google`, `#LLM`, `#model release`
+</ul>
+</details>
+
+**Discussion**: Community comments highlight that LLMs tend to favor AI-generated passages over human-written ones, with users reproducing this bias in practice. Others share examples of AI tools citing nonexistent places, and note that Perplexity&\#x27;s quality has declined as it optimizes for speed over accuracy. Users agree that models lack source skepticism, making them vulnerable to exploitation, though they expect this window to close as detection improves.
+
+**Tags**: `#AI`, `#search`, `#content integrity`, `#LLM`, `#Perplexity`
 
 ---
 
 <a id="item-4"></a>
-## [Google avoids ad tech breakup in antitrust case](https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html) ⭐️ 8.0/10
+## [5.94B TikTok Videos Scraped and Released on Hugging Face](https://www.reddit.com/r/MachineLearning/comments/1w5h9se/i_scraped_594_billion_tiktok_videos_and_323/) ⭐️ 8.0/10
 
-Google won a major antitrust case, avoiding a court-ordered breakup of its ad tech business. The decision was reported on September 2, 2026. This is a significant victory for Google and Alphabet, potentially setting a precedent for how antitrust remedies are applied to tech giants. It affects the regulatory landscape and could influence future monopoly cases. Google&\#x27;s ad tech business generated $30 billion last year, about 8% of Alphabet&\#x27;s revenue, but its ad tech revenue has declined for 16 straight quarters and accounts for less than 1% of profit. The court declined to force a sale.
+A developer scraped 5.94 billion TikTok videos and 3.23 billion profiles in three weeks using reverse-engineered mobile app endpoints, and uploaded the full open dataset to Hugging Face. The dataset includes videos, profiles, comments, replies, hashtags, and sounds, with a tutorial and partially paid code provided. This is an unprecedented scale for a public social media dataset, offering researchers a massive resource for studying content trends, recommendation algorithms, and user behavior. However, it also raises significant legal and ethical questions about data scraping, terms of service violations, and privacy. The dataset was collected via 24 TikTok mobile app endpoints that are accessible without an account, though the author acknowledges this likely violates TikTok&\#x27;s Terms of Service. The full scraping code is not free — access requires a small fee, which has drawn criticism from some community members.
 
-hackernews · donohoe · Sep 2, 14:46 · [Discussion](https://news.ycombinator.com/item?id=49537131)
+reddit · r/MachineLearning · DataShack · Sep 2, 17:38
 
-**Background**: The case was brought by the U.S. Department of Justice, which sought to force Google to sell parts of its ad tech business to address alleged monopolistic practices. Antitrust law aims to prevent monopolies and promote competition, but breaking up a company is a rare and drastic remedy. This decision shows the difficulty of such remedies.
+**Background**: Hugging Face is a New York-based company and open-source platform that allows users to share machine learning models and datasets. Reverse engineering mobile apps involves decompiling and analyzing an app&\#x27;s code to discover its API endpoints, which can then be accessed directly without using the official app interface. While such data may be publicly accessible, scraping it at this scale typically violates platform terms of service and raises privacy concerns.
 
-**Discussion**: Commenters expressed skepticism about the effectiveness of antitrust enforcement, with some suggesting progressive taxation of monopolies or easier unmerging. Others noted the complexity of the ad tech business and questioned the significance of the revenue share.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Hugging_Face">Hugging Face</a></li>
+<li><a href="https://rene-manqueros.medium.com/reverse-engineering-an-android-app-40996ab29122">Reverse engineering an Android app | by Rene Manqueros | Medium</a></li>
+<li><a href="https://www.iteratorshq.com/blog/understanding-mobile-app-reverse-engineering-how-attackers-actually-break-your-apps/">Understanding Mobile App Reverse Engineering: How Attackers Actually Break Your Apps | Iterators</a></li>
 
-**Tags**: `#antitrust`, `#Google`, `#ad tech`, `#regulation`, `#tech industry`
+</ul>
+</details>
+
+**Discussion**: Community reaction was largely positive, with users expressing gratitude and quickly downloading the dataset before it might be removed. However, some commenters criticized the author for charging a fee for the code, suggesting that monetizing scraped TikTok data should be illegal.
+
+**Tags**: `#dataset`, `#scraping`, `#TikTok`, `#Hugging Face`, `#open data`
 
 ---
 
 <a id="item-5"></a>
-## [Paint.NET Developer Uses AI to Rewrite Direct2D for WINE](https://simonwillison.net/2026/Sep/2/rick-brewster/) ⭐️ 8.0/10
+## [H3-World: Text Instructions Control Video Characters and Camera](https://v.redd.it/86geog4t04nh1) ⭐️ 8.0/10
 
-Rick Brewster, the developer of Paint.NET, announced that the application now includes an internal, from-scratch, clean-room reverse-engineered rewrite of Microsoft&\#x27;s Direct2D API, generated by the AI assistant Claude, to enable WINE/Linux support. The rewrite consists of approximately 180,000 lines of code, most of which was &\#x27;vibe coded&\#x27; without thorough review. This is significant because it demonstrates a novel use of AI to overcome a long-standing compatibility hurdle that had prevented Paint.NET from running well on WINE. It also highlights both the potential and the risks of large-scale AI-generated code, as Brewster admits he could not review all 180,000 lines. The rewrite lives in a new assembly, PaintDotNet.Windows.Direct2D1.Managed.dll, and is activated by launching Paint.NET with the /wine flag. Brewster noted that he had to &\#x27;babysit&\#x27; Claude to ensure correct COM reference counting \(AddRef\) and to correct some poor design decisions, while also praising its clever reverse engineering of Direct2D&\#x27;s built-in effects formulas.
+H3-World introduces a method to control character and camera actions in video generation by injecting textual instructions through MiniMax-H3&\#x27;s pretrained text pathway. It achieves this with only 8,000 gameplay samples, 10,000 LoRA steps, and 0.199% trainable parameters. This is significant because it offers an efficient and generalizable way to control video generation, potentially enabling applications like interactive gaming, virtual environments, and automated content creation. It demonstrates that language-native control can be achieved with minimal training, lowering the barrier for customizing video generation models. The method assigns one action prompt to each video latent interval, enabling precise temporal control when actions change over time. It generalizes to unseen action compositions and visual scenarios, and the paper, code, and model are publicly available on arXiv, GitHub, and Hugging Face.
 
-rss · Simon Willison · Sep 2, 05:50
+reddit · r/LocalLLaMA · sachasayan · Sep 2, 13:35 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w5akpy/h3world_turning_language_understanding_into_world/)
 
-**Background**: Direct2D is a hardware-accelerated 2D vector graphics API designed by Microsoft for Windows, and it has been a major obstacle for running Windows applications like Paint.NET on WINE, a compatibility layer that allows Windows programs to run on Linux. Vibe coding is a term coined by Andrej Karpathy in February 2025, referring to AI-assisted software development where developers accept AI-generated code without thorough review, relying on results and follow-up prompts. This approach has both advocates and critics, with concerns about maintainability and security.
+**Background**: MiniMax-H3 uses a decoupled architecture where a high-parameter text encoder guides a joint diffusion process, decoded by specialized VAEs for visual and auditory signals. Latent diffusion models operate in a compressed latent space, and video latent intervals refer to temporal segments of that latent representation. Injecting textual instructions through the pretrained text pathway lets the model interpret actions as language, avoiding extensive retraining.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Direct2D">Direct2D</a></li>
+<li><a href="https://deepwiki.com/ai-models-lab/minimax-h3/4-minimax-h3-model-reference">MiniMax H3 Model Reference | ai-models-lab/minimax-h3 | DeepWiki</a></li>
+<li><a href="https://deepwiki.com/ai-models-lab/minimax-h3/4.1-model-architecture-and-generation-modes">Model Architecture &amp; Generation Modes | ai-models-lab/minimax ...</a></li>
+<li><a href="https://research.nvidia.com/labs/toronto-ai/VideoLDM/">Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI-generated code`, `#Direct2D`, `#WINE`, `#Paint.NET`, `#reverse engineering`
+**Discussion**: Community comments include a question about how to measure action success and state consistency, a suggestion that the method could enable multiple users to share a single video stream at lower resolution, and skepticism about output quality, with one user calling the generated shots &\#x27;atrociously ugly&\#x27;. Overall sentiment is engaged but mixed, reflecting both interest in the approach and concerns about visual fidelity.
+
+**Tags**: `#video generation`, `#language control`, `#world models`, `#efficient fine-tuning`, `#AI research`
 
 ---
 
 <a id="item-6"></a>
-## [World&\#x27;s First Sodium-Ion Electric Haul Truck Deployed in China](https://electrek.co/2026/08/06/worlds-first-sodium-ion-electric-haul-truck-gets-to-work-in-china/) ⭐️ 8.0/10
+## [World&\#x27;s first sodium-ion electric haul truck begins work in China](https://electrek.co/2026/08/06/worlds-first-sodium-ion-electric-haul-truck-gets-to-work-in-china/) ⭐️ 8.0/10
 
-China has deployed the world&\#x27;s first sodium-ion electric haul truck, marking a milestone for sodium-ion battery technology in heavy-duty applications. The truck is designed to operate in cold conditions where sodium-ion batteries outperform traditional lithium-based chemistries. This deployment demonstrates sodium-ion batteries&\#x27; viability beyond small vehicles and grid storage, potentially reducing reliance on lithium and lowering costs. It could accelerate adoption of electric heavy-duty vehicles in cold climates, where LFP and NMC batteries struggle. The haul truck operates at a location where temperatures reach -20°C, a condition where diesel engines are difficult to start but sodium-ion batteries perform well. Sodium-ion batteries can deliver nearly three times the discharge power of equivalent LFP batteries at -30°C and charge to 90% capacity at -40°C.
+The world&\#x27;s first sodium-ion electric haul truck has begun operation in China, marking a milestone in battery technology for heavy-duty transport. The deployment demonstrates sodium-ion batteries&\#x27; viability in cold-climate and heavy-duty applications. This is significant because sodium-ion batteries offer advantages over LFP and NMC chemistries in cold climates while being more affordable and safer. It could accelerate the adoption of electric heavy-duty vehicles in mining and other industries, especially in cold regions where diesel engines struggle. The truck operates in -20°C temperatures, where diesel engines are more difficult to start. Additionally, CATL and Changan are about to release the first sodium-ion battery car, the Changan Nevo A06, which could be significant for colder climates where sodium-ion outperforms LFP and NMC.
 
 reddit · r/electricvehicles · khoawala · Sep 2, 13:33 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1w5aiwx/while_americans_fret_over_whether_or_not_electric/)
 
-**Background**: Sodium-ion batteries are a rechargeable battery technology that stores and releases energy using sodium ions, functioning similarly to lithium-ion batteries but using more abundant and cheaper sodium. While lithium-ion batteries entered commercial use in the 1990s, sodium-ion batteries reached vehicle applications much later, with the first sodium-ion electric car introduced in China in late 2023. In 2025, global sodium-ion production was still less than 1% of lithium-ion technologies, making this haul truck deployment a notable scaling milestone.
+**Background**: Sodium-ion batteries are an emerging battery technology that complements lithium-ion rather than replacing it, addressing specific weaknesses in current energy storage such as cold-weather performance and cost. China has made sodium-ion battery technology a strategic national development priority. The technology is also being positioned for residential solar storage and other applications where affordability and safety are key concerns.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.iea.org/commentaries/sodium-ion-battery-momentum-grows-but-challenges-remain">Sodium-ion battery momentum grows, but challenges remain – Analysis - IEA</a></li>
-<li><a href="https://www.zvepow.com/new/sodium-ion-battery-cold-weather-performance">Sodium Ion Battery Cold Weather Performance-Henan Zhuowei New Energy Technology Co., Ltd</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sodium-ion_battery">Sodium-ion battery - Wikipedia</a></li>
+<li><a href="https://www.yankodesign.com/2025/04/13/your-next-ev-could-be-powered-by-salt-why-sodium-ion-batteries-are-the-next-big-thing/">Your Next EV Could Be Powered By Salt – Why Sodium - Ion Batteries ...</a></li>
+<li><a href="https://spap.jst.go.jp/investigation/downloads/2021_rr_06_en.pdf">R&amp;D Trends in Next-Generation Batteries</a></li>
+<li><a href="https://discoveryalert.com.au/battery-electric-haul-trucks-2026-mining-technology/">World&#x27;s First Battery Electric Haul Truck Revolution</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed enthusiasm for sodium-ion&\#x27;s cold-weather advantages, noting it improves upon diesel in -20°C conditions. One commenter highlighted that CATL and Changan are about to release the first sodium-ion battery car, the Changan Nevo A06, which could be significant for colder climates. Another commenter questioned why electrified school buses weren&\#x27;t prioritized, citing them as an ideal use case for electrification.
+**Discussion**: Commenters expressed enthusiasm for the development, with one wondering why electrified school buses weren&\#x27;t pushed more aggressively given their ideal use case. Another noted that sodium-ion batteries are an improvement over diesel in cold temperatures, while a third highlighted CATL and Changan&\#x27;s upcoming sodium-ion car as potentially huge for colder climates where sodium-ion outperforms LFP and NMC.
 
-**Tags**: `#sodium-ion`, `#electric vehicles`, `#battery technology`, `#heavy-duty trucks`, `#China`
+**Tags**: `#sodium-ion`, `#electric vehicles`, `#battery technology`, `#China`, `#heavy-duty transport`
 
 ---
 
 <a id="item-7"></a>
-## [Mistral AI Data Training Opt-Out Sparks Privacy Trust Debate](https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training) ⭐️ 7.0/10
+## [China pushes global solid-state EV battery standard as pilot lines scale](https://carnewschina.com/2026/09/02/china-pushes-global-solid-state-ev-standard-as-domestic-pilot-lines-scale/) ⭐️ 8.0/10
 
-A Hacker News discussion \(359 points, 155 comments\) examines Mistral AI&\#x27;s opt-out options for input/output data used in model training, revealing that Mistral changed its Team tier settings to be opt-in for training by default, removing the ability to centrally disable training. Users express concerns about whether opt-out controls are trustworthy. This matters because it highlights a broader trust issue in the AI industry: users and organizations want privacy guarantees, but AI providers frequently change data-training policies, making it hard to maintain control. The discussion reflects growing skepticism about whether opt-out promises are meaningful in practice. Mistral&\#x27;s Pro tier was opt-in to training on prompts by default, and the Team tier \(which offered an organization dashboard with relevant settings\) also became opt-in by default after a change, seemingly losing the ability to centrally disable training. One commenter notes the page title says users &\#x27;retain full control&\#x27; and can opt out &\#x27;at any time,&\#x27; calling the editorialized title misleading.
+China is advancing a global solid-state EV battery standard while scaling up domestic pilot production lines, marking a major step toward commercializing the technology. The country&\#x27;s National Automotive Standardization Technical Committee released the first draft of its solid-state battery standard in December 2025. This move could shape global adoption of solid-state batteries, which promise higher energy density and faster charging than current lithium-ion cells. By setting standards early, China may influence international manufacturing and deployment, potentially accelerating the transition to next-generation EV batteries worldwide. The draft standard, titled &\#x27;Solid-State Battery for electric vehicle – Part 1: Terms and definitions,&\#x27; sets minimum performance and safety benchmarks for solid-electrolyte batteries. China&\#x27;s domestic pilot lines are scaling up, with several automakers and battery makers planning production by 2027.
 
-hackernews · teekert · Sep 2, 12:30 · [Discussion](https://news.ycombinator.com/item?id=49535284)
+reddit · r/electricvehicles · Biodieselisthefuture · Sep 2, 16:56 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1w5g1ir/china_pushes_global_solidstate_ev_standard_as/)
 
-**Background**: AI companies like Mistral train their models on user input and output data \(conversations, documents, and other user-provided content\). Many providers offer opt-out options, but users are often skeptical because policies can change, and some companies have been caught training on data without clear consent. The EU context matters here, as Mistral is a European company that some organizations chose specifically for stronger privacy protections.
-
-**Discussion**: The discussion shows deep skepticism about AI companies&\#x27; data practices. One commenter argues it is naive to think companies do not train on prompts regardless of consent, citing widespread scraping. Another shares a personal experience of Microsoft opting them into training after signing up for Github Copilot, while a third points out the page actually claims users retain full control, suggesting the title was misleading.
-
-**Tags**: `#AI`, `#privacy`, `#data training`, `#opt-out`, `#Mistral`
-
----
-
-<a id="item-8"></a>
-## [World&\#x27;s Largest Dark Matter Detector Records Single Anomalous Particle Event](https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle) ⭐️ 7.0/10
-
-The LUX-ZEPLIN \(LZ\) detector, the world&\#x27;s largest dark matter detector, recorded a single particle interaction consistent with dark matter during a new data analysis. Researchers reported the finding on September 1 at the TeV Particle Astrophysics meeting in Tendo, Japan, and in a preprint posted on LZ&\#x27;s website, but emphasized it is far too early to claim a discovery. This single anomalous event could hint at new physics beyond the Standard Model, potentially representing the first direct detection of dark matter. However, particle physics history is full of 3-sigma &\#x27;discoveries&\#x27; that disappeared with more data, so the scientific community is treating this with cautious optimism. The LZ detector is located 1480 meters deep in the Sanford Underground Research Facility in a former gold mine in South Dakota, using a two-phase time projection chamber containing seven active tonnes of liquid xenon. The rock overburden significantly reduces cosmic ray muon background, and auxiliary veto detectors help filter out non-dark-matter events.
-
-hackernews · randycupertino · Sep 2, 13:40 · [Discussion](https://news.ycombinator.com/item?id=49536079)
-
-**Background**: Dark matter is an invisible form of matter that makes up about 85% of the universe&\#x27;s mass, inferred from gravitational effects on visible matter. The leading candidate for dark matter is the weakly interacting massive particle \(WIMP\), which would interact only through gravity and the weak nuclear force, making detection extremely difficult. LZ is designed to detect these rare interactions in a highly shielded underground environment.
+**Background**: Solid-state batteries replace the liquid electrolyte in conventional lithium-ion cells with a solid material, offering higher energy density, improved safety, and faster charging. However, manufacturing challenges and material variability have hindered commercialization. Standardization helps align industry efforts, reduce costs, and accelerate scale-up, which is why China&\#x27;s push for a global standard is significant.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/LZ_experiment">LZ experiment - Wikipedia</a></li>
-<li><a href="https://lz.lbl.gov/">The LZ Dark Matter Experiment | The status and science of the LZ dark matter experiment.</a></li>
-<li><a href="https://www.sciencenews.org/article/dark-matter-particle-wimp-lz-experiment">Have scientists glimpsed the first dark matter particle?</a></li>
+<li><a href="https://electrek.co/2026/02/11/solid-state-ev-battery-standard-china-2026/">A solid-state EV battery standard will be released in China ...</a></li>
+<li><a href="https://www.notebookcheck.net/First-solid-state-battery-standard-sets-performance-benchmarks-for-a-flood-of-2027-EVs-with-solid-electrolyte-battery.1225417.0.html">First solid-state battery standard sets performance ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters generally expressed cautious interest, with one noting the preprint was thorough in investigating mis-reconstructed events and backgrounds, but warning that particle physics history is full of 3-sigma false alarms. Another commenter expressed skepticism about dark matter&\#x27;s existence, suggesting the math might be incomplete. Others appreciated the repurposing of the former gold mine and hoped the event leads to a real discovery.
+**Tags**: `#solid-state batteries`, `#EV industry`, `#China`, `#battery technology`, `#standards`
 
-**Tags**: `#dark matter`, `#particle physics`, `#LZ detector`, `#scientific research`, `#physics`
+---
+
+<a id="item-8"></a>
+## [China&\#x27;s Solar Capacity Overtakes Coal, Fueling EV Boom](https://electrek.co/2026/09/02/china-now-has-more-solar-than-coal-to-fuel-its-electric-car-boom/) ⭐️ 7.5/10
+
+China, the world&\#x27;s largest electricity market, now has more installed electricity generation capacity from solar than from coal plants. This milestone arrives as China&\#x27;s electric vehicle sales boom and global energy prices spike. This shift marks a significant step in China&\#x27;s energy transition, reducing reliance on coal and enabling cleaner power for its booming electric vehicle industry. It could accelerate global renewable energy adoption and support climate change mitigation efforts. The report highlights that the timing aligns with China&\#x27;s EV sales surge and global energy price increases. However, installed capacity represents maximum potential output, not actual generation, as solar power output varies with weather and time of day.
+
+rss · Electrek · Sep 2, 17:20
+
+**Background**: Installed capacity refers to the maximum power output a plant can produce under ideal conditions. China has rapidly expanded its solar farms over the past decade, while coal has historically dominated its electricity mix. This milestone underscores the growing role of renewables in powering transportation and the broader economy, as the country pushes toward its carbon neutrality goals.
+
+**Tags**: `#renewable energy`, `#solar power`, `#China`, `#electric vehicles`, `#energy transition`
 
 ---
 
 <a id="item-9"></a>
-## [Poisson Disk Sampling Deep-Dive Sparks Shader Implementation Insights](https://stripeacross.com/posts/poisson-disk-sampling/) ⭐️ 7.0/10
+## [Visual Studio Code 1.136.0 Released with Enhancements and Fixes](https://github.com/microsoft/vscode/releases/tag/1.136.0) ⭐️ 7.0/10
 
-A new article provides a visual, interactive deep-dive into the Poisson disk sampling algorithm, explaining how it generates evenly distributed random points. The accompanying Hacker News discussion \(119 points, 17 comments\) shares practical shader implementation challenges and related resources. Poisson disk sampling is a cornerstone technique in computer graphics for generating blue noise patterns, used in object placement, anti-aliasing, and texture synthesis. The community discussion adds real-world value by surfacing implementation pitfalls and linking to practical applications like grass placement in games. The article covers Bridson&\#x27;s algorithm, which relies on an active list and background grid for O\(n\) point generation. A commenter notes this approach is difficult to implement per-pixel in shaders, suggesting hashing cells with jittering as an alternative, while another links to Casey Muratori&\#x27;s post on blue-noise-based grass placement.
+Visual Studio Code 1.136.0 has been released, bringing new features, improvements, and bug fixes to the popular code editor. The update is available for download, with detailed release notes published on the official updates page. As one of the most widely used code editors, each monthly release impacts millions of developers worldwide. This update continues to refine the editor&\#x27;s performance, usability, and stability, reinforcing its position in the development ecosystem. The release notes are available at https://code.visualstudio.com/updates/v1\_136, detailing the specific changes. Users can expect the usual mix of feature additions, performance enhancements, and bug resolutions typical of VS Code&\#x27;s monthly cadence.
+
+github · vritant24 · Sep 2, 16:18
+
+**Background**: Visual Studio Code \(VS Code\) is a free, open-source code editor developed by Microsoft, known for its extensibility, built-in Git support, and broad language support. It follows a monthly release cycle, delivering regular updates to improve the developer experience. This release, version 1.136.0, is part of that ongoing series of updates.
+
+**Tags**: `#vscode`, `#release`, `#editor`, `#development-tools`
+
+---
+
+<a id="item-10"></a>
+## [Google Avoids Court-Ordered Breakup of Ad Tech Business](https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html) ⭐️ 7.0/10
+
+On September 2, 2026, Google successfully avoided a court-ordered breakup of its ad tech business, as the court declined to force a sale or structural separation of the unit. This marks a major antitrust defeat for U.S. regulators who had sought to dismantle Google&\#x27;s dominance in digital advertising. This outcome is significant because it could set a precedent for how courts handle antitrust cases against dominant tech platforms, potentially weakening future breakup efforts. It also affects the broader ad tech industry, Alphabet&\#x27;s revenue structure, and the ongoing global debate over tech regulation. Google&\#x27;s ad tech business generated $30 billion last year, about 8% of Alphabet&\#x27;s revenue, but its ad tech revenue has declined for 16 straight quarters and accounts for less than 1% of the company&\#x27;s profit. The decision means Google avoids a forced divestiture, though the case may still face appeals or further regulatory actions.
+
+hackernews · donohoe · Sep 2, 14:46 · [Discussion](https://news.ycombinator.com/item?id=49537131)
+
+**Background**: Ad tech refers to the software and tools used to buy, sell, and manage digital advertising, including ad exchanges, ad networks, and publisher-side tools. The U.S. government had argued that Google monopolized the ad tech market by controlling both the buy-side and sell-side infrastructure. This case is part of a broader wave of antitrust actions against major technology companies in the U.S. and Europe.
+
+**Discussion**: Commenters expressed frustration that Google again avoided meaningful regulatory consequences, with some arguing that tech giants &\#x27;pre-game&\#x27; antitrust actions by shaping their behavior in advance. Others proposed alternative remedies such as progressively taxing monopolies or making mergers and breakups equally easy to execute. One commenter questioned the practical significance of the ad tech business given its small profit contribution, while another noted broader structural problems in U.S. governance that hinder effective antitrust enforcement.
+
+**Tags**: `#antitrust`, `#Google`, `#ad tech`, `#regulation`, `#tech policy`
+
+---
+
+<a id="item-11"></a>
+## [Mistral AI Training Data Opt-Out Sparks User Distrust Debate](https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training) ⭐️ 7.0/10
+
+A Hacker News discussion \(359 points, 155 comments\) examined Mistral AI&\#x27;s help page on opting out of training data, revealing that Mistral changed its Team tier settings to be opt-in for training by default and appeared to remove the ability to centrally disable training. Users expressed deep distrust about whether opt-out controls are actually enforced by AI vendors. This matters because Mistral is positioned as the European champion for AI digital sovereignty, and enterprise customers chose it partly for its privacy controls. The perceived weakening of opt-out controls undermines trust in European AI vendors and raises broader questions about whether any AI company can credibly guarantee training data privacy. The help page states that in certain cases input/output data may be included in training programs, but users &\#x27;retain full control&\#x27; and can opt out at any time. However, commenters noted that Mistral changed the Team tier to be opt-in by default and appeared to lose the ability to centrally disable training, contradicting the page&\#x27;s claims.
+
+hackernews · teekert · Sep 2, 12:30 · [Discussion](https://news.ycombinator.com/item?id=49535284)
+
+**Background**: Mistral AI is a French AI company founded in 2023, headquartered in Paris, that develops large language models, many under open-source licenses. It is a primary beneficiary of EU efforts toward digital sovereignty, with a valuation exceeding $14 billion as of 2025, and received a €1.3 billion investment from ASML in September 2025. The company&\#x27;s positioning as a privacy-friendly European alternative makes its data training policies particularly scrutinized by enterprise customers.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mistral_AI">Mistral AI</a></li>
+<li><a href="https://grokipedia.com/page/Mistral_AI">Mistral AI</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters expressed widespread distrust, with one noting that companies &\#x27;literally scrape everything&\#x27; and will train on prompts regardless of consent. Another user described the &\#x27;exhausting and ultimately futile&\#x27; experience of monitoring vendors, citing Microsoft&\#x27;s GitHub Copilot as a prior rug-pull. One commenter argued the title was misleading since the page claims users retain full control, while another questioned whether Mistral had previously championed itself as an EU option that wouldn&\#x27;t train on user data.
+
+**Tags**: `#AI`, `#privacy`, `#data governance`, `#Mistral`, `#enterprise`
+
+---
+
+<a id="item-12"></a>
+## [LZ Dark Matter Detector Records Single Anomalous Particle Event](https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle) ⭐️ 7.0/10
+
+The LUX-ZEPLIN \(LZ\) experiment, the world&\#x27;s largest dark matter detector, observed a single unusual particle event in its liquid xenon target. The collaboration published a preprint and is cautiously analyzing the event, emphasizing it is far too early to claim a discovery. If confirmed, this event could represent the first direct detection of dark matter or a new physics phenomenon beyond the Standard Model. However, particle physics history is full of 3-sigma &\#x27;discoveries&\#x27; that disappeared with more data, so the significance remains uncertain. The LZ detector uses 494 photomultiplier tubes to detect signals from a central liquid xenon volume, surrounded by gadolinium-loaded liquid scintillator and ultrapure water to reduce false signals. The detector is located 1480 meters underground in the Sanford Underground Research Facility, a former gold mine in South Dakota.
+
+hackernews · randycupertino · Sep 2, 13:40 · [Discussion](https://news.ycombinator.com/item?id=49536079)
+
+**Background**: Dark matter is an invisible form of matter that makes up about 85% of the universe&\#x27;s matter but has never been directly detected. Direct detection experiments like LZ search for weakly interacting massive particles \(WIMPs\) by looking for rare collisions between dark matter particles and atomic nuclei in a liquid xenon target, which produce detectable light and charge signals.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/LZ_experiment">LZ experiment - Wikipedia</a></li>
+<li><a href="https://lz.lbl.gov/detector/">Detector | The LZ Dark Matter Experiment</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Direct_detection_of_dark_matter">Direct detection of dark matter - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters praised the collaboration&\#x27;s thorough analysis of the preprint, noting they investigated potential mis-reconstructed events and backgrounds. Several cautioned that particle physics history is full of 3-sigma &\#x27;discoveries&\#x27; that vanished with more data, while one commenter expressed skepticism about dark matter&\#x27;s existence altogether, and another appreciated the repurposing of the former gold mine.
+
+**Tags**: `#dark matter`, `#particle physics`, `#LZ detector`, `#physics research`, `#anomaly`
+
+---
+
+<a id="item-13"></a>
+## [Exit the Cave: A Philosophical Essay on Leaving Comfort Zones](https://turtlespace.blog/p/exit-the-cave) ⭐️ 7.0/10
+
+The reflective essay &quot;Exit the Cave&quot; was published on turtlespace.blog, generating significant community engagement with 203 points and 68 comments. The piece explores themes of personal growth, purpose, and the necessity of leaving comfort zones, and it argues that worthy pursuits require an external &quot;mat&quot; — a writer needs readers, an entrepreneur needs customers, an athlete needs competition. The essay resonates deeply with a technically-minded community, sparking substantive philosophical discussion about self-improvement, competition, and the meaning of purpose. Its high engagement suggests it addresses universal concerns about personal development that transcend typical technical content, reflecting a broader cultural interest in intentional living and self-actualization within the startup and tech ecosystem. The essay&\#x27;s central premise — that any worthy pursuit needs an external &quot;mat&quot; or audience — sparked notable debate among commenters about whether self-improvement is inherently valuable without external validation. The discussion drew on diverse references including Olympic speed skater Nils van der Poel&\#x27;s training philosophy and economist Tyler Cowen&\#x27;s critique of &quot;nervous Nellies,&quot; enriching the conversation with concrete examples from sports and economics.
+
+hackernews · akkartik · Sep 2, 14:16 · [Discussion](https://news.ycombinator.com/item?id=49536606)
+
+**Background**: The title &quot;Exit the Cave&quot; likely references Plato&\#x27;s Allegory of the Cave, which describes prisoners emerging from darkness into the light of knowledge and truth. The essay applies this metaphor to modern life, exploring how individuals can leave their comfort zones to find purpose and meaning. The community discussion reflects a broader philosophical tradition of examining whether personal growth requires external validation or is valuable in itself, a question that resonates particularly strongly in achievement-oriented tech and startup cultures.
+
+**Discussion**: The comments show a mix of personal reflection and intellectual debate. One commenter shared a moving personal story of confronting darkness alone in a lava tunnel, while another directly challenged the author&\#x27;s premise that pursuits need external validation, arguing that self-improvement is valuable on its own. A third commenter referenced Olympic speed skater Nils van der Poel and economist Tyler Cowen to discuss the nature of suffering, discipline, and avoiding neurotic self-indulgence, while another reflected on the difficulty of fitting into someone else&\#x27;s &quot;cave&quot; in the context of startup equity and career choices.
+
+**Tags**: `#philosophy`, `#personal-growth`, `#essay`, `#self-improvement`, `#reflection`
+
+---
+
+<a id="item-14"></a>
+## [Essay on Desiring an &\#x27;NPC&\#x27; Life Sparks Debate on Escapism and Meaning](https://signalundefied.bearblog.dev/i-wanna-live-an-npc-life/) ⭐️ 7.0/10
+
+A reflective essay titled &quot;I wanna live an NPC life&quot; has gone viral on the tech community, drawing 167 points and 159 comments. The essay explores the desire to live a simple, consequence-free life akin to a non-player character in a video game. The essay&\#x27;s high engagement reflects a broader cultural conversation about modern life&\#x27;s pressures, technology&\#x27;s role in escapism, and the search for meaning. It resonates with a generation grappling with burnout and expectation fatigue, raising the question of whether a &\#x27;simple life&\#x27; is a valid alternative to achievement-driven living. The essay is philosophical rather than technical, touching on themes of agency, consequence, and meaning. The discussion includes references to Zhuangzi&\#x27;s parable of the sacred turtle, critiques of escapism as naive, and counterarguments about the static nature of NPC worlds versus real-world consequences.
+
+hackernews · conferza · Sep 2, 19:52 · [Discussion](https://news.ycombinator.com/item?id=49541519)
+
+**Background**: In gaming, an NPC \(non-player character\) is a character controlled by the computer rather than the player, often exhibiting simple, repetitive behavior. The term has evolved into a meme and cultural metaphor, sometimes used pejoratively to describe people who seem to lack agency or independent thought. The essay uses this gaming concept as a lens to explore philosophical questions about modern life, drawing on ideas about escapism, meaning, and the human condition.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/NPC_%28meme%29">NPC (meme) - Wikipedia</a></li>
+<li><a href="https://www.ionos.com/digitalguide/online-marketing/social-media/what-is-an-npc/">What are NPCs ? - IONOS | ionos Digital Guide</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The comments reveal a rich philosophical debate. One commenter cites Zhuangzi&\#x27;s parable of the sacred turtle to argue for the value of a simple, unburdened life, while another dismisses the essay as &\#x27;pure escapism&\#x27; born from under-developed stress tolerance. A third commenter points out the logical flaw in the NPC analogy—NPCs face no real consequences because their worlds are static—while another suggests the real issue is how &\#x27;main character&\#x27; is defined, arguing that meaning does not require grand achievements.
+
+**Tags**: `#philosophy`, `#escapism`, `#psychology`, `#gaming`, `#life`
+
+---
+
+<a id="item-15"></a>
+## [Poisson Disk Sampling: Algorithm Deep-Dive and Visualization](https://stripeacross.com/posts/poisson-disk-sampling/) ⭐️ 7.0/10
+
+The article provides a detailed, visual explanation of Poisson disk sampling, covering the algorithm and its implementation. It includes community discussion on practical applications and alternative approaches. Poisson disk sampling is a core technique in computer graphics and procedural generation, used for anti-aliasing, object placement, and generating blue-noise patterns. This deep-dive helps developers understand and implement the algorithm effectively. The article likely explains Bridson&\#x27;s algorithm, which uses an active list to efficiently generate points. Community comments note that per-pixel shader implementation is challenging, leading some to use hashed cell jittering instead.
 
 hackernews · vismit2000 · Sep 2, 13:47 · [Discussion](https://news.ycombinator.com/item?id=49536177)
 
-**Background**: Poisson disk sampling generates points that maintain a minimum distance from one another, producing what is known as blue noise. Unlike white noise, which has equal power across all frequencies, blue noise concentrates power in higher frequencies, making it visually pleasing and well-suited for tasks like object scattering and anti-aliasing. Bridson&\#x27;s algorithm is the classic O\(n\) approach that uses a background grid and an active list of candidate points to efficiently fill a region.
+**Background**: Poisson disk sampling generates a set of points that are all at least a minimum distance apart, producing a blue-noise distribution. It is widely used in procedural generation, anti-aliasing, and object placement. Bridson&\#x27;s algorithm is a common efficient method that maintains an active list of candidate points.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Poisson_disk_sampling">Poisson disk sampling</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Blue_noise">Blue noise</a></li>
 <li><a href="https://gameidea.org/2023/12/27/poisson-disk-sampling/">Poisson Disk Sampling | gameidea</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters shared several related resources, including an ObservableHQ Poisson distribution generator and Casey Muratori&\#x27;s post on using blue noise for grass placement in games. One user highlighted the difficulty of implementing Bridson&\#x27;s algorithm per-pixel in shaders and described a hashing-and-jittering workaround, while another clarified a subtle point about how the visualization depicts candidate point placement.
+**Discussion**: Commenters shared related resources, such as an Observable notebook and a devlog on debug UIs. One noted the difficulty of per-pixel shader implementation and suggested hashing cells with jittering. Another linked to Casey Muratori&\#x27;s blog on using blue noise for grass placement.
 
-**Tags**: `#algorithm`, `#computer-graphics`, `#sampling`, `#visualization`, `#blue-noise`
-
----
-
-<a id="item-10"></a>
-## [China&\#x27;s Solar Capacity Surpasses Coal Amid EV Boom](https://electrek.co/2026/09/02/china-now-has-more-solar-than-coal-to-fuel-its-electric-car-boom/) ⭐️ 7.0/10
-
-China, the world&\#x27;s largest electricity market, now has more installed electricity generation capacity from solar than from coal plants. This milestone arrives just as China&\#x27;s electric vehicle sales boom and global energy prices spike. This shift marks a significant turning point in the global energy transition, as the world&\#x27;s largest electricity market pivots away from coal. It also directly supports China&\#x27;s booming electric vehicle market by providing cleaner power to fuel it, with implications for global climate policy and renewable energy adoption. The milestone refers to installed capacity, which measures the maximum potential power output of all solar installations, not actual electricity generation at any given moment. Because solar power is intermittent and has a lower capacity factor, coal may still generate more electricity in practice despite having less installed capacity.
-
-rss · Electrek · Sep 2, 17:20
-
-**Background**: Installed capacity refers to the total maximum power output of all power plants of a given type, and is a key metric for tracking energy infrastructure growth. China has been rapidly expanding its solar capacity as part of its commitments to peak carbon emissions before 2030 and reach carbon neutrality by 2060. As the world&\#x27;s largest EV market, China&\#x27;s shift toward renewable power helps reduce the carbon footprint of its growing electric vehicle fleet, which relies on the electricity grid for charging.
-
-**Tags**: `#solar energy`, `#China`, `#electric vehicles`, `#renewable energy`, `#energy policy`
-
----
-
-<a id="item-11"></a>
-## [IBM Granite Time Series Models Bring Real-Time Intelligence to Confluent](https://huggingface.co/blog/ibm-research/real-time-intelligence) ⭐️ 7.0/10
-
-IBM Research has announced a solution that integrates IBM Granite Time Series models with Confluent&\#x27;s data streaming platform, enabling real-time intelligence. The platform continuously streams, connects, governs, and processes live data, which the models use for forecasting, anomaly detection, similarity search, classification, gap-filling, and optimization. This integration combines advanced time series AI with real-time streaming infrastructure, allowing organizations to act on live business signals rather than batch-processed historical data. It is significant for machine learning and data engineering teams seeking to deploy forecasting and anomaly detection at scale on streaming data. The solution leverages IBM Granite Time Series models, which support multiple analytical tasks including forecasting, anomaly detection, similarity search, classification, gap-filling, and optimization. Confluent provides the streaming, connection, governance, and processing capabilities needed to handle continuous real-time data flows.
-
-rss · HuggingFace Blog · Sep 2, 13:49
-
-**Background**: Confluent is a data streaming platform built on Apache Kafka that enables organizations to access, store, and manage data as continuous, real-time streams. Time series models are designed to analyze data points collected over time, making them well-suited for forecasting and anomaly detection on streaming data. IBM Granite is IBM&\#x27;s family of AI models, and the Granite Time Series models are specifically tailored for temporal data analysis in enterprise scenarios.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/blog/ibm-research/real-time-intelligence">Real-Time Intelligence with IBM Time Series Models on Confluent</a></li>
-<li><a href="https://www.confluent.io/">Confluent | The Data Streaming Platform</a></li>
-<li><a href="https://docs.confluent.io/platform/current/get-started/platform.html">Confluent Platform Overview | Confluent Documentation</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#time series`, `#real-time`, `#streaming`, `#IBM`, `#machine learning`
-
----
-
-<a id="item-12"></a>
-## [Anthropic Publishes Claude System Prompts, Adds Song Lyric Refusal](https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/) ⭐️ 7.0/10
-
-Anthropic now publishes and archives system prompts for its Claude consumer apps \(Claude.ai and mobile apps\), reorganized into an index page with per-model pages. A recent update to the Fable 5.1 prompt adds a substantial new section instructing Claude to refuse reproducing song lyrics, poems, or book passages. This transparency lets developers and researchers diff prompt changes over time, revealing how Anthropic tunes model behavior. The song lyric refusal reflects growing copyright pressure on AI companies and shows how safety policies evolve in response to legal and industry concerns. The new section states Claude must not reproduce lyrics, poems, or book passages in whole or in part, including choruses, hooks, or note-by-note melodies, and must keep declining reworded requests within a conversation. Works first published before 1929 \(e.g., Shakespeare sonnets, Keats odes, Puccini librettos\) are allowed, with Claude relying on its own knowledge of publication dates rather than user claims.
-
-rss · Simon Willison · Sep 2, 14:16
-
-**Background**: A system prompt is the set of instructions given to a large language model that defines its behavior, tone, and constraints. Anthropic&\#x27;s platform docs site is designed to be usable by LLMs, allowing users to append &quot;.md&quot; to any page to get Markdown content, which makes diffing prompts easy. Claude is Anthropic&\#x27;s series of LLMs, with models released in sizes named Haiku, Sonnet, and Opus, plus newer models like Fable and Mythos. Claude Cowork and Claude Code are separate agentic products whose system prompts are not published.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/System_prompt">System prompt</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Cowork">Claude Cowork</a></li>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#Anthropic`, `#system prompts`, `#Claude`, `#transparency`
-
----
-
-<a id="item-13"></a>
-## [User Releases 5.94B TikTok Video Dataset on Hugging Face](https://www.reddit.com/r/MachineLearning/comments/1w5h9se/i_scraped_594_billion_tiktok_videos_and_323/) ⭐️ 7.0/10
-
-A developer scraped 5.94 billion TikTok videos and 3.23 billion profiles in three weeks using a reverse-engineered mobile app method, then uploaded the complete dataset to Hugging Face for free. The accompanying tutorial is public, though the full code requires a paid fee. This is one of the largest public social media datasets ever released, offering significant research potential for recommendation systems, content analysis, and social behavior studies. However, it also raises serious legal and ethical questions about data collection practices and platform Terms of Service compliance. The dataset was collected via 24 TikTok mobile app endpoints that are accessible without an account, though the author acknowledges this likely violates TikTok&\#x27;s Terms of Service. The full scraping code is not free — access requires a small fee, which has drawn criticism from some community members.
-
-reddit · r/MachineLearning · DataShack · Sep 2, 17:38
-
-**Background**: TikTok&\#x27;s official API is limited to content posting and display for connected accounts, so developers often resort to reverse-engineering the mobile app&\#x27;s private API endpoints to access broader data. Hugging Face is a major platform for sharing machine learning datasets, supporting large-scale data with efficient tools like Apache Arrow. Reverse-engineering TikTok&\#x27;s mobile protocol has been an ongoing community effort, with various open-source SDKs and documentation projects documenting the private endpoints.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/SyntaxSparkk/TikTok">GitHub - SyntaxSparkk/TikTok: TikTok Reverse Engineering Documentation. · GitHub</a></li>
-<li><a href="https://huggingface.co/datasets">Datasets – Hugging Face</a></li>
-<li><a href="https://github.com/molkex/tiktok-private-api">GitHub - molkex/ tiktok - private - api : Unofficial TikTok Private API SDK...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community reactions are mixed but generally positive, with one user expressing gratitude and another immediately downloading the dataset out of concern it may be removed. A third commenter raised a legal concern, suggesting that charging for scraped TikTok data should be illegal.
-
-**Tags**: `#dataset`, `#tiktok`, `#scraping`, `#huggingface`, `#data collection`
-
----
-
-<a id="item-14"></a>
-## [Muse Spark Open Weights Announced, Coming Soon](https://i.redd.it/apwfejcow5nh1.png) ⭐️ 7.0/10
-
-Meta has announced that open weights for Muse Spark, its flagship multimodal reasoning model, will be released soon. The announcement has generated significant community discussion about the model&\#x27;s size and how it compares to other open LLMs. This signals an important development in the open-source AI space, as Muse Spark was previously proprietary. If released, it could provide a frontier-level open model, though its size may limit accessibility for individual users and smaller teams. Muse Spark 1.3 is a multimodal reasoning model with a 1,048,576-token context window, priced at $1.25 per million input tokens and $4.25 per million output tokens on OpenRouter. Its smaller sibling, Muse Glimmer, is a 30B-parameter open model distilled from Muse Spark that runs on a single consumer GPU under an Apache 2.0 license.
-
-reddit · r/LocalLLaMA · jacek2023 · Sep 2, 19:56 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/)
-
-**Background**: Muse Spark is a proprietary large language model developed by Meta Superintelligence Labs \(MSL\), released on April 8, 2026, under the leadership of Alexandr Wang. It features parallel reasoning through a unique &\#x27;Contemplating&\#x27; mode. The Muse series includes both proprietary flagship models like Spark and open models like Glimmer, which is optimized for always-on local agent workflows on consumer hardware.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Introducing Muse Glimmer: An Open Agentic Model That Runs on ...</a></li>
-<li><a href="https://openrouter.ai/meta/muse-spark-1.3">Muse Spark 1.3 - API Pricing &amp; Providers | OpenRouter</a></li>
-<li><a href="https://grokipedia.com/page/Muse_Spark_AI_model">Muse Spark (AI model)</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community sentiment is mixed but engaged. One user noted that &\#x27;there seems to be no secret sauce&\#x27; and that all the major labs are at a similar level, only a few months behind the frontier. Another user praised Muse Glimmer as &\#x27;pretty good, very much overlooked&\#x27; and superior to Qwen 3.8:27b for non-coding tasks, while a third expressed concern that Muse Spark will be too large for their hardware and is waiting for Llama 5 instead.
-
-**Tags**: `#AI`, `#open-weights`, `#LLM`, `#Muse`, `#model-release`
-
----
-
-<a id="item-15"></a>
-## [Qwen&\#x27;s Extended Reasoning Could Make It Open-Source King](https://i.redd.it/m9c7ldofb2nh1.png) ⭐️ 7.0/10
-
-A Reddit discussion speculates that Qwen&\#x27;s use of extended reasoning and post-training techniques could position it as a leading open-source model. Commenters report impressive local performance, with one user claiming Qwen 3.8-27B outperforms paid ChatGPT 5.1 for coding tasks. This matters because it highlights the growing competitiveness of open-source models against proprietary offerings like ChatGPT. If Qwen continues releasing open-weight models with strong reasoning, it could reshape the open-source LLM landscape and challenge closed models. The discussion notes that extended reasoning and post-training are key techniques used by DeepSeek, Qwen, and GLM to boost performance by leveraging higher token counts. The post also speculates about future &\#x27;engram&\#x27;-based models that could match or surpass 2.4T parameter models on specific tasks, though Qwen 4&\#x27;s open-source status remains uncertain.
-
-reddit · r/LocalLLaMA · LegacyRemaster · Sep 2, 07:53 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w53ti8/qwen_will_be_the_king/)
-
-**Background**: Extended reasoning refers to LLMs generating internal chains of thought before producing a final answer, allocating additional compute time to deliberation — a technique used by models like OpenAI o1 and Claude with Extended Thinking. Engrams, in the AI context, are used to store &\#x27;meaning&\#x27; similar to embeddings, though they don&\#x27;t replace reasoning or computation. The open-source LLM community closely tracks whether major models like Qwen release their weights, as this determines what users can run locally.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.trantorinc.com/blog/what-is-ai-reasoning">What Is AI Reasoning ? How Thinking Models Work</a></li>
-<li><a href="https://www.banandre.com/blog/engrams-vs-transformers-efficient-inference-paradigm">Engrams Won’t Let You Run 1T Models Locally, But... - Banandre</a></li>
-<li><a href="https://fourweekmba.com/engrams/">Engrams - FourWeekMBA</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters are largely enthusiastic about local performance, with one user praising Qwen 3.8-27B&\#x27;s coding abilities as superior to paid ChatGPT 5.1 while running entirely on their PC. Another user expresses concern about whether Qwen will release open-weight updates, while a third notes that extended reasoning has spoiled them — Qwen 3.8 Max is highly accurate but can take hours to produce answers.
-
-**Tags**: `#Qwen`, `#LLM`, `#open-source`, `#local models`, `#reasoning`
+**Tags**: `#algorithm`, `#computer-graphics`, `#procedural-generation`, `#sampling`, `#visualization`
 
 ---
 
 <a id="item-16"></a>
-## [H3-World: Language-Controlled Video Generation via Action Prompts](https://v.redd.it/86geog4t04nh1) ⭐️ 7.0/10
+## [Anthropic Reorganizes Claude System Prompts, Adds Song Lyric Restrictions](https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/) ⭐️ 7.0/10
 
-H3-World introduces a method to control video generation through language instructions by injecting action prompts into MiniMax-H3&\#x27;s pretrained text pathway. It achieves controllable character and camera motion using only 8,000 gameplay samples, 10,000 LoRA steps, and 0.199% trainable parameters. This approach demonstrates that language-native control of video generation can be achieved with remarkably minimal fine-tuning, potentially making controllable video generation far more accessible. It opens new possibilities for precise temporal control of character and camera actions in generative video models, a step toward practical world-model-based control. The method assigns one action prompt to each video latent interval, enabling precise control when actions change over time. It also generalizes to unseen action compositions and visual scenarios, though community feedback has criticized the visual quality of the generated output.
+Anthropic reorganized its published system prompts for Claude consumer apps \(Claude.ai and mobile\) into an index page plus per-model pages, and added a new section prohibiting reproduction of song lyrics. The docs site now supports .md suffixes, making it easy to diff prompt changes between versions like Fable 5 and Fable 5.1. Anthropic&\#x27;s transparency in publishing both current and historical system prompts is valuable for AI accountability and community analysis. The reorganization and Markdown support make it practical for practitioners to track how Claude&\#x27;s behavior guidelines evolve over time. The new song lyric section prohibits reproducing lyrics, poems, or book passages in whole or in part, including choruses, hooks, or note-by-note melodies, and requires declining reworded requests for the rest of a conversation. Works first published before 1929 \(like Shakespeare sonnets\) are exempt, and Claude relies on its knowledge of a work&\#x27;s date rather than the user&\#x27;s claim. Other changes include restrictions on drawing copyrighted characters/logos and a reliable knowledge cutoff of June 2026.
 
-reddit · r/LocalLLaMA · sachasayan · Sep 2, 13:35 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w5akpy/h3world_turning_language_understanding_into_world/)
+rss · Simon Willison · Sep 2, 14:16
 
-**Background**: MiniMax-H3 is a general-purpose omni-modal generation model that jointly understands multimodal contexts spanning text, images, video, and audio, and can generate video with native stereo audio at up to 2K resolution and 15 seconds in length. H3-World builds on this by leveraging the model&\#x27;s pretrained text pathway to inject action prompts, avoiding the need for extensive retraining. LoRA \(Low-Rank Adaptation\) is an efficient fine-tuning technique that trains only a small subset of parameters, which explains the extremely low 0.199% trainable-parameter count.
+**Background**: System prompts are the hidden instructions that define how an AI assistant like Claude behaves, including its style, constraints, and safety rules. Anthropic is unusual in publishing these prompts along with their historical versions, allowing researchers and users to see how the company adjusts Claude&\#x27;s behavior over time. Claude Cowork and Claude Code are Anthropic&\#x27;s agentic tools that operate in the desktop app and terminal respectively, and their prompts are not included in this publication.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.minimax.io/blog/minimax-h3">MiniMax H3: An Open Model Breaking the Boundaries Between ...</a></li>
-<li><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/MiniMax-H3 · Hugging Face</a></li>
-<li><a href="https://github.com/MiniMax-AI/MiniMax-H3">GitHub - MiniMax-AI/MiniMax-H3 · GitHub</a></li>
+<li><a href="https://claude.com/product/cowork">Claude Cowork | Claude by Anthropic</a></li>
+<li><a href="https://code.claude.com/docs/en/overview">Overview - Claude Code Docs</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are mixed. One user questions how action success and state consistency are measured for such projects, while another speculates about potential multi-stream use for running multiple games simultaneously. A critical comment dismisses the visual output as atrociously ugly shots with deforming and inconsistent distant landscapes, highlighting quality concerns.
-
-**Tags**: `#video generation`, `#language control`, `#fine-tuning`, `#world models`, `#AI research`
+**Tags**: `#AI`, `#Anthropic`, `#system prompts`, `#transparency`, `#Claude`
 
 ---
 
 <a id="item-17"></a>
-## [Vision Support Merged for DeepSeek-V4-Flash-Vision-Exp in llama.cpp](https://github.com/ggml-org/llama.cpp/pull/28133) ⭐️ 7.0/10
+## [Paint.NET&\#x27;s AI-Assisted Clean-Room Rewrite of Direct2D for WINE](https://simonwillison.net/2026/Sep/2/rick-brewster/) ⭐️ 7.0/10
 
-Vision support has been merged for DeepSeek-V4-Flash-Vision-Exp in llama.cpp via PR \#28133, with Unsloth GGUF quantized weights now available on Hugging Face for local inference. This brings a new DeepSeek vision-language model into the local LLM ecosystem, enabling users to run multimodal inference entirely offline. It is a timely, directly useful update for the local inference community that relies on llama.cpp and the GGUF format. The Unsloth GGUF weights are hosted at huggingface.co/unsloth/DeepSeek-V4-Flash-Vision-Exp-GGUF. Community users report that the vision-toolkit in the DSH harness requires updating settings.yaml with the local API endpoint and model name for proper integration.
+Rick Brewster announced that Paint.NET now includes a from-scratch, clean-room reverse-engineered rewrite of Direct2D, written with Anthropic&\#x27;s Claude, to enable WINE/Linux support via a /wine flag. The roughly 180,000-line implementation lives in PaintDotNet.Windows.Direct2D1.Managed.dll and is described as experimental and &\#x27;vibe coded&\#x27; without thorough review. This is a novel demonstration of AI-assisted coding at scale, showing that a large, complex system like Direct2D can be reimplemented from scratch with AI help. It could pave the way for running Windows applications on Linux/WINE that were previously blocked by Direct2D dependencies, and offers insight into both the potential and pitfalls of AI-generated code. The code is described as &\#x27;vibe coded&\#x27; — meaning it has not been thoroughly reviewed, with Brewster noting he cannot review 180,000 lines of code. Claude required significant babysitting, including fixing COM reference counting \(AddRef\) issues and correcting poor design decisions, though it also performed clever reverse engineering of Direct2D&\#x27;s built-in effects library formulas.
 
-reddit · r/LocalLLaMA · fmillar · Sep 2, 15:52 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w5e9fi/vision_support_merged_for_deepseekv4flashvisionexp/)
+rss · Simon Willison · Sep 2, 05:50
 
-**Background**: llama.cpp is an open-source C/C++ project that enables efficient local inference of large language models, and GGUF is its native binary format for storing quantized model weights. Unsloth is an open-source library for efficient fine-tuning and quantization of LLMs, and it distributes GGUF checkpoints on Hugging Face. DeepSeek-V4-Flash-Vision-Exp is an experimental vision-language model from DeepSeek, and adding vision support in llama.cpp allows such multimodal models to run locally.
+**Background**: Direct2D is a hardware-accelerated, immediate-mode 2D graphics API from Microsoft that provides high-performance rendering for 2D geometry, bitmaps, and text. Clean-room reverse engineering is a disciplined process for recreating software without copying the original code, which helps avoid copyright infringement. Vibe coding refers to a development approach where the programmer guides, tests, and gives feedback on AI-generated code rather than manually writing it, a concept popularized by Andrej Karpathy.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
-<li><a href="https://grokipedia.com/page/Unsloth">Unsloth</a></li>
-<li><a href="https://huggingface.co/docs/hub/en/gguf">GGUF · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Direct2D">Direct2D - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding - Wikipedia</a></li>
+<li><a href="https://www.retroreversing.com/clean-room-reversing">Legality of Reverse Engineering &amp; Clean Room Reversing - Retro...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community feedback is generally positive, with one user reporting successful local runs using the same Unsloth DSPark setup as the non-vision version with similar performance. Another user suggests making the llama.cpp reference more explicit in the title, and a third proposes bounding box precision as a standard regression check for every experimental merge.
+**Tags**: `#Direct2D`, `#WINE`, `#Paint.NET`, `#AI-assisted coding`, `#reverse engineering`
+
+---
+
+<a id="item-18"></a>
+## [Meta Announces Muse Spark Open Weights Release](https://i.redd.it/apwfejcow5nh1.png) ⭐️ 7.0/10
+
+Meta announced that open weights for Muse Spark, its flagship large language model from Meta Superintelligence Labs \(MSL\), will be released soon. This follows the earlier open release of the smaller Muse Glimmer model. This is significant because it would give the open-weight community access to a frontier-class model, potentially narrowing the gap between open and closed models. It follows a trend where major labs are releasing open weights, affecting the competitive landscape of local LLMs. Community discussion notes that Muse Spark may be too large for many users, with some hoping for a model between Glimmer \(30B parameters\) and Spark. Muse Glimmer is a 30-billion-parameter model optimized for local agent workflows, running on a single consumer GPU under an Apache 2.0 license.
+
+reddit · r/LocalLLaMA · jacek2023 · Sep 2, 19:56 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/)
+
+**Background**: Muse Spark is a large language model developed by Meta through its Meta Superintelligence Labs \(MSL\), introduced in April 2026 and launched as Muse Spark 1.1 on July 9, 2026. It is the first model in Meta&\#x27;s Muse family, designed for multimodal reasoning, coding, and AI-assisted tasks. The Muse family includes both proprietary models like Spark and open models like Glimmer, which is Apache 2.0 licensed.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Muse_Spark">Muse Spark - Wikipedia</a></li>
+<li><a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Introducing Muse Glimmer: An Open Agentic Model That Runs on ...</a></li>
+<li><a href="https://ai.meta.com/blog/introducing-muse-spark-msl/">Introducing Muse Spark: Scaling Towards Personal Superintelligence</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members expressed mixed feelings, with one noting that &quot;there is no secret sauce&quot; and that all the major labs seem to be at a similar level, only a few months behind the frontier. Another user praised Muse Glimmer as &quot;pretty good, very much overlooked&quot; and superior to Qwen 3.8:27b for non-coding tasks. Some users expressed concern that Muse Spark might be too large for their hardware.
+
+**Tags**: `#LLM`, `#open-weights`, `#Muse`, `#AI`, `#model-release`
+
+---
+
+<a id="item-19"></a>
+## [Qwen&\#x27;s Extended Reasoning Could Make It a Top Open-Weight Model](https://i.redd.it/m9c7ldofb2nh1.png) ⭐️ 7.0/10
+
+A Reddit discussion speculates that Qwen&\#x27;s use of extended reasoning and post-training could make it a leading open-weight model, with Qwen 4 yet to be released. Commenters report strong local performance and coding capabilities, with one user praising Qwen 3.8-27B for outperforming a paid ChatGPT model. This reflects a growing trend toward open-weight models that can run locally, challenging proprietary cloud-based models. If Qwen continues to improve, it could democratize access to high-quality AI and reduce reliance on big tech data centers. The discussion mentions &\#x27;engrams&\#x27; as a potential future feature for memory manipulation, and notes that Qwen 3.8 Max is reportedly highly accurate but slow, taking hours to answer. The open-weight release of Qwen 4 remains uncertain.
+
+reddit · r/LocalLLaMA · LegacyRemaster · Sep 2, 07:53 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w53ti8/qwen_will_be_the_king/)
+
+**Background**: Extended reasoning refers to techniques that train LLMs to produce chain-of-thought reasoning before answering, improving accuracy on complex tasks. Post-training involves fine-tuning a pretrained model to align with user intents and improve reasoning, factual accuracy, and safety. Open-weight models allow users to run them locally, offering privacy and customization benefits. The discussion also touches on &\#x27;engrams&\#x27;, a concept for surgically editing learned knowledge in AI models.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2606.14997">[2606.14997] AI Engram: In Search of Memory Traces in ...</a></li>
+<li><a href="https://arxiv.org/abs/2604.07941">[2604.07941] Large Language Model Post-Training: A Unified ... LLM Post-Training: A Deep Dive into Reasoning Large Language ... Post-training methods for language models - Red Hat Developer Post-training - AI Wiki Post-Training LLMs Guide: SFT, RLHF, DPO &amp; GRPO Explained ... Post Training Large Language Models: Answers to Your Top ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Reasoning_model">Reasoning model - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters are enthusiastic about local performance, with one user calling it &\#x27;godlike&\#x27; and praising coding capabilities over a paid ChatGPT model. Another user questions whether Qwen will release an open-weight update, while a third expresses that extended reasoning has spoiled them, trusting only models with that capability.
+
+**Tags**: `#Qwen`, `#LLM`, `#open-source`, `#reasoning`, `#local AI`
+
+---
+
+<a id="item-20"></a>
+## [llama.cpp merges vision support for DeepSeek-V4-Flash-Vision-Exp](https://github.com/ggml-org/llama.cpp/pull/28133) ⭐️ 7.0/10
+
+Vision support for DeepSeek-V4-Flash-Vision-Exp has been merged into llama.cpp via pull request \#28133, enabling GGUF-based local inference with vision capabilities. Unsloth has released GGUF quantizations of the model on Hugging Face. This is a practical advancement for the local LLM community, allowing practitioners to run a vision-capable experimental model locally with quantized GGUF files. It expands the range of multimodal models available for on-device inference, which is valuable for developers and researchers. The model is experimental, and Unsloth provides GGUF quantizations. Users running the DSH harness need to update settings.yaml for the vision-toolkit, and there are community concerns about bounding box precision as a regression check.
+
+reddit · r/LocalLLaMA · fmillar · Sep 2, 15:52 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w5e9fi/vision_support_merged_for_deepseekv4flashvisionexp/)
+
+**Background**: GGUF \(GGML Universal File\) is a binary file format that stores tensors and metadata in a single file, designed for fast saving and loading of model data, and is commonly used to run LLMs on consumer hardware. Unsloth is an open-source acceleration toolkit for fine-tuning and running open models locally, and it provides quantized GGUF versions of models. llama.cpp is a popular C/C++ inference engine that supports running GGUF models locally.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF - Wikipedia</a></li>
+<li><a href="https://unsloth.ai/">Unsloth - Run and Train Models Locally</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members noted that the title should explicitly mention llama.cpp for clarity. One user reported running the model with similar performance to the non-vision version and shared configuration tips for the DSH harness. Another user suggested using bounding box precision as a standard regression check for every experimental merge.
 
 **Tags**: `#llama.cpp`, `#DeepSeek`, `#vision`, `#GGUF`, `#local-LLM`
 
 ---
 
-<a id="item-18"></a>
-## [EV Battery Health Study: Ioniq 5 Leads, Tesla Lags](https://insideevs.com/news/806798/ev-battery-aging-study-2026/) ⭐️ 7.0/10
-
-A study of 500,000 EV battery health checks across 20 models found the Hyundai Ioniq 5 retains near-new battery health, while Tesla models rank in the bottom half. This large-scale, data-driven study offers practical insights for consumers and the industry, showing which EVs maintain battery health best over time, which can influence purchasing decisions and resale values. The study used state of health \(SoH\) metrics, which measure battery capacity relative to a new battery. Tesla&\#x27;s median SoH was in the bottom half, while the Ioniq 5 showed minimal degradation.
-
-reddit · r/electricvehicles · DizzyPS5 · Sep 2, 15:45 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1w5e2pq/500000_ev_battery_health_checks_put_20_models_to/)
-
-**Background**: Battery state of health \(SoH\) is a percentage indicating how much capacity a battery retains compared to when it was new. EV batteries typically degrade to around 90% of original capacity within the first five years, then the degradation curve flattens. The study likely drew on data from Recurrent, a community of EV drivers that monitors battery health.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.recurrentauto.com/for-owners">Vehicle Insights » Monitor Your EV Range &amp; Health</a></li>
-<li><a href="https://en.wikipedia.org/wiki/State_of_health">State of health - Wikipedia</a></li>
-<li><a href="https://www.reddit.com/r/electricvehicles/comments/1oyws9r/battery_degradation_over_time_is_this_a_valid/">Battery degradation over time. Is this a valid concern for long term ownership? : r/electricvehicles</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Comments noted the Ioniq 5&\#x27;s near-new battery health, with one user sharing a visual showing few &\#x27;stinkers.&\#x27; Another highlighted that Tesla&\#x27;s medians were in the bottom half, indicating mixed sentiment about Tesla&\#x27;s battery longevity.
-
-**Tags**: `#EV`, `#battery health`, `#electric vehicles`, `#battery degradation`, `#automotive`
-
----
-
-<a id="item-19"></a>
-## [China Pushes Global Solid-State EV Battery Standards as Pilot Lines Scale](https://carnewschina.com/2026/09/02/china-pushes-global-solid-state-ev-standard-as-domestic-pilot-lines-scale/) ⭐️ 7.0/10
-
-China is advancing global standards for solid-state EV batteries while simultaneously scaling up domestic pilot production lines. This move positions China to shape the future direction of EV battery technology and international standards. Solid-state batteries are widely seen as the next major leap in EV battery technology, offering higher energy density and improved safety over conventional lithium-ion batteries. By pushing global standards and scaling pilot lines, China could gain a significant competitive advantage in the EV supply chain and influence how the technology is adopted worldwide. Solid-state batteries use a solid electrolyte instead of the liquid or gel electrolytes found in conventional batteries, which can reduce flammability and improve stability. However, as of 2026, the solid-state battery market has yet to reach full scalability and commercialization, with challenges including material costs, durability, and stability.
-
-reddit · r/electricvehicles · Biodieselisthefuture · Sep 2, 16:56 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1w5g1ir/china_pushes_global_solidstate_ev_standard_as/)
-
-**Background**: A solid-state battery \(SSB\) is an electrical battery that uses a solid electrolyte to conduct ions between electrodes, offering theoretically much higher energy density than conventional lithium-ion batteries. While solid electrolytes were first discovered in the 19th century, widespread application was prevented by several problems until renewed interest emerged in the late 20th and early 21st centuries, especially in the context of electric vehicles. A pilot production line is a small-scale manufacturing setup designed to simulate and test production processes, validate product designs, and identify potential issues before transitioning to full-scale commercial production.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Solid-state_battery">Solid-state battery</a></li>
-<li><a href="https://grokipedia.com/page/pilot_line">Pilot line</a></li>
-<li><a href="https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/ASSB/">All-solid-state batteries | Innovation | Nissan Motor Corporation Global Website</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#solid-state batteries`, `#EV`, `#China`, `#battery technology`, `#standards`
-
----
-
-<a id="item-20"></a>
-## [Reddit flags $200/week PC offer as likely scam](https://i.redd.it/xqddlfbq84nh1.jpeg) ⭐️ 7.0/10
-
-A Reddit user asked whether an offer to receive a computer and $200 per week for keeping it on 24/7 is legitimate, and commenters quickly identified it as a likely scam involving identity theft and misuse of the user&\#x27;s internet connection. This highlights a common scam tactic that exploits individuals&\#x27; resources for criminal activities, and understanding it can help people avoid becoming unwitting participants in cybercrime or identity fraud. The scam likely involves using the victim&\#x27;s residential IP address and identity to conduct illegal activities, such as posing as a remote worker to exfiltrate trade secrets or building a botnet. The offer&\#x27;s emphasis on keeping the device under the victim&\#x27;s name is a major red flag.
-
-reddit · r/artificial · Junior-Key-5043 · Sep 2, 14:19 · [Discussion](https://www.reddit.com/r/artificial/comments/1w5bpww/can_anyone_explain_how_this_works_to_me_is_it_a/)
-
-**Background**: Botnets are networks of malware-infected devices controlled by attackers, often used for DDoS attacks or phishing. Scammers also use residential proxies to make their activities appear to originate from real home IP addresses, evading detection. Remote Access Trojans \(RATs\) are malware that give attackers remote control over a victim&\#x27;s computer, which could be installed on such a device.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.upguard.com/blog/what-is-a-botnet">What is a Botnet ? You Might Be Infected Right Now | UpGuard</a></li>
-<li><a href="https://www.fbi.gov/investigate/cyber/alerts/2026/evading-residential-proxy-networks-protecting-your-devices-from-becoming-a-tool-for-criminals">Evading Residential Proxy Networks: Protecting Your Devices ...</a></li>
-<li><a href="https://www.techtarget.com/cybersecurity/definition/RAT-remote-access-Trojan">What is a RAT ( Remote Access Trojan )? | Definition from TechTarget</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters agreed the offer is a scam, noting it rents out the user&\#x27;s power, IP address, and identity for shady purposes. One commenter pointed out that foreign nationals might use this to pose as American remote workers to steal trade secrets, while another highlighted that having the PC under the victim&\#x27;s name is the main red flag.
-
-**Tags**: `#cybersecurity`, `#scam`, `#identity theft`, `#remote work`, `#red flags`
-
----
-
 <a id="item-21"></a>
-## [Visual Studio Code 1.136.0 Delivers Incremental Improvements and Fixes](https://github.com/microsoft/vscode/releases/tag/1.136.0) ⭐️ 6.0/10
+## [Beyond Lambdas: Debating Abstraction Levels in Functional Code](https://adamtornhill.substack.com/p/beyond-lambdas-raising-the-abstraction) ⭐️ 7.0/10
 
-Microsoft released Visual Studio Code 1.136.0, the latest monthly update to its widely used code editor. The release focuses on incremental feature refinements and bug fixes as part of the editor&\#x27;s regular update cycle. As one of the most widely adopted developer tools, every VS Code release directly affects millions of developers worldwide. While not a groundbreaking milestone, this update keeps the editor stable, performant, and aligned with the evolving needs of the developer ecosystem. The release follows VS Code&\#x27;s established monthly cadence, with the complete changelog available on the official update notes page. Users can expect the typical mix of feature polish, performance tuning, and resolved issues spanning the editor&\#x27;s core functionality and its extension ecosystem.
+Adam Tornhill&\#x27;s article argues for raising the abstraction level of functional code beyond lambdas, using a D&amp;D damage-calculation example to show how code can be made to &\#x27;read like a story.&\#x27; The piece sparked a substantive debate about the readability and maintainability tradeoffs of higher-level abstractions. This debate touches on a core tension in functional programming between declarative abstraction and explicit data-flow visibility. It matters for practitioners deciding how to structure real codebases, and connects to broader industry discussions about whether abstractions aid or obscure comprehension. The article&\#x27;s example uses map, filter, and reduce operations, and commenters note the proposed abstraction is &\#x27;shallow&\#x27; and may obscure bugs — one commenter points out that summing attack rolls is incorrect in D&amp;D, where damage is rolled per successful attack. Commenters also reference John Ousterhout&\#x27;s A Philosophy of Software Design, which argues abstractions should be deep with simple interfaces.
 
-github · vritant24 · Sep 2, 16:18
+reddit · r/programming · nephrenka · Sep 2, 07:56 · [Discussion](https://www.reddit.com/r/programming/comments/1w53v9c/beyond_lambdas_raising_the_abstraction_level_of/)
 
-**Background**: Visual Studio Code is a free, open-source code editor developed by Microsoft, built on Electron and supporting a wide range of programming languages through its extension marketplace. It follows a predictable monthly release cycle, with each version numbered sequentially \(1.136.0 being the 136th minor release in the 1.x series\). The editor has become a dominant force in the developer tools landscape thanks to its extensibility, performance, and rich feature set.
+**Background**: Functional programming emphasizes higher-order functions like map, filter, and reduce, and uses abstractions such as monads and applicative functors to structure computations as sequences of steps. Point-free \(tacit\) style takes this further by composing functions without naming arguments. The central question in this debate is how much abstraction improves code comprehension versus how much it hides important data-flow details from readers.
 
-**Tags**: `#vscode`, `#release`, `#editor`, `#microsoft`, `#update`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Monads_in_functional_programming">Monads in functional programming</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Applicative_functor">Applicative functor - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tacit_programming">Tacit programming - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters largely push back on the article&\#x27;s premise: karmaputa argues the &\#x27;reads like a story&\#x27; version is actually worse for newcomers, since knowing the map/filter/reduce operations reveals what happens to the data. Obzota cites A Philosophy of Software Design to argue the abstraction is too shallow, while jasonthe notes the first example is better because it surfaces a real bug — summing attack rolls instead of rolling damage per attack.
+
+**Tags**: `#functional programming`, `#abstraction`, `#software design`, `#code readability`, `#programming`
 
 ---
 
 <a id="item-22"></a>
-## [Fable 5.1 World Modeling: AI-Generated 3D Worlds Draw Praise and Skepticism](https://github.com/PhiloLabs/fable51-worlds) ⭐️ 6.0/10
+## [500,000 EV Battery Checks: Hyundai Ioniq 5 Leads, Tesla Ranks Low](https://insideevs.com/news/806798/ev-battery-aging-study-2026/) ⭐️ 7.0/10
 
-PhiloLabs released Fable 5.1 World Modeling, a tool that uses autonomous Claude Fable 5.1 agent swarms to research, model, and quality-check browser-native 3D reconstructions of real places, shipped as Three.js apps. The demo drew significant community attention with 122 points and 42 comments on Hacker News. This represents a notable application of large language models to 3D world generation, potentially lowering the barrier for game development and virtual environment creation. However, the community&\#x27;s mixed reception highlights the gap between impressive demos and production-ready tools in AI-driven 3D modeling. The tool generates high-polygon models that community members note are not optimized for game engines, and it relies on the Fable 5.1 model which costs $10/$50 per million input/output tokens — double the price of Opus 5. The generated worlds are delivered as plain Three.js applications runnable via npm run dev.
+A large-scale study analyzing 500,000 EV battery health checks across 20 models found the Hyundai Ioniq 5 retains near-new battery health, while Tesla models ranked in the bottom half of the results. This study provides actionable, real-world data on EV battery degradation at an unprecedented scale, helping consumers make informed purchase decisions. The results challenge assumptions about Tesla&\#x27;s battery technology leadership and highlight Hyundai&\#x27;s thermal management as a potential differentiator. The study is based on 500,000 battery health checks across 20 EV models, with the Ioniq 5 showing essentially new-car battery health. Tesla&\#x27;s median battery health scores placed it in the bottom half of the rankings, a notable finding given Tesla&\#x27;s reputation for battery technology.
 
-hackernews · surreal\_ · Sep 2, 19:49 · [Discussion](https://news.ycombinator.com/item?id=49541458)
+reddit · r/electricvehicles · DizzyPS5 · Sep 2, 15:45 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1w5e2pq/500000_ev_battery_health_checks_put_20_models_to/)
 
-**Background**: Fable 5.1 is Anthropic&\#x27;s most capable Mythos-class AI model for Claude, released in September 2026 as an upgrade to Fable 5. World models are AI systems that can generate interactive 3D environments from text or image inputs, a field also being explored by companies like Google DeepMind \(Genie 3\), Alibaba \(Happy Oyster\), and Tencent \(HY World Model 2\). These models represent a step toward generating unlimited virtual environments for training AI agents and creating game content.
+**Background**: Battery State of Health \(SoH\) is a critical metric that measures a battery&\#x27;s ability to store energy compared to its original capacity. Battery degradation refers to the irreversible loss of lithium-ion battery capacity over time due to chemical and mechanical processes, which impacts vehicle range, power output, and overall lifespan. Understanding SoH helps consumers evaluate used EVs and predict long-term ownership costs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/PhiloLabs/fable51-worlds">GitHub - PhiloLabs/fable51-worlds: worlds via code, from fable 5.1 · GitHub</a></li>
-<li><a href="https://handyai.substack.com/p/model-drop-fable-51">Model Drop: Fable 5.1 - by Jake Handy - Handy AI</a></li>
-<li><a href="https://9to5mac.com/2026/09/01/anthropic-upgrades-claude-with-new-fable-5-1-model-details-here/">Anthropic upgrades Claude with new Fable 5.1 model, details here - 9to5Mac</a></li>
+<li><a href="https://bib-batteries.com/post/understanding-ev-battery-state-of-health-key-insights-tips">Understanding EV Battery Health : Key Insights &amp; Tips</a></li>
+<li><a href="https://grokipedia.com/page/Battery_degradation_in_electric_vehicles">Battery degradation in electric vehicles</a></li>
+<li><a href="https://www.greencars.com/greencars-101/battery-degradation-and-how-to-prevent-it">EV Battery Health and Lifespan: What You Need to Know</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community feedback was mixed: some users noted that Opus 5 performs comparably at lower cost, while others questioned the practical usability beyond demos due to messy topology and difficult texturing. Several commenters requested more details on time, cost, and reliability, and one user expressed surprise that the tool differs from what they expected from a &\#x27;world model&\#x27;.
+**Discussion**: Community members confirmed the key finding, with one commenter noting the Ioniq 5 showed essentially new-car battery health. Another commenter shared a visual showing that &\#x27;not too many stinkers&\#x27; exist overall, while a third highlighted that Tesla&\#x27;s median scores were notably in the bottom half of the rankings.
+
+**Tags**: `#EV batteries`, `#battery health`, `#electric vehicles`, `#data analysis`, `#Tesla`
+
+---
+
+<a id="item-23"></a>
+## [Fable 5.1 AI World Modeling Tool Draws Praise and Practical Concerns](https://github.com/PhiloLabs/fable51-worlds) ⭐️ 6.5/10
+
+Fable 5.1 is an AI-powered world modeling tool released on GitHub by PhiloLabs that generates 3D environments. The tool has attracted notable community engagement, scoring 6.5/10 with 124 points and 43 comments on Hacker News. This tool represents the growing trend of AI-assisted world generation for game development and 3D content creation. The community discussion highlights the gap between impressive AI demos and practical game-ready asset production, a key concern for developers evaluating such tools. Community feedback indicates the generated models have high polygon counts for simple geometries and lack optimized topology, making them unsuitable for direct game integration. Users suggest using the tool for low-poly silhouettes and baking detailed textures instead, and note that Opus 5 offers comparable quality at lower cost.
+
+hackernews · surreal\_ · Sep 2, 19:49 · [Discussion](https://news.ycombinator.com/item?id=49541458)
+
+**Background**: World modeling in AI refers to AI systems that build internal representations of how the world works — how objects move, how systems evolve, and how decisions ripple over time. In game development, AI world generation aims to create game environments automatically, potentially enabling real-time generation of unlimited environments as players explore. However, the practical challenge lies in producing assets that meet the topological and texturing standards required for production-quality games.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.lenovo.com/gb/en/knowledgebase/world-modeling-understanding-and-applications/">World Modeling : Understanding and Applications | Lenovo UK</a></li>
+<li><a href="https://medium.com/@krishandevyadav8/world-modeling-the-future-of-ai-and-why-your-business-shouldnt-sleep-on-it-7ef316fdf1cf">World Modeling : The Future of AI — And Why Your... | Medium</a></li>
+<li><a href="https://www.seeles.ai/resources/blogs/infinite-worlds-ai-world-generation-2026">Infinite Worlds AI : Real-Time World Generation in Gaming</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community sentiment is mixed: some praise the impressive visuals and NPC density, while others question practical usability. Key concerns include messy topology, difficult texturing, high polygon counts, and cost-effectiveness compared to alternatives like Opus 5. Users also request more transparency about time, costs, and reliability, and suggest a YouTube demo would help showcase the tool&\#x27;s capabilities.
 
 **Tags**: `#AI`, `#3D modeling`, `#game development`, `#world generation`, `#machine learning`
 
 ---
 
-<a id="item-23"></a>
-## [Aging Brains Blend Memories Together Rather Than Simply Forgetting Them](https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/) ⭐️ 6.0/10
+<a id="item-24"></a>
+## [Aging Brains Blend Memories Together, Study Finds](https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/) ⭐️ 6.0/10
 
-New brain-imaging research suggests that aging brains may blend memories together rather than simply forgetting them, challenging the conventional view of age-related memory decline. The study indicates the neural system meant to lock memories into place may instead be merging distinct experiences. This finding could reshape how we understand age-related memory changes and inform future research on cognitive aging and memory disorders. It also resonates with AI memory models, as the community discussion connects the phenomenon to how embeddings and content-addressable memory work. The study has notable limitations, including only 61 participants with almost nobody between ages 30 and 50, making it hard to read the age trend as a decline across the lifespan. Additionally, attention measures were not linked to age or the observed brain patterns, and some commenters felt the title forced the conclusion.
+A new study suggests that aging brains may blend similar memories together rather than simply forgetting them, offering a new perspective on age-related memory decline. The research indicates that memory errors in older adults may stem from merging distinct experiences into a single blended memory. This finding challenges the traditional view that age-related memory problems are simply a matter of forgetting, and could reshape how researchers understand and potentially address cognitive decline in older adults. It also has implications for diagnosing and treating memory disorders. The study had notable limitations, including only 61 participants and a narrow age range with almost no one between 30 and 50, making it difficult to interpret the age trend as a lifelong decline. Additionally, attention measures were not linked to age or the observed brain patterns.
 
 hackernews · mdp2021 · Sep 2, 12:59 · [Discussion](https://news.ycombinator.com/item?id=49535548)
 
-**Background**: Memory is not stored as static snapshots; each act of recalling a memory can subtly change it, much like a wax diorama melting under a spotlight. In aging brains, the neural system responsible for consolidating memories may instead blend distinct experiences together, producing &\#x27;melded&\#x27; recollections where details from different events merge. This aligns with the idea that memories are stored as high-dimensional embeddings in neural assemblies, where distinct memories can be kept separate in a very large dimensional space.
+**Background**: Memory interference and false memory are well-documented phenomena in cognitive science. Research shows that older adults are more susceptible to false memories because they rely more on semantic memory than on specific episodic details. Memories are not static; each recall can subtly alter them, and similar experiences may become blended over time, especially as the brain ages.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/">Aging Brains Blend Memories Together Instead of Just Forgetting...</a></li>
-<li><a href="https://www.newscientist.com/article/1991579-memory-loss-and-memories-found-in-ageing-brains/">Memory loss and memories found in ageing brains | New Scientist</a></li>
+<li><a href="https://www.nature.com/articles/s44159-022-00100-9">Memory interference changes across age - Nature</a></li>
+<li><a href="https://en.wikipedia.org/wiki/False_memory">False memory - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters generally found the concept relatable, with one user sharing personal anecdotes of &\#x27;melded memories&\#x27; in their own storytelling. However, several critiqued the study&\#x27;s methodology, noting the small sample size, the age gap in participants, and the title forcing a conclusion. Others connected the finding to broader ideas about memory being altered during recall and speculated about whether the effect is due to biological aging or simply the brain becoming &\#x27;full&\#x27; of accumulated memories.
+**Discussion**: Commenters engaged critically with the study, with some sharing personal anecdotes of blended memories and others questioning the study&\#x27;s methodology. One commenter noted the small sample size and narrow age range, while another referenced a Kurzgesagt video on how recall alters memories. Overall, the discussion reflected both resonance with the concept and skepticism about the study&\#x27;s conclusions.
 
 **Tags**: `#neuroscience`, `#memory`, `#aging`, `#cognitive science`, `#study`
 
 ---
 
-<a id="item-24"></a>
-## [Essay Advocating &\#x27;NPC Life&\#x27; Inspired by Zhuangzi Sparks Debate](https://signalundefied.bearblog.dev/i-wanna-live-an-npc-life/) ⭐️ 6.0/10
-
-An essay titled &\#x27;I wanna live an NPC life&\#x27; advocates for a simple, non-heroic existence inspired by Zhuangzi&\#x27;s philosophy. The post generated significant engagement with 165 points and 159 comments debating escapism and the nature of consequences. The essay and its discussion reflect a growing cultural conversation about rejecting hustle culture and heroic expectations. It resonates with people questioning whether they must be &\#x27;main characters&\#x27; in their own lives, touching on broader trends of minimalism and anti-productivity. The essay draws on Zhuangzi, particularly the story of the sacred turtle who preferred to live freely dragging its tail in the mud over being honored and preserved in a temple. Critics argue the NPC life is pure escapism that only works in a static world without real consequences.
-
-hackernews · conferza · Sep 2, 19:52 · [Discussion](https://news.ycombinator.com/item?id=49541519)
-
-**Background**: Zhuangzi was an ancient Chinese Taoist philosopher whose writings emphasize living in harmony with nature, simplicity, and freedom from social expectations. The &\#x27;NPC&\#x27; \(non-player character\) metaphor comes from video games, where NPCs are background characters who follow fixed routines and do not drive the main plot. The essay combines these ideas to argue for a life free from the pressure to achieve greatness.
-
-**Discussion**: Comments are sharply divided: some defend the NPC life as a valid rejection of societal pressure, citing Zhuangzi&\#x27;s turtle story, while others dismiss it as naive escapism that will lead to depression. One commenter notes the metaphor only works in a static world without consequences, while another argues everyone should be the main character of their own life, but with a redefined, more meaningful sense of what that means.
-
-**Tags**: `#philosophy`, `#life`, `#Zhuangzi`, `#escapism`, `#discussion`
-
----
-
 <a id="item-25"></a>
-## [Zero Motorcycles to Add DC Fast Charging in 2027](https://electrek.co/2026/09/02/zero-will-soon-add-the-main-feature-its-electric-motorcycles-have-always-lacked/) ⭐️ 6.0/10
+## [Tesla Settles Fatal Autopilot Fire Truck Lawsuit, Avoids Jury Trial](https://electrek.co/2026/09/02/tesla-settles-autopilot-fire-truck-death-lawsuit/) ⭐️ 6.0/10
 
-Zero Motorcycles announced that DC fast charging will be added to its electric motorcycles starting in 2027, a feature the company has long lacked. The announcement was made on September 2, 2026, and describes the feature as highly requested by customers. This addresses a major limitation of Zero&\#x27;s electric motorcycles, making them more practical for long-distance travel and better aligned with the broader EV charging infrastructure. It could boost consumer confidence and accelerate the adoption of electric motorcycles in a market where fast charging is becoming a standard expectation. The announcement specifies a 2027 timeframe but does not provide further technical details such as charging speeds, connector types, or which models will be affected. The feature is described as &\#x27;much requested,&\#x27; indicating it has been a long-standing gap in Zero&\#x27;s product lineup.
-
-rss · Electrek · Sep 2, 15:04
-
-**Background**: Zero Motorcycles is a prominent manufacturer of electric motorcycles, known for models like the SR/F and SR/S. DC fast charging allows rapid recharging at public charging stations, unlike standard AC charging which is slower and typically used at home. This feature has been missing from Zero&\#x27;s bikes, limiting their long-distance usability compared to competitors and other electric vehicles.
-
-**Tags**: `#electric vehicles`, `#motorcycles`, `#fast charging`, `#Zero Motorcycles`, `#EV infrastructure`
-
----
-
-<a id="item-26"></a>
-## [Tesla Settles Fatal Autopilot Fire Truck Lawsuit, Avoiding Jury Trial](https://electrek.co/2026/09/02/tesla-settles-autopilot-fire-truck-death-lawsuit/) ⭐️ 6.0/10
-
-Tesla has settled a wrongful death lawsuit over a 2023 crash in which a Model S on Autopilot slammed into a parked fire truck, killing the driver and seriously injuring his brother. The confidential settlement, filed in California federal court, lets Tesla avoid a jury trial that would have put Elon Musk&\#x27;s own Autopilot claims in front of jurors. This settlement is significant because it avoids a jury trial that could have set a legal precedent for autonomous driving accountability. The outcome matters for industry watchers as it keeps Tesla&\#x27;s Autopilot marketing claims out of public court scrutiny, potentially influencing how similar cases are handled in the future. The settlement is confidential and was filed in California federal court. The crash occurred in 2023 when a Model S on Autopilot struck a parked fire truck, killing the driver and seriously injuring his brother.
+Tesla has settled a wrongful death lawsuit over a 2023 crash in which a Model S on Autopilot slammed into a parked fire truck, killing the driver and seriously injuring his brother. The confidential settlement, filed in California federal court, lets Tesla avoid a jury trial that would have put Elon Musk&\#x27;s own Autopilot claims in front of jurors. This is a significant legal development for autonomous driving safety, as it involves a fatal crash and Tesla&\#x27;s avoidance of a jury trial that could have scrutinized Autopilot claims. The confidential settlement limits public scrutiny of Autopilot&\#x27;s safety record and its marketing claims, potentially affecting how similar future cases are resolved. The settlement is confidential and was filed in California federal court, with terms not disclosed to the public. The crash occurred in 2023 when a Model S operating on Autopilot struck a parked fire truck, killing the driver and seriously injuring his brother.
 
 rss · Electrek · Sep 2, 13:37
 
-**Background**: Tesla&\#x27;s Autopilot is an advanced driver-assistance system that has been the subject of numerous lawsuits and regulatory scrutiny over its safety claims. The system is marketed as a driver-assist feature, but critics and regulators have raised concerns about whether Tesla&\#x27;s marketing overstates its capabilities, leading to driver over-reliance and accidents. Settling such cases out of court allows Tesla to avoid public examination of its safety messaging and the specific circumstances of each crash.
+**Background**: Tesla&\#x27;s Autopilot is an advanced driver assistance system that has been the subject of numerous lawsuits and regulatory investigations over its safety. The system has been involved in multiple crashes with emergency vehicles, raising questions about its ability to detect stationary objects. Elon Musk has made various claims about Autopilot and Full Self-Driving capabilities over the years, which have drawn scrutiny from regulators and courts. Settling such cases allows Tesla to avoid public trials that could expose internal data and communications about the system&\#x27;s limitations.
 
 **Tags**: `#Tesla`, `#Autopilot`, `#autonomous driving`, `#lawsuit`, `#safety`
 
 ---
 
-<a id="item-27"></a>
-## [Windrose unveils iPad-sized 70 kW electric PTO for electric semis](https://electrek.co/2026/09/01/e-quipment-highlight-ipad-sized-70-kw-electric-pto-by-windrose/) ⭐️ 6.0/10
+<a id="item-26"></a>
+## [Donut Lab claims 409 Wh/kg battery, but credibility questioned](https://electrek.co/2026/09/02/donut-lab-409-whkg-battery-test-no-production-ev/) ⭐️ 6.0/10
 
-Windrose has developed an all-electric power take-off \(PTO\) for its electric semi trucks that delivers up to 70 kW of auxiliary power without burning any diesel. The compact, iPad-sized unit is designed to give the company&\#x27;s battery-electric vehicles a market advantage in work-truck applications. This innovation addresses a key pain point for electric work trucks: powering auxiliary equipment like pumps, blowers, and hydraulic tools without idling a diesel engine. By eliminating diesel consumption for auxiliary power, Windrose could attract fleet operators looking to maximize the environmental and cost benefits of going electric. The electric PTO is described as &quot;iPad-sized,&quot; highlighting its compact footprint compared to traditional mechanical PTO systems. It outputs up to 70 kW of power, which is substantial for powering heavy auxiliary equipment on work trucks.
+Donut Lab published an independent test result claiming its battery achieved an energy density of 409 Wh/kg and 805 Wh/L, the first such figure the company has officially recorded. However, this comes after the company failed to deliver on its earlier promise to have a production-ready solid-state cell powering a production EV by the end of Q1 2026. This news highlights the gap between laboratory claims and commercial reality in the solid-state battery space, a critical area for EV advancement. The credibility issue could affect investor and industry trust in Donut Lab&\#x27;s technology, and underscores the broader challenge of scaling solid-state batteries from lab to production. The test result of 409 Wh/kg and 805 Wh/L is the first energy-density figure Donut Lab has put on record after months of scrutiny. The company had previously promised that its solid-state cell would be in production and ready to power a production EV by the end of Q1 2026, a promise that was not fulfilled.
 
-rss · Electrek · Sep 2, 00:50
+rss · Electrek · Sep 2, 12:46
 
-**Background**: A power take-off \(PTO\) is a mechanism that transfers engine power to auxiliary equipment such as blowers, pumps, and hydraulic tools on trucks. In traditional diesel trucks, PTOs run off the engine, requiring the engine to idle and burn fuel even when the truck isn&\#x27;t moving. Electric PTOs \(ePTOs\) instead draw power from the vehicle&\#x27;s high-voltage battery pack, enabling equipment to run without idling or diesel consumption.
+**Background**: Solid-state batteries use a solid electrolyte instead of the liquid or gel electrolytes found in conventional lithium-ion batteries, potentially offering higher energy density, improved safety, and better stability. However, as of 2026, the solid-state battery market has yet to reach scalability and commercialization, with challenges including material costs, durability, and manufacturing complexity. Donut Lab&\#x27;s claim of 409 Wh/kg is notable because it exceeds typical lithium-ion energy densities, but the lack of production readiness raises questions about the practical viability of the technology.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://interestingengineering.com/transportation/windrose-70kw-electric-pto-electric-trucks">iPad-sized 70 kW electric PTO helps trucks slash diesel emissions</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Power_take-off">Power take-off - Wikipedia</a></li>
-<li><a href="https://www.rizontruck.com/blogarticle/epto-electric-power-takeoff/">ePTO Explained: Electric Power Takeoff for Work Trucks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Solid-state_battery">Solid-state battery</a></li>
+<li><a href="https://insideevs.com/news/771402/every-solid-state-battery-ev/">All Current And Upcoming EVs With Solid-State Batteries</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#electric vehicles`, `#trucking`, `#PTO`, `#clean energy`, `#Windrose`
+**Tags**: `#battery`, `#solid-state`, `#EV`, `#energy density`, `#credibility`
+
+---
+
+<a id="item-27"></a>
+## [Windrose unveils iPad-sized 70 kW electric PTO for semi trucks](https://electrek.co/2026/09/01/e-quipment-highlight-ipad-sized-70-kw-electric-pto-by-windrose/) ⭐️ 6.0/10
+
+Windrose has developed an all-electric power take-off \(PTO\) that delivers up to 70 kW of power, sized like an iPad, for its electric semi trucks. This compact ePTO runs entirely on the vehicle&\#x27;s battery, eliminating the need to burn diesel for auxiliary equipment. This could give Windrose&\#x27;s battery-electric trucks a real market advantage in vocational segments that require auxiliary power for equipment such as refrigeration units, hydraulic lifts, or other work-truck applications. It addresses a key pain point for electric truck adoption by enabling clean, quiet, and efficient auxiliary power without idling a diesel engine. The ePTO is described as &\#x27;iPad-sized&\#x27; and outputs up to 70 kW, which represents notably high power density for an electric PTO. The article, published by Electrek on September 1, 2026, highlights that the system burns no diesel at all, relying solely on the truck&\#x27;s high-voltage battery.
+
+rss · Electrek · Sep 2, 00:50
+
+**Background**: A power take-off \(PTO\) is a mechanism that transfers power from a vehicle&\#x27;s engine to auxiliary equipment. In traditional diesel trucks, PTOs often require the engine to keep running, consuming fuel and producing emissions. An electric PTO \(ePTO\) instead draws power from the vehicle&\#x27;s high-voltage battery, enabling auxiliary functions without idling the engine, which reduces emissions, noise, and fuel costs. This is especially relevant for work trucks such as bucket trucks, digger derricks, and refrigeration units that need continuous auxiliary power.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Power_take-off">Power take-off - Wikipedia</a></li>
+<li><a href="https://www.rizontruck.com/blogarticle/epto-electric-power-takeoff/">ePTO Explained: Electric Power Takeoff for Work Trucks | Rizon Truck</a></li>
+<li><a href="https://prodrivepto.com/products/electric-pto-epto/">7 Astounding Benefits of Electric PTO in Commercial Vehicles</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#electric vehicles`, `#trucking`, `#power take-off`, `#Windrose`, `#EV technology`
 
 ---
 
 <a id="item-28"></a>
-## [llm-gemini 0.34 adds Gemini 3.8 Flash support](https://simonwillison.net/2026/Sep/2/llm-gemini/) ⭐️ 6.0/10
+## [IBM Time Series Models Integrate with Confluent for Real-Time Streaming Analytics](https://huggingface.co/blog/ibm-research/real-time-intelligence) ⭐️ 6.0/10
 
-llm-gemini 0.34 was released, adding support for Google&\#x27;s new gemini-3.8-flash model with low, medium, and high thinking levels. It also fixes a bug where async responses failed to record the resolved model version. This release lets users of the llm command-line tool immediately access Google&\#x27;s latest Flash model, which is fast, cheap, and competent at tasks like HTML and JavaScript generation. It keeps the llm ecosystem current with Google&\#x27;s rapid model releases, benefiting developers who rely on this tool for everyday AI tasks. The release includes a contribution from Charlie Tonneslan fixing async response model version recording \(PR \#137\). Gemini 3.8 Flash also has a Cyber variant, but it is restricted to &\#x27;trusted defenders&\#x27; only, so it is not available through this plugin yet.
+IBM has integrated its Granite time series foundation models \(including Tiny Time Mixer and Time Series Pulse\) with Confluent&\#x27;s data streaming platform, enabling real-time intelligence and forecasting directly on streaming data. This integration brings lightweight, GPU-free time series inference to Confluent&\#x27;s Kafka-based streaming infrastructure. This integration allows practitioners to run time series forecasting and anomaly detection on live streaming data without needing dedicated GPU infrastructure, lowering the barrier to real-time machine learning. It bridges the gap between foundation models and operational streaming platforms, which could benefit industries such as finance, manufacturing, and IoT monitoring. IBM&\#x27;s Granite time series models are ultra-lightweight, with just a few million parameters and GPU-free inference capability. The model family includes Flowstate, Tiny Time Mixer \(TTM\) based on a patch-mixer architecture, and Time Series Pulse \(TSPulse\), all of which are available on Hugging Face.
 
-rss · Simon Willison · Sep 2, 16:39
+rss · HuggingFace Blog · Sep 2, 13:49
 
-**Background**: llm is a command-line tool by Simon Willison that provides a unified interface for running large language models through plugins. llm-gemini is the plugin that connects llm to Google&\#x27;s Gemini model family. Gemini 3.8 Flash is the latest iteration in the Gemini 3 family, building on 3.7 Flash, and supports customizable thinking levels \(low, medium, high\) to balance quality, cost, and latency. The tool&\#x27;s markdown-svg-renderer was also updated to render HTML blocks in sandboxed iframes, a feature built using Gemini 3.8 Flash itself.
+**Background**: Time series foundation models are pre-trained models designed to forecast and analyze sequential data such as sensor readings, stock prices, or network metrics. Confluent is an enterprise data streaming platform built on Apache Kafka that enables continuous, real-time data flow. By combining the two, organizations can apply pre-trained forecasting models to streaming data as it arrives, rather than batch-processing historical data. This represents a shift toward operationalizing AI for real-time decision-making.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Introducing Gemini 3.8 Flash and 3.8 Flash Cyber - The Keyword</a></li>
-<li><a href="https://deepmind.google/models/model-cards/gemini-3-8-flash/">Gemini 3.8 Flash - Model Card — Google DeepMind</a></li>
-<li><a href="https://github.com/simonw/llm-gemini">GitHub - simonw/llm-gemini: LLM plugin to access Google&#x27;s Gemini family of models · GitHub</a></li>
+<li><a href="https://www.ibm.com/granite/docs/models/time-series">Granite Time Series | IBM Granite</a></li>
+<li><a href="https://www.confluent.io/">Confluent | The Data Streaming Platform</a></li>
+<li><a href="https://www.forbes.com/sites/tiriasresearch/2024/08/29/ibm-improves-generative-ai-forecasting-using-time-not-just-attention/">IBM Improves Generative AI Forecasting Using Time , Not Just Attention</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#llm`, `#gemini`, `#release`, `#AI`, `#model`
+**Discussion**: No community discussion was available from the RSS source for this news item.
+
+**Tags**: `#time series`, `#real-time`, `#streaming`, `#IBM`, `#Confluent`
 
 ---
 
 <a id="item-29"></a>
 ## [Deepity C++ Library Shows Predictive Coding Networks Match Backprop on MNIST](https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/) ⭐️ 6.0/10
 
-A new C++ library called Deepity demonstrates that Predictive Coding Networks \(PCNs\) can reach near-backpropagation accuracy on MNIST, achieving 97.73% test accuracy in 59.5 seconds versus PyTorch backprop&\#x27;s 98.27% in ~70 seconds. The implementation uses Direct Kolen-Pollack Feedback Alignment and algorithmic caching to close the performance gap. This is significant because predictive coding networks offer biological plausibility and potential advantages in continual learning, but have historically been too slow for practical use. Closing the performance gap with backpropagation on a standard benchmark suggests these alternative credit assignment methods could become viable for real-world applications. The benchmark is limited to MNIST with 50 epochs on CPU, which the community notes is a relatively simple task where many algorithms have matched backprop. The author plans to port the kernels to CUDA to scale up the architecture and test continual learning scenarios where backprop struggles.
+The author built a C++ library called Deepity that implements Predictive Coding Networks \(PCNs\) with Direct Kolen-Pollack feedback alignment and algorithmic caching. On MNIST, it achieved 97.73% test accuracy in 59.5 seconds, closely matching PyTorch backprop&\#x27;s 98.27% in about 70 seconds. This demonstrates that biologically plausible learning rules can match backpropagation on a standard benchmark, potentially enabling more energy-efficient and continual learning systems. It strengthens the case for alternative credit assignment research beyond traditional backprop. The implementation uses recent research on accelerated PCNs via direct Kolen-Pollack feedback alignment \(arXiv 2602.15571\) and caching to bypass redundant forward projections during inference settling. The benchmark is limited to MNIST, and the author plans to port kernels to CUDA and test continual learning scenarios.
 
 reddit · r/MachineLearning · Important-Home4431 · Sep 2, 16:49
 
-**Background**: Predictive coding networks are brain-inspired learning models where neurons predict the activity of other neurons and learning occurs through error minimization across hierarchical layers. Backpropagation, the standard training algorithm for neural networks, is computationally efficient but biologically implausible and struggles with continual learning. Direct Kolen-Pollack Feedback Alignment is a recent technique that introduces learnable feedback connections from the output layer to all hidden layers to accelerate predictive coding training.
+**Background**: Predictive coding networks \(PCNs\) are biologically inspired models where the brain continuously generates predictions and updates based on prediction errors. Backpropagation, the standard training method for neural networks, is not biologically plausible. Feedback alignment is an alternative that uses fixed random matrices for feedback, and Kolen-Pollack is a method for learning feedback weights. The referenced paper proposes Direct Kolen-Pollack Predictive Coding \(DKP-PC\) to accelerate PCNs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2602.15571">[2602.15571] Accelerated Predictive Coding Networks via Direct Kolen-Pollack Feedback Alignment</a></li>
-<li><a href="https://arxiv.org/abs/2506.06332">Introduction to Predictive Coding Networks for Machine Learning Predictive Coding Light - Nature Communications Predictive coding algorithms induce brain-like responses in ... Predictive coding - Wikipedia Introduction to Predictive Coding Networks for Machine Learning Brain-inspired Predictive Coding Improves the ... - Frontiers</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Predictive_coding">Predictive coding - Wikipedia</a></li>
+<li><a href="https://www.emergentmind.com/topics/feedback-alignment-fa">Feedback Alignment in Neural Networks</a></li>
+<li><a href="https://www.alphaxiv.org/overview/2602.15571v2">Accelerated Predictive Coding Networks via Direct Kolen - Pollack ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is cautiously positive but skeptical about the significance. IntelArtiGen notes that many algorithms have matched backprop on MNIST but failed to scale to larger benchmarks like ILSVRC, suggesting that is the real test. gkbrk questions the training setup, noting MNIST typically reaches these accuracies in about 5 seconds, implying the comparison may not be favorable.
+**Discussion**: Comments are cautiously positive but note that MNIST success is not indicative of broader applicability; one suggests testing on ILSVRC. Another asks whether the PyTorch baseline was trained on CPU, noting MNIST usually reaches these accuracies in about 5 seconds. Overall, the community acknowledges the achievement but questions its significance beyond the simple benchmark.
 
-**Tags**: `#machine learning`, `#predictive coding`, `#C++`, `#backpropagation`, `#MNIST`
+**Tags**: `#predictive coding`, `#backprop`, `#MNIST`, `#C++`, `#machine learning`
 
 ---
 
 <a id="item-30"></a>
-## [Confirmed: Q8 N-gram in IQ4 Qwen shows no speed degradation](https://www.reddit.com/r/LocalLLaMA/comments/1w5isz3/confirmed_bolting_q8_ngram_into_iq4_qwen_no_speed/) ⭐️ 6.0/10
+## [Local LLM GLM 5.3 Flash Creates Black Hole Minecraft Mod](https://v.redd.it/ib6q2gd635nh1) ⭐️ 6.0/10
 
-A user confirmed that replacing the N-gram layer in Qwen 3.8 Next with Q8 quantization instead of the lower-precision version does not degrade inference speed. Their tests on an RTX 5090 showed token generation actually improved slightly, from ~8.8 t/s to ~10.7 t/s. This suggests the N-gram layer can be quantized to Q8 independently without inference speed penalty, which is useful for users with limited storage who want higher precision in that layer. It also validates that the N-gram table&\#x27;s precision can be tuned separately from the main model weights, opening a practical optimization path for local LLM deployments. The N-gram layer is a 51B embedding table in Qwen 3.8 Flash Next that runs in system RAM, keeping only 6B parameters active per token. The user is running IQ4\_XS quantization and replaced the lower-precision N-gram portion with Q8; they are still testing whether it improves actual model output quality.
+A user used a locally running GLM 5.3 Flash model \(Q4 quantized\) on a 4x RTX PRO 6000 box to iteratively generate a Minecraft mod that adds a black hole rifle, spending about 9 hours and 7.6M output tokens. The mod is available on GitHub and creates a black hole that sucks in blocks and then explodes into a crater. This demonstrates that local LLMs can now generate functional game mods, but the community&\#x27;s skepticism about originality highlights a key limitation: AI-generated code may inadvertently replicate existing work. It also underscores the high hardware requirements for such iterative code generation tasks. GLM-5.3-Flash is Z.AI&\#x27;s first natively multimodal GLM-5 model, using a hybrid architecture with sparse and linear attention to reduce long-context serving costs. The user noted the first iteration was underwhelming, and they improved results by providing reference images and iterating through many turns.
 
-reddit · r/LocalLLaMA · Altruistic\_Heat\_9531 · Sep 2, 18:32
+reddit · r/LocalLLaMA · Top-Eye-8104 · Sep 2, 17:13 · [Discussion](https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/)
 
-**Background**: Qwen 3.8 Flash Next uses a 51B N-gram embedding layer designed to run in system RAM, fetched asynchronously while the GPU handles computation. Quantization reduces model size by using fewer bits per weight; IQ4\_XS is a 4-bit class GGUF quantization that compresses aggressively, while Q8 uses 8 bits per weight and preserves more precision. This experiment tests whether the N-gram layer, being a deterministic lookup rather than a compute-heavy operation, can tolerate higher quantization without affecting speed.
+**Background**: GLM-5.3-Flash is a 320B-A18B model that combines sparse and linear attention, and it is designed for frontier coding and agentic intelligence. Q4 quantization reduces VRAM usage by about 87.5% compared to full precision with roughly 1% quality loss, making it feasible to run large models on local hardware. Fabric API is a lightweight, modular modding API for Minecraft that provides essential hooks and intercompatibility for mod development.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://goldie.agency/qwen3-8-flash-next-ngram-embedding/">Qwen 3 . 8 Flash Next N - gram Embedding, Explained – Goldie Agency</a></li>
-<li><a href="https://kaitchup.substack.com/p/choosing-a-gguf-model-k-quants-i">GGUF Quantization Compared: Q4_K_M vs IQ4_XS vs IQ4_NL</a></li>
-<li><a href="https://mljourney.com/quantized-llms-explained-q4-vs-q8-vs-fp16/">Quantized LLMs Explained: Q4 vs Q8 vs FP16 - ML Journey</a></li>
+<li><a href="https://huggingface.co/zai-org/GLM-5.3-Flash">zai-org/GLM-5.3-Flash · Hugging Face</a></li>
+<li><a href="https://www.sitepoint.com/q4-vs-q6-vs-q8-quantization-local-llms/">Q4 vs Q6 vs Q8: The Quantization Decision Framework for Local LLMs</a></li>
+<li><a href="https://github.com/FabricMC">Next generation, highly modular and open Minecraft modding API ....</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed interest in whether quantizing the N-gram layer makes sense, with one suggesting it may be better not to quantize it or use more bits. Another user asked whether the poster&\#x27;s 3-channel RAM configuration could be a bottleneck, and a third asked whether output quality should improve with the higher-precision N-gram.
+**Discussion**: Commenters expressed envy about the hardware, but two commenters pointed out that the mod closely resembles an existing orbital railgun mod, suggesting possible code reuse or derivation. This raises questions about the originality of AI-generated code and whether the model simply reproduced training data.
 
-**Tags**: `#LLM`, `#quantization`, `#inference`, `#Qwen`, `#N-gram`
+**Tags**: `#LLM`, `#Minecraft`, `#modding`, `#code generation`, `#local AI`
 
 ---
 
 <a id="item-31"></a>
-## [Qwen&\#x27;s Slimmed Lineup Sparks Qwen4 Speculation in Community](https://www.reddit.com/r/LocalLLaMA/comments/1w5bkrf/do_we_forget_about_another_qwen_model_for_a_while/) ⭐️ 6.0/10
+## [Q8 N-gram Layer in Qwen 3.8 Shows No Speed Loss](https://www.reddit.com/r/LocalLLaMA/comments/1w5isz3/confirmed_bolting_q8_ngram_into_iq4_qwen_no_speed/) ⭐️ 6.0/10
 
-A Reddit discussion highlights that Qwen has reduced its model lineup since Qwen 3 and 3.5, now releasing only two models at a time instead of a full range from 0.8B to very large sizes. The community anticipates a full lineup with Qwen4, rumored for late September, and discusses the Qwen3.8-Flash-Next MoE preview as a Qwen4 architecture teaser. Qwen&\#x27;s release strategy directly affects the local LLM community, which relies on a range of model sizes for different hardware. The Flash-Next MoE preview signals the architecture direction for Qwen4, and a potential Qwen4-35B-A3B could become a highly popular local model. Qwen3.8-Flash-Next is a 125B MoE model activating 6B parameters per token, open-sourced on August 26, 2026 as a Qwen4 architecture preview, with a 51B n-gram lookup table paged from SSD. Qwen3.8-27B is an Apache-2.0 multimodal dense model shipped in mid-August, praised for local agentic coding.
+A user on r/LocalLLaMA replaced the low-precision N-gram layer in their IQ4\_XS quantized Qwen 3.8 model with a Q8-quantized version and reported no significant inference speed degradation. Generation speed stayed around 10.7 t/s with the Q8 N-gram bolted on, roughly matching or slightly exceeding the previous rate. This experiment suggests that higher-precision quantization of the N-gram layer could improve output quality without sacrificing inference speed, which is valuable for local LLM optimization. If confirmed, it offers a practical way to boost quality on memory-constrained setups without hardware upgrades. The N-gram layer in Qwen 3.8 Next is reportedly 51B parameters, and the user replaced only its lower-precision portion with Q8 while keeping the rest of the model at IQ4\_XS. The user noted they lacked storage for a BF16 version and are still testing whether the change actually improves model output quality.
 
-reddit · r/LocalLLaMA · chocofoxy · Sep 2, 14:14
+reddit · r/LocalLLaMA · Altruistic\_Heat\_9531 · Sep 2, 18:32
 
-**Background**: Mixture of Experts \(MoE\) is a machine learning architecture that divides a model into specialized sub-networks \(&quot;experts&quot;\) and routes inputs to the most relevant ones, boosting performance while keeping computational cost low. Qwen is a family of open-weight LLMs from Alibaba, and the community runs them locally on consumer hardware. The Flash-Next preview lets developers prepare tooling and inference engines for the upcoming Qwen4 models.
+**Background**: Quantization reduces the bit precision of model weights to shrink memory footprint and speed up inference on local hardware. IQ4\_XS is a 4.25-bit non-linear quantization scheme, while Q8\_0 uses 8-bit quantization; higher bit counts generally preserve more quality at the cost of more memory. The N-gram layer is a component that predicts upcoming words based on recent context, and in Qwen 3.8 it is a large \(51B parameter\) part of the model.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
-<li><a href="https://atomic.chat/blog/guides/how-to-run-qwen-3-8-flash-next-locally">How to Run Qwen 3.8 Flash Next Locally: GGUF... - Atomic Chat</a></li>
-<li><a href="https://kgptalkie.com/tutorials/llm-benchmarking/qwen-3-8-flash-next-vs-qwen-3-8-27b">Qwen 3.8 Flash Next ( Qwen 4) vs Qwen 3.8 27B Architecture ...</a></li>
+<li><a href="https://www.web.stanford.edu/~jurafsky/slp3/3.pdf">CHAPTER N-gram Language Models - Stanford University</a></li>
+<li><a href="https://dasroot.net/posts/2026/04/iq4-xs-vs-q8-0-quantization-llm-vram-performance/">IQ 4 _ XS vs Q8_0 Quantization : Balancing Accuracy, VRAM Usage...</a></li>
+<li><a href="https://toolhalla.ai/blog/what-is-quantization-guide-2026">What Is LLM Quantization ? Pick Q4, Q5, or Q 8 (2026) | ToolHalla</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters are optimistic about Qwen&\#x27;s direction: one notes Qwen3.8 27B is &quot;so damn useful&quot; for local agentic coding, arguing small dense models with strong tool use and reasoning loops can rival much larger models. Another predicts Qwen4 will bring a full lineup, possibly including a &quot;legendary&quot; Qwen4-35B-A3B, and explains Flash-Next is a MoE preview to get community tooling ready.
+**Discussion**: Commenters expressed interest in quantizing the N-gram layer, with one noting it likely makes sense to use more bits for that part. Another commenter asked whether the user&\#x27;s 96GB RAM in a 3-channel configuration could benefit from 4-channel, and a third asked whether quality should improve with the change.
 
-**Tags**: `#Qwen`, `#Local LLM`, `#Model Releases`, `#MoE`, `#AI/ML`
+**Tags**: `#quantization`, `#LLM`, `#inference`, `#Qwen`, `#optimization`
 
 ---
 
 <a id="item-32"></a>
-## [Postgres NULL Ambiguity in SQL Calculations](https://www.crunchydata.com/blog/postgres-calculations-and-the-ambiguity-of-null) ⭐️ 6.0/10
+## [Qwen&\#x27;s Reduced Lineup Sparks Speculation on Qwen4 Preview](https://www.reddit.com/r/LocalLLaMA/comments/1w5bkrf/do_we_forget_about_another_qwen_model_for_a_while/) ⭐️ 6.0/10
 
-The article provides a technical deep-dive into how the ambiguous nature of NULL in PostgreSQL can lead to unexpected results in SQL calculations. It systematically examines the various ways NULL behaves differently from typical programming-language null values. 理解 NULL 的语义对于开发者避免数据库查询和数据处理中的隐蔽错误至关重要。这一知识直接影响 ORM 的使用、数据完整性以及整个 PostgreSQL 生态系统中分析计算的正确性。 The article likely covers three-valued logic, NULL propagation in arithmetic and comparisons, and its behavior in aggregation functions. It also highlights common pitfalls when ORMs map SQL NULL to language-specific null or None values.
+Reddit users discuss Qwen&\#x27;s shift to releasing fewer models per cycle, and speculate that Qwen3.8-Flash-Next, a MoE model, serves as an early preview of the Qwen4 architecture. Rumors suggest a full Qwen4 lineup could arrive by the end of September. This discussion highlights how Qwen&\#x27;s release strategy affects the local LLM community, which relies on a range of model sizes for different use cases. The MoE preview could shape tooling and inference engine support ahead of Qwen4&\#x27;s launch. Qwen3.8-Flash-Next is the first open-weight model built on the architecture that will underpin Qwen4, and Qwen3.8-Flash in the API is based on it. Users note that Qwen3.8 27B is particularly useful for local agentic coding due to its dense architecture and reasoning loops.
 
-reddit · r/programming · winsletts · Sep 2, 17:22 · [Discussion](https://www.reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null/)
+reddit · r/LocalLLaMA · chocofoxy · Sep 2, 14:14
 
-**Background**: In SQL, NULL represents an unknown or missing value, not a zero or empty string. This leads to three-valued logic where comparisons can yield TRUE, FALSE, or UNKNOWN, and arithmetic operations involving NULL typically return NULL. Unlike many programming languages where null is a concrete value, SQL&\#x27;s NULL has special semantics that can surprise developers unfamiliar with relational theory.
-
-**Discussion**: Commenters noted that this behavior dates back to 1975 and algebraic bottom values, with one user humorously welcoming readers to that era. Another praised the three-state boolean \(True, False, Null\) as a favorite programming feature, while a third warned that ORMs often pretend SQL NULL behaves like Python&\#x27;s None or JavaScript&\#x27;s null, which is a significant footgun due to their very different semantics.
-
-**Tags**: `#SQL`, `#PostgreSQL`, `#NULL`, `#Database`, `#ORM`
-
----
-
-<a id="item-33"></a>
-## [Raising Abstraction in Functional Code: Readability vs. Explicitness](https://adamtornhill.substack.com/p/beyond-lambdas-raising-the-abstraction) ⭐️ 6.0/10
-
-The post advocates moving beyond lambdas to higher-level abstractions in functional code, sparking community debate on whether such abstractions improve or harm readability and maintainability. This matters because functional programmers constantly balance abstraction and clarity; the debate highlights real tradeoffs that affect code maintainability and onboarding for new developers. The post likely uses examples like map/filter/reduce versus named domain abstractions, and commenters note that shallow abstractions can obscure bugs, while deep abstractions with simple interfaces are preferable.
-
-reddit · r/programming · nephrenka · Sep 2, 07:56 · [Discussion](https://www.reddit.com/r/programming/comments/1w53v9c/beyond_lambdas_raising_the_abstraction_level_of/)
-
-**Background**: Higher-level abstractions in functional programming include techniques like tagless final encoding, algebraic effects, and free monads, which allow embedding domain-specific languages and structuring effects. These approaches raise the abstraction level beyond simple lambdas but introduce learning curves and tradeoffs in code clarity.
+**Background**: Qwen is a family of open-weight large language models from Alibaba. Historically, Qwen released a wide range of sizes from 0.8B to large models, but recent versions \(Qwen 3 and 3.5\) have reduced the number of models per release. Mixture-of-Experts \(MoE\) is an architecture that activates only relevant sub-networks, enabling larger models at lower computational cost.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://okmij.org/ftp/tagless-final/index.html">Tagless-Final Style - okmij.org</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Algebraic_effect">Algebraic effect</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Free_monad">Free monad</a></li>
+<li><a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next">Qwen/ Qwen 3 . 8 - Flash - Next · Hugging Face</a></li>
+<li><a href="https://ollama.com/library/qwen3.8-flash-next">qwen 3 . 8 - flash - next</a></li>
+<li><a href="https://docs.sglang.io/cookbook/autoregressive/Qwen/Qwen3.8-Flash-Next">Qwen 3 . 8 - Flash - Next - SGLang Documentation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed mixed views: one argued that the &\#x27;reads like a story&\#x27; version is actually harder for newcomers because it hides the data operations; another recommended deep abstractions with simple interfaces, noting the example&\#x27;s abstraction is shallow; a third pointed out that the explicit version reveals a domain bug \(summing attack rolls\) that the abstracted version obscures.
+**Discussion**: Commenters are optimistic about Qwen&\#x27;s direction: one notes that Qwen3.8 27B is highly effective for local agentic coding, while another predicts that Qwen4 could include a legendary Qwen4-35B-A3B model. There is also speculation that the Flash-Next preview is meant to let the community prepare tooling before Qwen4&\#x27;s full release.
 
-**Tags**: `#functional programming`, `#abstraction`, `#code readability`, `#software design`
+**Tags**: `#Qwen`, `#LLM`, `#local models`, `#MoE`, `#AI`
+
+---
+
+<a id="item-33"></a>
+## [Postgres NULL Ambiguity in Calculations](https://www.crunchydata.com/blog/postgres-calculations-and-the-ambiguity-of-null) ⭐️ 6.0/10
+
+The article explores the various ways NULL can cause unexpected results in Postgres calculations, highlighting the tri-state logic and common pitfalls that trip up developers. Understanding NULL semantics is crucial for anyone writing SQL, as it directly affects query results and can lead to subtle, hard-to-debug errors. This matters for the broader Postgres and database community, where NULL mishandling is a frequent source of production bugs. NULL is not a value but a marker for missing data, and it behaves differently in comparisons, arithmetic, and boolean logic—any operation with NULL typically yields NULL. ORMs often misrepresent NULL as None/nil in Python/Ruby/JavaScript, which leads to very different behavior and acts as a footgun.
+
+reddit · r/programming · winsletts · Sep 2, 17:22 · [Discussion](https://www.reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null/)
+
+**Background**: In SQL, NULL represents unknown or missing data, and it is not equal to anything, including itself. Arithmetic with NULL always yields NULL, and boolean logic uses three-valued logic \(true, false, unknown\), which can cause unexpected results in WHERE clauses, JOINs, and aggregations. This article dives into these ambiguities to help developers avoid common mistakes.
+
+**Discussion**: Comments highlight the humor and historical context of NULL&\#x27;s tri-state logic, with one user noting that a boolean having three states \(True, False, Null\) is a favorite programming quirk. Another commenter warns that many ORMs pretend SQL NULL works like None/nil in Python/Ruby/JavaScript, but this is a big footgun because they show very different behavior.
+
+**Tags**: `#SQL`, `#Postgres`, `#NULL`, `#Database`, `#Programming`
 
 ---
 
 <a id="item-34"></a>
-## [Polestar 4 SUV: An Electric Wagon Disguised as an SUV?](https://insideevs.com/news/806837/polestar-4-suv-official-specs-range-price/) ⭐️ 6.0/10
+## [Hyundai Ioniq 5 Reviewer&\#x27;s Secret Long-Term Test Ends in ICCU Failure](https://youtu.be/jRYFBsNbO24?is=UMMEREGyFyW-XNm1) ⭐️ 6.0/10
 
-The Polestar 4 SUV has sparked debate among Reddit users who argue it is actually an electric wagon disguised as an SUV, thanks to black plastic cladding that makes the vehicle appear taller than it is. Commenters point to similar design choices in the Volvo EX30, which is roughly the same size as a VW ID3 but marketed as an SUV. This debate highlights a broader trend in EV marketing where automakers classify vehicles as SUVs to appeal to consumer preferences, even when the actual proportions resemble wagons or hatchbacks. It reflects how design language and marketing shape consumer perception in the electric vehicle market. The Polestar 4 is not available in the US market, which disappointed at least one commenter who had been waiting for this EV. Commenters also noted that EVs tend to have long wheelbases, making traditional wagon shapes \(long hood, regular passenger compartment, long rear overhang\) unlikely in future electric vehicles.
+TheStraightPipes, a car review channel, revealed that their secretly purchased Hyundai Ioniq 5 suffered the widely reported ICCU \(Integrated Charging Control Unit\) failure after 9 months of ownership. The failure is a known issue affecting Hyundai and Kia&\#x27;s E-GMP platform vehicles. This long-term ownership review provides real-world confirmation of a widely reported reliability issue in Hyundai&\#x27;s popular E-GMP electric vehicles. It adds to growing community criticism of Hyundai&\#x27;s handling of the ICCU problem, which has been a major source of recalls for the Ioniq 5, Ioniq 6, and Kia EV6. The ICCU integrates multiple charging functions, including charging both the high-voltage battery that drives the motor and the 12-volt battery that powers cabin accessories. When the ICCU fails, the vehicle can lose power while driving or fail to start because the 12V battery is no longer charged.
+
+reddit · r/electricvehicles · Mac-Tyson · Sep 2, 15:17 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1w5dai5/thestraightpipes_i_bought_a_hyundai_ioniq_5/)
+
+**Background**: The Integrated Charging Control Unit \(ICCU\) is a next-generation component in EV powertrains that consolidates multiple charging functions into a single compact system. ICCU failures have been a major source of recalls for Hyundai Ioniq 5, Ioniq 6, and Kia EV6, with the issue causing vehicles to strand owners. Hyundai has claimed only about 2% of E-GMP vehicles are affected, a figure some community members are skeptical of.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.evdances.com/blogs/blog/understanding-the-iccu-in-electric-vehicles-what-it-is-and-why-it-matters">Understanding the ICCU in Electric Vehicles : What It Is and Why It...</a></li>
+<li><a href="https://evriskindex.com/knowledge-base/iccu/">ICCU ( Integrated Charging Control Unit ) — EV Knowledge Base</a></li>
+<li><a href="https://www.theautopian.com/why-everyones-favorite-electric-car-keeps-stranding-its-owners/">Why Everyone’s Favorite Electric Car Keeps Stranding... - The Autopian</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members expressed little surprise, with one commenter correctly predicting the ICCU failure from the title alone. Another commenter expressed skepticism about Hyundai&\#x27;s &quot;only 2% of eGMP vehicles&quot; claim and criticized the company for letting the issue persist for years. Overall sentiment was critical of Hyundai&\#x27;s response to the problem.
+
+**Tags**: `#electric vehicles`, `#Hyundai Ioniq 5`, `#ICCU`, `#long-term review`, `#EV reliability`
+
+---
+
+<a id="item-35"></a>
+## [Polestar 4 SUV Sparks Debate: Electric Wagon in Disguise?](https://insideevs.com/news/806837/polestar-4-suv-official-specs-range-price/) ⭐️ 6.0/10
+
+Polestar has unveiled the Polestar 4, a new electric SUV that has sparked debate over whether it is truly an SUV or a wagon disguised as one. The vehicle uses black plastic cladding on its lower body to create a taller, more SUV-like appearance. This debate highlights a broader industry trend where automakers blur the lines between vehicle categories to appeal to consumer preference for SUVs. The discussion reflects how design classification shapes marketing strategy and consumer perception in the rapidly growing EV market. The Polestar 4&\#x27;s black cladding visually hides the actual ride height, making the vehicle appear taller than it physically is. One commenter notes the Volvo EX30 uses the same approach, being similar in size to a VW ID3 yet marketed as an SUV.
 
 reddit · r/electricvehicles · TripleShotPls · Sep 2, 13:04 · [Discussion](https://www.reddit.com/r/electricvehicles/comments/1w59ryg/the_new_polestar_4_suv_is_an_electric_wagon_in/)
 
-**Background**: The Polestar 4 is an electric SUV from Polestar, the performance EV brand jointly owned by Volvo and Geely. In the automotive industry, SUVs have become the dominant body style, and some automakers use visual cues like black plastic cladding and raised ride height to make vehicles appear more SUV-like, even when their actual dimensions are closer to wagons or hatchbacks.
+**Background**: The Polestar 4 is an electric vehicle from Polestar, Volvo&\#x27;s performance EV brand. The debate over whether it is an SUV or wagon reflects shifting automotive design trends, where traditional vehicle categories are becoming less distinct. EVs tend to have longer wheelbases due to battery placement, which alters the traditional proportions of wagons and estates, making classic long-hood, long-rear-overhang designs unlikely in electric form.
 
-**Discussion**: Commenters expressed mixed feelings: one was disappointed the Polestar 4 isn&\#x27;t sold in the US, while another criticized Volvo/Polestar for using black plastic cladding to make wagons look like SUVs. A third commenter acknowledged the balanced proportions but noted that traditional wagon shapes are unlikely in EVs due to long wheelbases.
+**Discussion**: Commenters are divided on the Polestar 4&\#x27;s classification, with some arguing it is a wagon disguised as an SUV through the use of black plastic cladding. One commenter expresses frustration that the vehicle is not available in the US market, while another notes that traditional wagon proportions are unlikely to return in EVs due to long wheelbases.
 
-**Tags**: `#electric vehicles`, `#Polestar`, `#SUV design`, `#EV marketing`, `#automotive`
+**Tags**: `#electric vehicles`, `#Polestar`, `#automotive design`, `#EV news`, `#SUV`
+
+---
+
+<a id="item-36"></a>
+## [Reddit user questions suspicious offer of computer and $200 weekly pay](https://i.redd.it/xqddlfbq84nh1.jpeg) ⭐️ 6.0/10
+
+A Reddit user posted about an offer to receive a computer and $200 per week to keep it running 24/7, asking if it is a scam. Commenters identified it as a likely scam involving identity theft and misuse of the user&\#x27;s internet connection. This highlights a common scam pattern that exploits individuals&\#x27; home internet and identity, potentially leading to legal and financial harm. It underscores the need for awareness about residential proxy and botnet scams. The offer likely involves using the user&\#x27;s IP address and identity for shady activities, such as routing traffic through a residential proxy or building a botnet. The fact that the computer is under the user&\#x27;s name is a major red flag.
+
+reddit · r/artificial · Junior-Key-5043 · Sep 2, 14:19 · [Discussion](https://www.reddit.com/r/artificial/comments/1w5bpww/can_anyone_explain_how_this_works_to_me_is_it_a/)
+
+**Background**: A residential proxy is a home internet connection that someone else routes their traffic through, making the activity appear to come from an ordinary household. Scammers may use such setups to hide illegal activities, and the user could be held liable. Botnets are networks of compromised computers under a single command, often used for attacks or fraud.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.fbi.gov/investigate/cyber/alerts/2026/evading-residential-proxy-networks-protecting-your-devices-from-becoming-a-tool-for-criminals">Evading Residential Proxy Networks: Protecting Your Devices ...</a></li>
+<li><a href="https://allaboutcookies.org/what-is-a-residential-proxy">The Dark Side of Residential Proxies: Why the FBI Says Your ...</a></li>
+<li><a href="https://www.securityweek.com/botnets-web-boogeyman-here/">Botnets : The Web Boogeyman Is Here - SecurityWeek</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters pointed out the risks, including identity theft, IP misuse, and potential legal issues. One noted it could be a foreign national posing as an American remote worker to exfiltrate trade secrets, while others emphasized the red flag of having the PC under the user&\#x27;s name.
+
+**Tags**: `#cybersecurity`, `#scam`, `#identity theft`, `#remote work`, `#red flags`
 
 ---
